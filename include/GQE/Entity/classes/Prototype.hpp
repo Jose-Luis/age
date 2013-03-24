@@ -25,6 +25,7 @@ namespace GQE
   class GQE_API Prototype : public IEntity
   {
     public:
+       std::vector<typeSystemID> mSystemIDs;
       /**
        * Prototype default constructor
        * @param[in] thePrototypeID to use for this prototype
