@@ -67,7 +67,7 @@ namespace GQE
       sf::ContextSettings       mContextSettings;
 #endif
       /// Window style to use when creating Render window
-      unsigned long             mWindowStyle;
+      sf::Uint32             mWindowStyle;
       /// Recommended Graphic Range to use based on screen height
       GraphicRange              mGraphicRange;
       /// Input manager for Render window above

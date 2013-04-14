@@ -1,0 +1,961 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ACTION_GROUP_HPP_INCLUDED	include/GQE/Entity/classes/ActionGroup.hpp	12;"	d
+ANIMATION_SYSTEM_HPP_INCLUDED	include/GQE/Entity/systems/AnimationSystem.hpp	9;"	d
+APP_SETTINGS	include/GQE/Core/interfaces/IApp.hpp	/^      static const char* APP_SETTINGS;$/;"	m	class:GQE::IApp
+APP_SETTINGS	src/GQE/Core/interfaces/IApp.cpp	/^  const char* IApp::APP_SETTINGS = "resources\/settings.cfg";$/;"	m	class:GQE::IApp	file:
+ActionGroup	include/GQE/Entity/classes/ActionGroup.hpp	/^  class GQE_API ActionGroup$/;"	c	namespace:GQE
+ActionGroup	src/GQE/Entity/classes/ActionGroup.cpp	/^  ActionGroup::ActionGroup() :$/;"	f	class:GQE::ActionGroup
+ActionGroup	src/GQE/Entity/classes/ActionGroup.cpp	/^  ActionGroup::ActionGroup(ActionSystem* theActionSystem) :$/;"	f	class:GQE::ActionGroup
+ActionSystem	include/GQE/Entity/systems/ActionSystem.hpp	/^  class GQE_API ActionSystem : public ISystem$/;"	c	namespace:GQE
+ActionSystem	src/GQE/Entity/systems/ActionSystem.cpp	/^  ActionSystem::ActionSystem(IApp& theApp):$/;"	f	class:GQE::ActionSystem
+AnimationSystem	include/GQE/Entity/systems/AnimationSystem.hpp	/^  class GQE_API AnimationSystem : public ISystem$/;"	c	namespace:GQE
+AnimationSystem	src/GQE/Entity/systems/AnimationSystem.cpp	/^  AnimationSystem::AnimationSystem(GQE::IApp& theApp) :$/;"	f	class:GQE::AnimationSystem
+AssetDropAtExit	include/GQE/Core/Core_types.hpp	/^    AssetDropAtExit      = 2  \/\/\/< Drop\/unload when program exits (deconstructor)$/;"	e	enum:GQE::AssetDropTime
+AssetDropAtZero	include/GQE/Core/Core_types.hpp	/^    AssetDropAtZero      = 1, \/\/\/< Drop\/unload when count reaches 0$/;"	e	enum:GQE::AssetDropTime
+AssetDropTime	include/GQE/Core/Core_types.hpp	/^  enum AssetDropTime$/;"	g	namespace:GQE
+AssetDropUnspecified	include/GQE/Core/Core_types.hpp	/^    AssetDropUnspecified = 0, \/\/\/< Drop\/unload time unspecified, use default AtZero$/;"	e	enum:GQE::AssetDropTime
+AssetLoadFromFile	include/GQE/Core/Core_types.hpp	/^    AssetLoadFromFile    = 1, \/\/\/< Load the asset from a file$/;"	e	enum:GQE::AssetLoadStyle
+AssetLoadFromMemory	include/GQE/Core/Core_types.hpp	/^    AssetLoadFromMemory  = 2, \/\/\/< Load the asset from memory$/;"	e	enum:GQE::AssetLoadStyle
+AssetLoadFromNetwork	include/GQE/Core/Core_types.hpp	/^    AssetLoadFromNetwork = 3  \/\/\/< Load the asset from the network$/;"	e	enum:GQE::AssetLoadStyle
+AssetLoadFromUnknown	include/GQE/Core/Core_types.hpp	/^    AssetLoadFromUnknown = 0, \/\/\/< Error condition returned by GetLoadStyle$/;"	e	enum:GQE::AssetLoadStyle
+AssetLoadLater	include/GQE/Core/Core_types.hpp	/^    AssetLoadLater = 1  \/\/\/< Load the asset later$/;"	e	enum:GQE::AssetLoadTime
+AssetLoadNow	include/GQE/Core/Core_types.hpp	/^    AssetLoadNow   = 0, \/\/\/< Load the asset now$/;"	e	enum:GQE::AssetLoadTime
+AssetLoadStyle	include/GQE/Core/Core_types.hpp	/^  enum AssetLoadStyle$/;"	g	namespace:GQE
+AssetLoadTime	include/GQE/Core/Core_types.hpp	/^  enum AssetLoadTime$/;"	g	namespace:GQE
+AssetManager	include/GQE/Core/classes/AssetManager.hpp	/^  class GQE_API AssetManager$/;"	c	namespace:GQE
+AssetManager	src/GQE/Core/classes/AssetManager.cpp	/^  AssetManager::AssetManager()$/;"	f	class:GQE::AssetManager
+CORE_APP_HPP_INCLUDED	include/GQE/Core/interfaces/IApp.hpp	24;"	d
+CORE_ASSET_MANAGER_HPP_INCLUDED	include/GQE/Core/classes/AssetManager.hpp	18;"	d
+CORE_CONFIG_ASSET_HPP_INCLUDED	include/GQE/Core/assets/ConfigAsset.hpp	17;"	d
+CORE_CONFIG_HANDLER_HPP_INCLUDED	include/GQE/Core/assets/ConfigHandler.hpp	10;"	d
+CORE_CONFIG_READER_HPP_INCLUDED	include/GQE/Core/classes/ConfigReader.hpp	22;"	d
+CORE_FATAL_LOGGER_HPP_INCLUDED	include/GQE/Core/loggers/FatalLogger.hpp	11;"	d
+CORE_FILE_LOGGER_HPP_INCLUDED	include/GQE/Core/loggers/FileLogger.hpp	11;"	d
+CORE_FONT_ASSET_HPP_INCLUDED	include/GQE/Core/assets/FontAsset.hpp	18;"	d
+CORE_FONT_HANDLER_HPP_INCLUDED	include/GQE/Core/assets/FontHandler.hpp	10;"	d
+CORE_IASSET_HANDLER_HPP_INCLUDED	include/GQE/Core/interfaces/IAssetHandler.hpp	10;"	d
+CORE_ILOGGER_HPP_INCLUDED	include/GQE/Core/interfaces/ILogger.hpp	14;"	d
+CORE_IMAGE_ASSET_HPP_INCLUDED	include/GQE/Core/assets/ImageAsset.hpp	19;"	d
+CORE_IMAGE_HANDLER_HPP_INCLUDED	include/GQE/Core/assets/ImageHandler.hpp	11;"	d
+CORE_ISTATE_HPP_INCLUDED	include/GQE/Core/interfaces/IState.hpp	24;"	d
+CORE_MUSIC_ASSET_HPP_INCLUDED	include/GQE/Core/assets/MusicAsset.hpp	18;"	d
+CORE_MUSIC_HANDLER_HPP_INCLUDED	include/GQE/Core/assets/MusicHandler.hpp	10;"	d
+CORE_SCOPE_LOGGER_HPP_INCLUDED	include/GQE/Core/loggers/ScopeLogger.hpp	12;"	d
+CORE_SOUND_ASSET_HPP_INCLUDED	include/GQE/Core/assets/SoundAsset.hpp	18;"	d
+CORE_SOUND_HANDLER_HPP_INCLUDED	include/GQE/Core/assets/SoundHandler.hpp	10;"	d
+CORE_SPLASH_STATE_HPP_INCLUDED	include/GQE/Core/states/SplashState.hpp	18;"	d
+CORE_STATE_MANAGER_HPP_INCLUDED	include/GQE/Core/classes/StateManager.hpp	23;"	d
+CORE_STAT_MANAGER_HPP_INCLUDED	include/GQE/Core/classes/StatManager.hpp	20;"	d
+CORE_STRING_LOGGER_HPP_INCLUDED	include/GQE/Core/loggers/StringLogger.hpp	11;"	d
+CORE_STRING_UTIL_HPP_INCLUDED	include/GQE/Core/utils/StringUtil.hpp	13;"	d
+CORE_TASSET_HANDLER_HPP_INCLUDED	include/GQE/Core/interfaces/TAssetHandler.hpp	11;"	d
+CORE_TASSET_HPP_INCLUDED	include/GQE/Core/interfaces/TAsset.hpp	23;"	d
+ConfigAsset	include/GQE/Core/assets/ConfigAsset.hpp	/^  class GQE_API ConfigAsset : public TAsset<ConfigReader>$/;"	c	namespace:GQE
+ConfigAsset	src/GQE/Core/assets/ConfigAsset.cpp	/^  ConfigAsset::ConfigAsset() :$/;"	f	class:GQE::ConfigAsset
+ConfigAsset	src/GQE/Core/assets/ConfigAsset.cpp	/^  ConfigAsset::ConfigAsset(const typeAssetID theAssetID,$/;"	f	class:GQE::ConfigAsset
+ConfigHandler	include/GQE/Core/assets/ConfigHandler.hpp	/^  class GQE_API ConfigHandler : public TAssetHandler<ConfigReader>$/;"	c	namespace:GQE
+ConfigHandler	src/GQE/Core/assets/ConfigHandler.cpp	/^  ConfigHandler::ConfigHandler() :$/;"	f	class:GQE::ConfigHandler
+ConfigReader	include/GQE/Core/classes/ConfigReader.hpp	/^  class GQE_API ConfigReader$/;"	c	namespace:GQE
+ConfigReader	src/GQE/Core/classes/ConfigReader.cpp	/^  ConfigReader::ConfigReader()$/;"	f	class:GQE::ConfigReader
+ConfigReader	src/GQE/Core/classes/ConfigReader.cpp	/^  ConfigReader::ConfigReader(const ConfigReader& theCopy) :$/;"	f	class:GQE::ConfigReader
+DEFAULT_VIDEO_BPP	include/GQE/Core/interfaces/IApp.hpp	/^      static const unsigned int DEFAULT_VIDEO_BPP = 32;$/;"	m	class:GQE::IApp
+DEFAULT_VIDEO_HEIGHT	include/GQE/Core/interfaces/IApp.hpp	/^      static const unsigned int DEFAULT_VIDEO_HEIGHT = 600;$/;"	m	class:GQE::IApp
+DEFAULT_VIDEO_WIDTH	include/GQE/Core/interfaces/IApp.hpp	/^      static const unsigned int DEFAULT_VIDEO_WIDTH = 800;$/;"	m	class:GQE::IApp
+ELOGM_IF	include/GQE/Core/loggers/Log_macros.hpp	190;"	d
+ELOGM_IF	include/GQE/Core/loggers/Log_macros.hpp	205;"	d
+ELOGM	include/GQE/Core/loggers/Log_macros.hpp	165;"	d
+ELOGM	include/GQE/Core/loggers/Log_macros.hpp	203;"	d
+ELOG_IF	include/GQE/Core/loggers/Log_macros.hpp	199;"	d
+ELOG_IF	include/GQE/Core/loggers/Log_macros.hpp	207;"	d
+ELOG	include/GQE/Core/loggers/Log_macros.hpp	177;"	d
+ELOG	include/GQE/Core/loggers/Log_macros.hpp	204;"	d
+ENTITY_HPP_INCLUDED	include/GQE/Entity.hpp	14;"	d
+ENTITY_TYPES_HPP_INCLUDED	include/GQE/Entity/Entity_types.hpp	14;"	d
+ERROR_LEVEL	include/GQE/Core/Core_types.hpp	30;"	d
+EVENT_MANAGER_HPP_INCLUDED	include/GQE/Core/classes/EventManager.hpp	11;"	d
+EventManager	include/GQE/Core/classes/EventManager.hpp	/^  class GQE_API EventManager$/;"	c	namespace:GQE
+EventManager	src/GQE/Core/classes/EventManager.cpp	/^  EventManager::EventManager()$/;"	f	class:GQE::EventManager
+FATAL_LEVEL	include/GQE/Core/Core_types.hpp	31;"	d
+FLOGM_IF	include/GQE/Core/loggers/Log_macros.hpp	252;"	d
+FLOGM_IF	include/GQE/Core/loggers/Log_macros.hpp	270;"	d
+FLOGM	include/GQE/Core/loggers/Log_macros.hpp	221;"	d
+FLOGM	include/GQE/Core/loggers/Log_macros.hpp	268;"	d
+FLOG_IF	include/GQE/Core/loggers/Log_macros.hpp	264;"	d
+FLOG_IF	include/GQE/Core/loggers/Log_macros.hpp	272;"	d
+FLOG	include/GQE/Core/loggers/Log_macros.hpp	235;"	d
+FLOG	include/GQE/Core/loggers/Log_macros.hpp	269;"	d
+FatalLogger	include/GQE/Core/loggers/FatalLogger.hpp	/^  class GQE_API FatalLogger : public StringLogger$/;"	c	namespace:GQE
+FatalLogger	src/GQE/Core/loggers/FatalLogger.cpp	/^  FatalLogger::FatalLogger(SeverityType theSeverity,$/;"	f	class:GQE::FatalLogger
+FileLogger	include/GQE/Core/loggers/FileLogger.hpp	/^  class GQE_API FileLogger : public ILogger$/;"	c	namespace:GQE
+FileLogger	src/GQE/Core/loggers/FileLogger.cpp	/^  FileLogger::FileLogger(const char* theFilename, bool theDefault) :$/;"	f	class:GQE::FileLogger
+FontAsset	include/GQE/Core/assets/FontAsset.hpp	/^  class GQE_API FontAsset : public TAsset<sf::Font>$/;"	c	namespace:GQE
+FontAsset	src/GQE/Core/assets/FontAsset.cpp	/^  FontAsset::FontAsset() :$/;"	f	class:GQE::FontAsset
+FontAsset	src/GQE/Core/assets/FontAsset.cpp	/^  FontAsset::FontAsset(const typeAssetID theAssetID,$/;"	f	class:GQE::FontAsset
+FontHandler	include/GQE/Core/assets/FontHandler.hpp	/^  class GQE_API FontHandler : public TAssetHandler<sf::Font>$/;"	c	namespace:GQE
+FontHandler	src/GQE/Core/assets/FontHandler.cpp	/^  FontHandler::FontHandler() :$/;"	f	class:GQE::FontHandler
+GAME_STATE_HPP_INCLUDED	examples/spacedots/src/GameState.hpp	12;"	d
+GAME_STATE_HPP_INCLUDED	examples/tictactoe/src/GameState.hpp	12;"	d
+GQE_API	include/GQE/Config.hpp	107;"	d
+GQE_API	include/GQE/Config.hpp	113;"	d
+GQE_API	include/GQE/Config.hpp	130;"	d
+GQE_CONFIG_HPP	include/GQE/Config.hpp	21;"	d
+GQE_CORE_HPP_INCLUDED	include/GQE/Core.hpp	17;"	d
+GQE_CORE_TYPES_HPP_INCLUDED	include/GQE/Core/Core_types.hpp	21;"	d
+GQE_DEBUG	include/GQE/Config.hpp	93;"	d
+GQE_ENDIAN_BIG	include/GQE/Config.hpp	77;"	d
+GQE_ENDIAN_LITTLE	include/GQE/Config.hpp	82;"	d
+GQE_FREEBSD	include/GQE/Config.hpp	60;"	d
+GQE_LINUX	include/GQE/Config.hpp	50;"	d
+GQE_LOG_MACROS_HPP_INCLUDED	include/GQE/Core/loggers/Log_macros.hpp	11;"	d
+GQE_MACOS	include/GQE/Config.hpp	55;"	d
+GQE_STRIP_LOG	include/GQE/Core/loggers/Log_macros.hpp	23;"	d
+GQE_VERSION_MAJOR	include/GQE/Config.hpp	28;"	d
+GQE_VERSION_MINOR	include/GQE/Config.hpp	30;"	d
+GQE_WINDOWS	include/GQE/Config.hpp	39;"	d
+GQE	include/GQE/Config.hpp	/^namespace GQE$/;"	n
+GQE	include/GQE/Core/Core_types.hpp	/^namespace GQE$/;"	n
+GQE	include/GQE/Core/assets/ConfigAsset.hpp	/^namespace GQE$/;"	n
+GQE	include/GQE/Core/assets/ConfigHandler.hpp	/^namespace GQE$/;"	n
+GQE	include/GQE/Core/assets/FontAsset.hpp	/^namespace GQE$/;"	n
+GQE	include/GQE/Core/assets/FontHandler.hpp	/^namespace GQE$/;"	n
+GQE	include/GQE/Core/assets/ImageAsset.hpp	/^namespace GQE$/;"	n
+GQE	include/GQE/Core/assets/ImageHandler.hpp	/^namespace GQE$/;"	n
+GQE	include/GQE/Core/assets/MusicAsset.hpp	/^namespace GQE$/;"	n
+GQE	include/GQE/Core/assets/MusicHandler.hpp	/^namespace GQE$/;"	n
+GQE	include/GQE/Core/assets/SoundAsset.hpp	/^namespace GQE$/;"	n
+GQE	include/GQE/Core/assets/SoundHandler.hpp	/^namespace GQE$/;"	n
+GQE	include/GQE/Core/classes/AssetManager.hpp	/^namespace GQE$/;"	n
+GQE	include/GQE/Core/classes/ConfigReader.hpp	/^namespace GQE$/;"	n
+GQE	include/GQE/Core/classes/EventManager.hpp	/^namespace GQE$/;"	n
+GQE	include/GQE/Core/classes/PropertyManager.hpp	/^namespace GQE$/;"	n
+GQE	include/GQE/Core/classes/StatManager.hpp	/^namespace GQE$/;"	n
+GQE	include/GQE/Core/classes/StateManager.hpp	/^namespace GQE$/;"	n
+GQE	include/GQE/Core/interfaces/IApp.hpp	/^namespace GQE$/;"	n
+GQE	include/GQE/Core/interfaces/IAssetHandler.hpp	/^namespace GQE$/;"	n
+GQE	include/GQE/Core/interfaces/IEvent.hpp	/^namespace GQE$/;"	n
+GQE	include/GQE/Core/interfaces/ILogger.hpp	/^namespace GQE$/;"	n
+GQE	include/GQE/Core/interfaces/IProperty.hpp	/^namespace GQE$/;"	n
+GQE	include/GQE/Core/interfaces/IState.hpp	/^namespace GQE$/;"	n
+GQE	include/GQE/Core/interfaces/TAsset.hpp	/^namespace GQE$/;"	n
+GQE	include/GQE/Core/interfaces/TAssetHandler.hpp	/^namespace GQE$/;"	n
+GQE	include/GQE/Core/interfaces/TEvent.hpp	/^namespace GQE$/;"	n
+GQE	include/GQE/Core/interfaces/TProperty.hpp	/^namespace GQE$/;"	n
+GQE	include/GQE/Core/loggers/FatalLogger.hpp	/^namespace GQE$/;"	n
+GQE	include/GQE/Core/loggers/FileLogger.hpp	/^namespace GQE$/;"	n
+GQE	include/GQE/Core/loggers/ScopeLogger.hpp	/^namespace GQE$/;"	n
+GQE	include/GQE/Core/loggers/StringLogger.hpp	/^namespace GQE$/;"	n
+GQE	include/GQE/Core/states/SplashState.hpp	/^namespace GQE$/;"	n
+GQE	include/GQE/Core/utils/StringUtil.hpp	/^namespace GQE$/;"	n
+GQE	include/GQE/Entity/Entity_types.hpp	/^namespace GQE$/;"	n
+GQE	include/GQE/Entity/classes/ActionGroup.hpp	/^namespace GQE$/;"	n
+GQE	include/GQE/Entity/classes/Instance.hpp	/^namespace GQE$/;"	n
+GQE	include/GQE/Entity/classes/Prototype.hpp	/^namespace GQE$/;"	n
+GQE	include/GQE/Entity/classes/PrototypeManager.hpp	/^namespace GQE$/;"	n
+GQE	include/GQE/Entity/interfaces/IAction.hpp	/^namespace GQE$/;"	n
+GQE	include/GQE/Entity/interfaces/IEntity.hpp	/^namespace GQE$/;"	n
+GQE	include/GQE/Entity/interfaces/ISystem.hpp	/^namespace GQE$/;"	n
+GQE	include/GQE/Entity/systems/ActionSystem.hpp	/^namespace GQE$/;"	n
+GQE	include/GQE/Entity/systems/AnimationSystem.hpp	/^namespace GQE$/;"	n
+GQE	include/GQE/Entity/systems/MovementSystem.hpp	/^namespace GQE$/;"	n
+GQE	include/GQE/Entity/systems/RenderSystem.hpp	/^namespace GQE$/;"	n
+GQE	src/GQE/Core/Core_types.cpp	/^namespace GQE$/;"	n	file:
+GQE	src/GQE/Core/assets/ConfigAsset.cpp	/^namespace GQE$/;"	n	file:
+GQE	src/GQE/Core/assets/ConfigHandler.cpp	/^namespace GQE$/;"	n	file:
+GQE	src/GQE/Core/assets/FontAsset.cpp	/^namespace GQE$/;"	n	file:
+GQE	src/GQE/Core/assets/FontHandler.cpp	/^namespace GQE$/;"	n	file:
+GQE	src/GQE/Core/assets/ImageAsset.cpp	/^namespace GQE$/;"	n	file:
+GQE	src/GQE/Core/assets/ImageHandler.cpp	/^namespace GQE$/;"	n	file:
+GQE	src/GQE/Core/assets/MusicAsset.cpp	/^namespace GQE$/;"	n	file:
+GQE	src/GQE/Core/assets/MusicHandler.cpp	/^namespace GQE$/;"	n	file:
+GQE	src/GQE/Core/assets/SoundAsset.cpp	/^namespace GQE$/;"	n	file:
+GQE	src/GQE/Core/assets/SoundHandler.cpp	/^namespace GQE$/;"	n	file:
+GQE	src/GQE/Core/classes/AssetManager.cpp	/^namespace GQE$/;"	n	file:
+GQE	src/GQE/Core/classes/ConfigReader.cpp	/^namespace GQE$/;"	n	file:
+GQE	src/GQE/Core/classes/EventManager.cpp	/^namespace GQE$/;"	n	file:
+GQE	src/GQE/Core/classes/PropertyManager.cpp	/^namespace GQE$/;"	n	file:
+GQE	src/GQE/Core/classes/StatManager.cpp	/^namespace GQE$/;"	n	file:
+GQE	src/GQE/Core/classes/StateManager.cpp	/^namespace GQE$/;"	n	file:
+GQE	src/GQE/Core/interfaces/IApp.cpp	/^namespace GQE$/;"	n	file:
+GQE	src/GQE/Core/interfaces/IAssetHandler.cpp	/^namespace GQE$/;"	n	file:
+GQE	src/GQE/Core/interfaces/IEvent.cpp	/^namespace GQE$/;"	n	file:
+GQE	src/GQE/Core/interfaces/ILogger.cpp	/^namespace GQE$/;"	n	file:
+GQE	src/GQE/Core/interfaces/IProperty.cpp	/^namespace GQE$/;"	n	file:
+GQE	src/GQE/Core/interfaces/IState.cpp	/^namespace GQE$/;"	n	file:
+GQE	src/GQE/Core/loggers/FatalLogger.cpp	/^namespace GQE$/;"	n	file:
+GQE	src/GQE/Core/loggers/FileLogger.cpp	/^namespace GQE$/;"	n	file:
+GQE	src/GQE/Core/loggers/ScopeLogger.cpp	/^namespace GQE$/;"	n	file:
+GQE	src/GQE/Core/loggers/StringLogger.cpp	/^namespace GQE$/;"	n	file:
+GQE	src/GQE/Core/states/SplashState.cpp	/^namespace GQE$/;"	n	file:
+GQE	src/GQE/Core/utils/StringUtil.cpp	/^namespace GQE$/;"	n	file:
+GQE	src/GQE/Entity/Entity_types.cpp	/^namespace GQE$/;"	n	file:
+GQE	src/GQE/Entity/classes/ActionGroup.cpp	/^namespace GQE$/;"	n	file:
+GQE	src/GQE/Entity/classes/Instance.cpp	/^namespace GQE$/;"	n	file:
+GQE	src/GQE/Entity/classes/Prototype.cpp	/^namespace GQE$/;"	n	file:
+GQE	src/GQE/Entity/classes/PrototypeManager.cpp	/^namespace GQE$/;"	n	file:
+GQE	src/GQE/Entity/interfaces/IAction.cpp	/^namespace GQE$/;"	n	file:
+GQE	src/GQE/Entity/interfaces/IEntity.cpp	/^namespace GQE$/;"	n	file:
+GQE	src/GQE/Entity/interfaces/ISystem.cpp	/^namespace GQE$/;"	n	file:
+GQE	src/GQE/Entity/systems/ActionSystem.cpp	/^namespace GQE$/;"	n	file:
+GQE	src/GQE/Entity/systems/AnimationSystem.cpp	/^namespace GQE$/;"	n	file:
+GQE	src/GQE/Entity/systems/MovementSystem.cpp	/^namespace GQE$/;"	n	file:
+GQE	src/GQE/Entity/systems/RenderSystem.cpp	/^namespace GQE$/;"	n	file:
+GameState	examples/spacedots/src/GameState.hpp	/^class GameState : public GQE::IState$/;"	c
+GameState	examples/tictactoe/src/GameState.hpp	/^class GameState : public GQE::IState$/;"	c
+GameState	examples/spacedots/src/GameState.cpp	/^GameState::GameState(GQE::IApp& theApp) :$/;"	f	class:GameState
+GameState	examples/tictactoe/src/GameState.cpp	/^GameState::GameState(GQE::IApp& theApp) :$/;"	f	class:GameState
+GraphicRange	include/GQE/Core/Core_types.hpp	/^  enum GraphicRange$/;"	g	namespace:GQE
+HighRange	include/GQE/Core/Core_types.hpp	/^    HighRange = 2  \/\/\/< Recommend using HighRange graphics (128x128 pixels)$/;"	e	enum:GQE::GraphicRange
+IACTION_HPP_INCLUDED	include/GQE/Entity/interfaces/IAction.hpp	9;"	d
+IAction	include/GQE/Entity/interfaces/IAction.hpp	/^  class GQE_API IAction$/;"	c	namespace:GQE
+IAction	src/GQE/Entity/interfaces/IAction.cpp	/^  IAction::IAction(const typeActionID theActionID) :$/;"	f	class:GQE::IAction
+IApp	include/GQE/Core/interfaces/IApp.hpp	/^  class GQE_API IApp$/;"	c	namespace:GQE
+IApp	src/GQE/Core/interfaces/IApp.cpp	/^  IApp::IApp(const std::string theTitle) :$/;"	f	class:GQE::IApp
+IAssetHandler	include/GQE/Core/interfaces/IAssetHandler.hpp	/^  class GQE_API IAssetHandler$/;"	c	namespace:GQE
+IAssetHandler	src/GQE/Core/interfaces/IAssetHandler.cpp	/^  IAssetHandler::IAssetHandler(const typeAssetHandlerID theAssetHandlerID) :$/;"	f	class:GQE::IAssetHandler
+IENTITY_HPP_INCLUDED	include/GQE/Entity/interfaces/IEntity.hpp	17;"	d
+IEVENT_HPP_INCLUDED	include/GQE/Core/interfaces/IEvent.hpp	9;"	d
+IEntity	include/GQE/Entity/interfaces/IEntity.hpp	/^  class GQE_API IEntity$/;"	c	namespace:GQE
+IEntity	src/GQE/Entity/interfaces/IEntity.cpp	/^  IEntity::IEntity(const Uint32 theOrder) :$/;"	f	class:GQE::IEntity
+IEvent	include/GQE/Core/interfaces/IEvent.hpp	/^  class GQE_API IEvent$/;"	c	namespace:GQE
+IEvent	src/GQE/Core/interfaces/IEvent.cpp	/^  IEvent::IEvent(std::string theType, const typeEventID theEventID) :$/;"	f	class:GQE::IEvent
+ILOGM_IF	include/GQE/Core/loggers/Log_macros.hpp	101;"	d
+ILOGM_IF	include/GQE/Core/loggers/Log_macros.hpp	88;"	d
+ILOGM	include/GQE/Core/loggers/Log_macros.hpp	65;"	d
+ILOGM	include/GQE/Core/loggers/Log_macros.hpp	99;"	d
+ILOG_IF	include/GQE/Core/loggers/Log_macros.hpp	103;"	d
+ILOG_IF	include/GQE/Core/loggers/Log_macros.hpp	96;"	d
+ILOG	include/GQE/Core/loggers/Log_macros.hpp	100;"	d
+ILOG	include/GQE/Core/loggers/Log_macros.hpp	76;"	d
+ILogger	include/GQE/Core/interfaces/ILogger.hpp	/^  class GQE_API ILogger$/;"	c	namespace:GQE
+ILogger	src/GQE/Core/interfaces/ILogger.cpp	/^  ILogger::ILogger(bool theDefault, int theExitCode) :$/;"	f	class:GQE::ILogger
+INFO_LEVEL	include/GQE/Core/Core_types.hpp	28;"	d
+INPUT_SYSTEM_HPP_INCLUDED	include/GQE/Entity/systems/ActionSystem.hpp	9;"	d
+INSTANCE_HPP_INCLUDED	include/GQE/Entity/classes/Instance.hpp	12;"	d
+INT16_C	extlibs/msvc/stdint.h	231;"	d
+INT16_MAX	extlibs/msvc/stdint.h	135;"	d
+INT16_MIN	extlibs/msvc/stdint.h	134;"	d
+INT32_C	extlibs/msvc/stdint.h	232;"	d
+INT32_MAX	extlibs/msvc/stdint.h	137;"	d
+INT32_MIN	extlibs/msvc/stdint.h	136;"	d
+INT64_C	extlibs/msvc/stdint.h	233;"	d
+INT64_MAX	extlibs/msvc/stdint.h	139;"	d
+INT64_MIN	extlibs/msvc/stdint.h	138;"	d
+INT8_C	extlibs/msvc/stdint.h	230;"	d
+INT8_MAX	extlibs/msvc/stdint.h	133;"	d
+INT8_MIN	extlibs/msvc/stdint.h	132;"	d
+INTMAX_C	extlibs/msvc/stdint.h	241;"	d
+INTMAX_MAX	extlibs/msvc/stdint.h	186;"	d
+INTMAX_MIN	extlibs/msvc/stdint.h	185;"	d
+INTPTR_MAX	extlibs/msvc/stdint.h	176;"	d
+INTPTR_MAX	extlibs/msvc/stdint.h	180;"	d
+INTPTR_MIN	extlibs/msvc/stdint.h	175;"	d
+INTPTR_MIN	extlibs/msvc/stdint.h	179;"	d
+INT_FAST16_MAX	extlibs/msvc/stdint.h	163;"	d
+INT_FAST16_MIN	extlibs/msvc/stdint.h	162;"	d
+INT_FAST32_MAX	extlibs/msvc/stdint.h	165;"	d
+INT_FAST32_MIN	extlibs/msvc/stdint.h	164;"	d
+INT_FAST64_MAX	extlibs/msvc/stdint.h	167;"	d
+INT_FAST64_MIN	extlibs/msvc/stdint.h	166;"	d
+INT_FAST8_MAX	extlibs/msvc/stdint.h	161;"	d
+INT_FAST8_MIN	extlibs/msvc/stdint.h	160;"	d
+INT_LEAST16_MAX	extlibs/msvc/stdint.h	149;"	d
+INT_LEAST16_MIN	extlibs/msvc/stdint.h	148;"	d
+INT_LEAST32_MAX	extlibs/msvc/stdint.h	151;"	d
+INT_LEAST32_MIN	extlibs/msvc/stdint.h	150;"	d
+INT_LEAST64_MAX	extlibs/msvc/stdint.h	153;"	d
+INT_LEAST64_MIN	extlibs/msvc/stdint.h	152;"	d
+INT_LEAST8_MAX	extlibs/msvc/stdint.h	147;"	d
+INT_LEAST8_MIN	extlibs/msvc/stdint.h	146;"	d
+IPROPERTY_HPP_INCLUDED	include/GQE/Core/interfaces/IProperty.hpp	9;"	d
+IProperty	include/GQE/Core/interfaces/IProperty.hpp	/^  class GQE_API IProperty$/;"	c	namespace:GQE
+IProperty	src/GQE/Core/interfaces/IProperty.cpp	/^  IProperty::IProperty(std::string theType, const typePropertyID thePropertyID) :$/;"	f	class:GQE::IProperty
+ISYSTEM_HPP_INCLUDED	include/GQE/Entity/interfaces/ISystem.hpp	18;"	d
+IState	include/GQE/Core/interfaces/IState.hpp	/^  class GQE_API IState$/;"	c	namespace:GQE
+IState	src/GQE/Core/interfaces/IState.cpp	/^  IState::IState(const typeStateID theStateID, IApp& theApp) :$/;"	f	class:GQE::IState
+ISystem	include/GQE/Entity/interfaces/ISystem.hpp	/^  class GQE_API ISystem$/;"	c	namespace:GQE
+ISystem	src/GQE/Entity/interfaces/ISystem.cpp	/^  ISystem::ISystem(const typeSystemID theSystemID, IApp& theApp) :$/;"	f	class:GQE::ISystem
+ImageAsset	include/GQE/Core/assets/ImageAsset.hpp	/^  class GQE_API ImageAsset : public TAsset<sf::Image>$/;"	c	namespace:GQE
+ImageAsset	src/GQE/Core/assets/ImageAsset.cpp	/^	ImageAsset::ImageAsset() :$/;"	f	class:GQE::ImageAsset
+ImageAsset	src/GQE/Core/assets/ImageAsset.cpp	/^  ImageAsset::ImageAsset(const typeAssetID theAssetID,$/;"	f	class:GQE::ImageAsset
+ImageHandler	include/GQE/Core/assets/ImageHandler.hpp	/^  class GQE_API ImageHandler :$/;"	c	namespace:GQE
+ImageHandler	src/GQE/Core/assets/ImageHandler.cpp	/^  ImageHandler::ImageHandler() :$/;"	f	class:GQE::ImageHandler
+Instance	include/GQE/Entity/classes/Instance.hpp	/^  class GQE_API Instance : public IEntity$/;"	c	namespace:GQE
+Instance	src/GQE/Entity/classes/Instance.cpp	/^  Instance::Instance(Prototype& thePrototype, Uint32 theOrder) :$/;"	f	class:GQE::Instance
+Int16	include/GQE/Config.hpp	/^  typedef signed   short Int16;   \/\/\/< Standard 16 bit signed integer$/;"	t	namespace:GQE
+Int32	include/GQE/Config.hpp	/^  typedef signed   int Int32;     \/\/\/< Standard 32 bit signed integer$/;"	t	namespace:GQE
+Int64	include/GQE/Config.hpp	/^  typedef int64_t          Int64;  \/\/\/< Standard 64 bit signed integer$/;"	t	namespace:GQE
+Int64	include/GQE/Config.hpp	/^  typedef signed   __int64 Int64;  \/\/\/< Standard 64 bit signed integer$/;"	t	namespace:GQE
+Int8	include/GQE/Config.hpp	/^  typedef signed   char Int8;     \/\/\/< Standard 8 bit signed integer$/;"	t	namespace:GQE
+LOG_OFF	include/GQE/Core/loggers/Log_macros.hpp	49;"	d
+LOG_OFF	include/GQE/Core/loggers/Log_macros.hpp	56;"	d
+LOG_ON	include/GQE/Core/loggers/Log_macros.hpp	34;"	d
+LOG_ON	include/GQE/Core/loggers/Log_macros.hpp	41;"	d
+LowRange	include/GQE/Core/Core_types.hpp	/^    LowRange  = 0, \/\/\/< Recommend using LowRange graphics (32x32 pixels)$/;"	e	enum:GQE::GraphicRange
+MAX_CHARS	include/GQE/Core/classes/ConfigReader.hpp	/^      static const unsigned short MAX_CHARS = 100;$/;"	m	class:GQE::ConfigReader
+MOVEMENT_SYSTEM_HPP_INCLUDED	include/GQE/Entity/systems/MovementSystem.hpp	15;"	d
+MidRange	include/GQE/Core/Core_types.hpp	/^    MidRange  = 1, \/\/\/< Recommend using MidRange graphics (64x64 pixels)$/;"	e	enum:GQE::GraphicRange
+MovementSystem	include/GQE/Entity/systems/MovementSystem.hpp	/^  class GQE_API MovementSystem : public ISystem$/;"	c	namespace:GQE
+MovementSystem	src/GQE/Entity/systems/MovementSystem.cpp	/^  MovementSystem::MovementSystem(IApp& theApp):$/;"	f	class:GQE::MovementSystem
+MusicAsset	include/GQE/Core/assets/MusicAsset.hpp	/^  class GQE_API MusicAsset : public TAsset<sf::Music>$/;"	c	namespace:GQE
+MusicAsset	src/GQE/Core/assets/MusicAsset.cpp	/^  MusicAsset::MusicAsset() :$/;"	f	class:GQE::MusicAsset
+MusicAsset	src/GQE/Core/assets/MusicAsset.cpp	/^  MusicAsset::MusicAsset(const typeAssetID theAssetID,$/;"	f	class:GQE::MusicAsset
+MusicHandler	include/GQE/Core/assets/MusicHandler.hpp	/^  class GQE_API MusicHandler : public TAssetHandler<sf::Music>$/;"	c	namespace:GQE
+MusicHandler	src/GQE/Core/assets/MusicHandler.cpp	/^  MusicHandler::MusicHandler() :$/;"	f	class:GQE::MusicHandler
+NOMINMAX	include/GQE/Config.hpp	44;"	d
+NO_LOG_LEVEL	include/GQE/Core/Core_types.hpp	32;"	d
+PROPERTY_MANAGER_HPP_INCLUDED	include/GQE/Core/classes/PropertyManager.hpp	13;"	d
+PROTOTYPE_HPP_INCLUDED	include/GQE/Entity/classes/Prototype.hpp	15;"	d
+PROTOTYPE_MANAGER_HPP_INCLUDED	include/GQE/Entity/classes/PrototypeManager.hpp	11;"	d
+PTRDIFF_MAX	extlibs/msvc/stdint.h	193;"	d
+PTRDIFF_MAX	extlibs/msvc/stdint.h	196;"	d
+PTRDIFF_MIN	extlibs/msvc/stdint.h	192;"	d
+PTRDIFF_MIN	extlibs/msvc/stdint.h	195;"	d
+PropertyManager	include/GQE/Core/classes/PropertyManager.hpp	/^  class GQE_API PropertyManager$/;"	c	namespace:GQE
+PropertyManager	src/GQE/Core/classes/PropertyManager.cpp	/^  PropertyManager::PropertyManager()$/;"	f	class:GQE::PropertyManager
+PrototypeManager	include/GQE/Entity/classes/PrototypeManager.hpp	/^  class GQE_API PrototypeManager$/;"	c	namespace:GQE
+PrototypeManager	src/GQE/Entity/classes/PrototypeManager.cpp	/^  PrototypeManager::PrototypeManager()$/;"	f	class:GQE::PrototypeManager
+Prototype	include/GQE/Entity/classes/Prototype.hpp	/^  class GQE_API Prototype : public IEntity$/;"	c	namespace:GQE
+Prototype	src/GQE/Entity/classes/Prototype.cpp	/^  Prototype::Prototype(const typePrototypeID thePrototypeID, Uint32 theOrder) :$/;"	f	class:GQE::Prototype
+RENDER_SYSTEM_HPP_INCLUDED	include/GQE/Entity/systems/RenderSystem.hpp	13;"	d
+RenderSystem	include/GQE/Entity/systems/RenderSystem.hpp	/^  class GQE_API RenderSystem : public ISystem$/;"	c	namespace:GQE
+RenderSystem	src/GQE/Entity/systems/RenderSystem.cpp	/^  RenderSystem::RenderSystem(IApp& theApp):$/;"	f	class:GQE::RenderSystem
+SIG_ATOMIC_MAX	extlibs/msvc/stdint.h	200;"	d
+SIG_ATOMIC_MIN	extlibs/msvc/stdint.h	199;"	d
+SIZE_MAX	extlibs/msvc/stdint.h	204;"	d
+SIZE_MAX	extlibs/msvc/stdint.h	206;"	d
+SLOGE	include/GQE/Core/loggers/Log_macros.hpp	307;"	d
+SLOGE	include/GQE/Core/loggers/Log_macros.hpp	358;"	d
+SLOGRE	include/GQE/Core/loggers/Log_macros.hpp	349;"	d
+SLOGRE	include/GQE/Core/loggers/Log_macros.hpp	362;"	d
+SLOGR	include/GQE/Core/loggers/Log_macros.hpp	327;"	d
+SLOGR	include/GQE/Core/loggers/Log_macros.hpp	360;"	d
+SLOG	include/GQE/Core/loggers/Log_macros.hpp	289;"	d
+SLOG	include/GQE/Core/loggers/Log_macros.hpp	356;"	d
+SPACE_DOTS_APP_HPP_INCLUDED	examples/spacedots/src/SpaceDotsApp.hpp	11;"	d
+ScopeLogger	include/GQE/Core/loggers/ScopeLogger.hpp	/^  class GQE_API ScopeLogger : public ILogger$/;"	c	namespace:GQE
+ScopeLogger	src/GQE/Core/loggers/ScopeLogger.cpp	/^  ScopeLogger::ScopeLogger(SeverityType theSeverity,$/;"	f	class:GQE::ScopeLogger
+SeverityError	include/GQE/Core/Core_types.hpp	/^    SeverityError         = ERROR_LEVEL,  \/\/\/< Error severity type$/;"	e	enum:GQE::SeverityType
+SeverityFatal	include/GQE/Core/Core_types.hpp	/^    SeverityFatal         = FATAL_LEVEL   \/\/\/< Fatal severity type$/;"	e	enum:GQE::SeverityType
+SeverityInfo	include/GQE/Core/Core_types.hpp	/^    SeverityInfo          = INFO_LEVEL,   \/\/\/< Informational severity type$/;"	e	enum:GQE::SeverityType
+SeverityType	include/GQE/Core/Core_types.hpp	/^  enum SeverityType$/;"	g	namespace:GQE
+SeverityWarning	include/GQE/Core/Core_types.hpp	/^    SeverityWarning       = WARN_LEVEL,   \/\/\/< Warning severity type$/;"	e	enum:GQE::SeverityType
+SoundAsset	include/GQE/Core/assets/SoundAsset.hpp	/^  class GQE_API SoundAsset : public TAsset<sf::SoundBuffer>$/;"	c	namespace:GQE
+SoundAsset	src/GQE/Core/assets/SoundAsset.cpp	/^  SoundAsset::SoundAsset() :$/;"	f	class:GQE::SoundAsset
+SoundAsset	src/GQE/Core/assets/SoundAsset.cpp	/^  SoundAsset::SoundAsset(const typeAssetID theAssetID,$/;"	f	class:GQE::SoundAsset
+SoundHandler	include/GQE/Core/assets/SoundHandler.hpp	/^  class GQE_API SoundHandler : public TAssetHandler<sf::SoundBuffer>$/;"	c	namespace:GQE
+SoundHandler	src/GQE/Core/assets/SoundHandler.cpp	/^  SoundHandler::SoundHandler() :$/;"	f	class:GQE::SoundHandler
+SpaceDotsApp	examples/spacedots/src/SpaceDotsApp.hpp	/^class SpaceDotsApp : public GQE::IApp$/;"	c
+SpaceDotsApp	examples/spacedots/src/SpaceDotsApp.cpp	/^SpaceDotsApp::SpaceDotsApp(const std::string theTitle) :$/;"	f	class:SpaceDotsApp
+SplashState	include/GQE/Core/states/SplashState.hpp	/^  class GQE_API SplashState : public IState$/;"	c	namespace:GQE
+SplashState	src/GQE/Core/states/SplashState.cpp	/^  SplashState::SplashState(IApp& theApp, typeAssetID theSplashID,$/;"	f	class:GQE::SplashState
+StatManager	include/GQE/Core/classes/StatManager.hpp	/^  class GQE_API StatManager$/;"	c	namespace:GQE
+StatManager	src/GQE/Core/classes/StatManager.cpp	/^  StatManager::StatManager() :$/;"	f	class:GQE::StatManager
+StateManager	include/GQE/Core/classes/StateManager.hpp	/^  class GQE_API StateManager$/;"	c	namespace:GQE
+StateManager	src/GQE/Core/classes/StateManager.cpp	/^  StateManager::StateManager() :$/;"	f	class:GQE::StateManager
+StatusAppInitFailed	include/GQE/Core/Core_types.hpp	/^    StatusAppInitFailed   = -2,  \/\/\/< Application initialization failed$/;"	e	enum:GQE::StatusType
+StatusAppMissingAsset	include/GQE/Core/Core_types.hpp	/^    StatusAppMissingAsset = -4,  \/\/\/< Application failed due to missing asset file$/;"	e	enum:GQE::StatusType
+StatusAppOK	include/GQE/Core/Core_types.hpp	/^    StatusAppOK           =  0,  \/\/\/< Application quit without error$/;"	e	enum:GQE::StatusType
+StatusAppStackEmpty	include/GQE/Core/Core_types.hpp	/^    StatusAppStackEmpty   = -3,  \/\/\/< Application States stack is empty$/;"	e	enum:GQE::StatusType
+StatusError	include/GQE/Core/Core_types.hpp	/^    StatusError           = -1,  \/\/\/< General error status response$/;"	e	enum:GQE::StatusType
+StatusFalse	include/GQE/Core/Core_types.hpp	/^    StatusFalse           =  0,  \/\/\/< False status response$/;"	e	enum:GQE::StatusType
+StatusNoError	include/GQE/Core/Core_types.hpp	/^    StatusNoError         =  0,  \/\/\/< General no error status response$/;"	e	enum:GQE::StatusType
+StatusOK	include/GQE/Core/Core_types.hpp	/^    StatusOK              =  1   \/\/\/< OK status response$/;"	e	enum:GQE::StatusType
+StatusTrue	include/GQE/Core/Core_types.hpp	/^    StatusTrue            =  1,  \/\/\/< True status response$/;"	e	enum:GQE::StatusType
+StatusType	include/GQE/Core/Core_types.hpp	/^  enum StatusType$/;"	g	namespace:GQE
+StringLogger	include/GQE/Core/loggers/StringLogger.hpp	/^  class GQE_API StringLogger : public ILogger$/;"	c	namespace:GQE
+StringLogger	src/GQE/Core/loggers/StringLogger.cpp	/^  StringLogger::StringLogger(bool theDefault, int theExitCode) :$/;"	f	class:GQE::StringLogger
+TAssetHandler	include/GQE/Core/interfaces/TAssetHandler.hpp	/^  class TAssetHandler : public IAssetHandler$/;"	c	namespace:GQE
+TAssetHandler	include/GQE/Core/interfaces/TAssetHandler.hpp	/^      TAssetHandler() :$/;"	f	class:GQE::TAssetHandler
+TAsset	include/GQE/Core/interfaces/TAsset.hpp	/^  class TAsset$/;"	c	namespace:GQE
+TAsset	include/GQE/Core/interfaces/TAsset.hpp	/^      TAsset() :$/;"	f	class:GQE::TAsset
+TAsset	include/GQE/Core/interfaces/TAsset.hpp	/^      TAsset(const TAsset<TYPE>& theCopy) :$/;"	f	class:GQE::TAsset
+TAsset	include/GQE/Core/interfaces/TAsset.hpp	/^      TAsset(const typeAssetID theAssetID,$/;"	f	class:GQE::TAsset
+TEVENT_HPP_INCLUDED	include/GQE/Core/interfaces/TEvent.hpp	9;"	d
+TEvent	include/GQE/Core/interfaces/TEvent.hpp	/^    class TEvent : public IEvent$/;"	c	namespace:GQE
+TEvent	include/GQE/Core/interfaces/TEvent.hpp	/^      TEvent(const typeEventID theEventID, TCLASS& theEventClass, typeEventFunc theEventFunc) :$/;"	f	class:GQE::TEvent
+TIC_TAC_TOE_APP_HPP_INCLUDED	examples/tictactoe/src/TicTacToeApp.hpp	11;"	d
+TPROPERTY_HPP_INCLUDED	include/GQE/Core/interfaces/TProperty.hpp	9;"	d
+TProperty	include/GQE/Core/interfaces/TProperty.hpp	/^    class TProperty : public IProperty$/;"	c	namespace:GQE
+TProperty	include/GQE/Core/interfaces/TProperty.hpp	/^      TProperty(const typePropertyID thePropertyID) :$/;"	f	class:GQE::TProperty
+TicTacToeApp	examples/tictactoe/src/TicTacToeApp.hpp	/^class TicTacToeApp : public GQE::IApp$/;"	c
+TicTacToeApp	examples/tictactoe/src/TicTacToeApp.cpp	/^TicTacToeApp::TicTacToeApp(const std::string theTitle) :$/;"	f	class:TicTacToeApp
+Type_t	include/GQE/Core/interfaces/IEvent.hpp	/^      class Type_t$/;"	c	class:GQE::IEvent
+Type_t	include/GQE/Core/interfaces/IProperty.hpp	/^      class Type_t$/;"	c	class:GQE::IProperty
+Type_t	include/GQE/Core/interfaces/IEvent.hpp	/^          explicit Type_t(std::string theName) : mName(theName) {}$/;"	f	class:GQE::IEvent::Type_t
+Type_t	include/GQE/Core/interfaces/IProperty.hpp	/^          explicit Type_t(std::string theName) : mName(theName) {}$/;"	f	class:GQE::IProperty::Type_t
+UINT16_C	extlibs/msvc/stdint.h	236;"	d
+UINT16_MAX	extlibs/msvc/stdint.h	141;"	d
+UINT32_C	extlibs/msvc/stdint.h	237;"	d
+UINT32_MAX	extlibs/msvc/stdint.h	142;"	d
+UINT64_C	extlibs/msvc/stdint.h	238;"	d
+UINT64_MAX	extlibs/msvc/stdint.h	143;"	d
+UINT8_C	extlibs/msvc/stdint.h	235;"	d
+UINT8_MAX	extlibs/msvc/stdint.h	140;"	d
+UINTMAX_C	extlibs/msvc/stdint.h	242;"	d
+UINTMAX_MAX	extlibs/msvc/stdint.h	187;"	d
+UINTPTR_MAX	extlibs/msvc/stdint.h	177;"	d
+UINTPTR_MAX	extlibs/msvc/stdint.h	181;"	d
+UINT_FAST16_MAX	extlibs/msvc/stdint.h	169;"	d
+UINT_FAST32_MAX	extlibs/msvc/stdint.h	170;"	d
+UINT_FAST64_MAX	extlibs/msvc/stdint.h	171;"	d
+UINT_FAST8_MAX	extlibs/msvc/stdint.h	168;"	d
+UINT_LEAST16_MAX	extlibs/msvc/stdint.h	155;"	d
+UINT_LEAST32_MAX	extlibs/msvc/stdint.h	156;"	d
+UINT_LEAST64_MAX	extlibs/msvc/stdint.h	157;"	d
+UINT_LEAST8_MAX	extlibs/msvc/stdint.h	154;"	d
+Uint16	include/GQE/Config.hpp	/^  typedef unsigned short Uint16;  \/\/\/< Standard 16 bit unsigned integer$/;"	t	namespace:GQE
+Uint32	include/GQE/Config.hpp	/^  typedef unsigned int Uint32;    \/\/\/< Standard 32 bit unsigned integer$/;"	t	namespace:GQE
+Uint64	include/GQE/Config.hpp	/^  typedef uint64_t         Uint64; \/\/\/< Standard 64 bit unsigned integer$/;"	t	namespace:GQE
+Uint64	include/GQE/Config.hpp	/^  typedef unsigned __int64 Uint64; \/\/\/< Standard 64 bit unsigned integer$/;"	t	namespace:GQE
+Uint8	include/GQE/Config.hpp	/^  typedef unsigned char Uint8;    \/\/\/< Standard 8 bit unsigned integer$/;"	t	namespace:GQE
+Vector2u	include/GQE/Core/utils/StringUtil.hpp	/^  typedef Vector2<unsigned int> Vector2u;$/;"	t	namespace:sf
+WARN_LEVEL	include/GQE/Core/Core_types.hpp	29;"	d
+WCHAR_MAX	extlibs/msvc/stdint.h	215;"	d
+WCHAR_MIN	extlibs/msvc/stdint.h	212;"	d
+WIN32_LEAN_AND_MEAN	include/GQE/Config.hpp	41;"	d
+WINT_MAX	extlibs/msvc/stdint.h	219;"	d
+WINT_MIN	extlibs/msvc/stdint.h	218;"	d
+WLOGM_IF	include/GQE/Core/loggers/Log_macros.hpp	138;"	d
+WLOGM_IF	include/GQE/Core/loggers/Log_macros.hpp	153;"	d
+WLOGM	include/GQE/Core/loggers/Log_macros.hpp	113;"	d
+WLOGM	include/GQE/Core/loggers/Log_macros.hpp	151;"	d
+WLOG_IF	include/GQE/Core/loggers/Log_macros.hpp	147;"	d
+WLOG_IF	include/GQE/Core/loggers/Log_macros.hpp	155;"	d
+WLOG	include/GQE/Core/loggers/Log_macros.hpp	125;"	d
+WLOG	include/GQE/Core/loggers/Log_macros.hpp	152;"	d
+_MSC_STDINT_H_	extlibs/msvc/stdint.h	37;"	d
+_W64	extlibs/msvc/stdint.h	60;"	d
+_W64	extlibs/msvc/stdint.h	62;"	d
+acquireAsset	include/GQE/Core/interfaces/TAssetHandler.hpp	/^      virtual TYPE* acquireAsset(const typeAssetID theAssetID)$/;"	f	class:GQE::TAssetHandler
+activate	src/GQE/Entity/classes/ActionGroup.cpp	/^  void ActionGroup::activate(const typeActionID theActionID)$/;"	f	class:GQE::ActionGroup
+addAction	src/GQE/Entity/systems/ActionSystem.cpp	/^  void ActionSystem::addAction(IAction* theAction)$/;"	f	class:GQE::ActionSystem
+addActiveState	src/GQE/Core/classes/StateManager.cpp	/^  void StateManager::addActiveState(IState* theState)$/;"	f	class:GQE::StateManager
+addCleanup	include/GQE/Core/classes/StateManager.hpp	/^      void addCleanup(const typeEventID theEventID, TCLASS& theEventClass,$/;"	f	class:GQE::StateManager
+addEntity	src/GQE/Entity/interfaces/ISystem.cpp	/^  const typeEntityID ISystem::addEntity(IEntity* theEntity)$/;"	f	class:GQE::ISystem
+addInactiveState	src/GQE/Core/classes/StateManager.cpp	/^  void StateManager::addInactiveState(IState* theState)$/;"	f	class:GQE::StateManager
+addProperties	src/GQE/Entity/systems/ActionSystem.cpp	/^  void ActionSystem::addProperties(IEntity* theEntity)$/;"	f	class:GQE::ActionSystem
+addProperties	src/GQE/Entity/systems/AnimationSystem.cpp	/^  void AnimationSystem::addProperties(IEntity* theEntity)$/;"	f	class:GQE::AnimationSystem
+addProperties	src/GQE/Entity/systems/MovementSystem.cpp	/^  void MovementSystem::addProperties(IEntity* theEntity)$/;"	f	class:GQE::MovementSystem
+addProperties	src/GQE/Entity/systems/RenderSystem.cpp	/^  void RenderSystem::addProperties(IEntity* theEntity)$/;"	f	class:GQE::RenderSystem
+addPrototype	src/GQE/Entity/classes/PrototypeManager.cpp	/^  void PrototypeManager::addPrototype(Prototype* thePrototype)$/;"	f	class:GQE::PrototypeManager
+addSystem	src/GQE/Entity/interfaces/IEntity.cpp	/^  void IEntity::addSystem(ISystem* theSystem)$/;"	f	class:GQE::IEntity
+add	include/GQE/Core/classes/EventManager.hpp	/^      void add(const typeEventID theEventID, TCLASS& theEventClass,$/;"	f	class:GQE::EventManager
+add	include/GQE/Core/classes/PropertyManager.hpp	/^      void add(const typePropertyID thePropertyID, TYPE theValue)$/;"	f	class:GQE::PropertyManager
+add	src/GQE/Core/classes/EventManager.cpp	/^  void EventManager::add(IEvent* theEvent)$/;"	f	class:GQE::EventManager
+add	src/GQE/Core/classes/PropertyManager.cpp	/^  void PropertyManager::add(IProperty* theProperty)$/;"	f	class:GQE::PropertyManager
+add	src/GQE/Entity/classes/ActionGroup.cpp	/^  void ActionGroup::add(const typeActionID theActionID)$/;"	f	class:GQE::ActionGroup
+asset	include/GQE/Core/interfaces/TAssetHandler.hpp	/^        TYPE*          asset;     \/\/\/< The asset being shared$/;"	m	struct:GQE::TAssetHandler::typeAssetData
+calculateRange	src/GQE/Core/interfaces/IApp.cpp	/^  const GraphicRange IApp::calculateRange(Uint32 theHeight) const$/;"	f	class:GQE::IApp
+cleanup	src/GQE/Core/classes/StateManager.cpp	/^  void StateManager::cleanup(void)$/;"	f	class:GQE::StateManager
+cleanup	src/GQE/Core/interfaces/IApp.cpp	/^  void IApp::cleanup(void)$/;"	f	class:GQE::IApp
+cleanup	src/GQE/Core/interfaces/IState.cpp	/^  void IState::cleanup(void)$/;"	f	class:GQE::IState
+clone	src/GQE/Core/classes/PropertyManager.cpp	/^  void PropertyManager::clone(const PropertyManager& thePropertyManager)$/;"	f	class:GQE::PropertyManager
+convertBool	src/GQE/Core/utils/StringUtil.cpp	/^  std::string convertBool(const bool theBoolean)$/;"	f	namespace:GQE
+convertColor	src/GQE/Core/utils/StringUtil.cpp	/^  std::string convertColor(const sf::Color theColor)$/;"	f	namespace:GQE
+convertDouble	src/GQE/Core/utils/StringUtil.cpp	/^  std::string convertDouble(const double theDouble)$/;"	f	namespace:GQE
+convertFloat	src/GQE/Core/utils/StringUtil.cpp	/^  std::string convertFloat(const float theFloat)$/;"	f	namespace:GQE
+convertInt16	src/GQE/Core/utils/StringUtil.cpp	/^  std::string convertInt16(const Int16 theNumber)$/;"	f	namespace:GQE
+convertInt32	src/GQE/Core/utils/StringUtil.cpp	/^  std::string convertInt32(const Int32 theNumber)$/;"	f	namespace:GQE
+convertInt64	src/GQE/Core/utils/StringUtil.cpp	/^  std::string convertInt64(const Int64 theNumber)$/;"	f	namespace:GQE
+convertInt8	src/GQE/Core/utils/StringUtil.cpp	/^  std::string convertInt8(const Int8 theNumber)$/;"	f	namespace:GQE
+convertIntRect	src/GQE/Core/utils/StringUtil.cpp	/^  std::string convertIntRect(const sf::IntRect theRect)$/;"	f	namespace:GQE
+convertUint16	src/GQE/Core/utils/StringUtil.cpp	/^  std::string convertUint16(const Uint16 theNumber)$/;"	f	namespace:GQE
+convertUint32	src/GQE/Core/utils/StringUtil.cpp	/^  std::string convertUint32(const Uint32 theNumber)$/;"	f	namespace:GQE
+convertUint64	src/GQE/Core/utils/StringUtil.cpp	/^  std::string convertUint64(const Uint64 theNumber)$/;"	f	namespace:GQE
+convertUint8	src/GQE/Core/utils/StringUtil.cpp	/^  std::string convertUint8(const Uint8 theNumber)$/;"	f	namespace:GQE
+convertVector2f	src/GQE/Core/utils/StringUtil.cpp	/^  std::string convertVector2f(const sf::Vector2f theVector)$/;"	f	namespace:GQE
+convertVector2i	src/GQE/Core/utils/StringUtil.cpp	/^  std::string convertVector2i(const sf::Vector2i theVector)$/;"	f	namespace:GQE
+convertVector2u	src/GQE/Core/utils/StringUtil.cpp	/^  std::string convertVector2u(const sf::Vector2u theVector)$/;"	f	namespace:GQE
+convertVector3f	src/GQE/Core/utils/StringUtil.cpp	/^  std::string convertVector3f(const sf::Vector3f theVector)$/;"	f	namespace:GQE
+convertVector3i	src/GQE/Core/utils/StringUtil.cpp	/^  std::string convertVector3i(const sf::Vector3i theVector)$/;"	f	namespace:GQE
+count	include/GQE/Core/interfaces/TAssetHandler.hpp	/^        Uint32         count;     \/\/\/< Number of people referencing this Asset$/;"	m	struct:GQE::TAssetHandler::typeAssetData
+deInit	src/GQE/Core/classes/StatManager.cpp	/^  void StatManager::deInit(void)$/;"	f	class:GQE::StatManager
+deInit	src/GQE/Core/interfaces/IState.cpp	/^  void IState::deInit(void)$/;"	f	class:GQE::IState
+destroyInstance	src/GQE/Entity/classes/Prototype.cpp	/^  void Prototype::destroyInstance(const typeEntityID theEntityID)$/;"	f	class:GQE::Prototype
+destroy	src/GQE/Entity/classes/Instance.cpp	/^  void Instance::destroy(void)$/;"	f	class:GQE::Instance
+destroy	src/GQE/Entity/classes/Prototype.cpp	/^  void Prototype::destroy(void)$/;"	f	class:GQE::Prototype
+disable	src/GQE/Entity/classes/ActionGroup.cpp	/^  void ActionGroup::disable(const typeActionID theActionID)$/;"	f	class:GQE::ActionGroup
+doActions	src/GQE/Entity/classes/ActionGroup.cpp	/^  void ActionGroup::doActions(IEntity* theEntity)$/;"	f	class:GQE::ActionGroup
+doEvent	include/GQE/Core/interfaces/TEvent.hpp	/^      virtual void doEvent(void* theContext = NULL)$/;"	f	class:GQE::TEvent
+doEvents	src/GQE/Core/classes/EventManager.cpp	/^  void EventManager::doEvents(void* theContext)$/;"	f	class:GQE::EventManager
+doInit	examples/spacedots/src/GameState.cpp	/^void GameState::doInit(void)$/;"	f	class:GameState
+doInit	examples/tictactoe/src/GameState.cpp	/^void GameState::doInit(void)$/;"	f	class:GameState
+doInit	src/GQE/Core/classes/StatManager.cpp	/^  void StatManager::doInit(void)$/;"	f	class:GQE::StatManager
+doInit	src/GQE/Core/interfaces/IState.cpp	/^  void IState::doInit(void)$/;"	f	class:GQE::IState
+doInit	src/GQE/Core/states/SplashState.cpp	/^  void SplashState::doInit(void)$/;"	f	class:GQE::SplashState
+draw	examples/spacedots/src/GameState.cpp	/^void GameState::draw(void)$/;"	f	class:GameState
+draw	examples/tictactoe/src/GameState.cpp	/^void GameState::draw(void)$/;"	f	class:GameState
+draw	src/GQE/Core/classes/StatManager.cpp	/^  void StatManager::draw(void)$/;"	f	class:GQE::StatManager
+draw	src/GQE/Core/states/SplashState.cpp	/^  void SplashState::draw(void)$/;"	f	class:GQE::SplashState
+draw	src/GQE/Entity/systems/ActionSystem.cpp	/^  void ActionSystem::draw()$/;"	f	class:GQE::ActionSystem
+draw	src/GQE/Entity/systems/AnimationSystem.cpp	/^  void AnimationSystem::draw()$/;"	f	class:GQE::AnimationSystem
+draw	src/GQE/Entity/systems/MovementSystem.cpp	/^  void MovementSystem::draw()$/;"	f	class:GQE::MovementSystem
+draw	src/GQE/Entity/systems/RenderSystem.cpp	/^  void RenderSystem::draw()$/;"	f	class:GQE::RenderSystem
+dropActiveState	src/GQE/Core/classes/StateManager.cpp	/^  void StateManager::dropActiveState(void)$/;"	f	class:GQE::StateManager
+dropAllEntities	src/GQE/Entity/interfaces/ISystem.cpp	/^  void ISystem::dropAllEntities(void)$/;"	f	class:GQE::ISystem
+dropAllInstances	src/GQE/Entity/classes/Prototype.cpp	/^  void Prototype::dropAllInstances(void)$/;"	f	class:GQE::Prototype
+dropAllSystems	src/GQE/Entity/interfaces/IEntity.cpp	/^  void IEntity::dropAllSystems(void)$/;"	f	class:GQE::IEntity
+dropEntity	src/GQE/Entity/interfaces/ISystem.cpp	/^  void ISystem::dropEntity(const typeEntityID theEntityID)$/;"	f	class:GQE::ISystem
+dropReference	include/GQE/Core/interfaces/TAssetHandler.hpp	/^      virtual void dropReference(const typeAssetID theAssetID,$/;"	f	class:GQE::TAssetHandler
+dropSystem	src/GQE/Entity/interfaces/IEntity.cpp	/^  void IEntity::dropSystem(const typeSystemID theSystemID)$/;"	f	class:GQE::IEntity
+dropTime	include/GQE/Core/interfaces/TAssetHandler.hpp	/^        AssetDropTime  dropTime;  \/\/\/< Drop time at (Zero, Exit)$/;"	m	struct:GQE::TAssetHandler::typeAssetData
+drop	src/GQE/Entity/classes/ActionGroup.cpp	/^  void ActionGroup::drop(const typeActionID theActionID)$/;"	f	class:GQE::ActionGroup
+eraseAction	src/GQE/Entity/systems/ActionSystem.cpp	/^  void ActionSystem::eraseAction(std::map<const typeActionID, IAction*>::iterator theActionIter)$/;"	f	class:GQE::ActionSystem
+eraseEntity	src/GQE/Entity/interfaces/ISystem.cpp	/^  std::deque<IEntity*>::iterator ISystem::eraseEntity(std::deque<IEntity*>::iterator theEntityIter)$/;"	f	class:GQE::ISystem
+eraseSystem	src/GQE/Entity/interfaces/IEntity.cpp	/^  void IEntity::eraseSystem(std::map<const typeSystemID, ISystem*>::iterator theSystemIter)$/;"	f	class:GQE::IEntity
+fatalShutdown	src/GQE/Core/interfaces/ILogger.cpp	/^  void ILogger::fatalShutdown(void)$/;"	f	class:GQE::ILogger
+filename	include/GQE/Core/interfaces/TAssetHandler.hpp	/^        std::string    filename;  \/\/\/< Filename to use when loading this asset$/;"	m	struct:GQE::TAssetHandler::typeAssetData
+gApp	include/GQE/Core/interfaces/IApp.hpp	/^      static IApp* gApp;$/;"	m	class:GQE::IApp
+gApp	src/GQE/Core/interfaces/IApp.cpp	/^  IApp* IApp::gApp = NULL;$/;"	m	class:GQE::IApp	file:
+gInstance	include/GQE/Core/interfaces/ILogger.hpp	/^      static ILogger* gInstance;$/;"	m	class:GQE::ILogger
+gInstance	src/GQE/Core/interfaces/ILogger.cpp	/^  ILogger* ILogger::gInstance = NULL;$/;"	m	class:GQE::ILogger	file:
+gNullStream	include/GQE/Core/interfaces/ILogger.hpp	/^      static std::onullstream gNullStream;$/;"	m	class:GQE::ILogger
+gNullStream	src/GQE/Core/interfaces/ILogger.cpp	/^  std::onullstream ILogger::gNullStream;$/;"	m	class:GQE::ILogger	file:
+gameLoop	src/GQE/Core/interfaces/IApp.cpp	/^  void IApp::gameLoop(void)$/;"	f	class:GQE::IApp
+getAction	src/GQE/Entity/systems/ActionSystem.cpp	/^  IAction* ActionSystem::getAction(const typeActionID theActionID)$/;"	f	class:GQE::ActionSystem
+getActiveState	src/GQE/Core/classes/StateManager.cpp	/^  IState& StateManager::getActiveState(void)$/;"	f	class:GQE::StateManager
+getApp	src/GQE/Core/interfaces/IApp.cpp	/^  IApp* IApp::getApp(void)$/;"	f	class:GQE::IApp
+getAsset	include/GQE/Core/interfaces/TAsset.hpp	/^      TYPE& getAsset(void)$/;"	f	class:GQE::TAsset
+getBool	src/GQE/Core/classes/ConfigReader.cpp	/^  bool ConfigReader::getBool(const std::string theSection,$/;"	f	class:GQE::ConfigReader
+getDropTime	include/GQE/Core/interfaces/TAsset.hpp	/^      AssetDropTime getDropTime(void) const$/;"	f	class:GQE::TAsset
+getDropTime	include/GQE/Core/interfaces/TAssetHandler.hpp	/^      virtual AssetDropTime getDropTime(const typeAssetID theAssetID) const$/;"	f	class:GQE::TAssetHandler
+getElapsedTime	src/GQE/Core/interfaces/IState.cpp	/^  float IState::getElapsedTime(void) const$/;"	f	class:GQE::IState
+getFilename	include/GQE/Core/interfaces/TAsset.hpp	/^      const std::string getFilename(void)$/;"	f	class:GQE::TAsset
+getFilename	include/GQE/Core/interfaces/TAssetHandler.hpp	/^      virtual const std::string getFilename(const typeAssetID theAssetID) const$/;"	f	class:GQE::TAssetHandler
+getFloat	src/GQE/Core/classes/ConfigReader.cpp	/^  float ConfigReader::getFloat(const std::string theSection,$/;"	f	class:GQE::ConfigReader
+getFrames	src/GQE/Core/classes/StatManager.cpp	/^  Uint32 StatManager::getFrames(void) const$/;"	f	class:GQE::StatManager
+getHandler	include/GQE/Core/classes/AssetManager.hpp	/^      TAssetHandler<TYPE>& getHandler() const$/;"	f	class:GQE::AssetManager
+getHandler	src/GQE/Core/classes/AssetManager.cpp	/^  IAssetHandler& AssetManager::getHandler(const typeAssetHandlerID theAssetHandlerID) const$/;"	f	class:GQE::AssetManager
+getID	include/GQE/Core/interfaces/TAsset.hpp	/^      const typeAssetID getID(void) const$/;"	f	class:GQE::TAsset
+getID	src/GQE/Core/interfaces/IAssetHandler.cpp	/^  const typeAssetHandlerID IAssetHandler::getID(void) const$/;"	f	class:GQE::IAssetHandler
+getID	src/GQE/Core/interfaces/IEvent.cpp	/^  const typeEventID IEvent::getID(void) const$/;"	f	class:GQE::IEvent
+getID	src/GQE/Core/interfaces/IProperty.cpp	/^  const typePropertyID IProperty::getID(void) const$/;"	f	class:GQE::IProperty
+getID	src/GQE/Core/interfaces/IState.cpp	/^  const typeStateID IState::getID(void) const$/;"	f	class:GQE::IState
+getID	src/GQE/Entity/classes/Prototype.cpp	/^  const typePrototypeID Prototype::getID(void) const$/;"	f	class:GQE::Prototype
+getID	src/GQE/Entity/interfaces/IAction.cpp	/^  const typeActionID IAction::getID(void) const$/;"	f	class:GQE::IAction
+getID	src/GQE/Entity/interfaces/IEntity.cpp	/^  const typeEntityID IEntity::getID(void) const$/;"	f	class:GQE::IEntity
+getID	src/GQE/Entity/interfaces/ISystem.cpp	/^  const typeSystemID ISystem::getID(void) const$/;"	f	class:GQE::ISystem
+getInstance	src/GQE/Entity/classes/Prototype.cpp	/^  Instance* Prototype::getInstance(const typeEntityID theEntityID) const$/;"	f	class:GQE::Prototype
+getLoadStyle	include/GQE/Core/interfaces/TAsset.hpp	/^      AssetLoadStyle getLoadStyle(void) const$/;"	f	class:GQE::TAsset
+getLoadStyle	include/GQE/Core/interfaces/TAssetHandler.hpp	/^      virtual AssetLoadStyle getLoadStyle(const typeAssetID theAssetID) const$/;"	f	class:GQE::TAssetHandler
+getLoadTime	include/GQE/Core/interfaces/TAsset.hpp	/^      AssetLoadTime getLoadTime(void) const$/;"	f	class:GQE::TAsset
+getLoadTime	include/GQE/Core/interfaces/TAssetHandler.hpp	/^      virtual AssetLoadTime getLoadTime(const typeAssetID theAssetID) const$/;"	f	class:GQE::TAssetHandler
+getLogger	src/GQE/Core/interfaces/ILogger.cpp	/^  ILogger* ILogger::getLogger(void)$/;"	f	class:GQE::ILogger
+getOrder	src/GQE/Entity/interfaces/IEntity.cpp	/^  const Uint32 IEntity::getOrder(void) const$/;"	f	class:GQE::IEntity
+getProperty	include/GQE/Core/classes/PropertyManager.hpp	/^      TProperty<TYPE>& getProperty(const typePropertyID thePropertyID)$/;"	f	class:GQE::PropertyManager
+getPrototype	src/GQE/Entity/classes/Instance.cpp	/^  Prototype& Instance::getPrototype()$/;"	f	class:GQE::Instance
+getPrototype	src/GQE/Entity/classes/PrototypeManager.cpp	/^  Prototype* PrototypeManager::getPrototype(const typePrototypeID thePrototypeID)$/;"	f	class:GQE::PrototypeManager
+getReference	include/GQE/Core/interfaces/TAssetHandler.hpp	/^      TYPE* getReference(const typeAssetID theAssetID,$/;"	f	class:GQE::TAssetHandler
+getReference	include/GQE/Core/interfaces/TAssetHandler.hpp	/^      TYPE* getReference(void)$/;"	f	class:GQE::TAssetHandler
+getStream	src/GQE/Core/loggers/FileLogger.cpp	/^  std::ostream& FileLogger::getStream(SeverityType theSeverity,$/;"	f	class:GQE::FileLogger
+getStream	src/GQE/Core/loggers/FileLogger.cpp	/^  std::ostream& FileLogger::getStream(void)$/;"	f	class:GQE::FileLogger
+getStream	src/GQE/Core/loggers/ScopeLogger.cpp	/^  std::ostream& ScopeLogger::getStream(SeverityType theSeverity,$/;"	f	class:GQE::ScopeLogger
+getStream	src/GQE/Core/loggers/ScopeLogger.cpp	/^  std::ostream& ScopeLogger::getStream(void)$/;"	f	class:GQE::ScopeLogger
+getStream	src/GQE/Core/loggers/StringLogger.cpp	/^  std::ostream& StringLogger::getStream(SeverityType theSeverity,$/;"	f	class:GQE::StringLogger
+getStream	src/GQE/Core/loggers/StringLogger.cpp	/^  std::ostream& StringLogger::getStream(void)$/;"	f	class:GQE::StringLogger
+getString	src/GQE/Core/classes/ConfigReader.cpp	/^  std::string ConfigReader::getString(const std::string theSection,$/;"	f	class:GQE::ConfigReader
+getString	src/GQE/Core/loggers/StringLogger.cpp	/^  std::string StringLogger::getString(void)$/;"	f	class:GQE::StringLogger
+getType	src/GQE/Core/interfaces/IEvent.cpp	/^  IEvent::Type_t* IEvent::getType(void)$/;"	f	class:GQE::IEvent
+getType	src/GQE/Core/interfaces/IProperty.cpp	/^  IProperty::Type_t* IProperty::getType(void)$/;"	f	class:GQE::IProperty
+getUint32	src/GQE/Core/classes/ConfigReader.cpp	/^  Uint32 ConfigReader::getUint32(const std::string theSection,$/;"	f	class:GQE::ConfigReader
+getUpdateRate	src/GQE/Core/interfaces/IApp.cpp	/^  float IApp::getUpdateRate(void) const$/;"	f	class:GQE::IApp
+getUpdates	src/GQE/Core/classes/StatManager.cpp	/^  Uint32 StatManager::getUpdates(void) const$/;"	f	class:GQE::StatManager
+getValue	include/GQE/Core/interfaces/TProperty.hpp	/^      TYPE getValue()$/;"	f	class:GQE::TProperty
+get	include/GQE/Core/classes/PropertyManager.hpp	/^      TYPE get(const typePropertyID thePropertyID)$/;"	f	class:GQE::PropertyManager
+get	src/GQE/Core/classes/EventManager.cpp	/^  IEvent* EventManager::get(const typeEventID theEventID)$/;"	f	class:GQE::EventManager
+handleCleanup	examples/spacedots/src/GameState.cpp	/^void GameState::handleCleanup(void)$/;"	f	class:GameState
+handleCleanup	examples/spacedots/src/SpaceDotsApp.cpp	/^void SpaceDotsApp::handleCleanup(void)$/;"	f	class:SpaceDotsApp
+handleCleanup	examples/tictactoe/src/GameState.cpp	/^void GameState::handleCleanup(void)$/;"	f	class:GameState
+handleCleanup	examples/tictactoe/src/TicTacToeApp.cpp	/^void TicTacToeApp::handleCleanup(void)$/;"	f	class:TicTacToeApp
+handleCleanup	src/GQE/Core/states/SplashState.cpp	/^  void SplashState::handleCleanup(void)$/;"	f	class:GQE::SplashState
+handleCleanup	src/GQE/Entity/classes/Prototype.cpp	/^  void Prototype::handleCleanup(void* theContext)$/;"	f	class:GQE::Prototype
+handleCleanup	src/GQE/Entity/interfaces/ISystem.cpp	/^  void ISystem::handleCleanup(IEntity* theEntity)$/;"	f	class:GQE::ISystem
+handleCleanup	src/GQE/Entity/systems/ActionSystem.cpp	/^  void ActionSystem::handleCleanup(IEntity* theEntity)$/;"	f	class:GQE::ActionSystem
+handleCleanup	src/GQE/Entity/systems/AnimationSystem.cpp	/^  void AnimationSystem::handleCleanup(GQE::IEntity* theEntity)$/;"	f	class:GQE::AnimationSystem
+handleCleanup	src/GQE/Entity/systems/MovementSystem.cpp	/^  void MovementSystem::handleCleanup(IEntity* theEntity)$/;"	f	class:GQE::MovementSystem
+handleCleanup	src/GQE/Entity/systems/RenderSystem.cpp	/^  void RenderSystem::handleCleanup(IEntity* theEntity)$/;"	f	class:GQE::RenderSystem
+handleEvents	examples/spacedots/src/GameState.cpp	/^void GameState::handleEvents(sf::Event theEvent)$/;"	f	class:GameState
+handleEvents	examples/tictactoe/src/GameState.cpp	/^void GameState::handleEvents(sf::Event theEvent)$/;"	f	class:GameState
+handleEvents	src/GQE/Core/interfaces/IState.cpp	/^  void IState::handleEvents(sf::Event theEvent)$/;"	f	class:GQE::IState
+handleEvents	src/GQE/Core/states/SplashState.cpp	/^  void SplashState::handleEvents(sf::Event theEvent)$/;"	f	class:GQE::SplashState
+handleEvents	src/GQE/Entity/systems/ActionSystem.cpp	/^  void ActionSystem::handleEvents(sf::Event theEvent)$/;"	f	class:GQE::ActionSystem
+handleEvents	src/GQE/Entity/systems/AnimationSystem.cpp	/^  void AnimationSystem::handleEvents(sf::Event theEvent)$/;"	f	class:GQE::AnimationSystem
+handleEvents	src/GQE/Entity/systems/MovementSystem.cpp	/^  void MovementSystem::handleEvents(sf::Event theEvent)$/;"	f	class:GQE::MovementSystem
+handleEvents	src/GQE/Entity/systems/RenderSystem.cpp	/^  void RenderSystem::handleEvents(sf::Event theEvent)$/;"	f	class:GQE::RenderSystem
+handleInit	src/GQE/Entity/systems/ActionSystem.cpp	/^  void ActionSystem::handleInit(IEntity* theEntity)$/;"	f	class:GQE::ActionSystem
+handleInit	src/GQE/Entity/systems/AnimationSystem.cpp	/^  void AnimationSystem::handleInit(GQE::IEntity* theEntity)$/;"	f	class:GQE::AnimationSystem
+handleInit	src/GQE/Entity/systems/MovementSystem.cpp	/^  void MovementSystem::handleInit(IEntity* theEntity)$/;"	f	class:GQE::MovementSystem
+handleInit	src/GQE/Entity/systems/RenderSystem.cpp	/^  void RenderSystem::handleInit(IEntity* theEntity)$/;"	f	class:GQE::RenderSystem
+handleScreenWrap	src/GQE/Entity/systems/MovementSystem.cpp	/^  void MovementSystem::handleScreenWrap(IEntity* theEntity, sf::Vector2f* thePosition)$/;"	f	class:GQE::MovementSystem
+hasEntity	src/GQE/Entity/interfaces/ISystem.cpp	/^  bool ISystem::hasEntity(const typeEntityID theEntityID) const$/;"	f	class:GQE::ISystem
+hasID	src/GQE/Core/classes/EventManager.cpp	/^  bool EventManager::hasID(const typeEventID theEventID) const$/;"	f	class:GQE::EventManager
+hasID	src/GQE/Core/classes/PropertyManager.cpp	/^  bool PropertyManager::hasID(const typePropertyID thePropertyID) const$/;"	f	class:GQE::PropertyManager
+hasSystem	src/GQE/Entity/interfaces/IEntity.cpp	/^  bool IEntity::hasSystem(const typeSystemID theSystemID) const$/;"	f	class:GQE::IEntity
+inactivateActivateState	src/GQE/Core/classes/StateManager.cpp	/^  void StateManager::inactivateActivateState(void)$/;"	f	class:GQE::StateManager
+initAssetHandlers	examples/spacedots/src/SpaceDotsApp.cpp	/^void SpaceDotsApp::initAssetHandlers(void)$/;"	f	class:SpaceDotsApp
+initAssetHandlers	examples/tictactoe/src/TicTacToeApp.cpp	/^void TicTacToeApp::initAssetHandlers(void)$/;"	f	class:TicTacToeApp
+initRenderer	src/GQE/Core/interfaces/IApp.cpp	/^  void IApp::initRenderer(void)$/;"	f	class:GQE::IApp
+initScreenFactory	examples/spacedots/src/SpaceDotsApp.cpp	/^void SpaceDotsApp::initScreenFactory(void)$/;"	f	class:SpaceDotsApp
+initScreenFactory	examples/tictactoe/src/TicTacToeApp.cpp	/^void TicTacToeApp::initScreenFactory(void)$/;"	f	class:TicTacToeApp
+initSettingsConfig	src/GQE/Core/interfaces/IApp.cpp	/^  void IApp::initSettingsConfig(void)$/;"	f	class:GQE::IApp
+int16_t	extlibs/msvc/stdint.h	/^   typedef signed __int16    int16_t;$/;"	t
+int16_t	extlibs/msvc/stdint.h	/^   typedef signed short      int16_t;$/;"	t
+int32_t	extlibs/msvc/stdint.h	/^   typedef signed __int32    int32_t;$/;"	t
+int32_t	extlibs/msvc/stdint.h	/^   typedef signed int        int32_t;$/;"	t
+int64_t	extlibs/msvc/stdint.h	/^typedef signed __int64       int64_t;$/;"	t
+int8_t	extlibs/msvc/stdint.h	/^   typedef signed __int8     int8_t;$/;"	t
+int8_t	extlibs/msvc/stdint.h	/^   typedef signed char       int8_t;$/;"	t
+int_fast16_t	extlibs/msvc/stdint.h	/^typedef int16_t   int_fast16_t;$/;"	t
+int_fast32_t	extlibs/msvc/stdint.h	/^typedef int32_t   int_fast32_t;$/;"	t
+int_fast64_t	extlibs/msvc/stdint.h	/^typedef int64_t   int_fast64_t;$/;"	t
+int_fast8_t	extlibs/msvc/stdint.h	/^typedef int8_t    int_fast8_t;$/;"	t
+int_least16_t	extlibs/msvc/stdint.h	/^typedef int16_t   int_least16_t;$/;"	t
+int_least32_t	extlibs/msvc/stdint.h	/^typedef int32_t   int_least32_t;$/;"	t
+int_least64_t	extlibs/msvc/stdint.h	/^typedef int64_t   int_least64_t;$/;"	t
+int_least8_t	extlibs/msvc/stdint.h	/^typedef int8_t    int_least8_t;$/;"	t
+intmax_t	extlibs/msvc/stdint.h	/^typedef int64_t   intmax_t;$/;"	t
+intptr_t	extlibs/msvc/stdint.h	/^   typedef _W64 signed int   intptr_t;$/;"	t
+intptr_t	extlibs/msvc/stdint.h	/^   typedef signed __int64    intptr_t;$/;"	t
+isActive	src/GQE/Core/interfaces/ILogger.cpp	/^  bool ILogger::isActive(void)$/;"	f	class:GQE::ILogger
+isActive	src/GQE/Entity/classes/ActionGroup.cpp	/^  bool ActionGroup::isActive(const typeActionID theActionID) const$/;"	f	class:GQE::ActionGroup
+isAvailable	src/GQE/Entity/classes/ActionGroup.cpp	/^  bool ActionGroup::isAvailable(const typeActionID theActionID) const$/;"	f	class:GQE::ActionGroup
+isEmpty	src/GQE/Core/classes/StateManager.cpp	/^  bool StateManager::isEmpty(void)$/;"	f	class:GQE::StateManager
+isInitComplete	src/GQE/Core/interfaces/IState.cpp	/^  bool IState::isInitComplete(void)$/;"	f	class:GQE::IState
+isLoaded	include/GQE/Core/interfaces/TAsset.hpp	/^      bool isLoaded(void) const$/;"	f	class:GQE::TAsset
+isLoaded	include/GQE/Core/interfaces/TAssetHandler.hpp	/^      virtual bool isLoaded(const typeAssetID theAssetID) const$/;"	f	class:GQE::TAssetHandler
+isPaused	src/GQE/Core/interfaces/IState.cpp	/^  bool IState::isPaused(void)$/;"	f	class:GQE::IState
+isRunning	src/GQE/Core/interfaces/IApp.cpp	/^  bool IApp::isRunning(void) const$/;"	f	class:GQE::IApp
+isSectionEmpty	src/GQE/Core/classes/ConfigReader.cpp	/^  bool ConfigReader::isSectionEmpty(const std::string theSection) const$/;"	f	class:GQE::ConfigReader
+isShowing	src/GQE/Core/classes/StatManager.cpp	/^  bool StatManager::isShowing(void) const$/;"	f	class:GQE::StatManager
+loadAllAssets	include/GQE/Core/interfaces/TAssetHandler.hpp	/^      virtual bool loadAllAssets(void)$/;"	f	class:GQE::TAssetHandler
+loadAllAssets	src/GQE/Core/classes/AssetManager.cpp	/^  bool AssetManager::loadAllAssets(void)$/;"	f	class:GQE::AssetManager
+loadAsset	include/GQE/Core/interfaces/TAssetHandler.hpp	/^      virtual bool loadAsset(const typeAssetID theAssetID)$/;"	f	class:GQE::TAssetHandler
+loadFromFile	src/GQE/Core/assets/ConfigHandler.cpp	/^  bool ConfigHandler::loadFromFile(const typeAssetID theAssetID, ConfigReader& theAsset)$/;"	f	class:GQE::ConfigHandler
+loadFromFile	src/GQE/Core/assets/FontHandler.cpp	/^  bool FontHandler::loadFromFile(const typeAssetID theAssetID, sf::Font& theAsset)$/;"	f	class:GQE::FontHandler
+loadFromFile	src/GQE/Core/assets/ImageHandler.cpp	/^  bool ImageHandler::loadFromFile(const typeAssetID theAssetID, sf::Texture& theAsset)$/;"	f	class:GQE::ImageHandler
+loadFromFile	src/GQE/Core/assets/MusicHandler.cpp	/^  bool MusicHandler::loadFromFile(const typeAssetID theAssetID, sf::Music& theAsset)$/;"	f	class:GQE::MusicHandler
+loadFromFile	src/GQE/Core/assets/SoundHandler.cpp	/^  bool SoundHandler::loadFromFile(const typeAssetID theAssetID, sf::SoundBuffer& theAsset)$/;"	f	class:GQE::SoundHandler
+loadFromFile	src/GQE/Core/classes/ConfigReader.cpp	/^  bool ConfigReader::loadFromFile(const std::string theFilename)$/;"	f	class:GQE::ConfigReader
+loadFromMemory	src/GQE/Core/assets/ConfigHandler.cpp	/^  bool ConfigHandler::loadFromMemory(const typeAssetID theAssetID, ConfigReader& theAsset)$/;"	f	class:GQE::ConfigHandler
+loadFromMemory	src/GQE/Core/assets/FontHandler.cpp	/^  bool FontHandler::loadFromMemory(const typeAssetID theAssetID, sf::Font& theAsset)$/;"	f	class:GQE::FontHandler
+loadFromMemory	src/GQE/Core/assets/ImageHandler.cpp	/^  bool ImageHandler::loadFromMemory(const typeAssetID theAssetID, sf::Texture& theAsset)$/;"	f	class:GQE::ImageHandler
+loadFromMemory	src/GQE/Core/assets/MusicHandler.cpp	/^  bool MusicHandler::loadFromMemory(const typeAssetID theAssetID, sf::Music& theAsset)$/;"	f	class:GQE::MusicHandler
+loadFromMemory	src/GQE/Core/assets/SoundHandler.cpp	/^  bool SoundHandler::loadFromMemory(const typeAssetID theAssetID, sf::SoundBuffer& theAsset)$/;"	f	class:GQE::SoundHandler
+loadFromNetwork	src/GQE/Core/assets/ConfigHandler.cpp	/^  bool ConfigHandler::loadFromNetwork(const typeAssetID theAssetID, ConfigReader& theAsset)$/;"	f	class:GQE::ConfigHandler
+loadFromNetwork	src/GQE/Core/assets/FontHandler.cpp	/^  bool FontHandler::loadFromNetwork(const typeAssetID theAssetID, sf::Font& theAsset)$/;"	f	class:GQE::FontHandler
+loadFromNetwork	src/GQE/Core/assets/ImageHandler.cpp	/^  bool ImageHandler::loadFromNetwork(const typeAssetID theAssetID, sf::Texture& theAsset)$/;"	f	class:GQE::ImageHandler
+loadFromNetwork	src/GQE/Core/assets/MusicHandler.cpp	/^  bool MusicHandler::loadFromNetwork(const typeAssetID theAssetID, sf::Music& theAsset)$/;"	f	class:GQE::MusicHandler
+loadFromNetwork	src/GQE/Core/assets/SoundHandler.cpp	/^  bool SoundHandler::loadFromNetwork(const typeAssetID theAssetID, sf::SoundBuffer& theAsset)$/;"	f	class:GQE::SoundHandler
+loadStyle	include/GQE/Core/interfaces/TAssetHandler.hpp	/^        AssetLoadStyle loadStyle; \/\/\/< Load type (File, Memory, Network, etc)$/;"	m	struct:GQE::TAssetHandler::typeAssetData
+loadTime	include/GQE/Core/interfaces/TAssetHandler.hpp	/^        AssetLoadTime  loadTime;  \/\/\/< Load time (Now, later)$/;"	m	struct:GQE::TAssetHandler::typeAssetData
+loaded	include/GQE/Core/interfaces/TAssetHandler.hpp	/^        bool           loaded;    \/\/\/< Is the Asset currently loaded?$/;"	m	struct:GQE::TAssetHandler::typeAssetData
+logMessage	src/GQE/Core/loggers/FileLogger.cpp	/^  void FileLogger::logMessage(SeverityType theSeverity,$/;"	f	class:GQE::FileLogger
+logMessage	src/GQE/Core/loggers/FileLogger.cpp	/^  void FileLogger::logMessage(const char* theMessage)$/;"	f	class:GQE::FileLogger
+logMessage	src/GQE/Core/loggers/ScopeLogger.cpp	/^  void ScopeLogger::logMessage(SeverityType theSeverity,$/;"	f	class:GQE::ScopeLogger
+logMessage	src/GQE/Core/loggers/ScopeLogger.cpp	/^  void ScopeLogger::logMessage(const char* theMessage)$/;"	f	class:GQE::ScopeLogger
+logMessage	src/GQE/Core/loggers/StringLogger.cpp	/^  void StringLogger::logMessage(SeverityType theSeverity,$/;"	f	class:GQE::StringLogger
+logMessage	src/GQE/Core/loggers/StringLogger.cpp	/^  void StringLogger::logMessage(const char* theMessage)$/;"	f	class:GQE::StringLogger
+mActionID	include/GQE/Entity/interfaces/IAction.hpp	/^      const typeActionID mActionID;$/;"	m	class:GQE::IAction
+mActionSystem	include/GQE/Entity/classes/ActionGroup.hpp	/^      ActionSystem* mActionSystem;$/;"	m	class:GQE::ActionGroup
+mActions	include/GQE/Entity/systems/ActionSystem.hpp	/^      std::map<const typeActionID, IAction*> mActions;$/;"	m	class:GQE::ActionSystem
+mActive	include/GQE/Core/interfaces/ILogger.hpp	/^      bool  mActive;$/;"	m	class:GQE::ILogger
+mActive	include/GQE/Entity/classes/ActionGroup.hpp	/^      std::map<const typeActionID, IAction*> mActive;$/;"	m	class:GQE::ActionGroup
+mApp	include/GQE/Core/classes/StatManager.hpp	/^      IApp*       mApp;$/;"	m	class:GQE::StatManager
+mApp	include/GQE/Core/classes/StateManager.hpp	/^      IApp*                 mApp;$/;"	m	class:GQE::StateManager
+mApp	include/GQE/Core/interfaces/IState.hpp	/^      IApp&                 mApp;$/;"	m	class:GQE::IState
+mApp	include/GQE/Entity/interfaces/ISystem.hpp	/^      IApp& mApp;$/;"	m	class:GQE::ISystem
+mAssetHandlerID	include/GQE/Core/interfaces/IAssetHandler.hpp	/^      const typeAssetHandlerID mAssetHandlerID;$/;"	m	class:GQE::IAssetHandler
+mAssetHandler	include/GQE/Core/interfaces/TAsset.hpp	/^      TAssetHandler<TYPE>& mAssetHandler;$/;"	m	class:GQE::TAsset
+mAssetID	include/GQE/Core/interfaces/TAsset.hpp	/^      typeAssetID          mAssetID;$/;"	m	class:GQE::TAsset
+mAssetManager	include/GQE/Core/interfaces/IApp.hpp	/^      AssetManager              mAssetManager;$/;"	m	class:GQE::IApp
+mAsset	include/GQE/Core/interfaces/TAsset.hpp	/^      TYPE*                mAsset;$/;"	m	class:GQE::TAsset
+mAssets	include/GQE/Core/interfaces/TAssetHandler.hpp	/^      std::map<const typeAssetID, typeAssetData> mAssets;$/;"	m	class:GQE::TAssetHandler
+mBackgroundSprite	examples/spacedots/src/GameState.hpp	/^    sf::Sprite      mBackgroundSprite;$/;"	m	class:GameState
+mBackgroundSprite	examples/tictactoe/src/GameState.hpp	/^    sf::Sprite      mBackgroundSprite;$/;"	m	class:GameState
+mBackground	examples/spacedots/src/GameState.hpp	/^    GQE::ImageAsset mBackground;$/;"	m	class:GameState
+mBackground	examples/tictactoe/src/GameState.hpp	/^    GQE::ImageAsset mBackground;$/;"	m	class:GameState
+mBlueGainSound	examples/spacedots/src/GameState.hpp	/^    sf::Sound       mBlueGainSound;$/;"	m	class:GameState
+mBlueGain	examples/spacedots/src/GameState.hpp	/^    GQE::SoundAsset mBlueGain;$/;"	m	class:GameState
+mBlueHorizontal	examples/spacedots/src/GameState.hpp	/^    GQE::ImageAsset mBlueHorizontal;$/;"	m	class:GameState
+mBlueSquare	examples/spacedots/src/GameState.hpp	/^    GQE::ImageAsset mBlueSquare;$/;"	m	class:GameState
+mBlueVertical	examples/spacedots/src/GameState.hpp	/^    GQE::ImageAsset mBlueVertical;$/;"	m	class:GameState
+mBlueWinSound	examples/spacedots/src/GameState.hpp	/^    sf::Sound       mBlueWinSound;$/;"	m	class:GameState
+mBlueWin	examples/spacedots/src/GameState.hpp	/^    GQE::SoundAsset mBlueWin;$/;"	m	class:GameState
+mBlueWinner	examples/spacedots/src/GameState.hpp	/^    GQE::ImageAsset mBlueWinner;$/;"	m	class:GameState
+mBoardPlayer	examples/spacedots/src/GameState.hpp	/^    GQE::Uint8      mBoardPlayer[20][20];$/;"	m	class:GameState
+mBoardPlayer	examples/tictactoe/src/GameState.hpp	/^    GQE::Uint8      mBoardPlayer[3][3];$/;"	m	class:GameState
+mBoardSprite	examples/tictactoe/src/GameState.hpp	/^    sf::Sprite      mBoardSprite[3][3];$/;"	m	class:GameState
+mBoardSprites	examples/spacedots/src/GameState.hpp	/^    sf::Sprite      mBoardSprites[20][20];$/;"	m	class:GameState
+mCleanupEvents	include/GQE/Core/classes/StateManager.hpp	/^      EventManager          mCleanupEvents;$/;"	m	class:GQE::StateManager
+mCleanup	include/GQE/Core/interfaces/IState.hpp	/^      bool                  mCleanup;$/;"	m	class:GQE::IState
+mCleanup	include/GQE/Entity/classes/Prototype.hpp	/^      std::vector<Instance*> mCleanup;$/;"	m	class:GQE::Prototype
+mContextSettings	include/GQE/Core/interfaces/IApp.hpp	/^      sf::ContextSettings       mContextSettings;$/;"	m	class:GQE::IApp
+mCorner	examples/spacedots/src/GameState.hpp	/^    GQE::ImageAsset mCorner;$/;"	m	class:GameState
+mCurrentPlayer	examples/spacedots/src/GameState.hpp	/^    GQE::Uint8      mCurrentPlayer;$/;"	m	class:GameState
+mCurrentPlayer	examples/tictactoe/src/GameState.hpp	/^    GQE::Uint8      mCurrentPlayer;$/;"	m	class:GameState
+mCursor	examples/tictactoe/src/GameState.hpp	/^    sf::Sprite      mCursor;$/;"	m	class:GameState
+mDead	include/GQE/Core/classes/StateManager.hpp	/^      std::vector<IState*>  mDead;$/;"	m	class:GQE::StateManager
+mDefaultFont	include/GQE/Core/classes/StatManager.hpp	/^      sf::Font    mDefaultFont;$/;"	m	class:GQE::StatManager
+mDisabled	include/GQE/Entity/classes/ActionGroup.hpp	/^      std::map<const typeActionID, IAction*> mDisabled;$/;"	m	class:GQE::ActionGroup
+mDummyAsset	include/GQE/Core/interfaces/TAssetHandler.hpp	/^      TYPE mDummyAsset;$/;"	m	class:GQE::TAssetHandler
+mElapsedClock	include/GQE/Core/interfaces/IState.hpp	/^      sf::Clock             mElapsedClock;$/;"	m	class:GQE::IState
+mElapsedTime	include/GQE/Core/interfaces/IState.hpp	/^      float                 mElapsedTime;$/;"	m	class:GQE::IState
+mEmptyHorizontal	examples/spacedots/src/GameState.hpp	/^    GQE::ImageAsset mEmptyHorizontal;$/;"	m	class:GameState
+mEmptySquare	examples/spacedots/src/GameState.hpp	/^    GQE::ImageAsset mEmptySquare;$/;"	m	class:GameState
+mEmptyVertical	examples/spacedots/src/GameState.hpp	/^    GQE::ImageAsset mEmptyVertical;$/;"	m	class:GameState
+mEmpty	examples/tictactoe/src/GameState.hpp	/^    GQE::ImageAsset mEmpty;$/;"	m	class:GameState
+mEntities	include/GQE/Entity/interfaces/ISystem.hpp	/^      std::map<const Uint32, std::deque<IEntity*> > mEntities;$/;"	m	class:GQE::ISystem
+mEntityID	include/GQE/Entity/interfaces/IEntity.hpp	/^      const typeEntityID  mEntityID;$/;"	m	class:GQE::IEntity
+mEventClass	include/GQE/Core/interfaces/TEvent.hpp	/^      TCLASS&       mEventClass;$/;"	m	class:GQE::TEvent
+mEventFunc	include/GQE/Core/interfaces/TEvent.hpp	/^      typeEventFunc mEventFunc;$/;"	m	class:GQE::TEvent
+mEventID	include/GQE/Core/interfaces/IEvent.hpp	/^      const typeEventID mEventID;$/;"	m	class:GQE::IEvent
+mExitCode	include/GQE/Core/interfaces/IApp.hpp	/^      int          mExitCode;$/;"	m	class:GQE::IApp
+mExitCode	include/GQE/Core/interfaces/ILogger.hpp	/^      int mExitCode;$/;"	m	class:GQE::ILogger
+mFPS	include/GQE/Core/classes/StatManager.hpp	/^      sf::String* mFPS;$/;"	m	class:GQE::StatManager
+mFPS	include/GQE/Core/classes/StatManager.hpp	/^      sf::Text*   mFPS;$/;"	m	class:GQE::StatManager
+mFileStream	include/GQE/Core/loggers/FileLogger.hpp	/^      std::ofstream     mFileStream;$/;"	m	class:GQE::FileLogger
+mFrameClock	include/GQE/Core/classes/StatManager.hpp	/^      sf::Clock   mFrameClock;$/;"	m	class:GQE::StatManager
+mFrames	include/GQE/Core/classes/StatManager.hpp	/^      Uint32      mFrames;$/;"	m	class:GQE::StatManager
+mGraphicRange	include/GQE/Core/interfaces/IApp.hpp	/^      GraphicRange              mGraphicRange;$/;"	m	class:GQE::IApp
+mHandlers	include/GQE/Core/classes/AssetManager.hpp	/^      std::map<const typeAssetHandlerID, IAssetHandler*> mHandlers;$/;"	m	class:GQE::AssetManager
+mInit	include/GQE/Core/interfaces/IState.hpp	/^      bool                  mInit;$/;"	m	class:GQE::IState
+mInput	include/GQE/Core/interfaces/IApp.hpp	/^      const sf::Input&          mInput;$/;"	m	class:GQE::IApp
+mInstances	include/GQE/Entity/classes/Prototype.hpp	/^      std::map<const typeEntityID, Instance*> mInstances;$/;"	m	class:GQE::Prototype
+mLightsaberSound	examples/spacedots/src/GameState.hpp	/^    sf::Sound       mLightsaberSound;$/;"	m	class:GameState
+mLightsaber	examples/spacedots/src/GameState.hpp	/^    GQE::SoundAsset mLightsaber;$/;"	m	class:GameState
+mList	include/GQE/Core/classes/EventManager.hpp	/^      std::map<const typeEventID, IEvent*> mList;$/;"	m	class:GQE::EventManager
+mList	include/GQE/Core/classes/PropertyManager.hpp	/^      std::map<const typePropertyID, IProperty*> mList;$/;"	m	class:GQE::PropertyManager
+mMaxUpdates	include/GQE/Core/interfaces/IApp.hpp	/^      Uint32       mMaxUpdates;$/;"	m	class:GQE::IApp
+mName	include/GQE/Core/interfaces/IEvent.hpp	/^          std::string mName;$/;"	m	class:GQE::IEvent::Type_t
+mName	include/GQE/Core/interfaces/IProperty.hpp	/^          std::string mName;$/;"	m	class:GQE::IProperty::Type_t
+mNextID	include/GQE/Entity/interfaces/IEntity.hpp	/^      static typeEntityID mNextID;$/;"	m	class:GQE::IEntity
+mNextID	src/GQE/Entity/interfaces/IEntity.cpp	/^  typeEntityID IEntity::mNextID = 0; \/\/ Start with 0$/;"	m	class:GQE::IEntity	file:
+mOrder	include/GQE/Entity/interfaces/IEntity.hpp	/^      Uint32              mOrder;$/;"	m	class:GQE::IEntity
+mPausedClock	include/GQE/Core/interfaces/IState.hpp	/^      sf::Clock             mPausedClock;$/;"	m	class:GQE::IState
+mPausedTime	include/GQE/Core/interfaces/IState.hpp	/^      float                 mPausedTime;$/;"	m	class:GQE::IState
+mPaused	include/GQE/Core/interfaces/IState.hpp	/^      bool                  mPaused;$/;"	m	class:GQE::IState
+mPlayer1	examples/tictactoe/src/GameState.hpp	/^    GQE::ImageAsset mPlayer1;$/;"	m	class:GameState
+mPlayer2	examples/tictactoe/src/GameState.hpp	/^    GQE::ImageAsset mPlayer2;$/;"	m	class:GameState
+mProperties	include/GQE/Core/interfaces/IApp.hpp	/^      PropertyManager           mProperties;$/;"	m	class:GQE::IApp
+mProperties	include/GQE/Entity/interfaces/IEntity.hpp	/^      PropertyManager mProperties;$/;"	m	class:GQE::IEntity
+mPropertyID	include/GQE/Core/interfaces/IProperty.hpp	/^      const typePropertyID mPropertyID;$/;"	m	class:GQE::IProperty
+mPrototypeID	include/GQE/Entity/classes/Prototype.hpp	/^      const typePrototypeID mPrototypeID;$/;"	m	class:GQE::Prototype
+mPrototype	include/GQE/Entity/classes/Instance.hpp	/^      Prototype& mPrototype;$/;"	m	class:GQE::Instance
+mPrototypes	include/GQE/Entity/classes/PrototypeManager.hpp	/^      std::map<const typePrototypeID, Prototype*> mPrototypes;$/;"	m	class:GQE::PrototypeManager
+mRedGainSound	examples/spacedots/src/GameState.hpp	/^    sf::Sound       mRedGainSound;$/;"	m	class:GameState
+mRedGain	examples/spacedots/src/GameState.hpp	/^    GQE::SoundAsset mRedGain;$/;"	m	class:GameState
+mRedHorizontal	examples/spacedots/src/GameState.hpp	/^    GQE::ImageAsset mRedHorizontal;$/;"	m	class:GameState
+mRedSquare	examples/spacedots/src/GameState.hpp	/^    GQE::ImageAsset mRedSquare;$/;"	m	class:GameState
+mRedVertical	examples/spacedots/src/GameState.hpp	/^    GQE::ImageAsset mRedVertical;$/;"	m	class:GameState
+mRedWinSound	examples/spacedots/src/GameState.hpp	/^    sf::Sound       mRedWinSound;$/;"	m	class:GameState
+mRedWin	examples/spacedots/src/GameState.hpp	/^    GQE::SoundAsset mRedWin;$/;"	m	class:GameState
+mRedWinner	examples/spacedots/src/GameState.hpp	/^    GQE::ImageAsset mRedWinner;$/;"	m	class:GameState
+mRunning	include/GQE/Core/interfaces/IApp.hpp	/^      bool         mRunning;$/;"	m	class:GQE::IApp
+mScopeName	include/GQE/Core/loggers/ScopeLogger.hpp	/^      const char* mScopeName;$/;"	m	class:GQE::ScopeLogger
+mSections	include/GQE/Core/classes/ConfigReader.hpp	/^      std::map<const std::string, typeNameValue*> mSections;$/;"	m	class:GQE::ConfigReader
+mSelectedCol	examples/spacedots/src/GameState.hpp	/^    GQE::Uint16     mSelectedCol;$/;"	m	class:GameState
+mSelectedRow	examples/spacedots/src/GameState.hpp	/^    GQE::Uint16     mSelectedRow;$/;"	m	class:GameState
+mSeverity	include/GQE/Core/loggers/ScopeLogger.hpp	/^      SeverityType mSeverity;$/;"	m	class:GQE::ScopeLogger
+mShow	include/GQE/Core/classes/StatManager.hpp	/^      bool        mShow;$/;"	m	class:GQE::StatManager
+mSourceFile	include/GQE/Core/loggers/ScopeLogger.hpp	/^      const char* mSourceFile;$/;"	m	class:GQE::ScopeLogger
+mSourceLine	include/GQE/Core/loggers/ScopeLogger.hpp	/^      int mSourceLine;$/;"	m	class:GQE::ScopeLogger
+mSplashDelay	include/GQE/Core/states/SplashState.hpp	/^      float               mSplashDelay;$/;"	m	class:GQE::SplashState
+mSplashFilename	include/GQE/Core/states/SplashState.hpp	/^      std::string         mSplashFilename;$/;"	m	class:GQE::SplashState
+mSplashID	include/GQE/Core/states/SplashState.hpp	/^      typeAssetID         mSplashID;$/;"	m	class:GQE::SplashState
+mSplashImage	include/GQE/Core/states/SplashState.hpp	/^      ImageAsset          mSplashImage;$/;"	m	class:GQE::SplashState
+mSplashSprite	include/GQE/Core/states/SplashState.hpp	/^      sf::Sprite          mSplashSprite;$/;"	m	class:GQE::SplashState
+mStack	include/GQE/Core/classes/StateManager.hpp	/^      std::vector<IState*>  mStack;$/;"	m	class:GQE::StateManager
+mStatManager	include/GQE/Core/interfaces/IApp.hpp	/^      StatManager               mStatManager;$/;"	m	class:GQE::IApp
+mStateID	include/GQE/Core/interfaces/IState.hpp	/^      const typeStateID     mStateID;$/;"	m	class:GQE::IState
+mStateManager	include/GQE/Core/interfaces/IApp.hpp	/^      StateManager              mStateManager;$/;"	m	class:GQE::IApp
+mStringStream	include/GQE/Core/loggers/StringLogger.hpp	/^      std::ostringstream mStringStream;$/;"	m	class:GQE::StringLogger
+mSystemID	include/GQE/Entity/interfaces/ISystem.hpp	/^      const typeSystemID mSystemID;$/;"	m	class:GQE::ISystem
+mSystemIDs	include/GQE/Entity/classes/Prototype.hpp	/^       std::vector<typeSystemID> mSystemIDs;$/;"	m	class:GQE::Prototype
+mSystems	include/GQE/Entity/interfaces/IEntity.hpp	/^      std::map<const typeSystemID, ISystem*> mSystems;$/;"	m	class:GQE::IEntity
+mTitle	include/GQE/Core/interfaces/IApp.hpp	/^      std::string               mTitle;$/;"	m	class:GQE::IApp
+mType	include/GQE/Core/interfaces/IEvent.hpp	/^      Type_t mType;$/;"	m	class:GQE::IEvent
+mType	include/GQE/Core/interfaces/IProperty.hpp	/^      Type_t mType;$/;"	m	class:GQE::IProperty
+mUPS	include/GQE/Core/classes/StatManager.hpp	/^      sf::String* mUPS;$/;"	m	class:GQE::StatManager
+mUPS	include/GQE/Core/classes/StatManager.hpp	/^      sf::Text*   mUPS;$/;"	m	class:GQE::StatManager
+mUpdateClock	include/GQE/Core/classes/StatManager.hpp	/^      sf::Clock   mUpdateClock;$/;"	m	class:GQE::StatManager
+mUpdateRate	include/GQE/Core/interfaces/IApp.hpp	/^      float        mUpdateRate;$/;"	m	class:GQE::IApp
+mUpdateRate	include/GQE/Core/interfaces/IApp.hpp	/^      sf::Int32    mUpdateRate;$/;"	m	class:GQE::IApp
+mUpdates	include/GQE/Core/classes/StatManager.hpp	/^      Uint32      mUpdates;$/;"	m	class:GQE::StatManager
+mValue	include/GQE/Core/interfaces/TProperty.hpp	/^      TYPE mValue;$/;"	m	class:GQE::TProperty
+mVideoMode	include/GQE/Core/interfaces/IApp.hpp	/^      sf::VideoMode             mVideoMode;$/;"	m	class:GQE::IApp
+mWinFont	examples/spacedots/src/GameState.hpp	/^    GQE::FontAsset  mWinFont;$/;"	m	class:GameState
+mWinFont	examples/tictactoe/src/GameState.hpp	/^    GQE::FontAsset  mWinFont;$/;"	m	class:GameState
+mWindowSettings	include/GQE/Core/interfaces/IApp.hpp	/^      sf::WindowSettings        mWindowSettings;$/;"	m	class:GQE::IApp
+mWindowStyle	include/GQE/Core/interfaces/IApp.hpp	/^      sf::UInt32             mWindowStyle;$/;"	m	class:GQE::IApp
+mWindow	include/GQE/Core/interfaces/IApp.hpp	/^      sf::RenderWindow          mWindow;$/;"	m	class:GQE::IApp
+mWinnerSprite	examples/spacedots/src/GameState.hpp	/^    sf::Sprite      mWinnerSprite;$/;"	m	class:GameState
+mWinnerText	examples/spacedots/src/GameState.hpp	/^    sf::String*     mWinnerText;$/;"	m	class:GameState
+mWinnerText	examples/spacedots/src/GameState.hpp	/^    sf::Text*       mWinnerText;$/;"	m	class:GameState
+mWinnerText	examples/tictactoe/src/GameState.hpp	/^    sf::String*     mWinnerText;$/;"	m	class:GameState
+mWinnerText	examples/tictactoe/src/GameState.hpp	/^    sf::Text*       mWinnerText;$/;"	m	class:GameState
+main	examples/spacedots/src/main.cpp	/^int main(int argc, char* argv[])$/;"	f
+main	examples/tictactoe/src/main.cpp	/^int main(int argc, char* argv[])$/;"	f
+makeClone	include/GQE/Core/interfaces/TProperty.hpp	/^      IProperty* makeClone()$/;"	f	class:GQE::TProperty
+makeInstance	src/GQE/Entity/classes/Prototype.cpp	/^  Instance* Prototype::makeInstance()$/;"	f	class:GQE::Prototype
+name	include/GQE/Core/interfaces/IEvent.hpp	/^          std::string name() const$/;"	f	class:GQE::IEvent::Type_t
+name	include/GQE/Core/interfaces/IProperty.hpp	/^          std::string name() const$/;"	f	class:GQE::IProperty::Type_t
+operator =	include/GQE/Core/interfaces/TAsset.hpp	/^      TAsset<TYPE>& operator=(TAsset<TYPE> theRight)$/;"	f	class:GQE::TAsset
+operator =	src/GQE/Core/classes/ConfigReader.cpp	/^  ConfigReader& ConfigReader::operator=(const ConfigReader& theRight)$/;"	f	class:GQE::ConfigReader
+parseBool	src/GQE/Core/utils/StringUtil.cpp	/^  bool parseBool(std::string theValue, const bool theDefault)$/;"	f	namespace:GQE
+parseColor	src/GQE/Core/utils/StringUtil.cpp	/^  sf::Color parseColor(const std::string theValue, const sf::Color theDefault)$/;"	f	namespace:GQE
+parseDouble	src/GQE/Core/utils/StringUtil.cpp	/^  double parseDouble(const std::string theValue, const double theDefault)$/;"	f	namespace:GQE
+parseFloat	src/GQE/Core/utils/StringUtil.cpp	/^  float parseFloat(const std::string theValue, const float theDefault)$/;"	f	namespace:GQE
+parseInt16	src/GQE/Core/utils/StringUtil.cpp	/^  Int16 parseInt16(const std::string theValue, const Int16 theDefault)$/;"	f	namespace:GQE
+parseInt32	src/GQE/Core/utils/StringUtil.cpp	/^  Int32 parseInt32(const std::string theValue, const Int32 theDefault)$/;"	f	namespace:GQE
+parseInt64	src/GQE/Core/utils/StringUtil.cpp	/^  Int64 parseInt64(const std::string theValue, const Int64 theDefault)$/;"	f	namespace:GQE
+parseInt8	src/GQE/Core/utils/StringUtil.cpp	/^  Int8 parseInt8(const std::string theValue, const Int8 theDefault)$/;"	f	namespace:GQE
+parseIntRect	src/GQE/Core/utils/StringUtil.cpp	/^  sf::IntRect parseIntRect(const std::string theValue, const sf::IntRect theDefault)$/;"	f	namespace:GQE
+parseLine	src/GQE/Core/classes/ConfigReader.cpp	/^  std::string ConfigReader::parseLine(const char* theLine,$/;"	f	class:GQE::ConfigReader
+parseUint16	src/GQE/Core/utils/StringUtil.cpp	/^  Uint16 parseUint16(const std::string theValue, const Uint16 theDefault)$/;"	f	namespace:GQE
+parseUint32	src/GQE/Core/utils/StringUtil.cpp	/^  Uint32 parseUint32(const std::string theValue, const Uint32 theDefault)$/;"	f	namespace:GQE
+parseUint64	src/GQE/Core/utils/StringUtil.cpp	/^  Uint64 parseUint64(const std::string theValue, const Uint64 theDefault)$/;"	f	namespace:GQE
+parseUint8	src/GQE/Core/utils/StringUtil.cpp	/^  Uint8 parseUint8(const std::string theValue, const Uint8 theDefault)$/;"	f	namespace:GQE
+parseVector2f	src/GQE/Core/utils/StringUtil.cpp	/^  sf::Vector2f parseVector2f(const std::string theValue, const sf::Vector2f theDefault)$/;"	f	namespace:GQE
+parseVector2i	src/GQE/Core/utils/StringUtil.cpp	/^  sf::Vector2i parseVector2i(const std::string theValue, const sf::Vector2i theDefault)$/;"	f	namespace:GQE
+parseVector2u	src/GQE/Core/utils/StringUtil.cpp	/^  sf::Vector2u parseVector2u(const std::string theValue, const sf::Vector2u theDefault)$/;"	f	namespace:GQE
+parseVector3f	src/GQE/Core/utils/StringUtil.cpp	/^  sf::Vector3f parseVector3f(const std::string theValue, const sf::Vector3f theDefault)$/;"	f	namespace:GQE
+parseVector3i	src/GQE/Core/utils/StringUtil.cpp	/^  sf::Vector3i parseVector3i(const std::string theValue, const sf::Vector3i theDefault)$/;"	f	namespace:GQE
+pause	src/GQE/Core/interfaces/IState.cpp	/^  void IState::pause(void)$/;"	f	class:GQE::IState
+processArguments	src/GQE/Core/interfaces/IApp.cpp	/^  void IApp::processArguments(int argc, char* argv[])$/;"	f	class:GQE::IApp
+processInput	src/GQE/Core/interfaces/IApp.cpp	/^  void IApp::processInput(IState& theState)$/;"	f	class:GQE::IApp
+quit	src/GQE/Core/interfaces/IApp.cpp	/^  void IApp::quit(int theExitCode)$/;"	f	class:GQE::IApp
+reInit	examples/spacedots/src/GameState.cpp	/^void GameState::reInit(void)$/;"	f	class:GameState
+reInit	examples/tictactoe/src/GameState.cpp	/^void GameState::reInit(void)$/;"	f	class:GameState
+reInit	src/GQE/Core/states/SplashState.cpp	/^  void SplashState::reInit(void)$/;"	f	class:GQE::SplashState
+registerApp	src/GQE/Core/classes/StatManager.cpp	/^  void StatManager::registerApp(IApp* theApp)$/;"	f	class:GQE::StatManager
+registerApp	src/GQE/Core/classes/StateManager.cpp	/^  void StateManager::registerApp(IApp* theApp)$/;"	f	class:GQE::StateManager
+registerHandler	src/GQE/Core/classes/AssetManager.cpp	/^  void AssetManager::registerHandler(IAssetHandler* theAssetHandler)$/;"	f	class:GQE::AssetManager
+releaseAsset	include/GQE/Core/interfaces/TAssetHandler.hpp	/^      virtual void releaseAsset(const typeAssetID theAssetID, TYPE* theAsset)$/;"	f	class:GQE::TAssetHandler
+removeActiveState	src/GQE/Core/classes/StateManager.cpp	/^  void StateManager::removeActiveState(void)$/;"	f	class:GQE::StateManager
+resetActiveState	src/GQE/Core/classes/StateManager.cpp	/^  void StateManager::resetActiveState(void)$/;"	f	class:GQE::StateManager
+resume	src/GQE/Core/interfaces/IState.cpp	/^  void IState::resume(void)$/;"	f	class:GQE::IState
+run	src/GQE/Core/interfaces/IApp.cpp	/^  int IApp::run(void)$/;"	f	class:GQE::IApp
+selectEdge	examples/spacedots/src/GameState.cpp	/^void GameState::selectEdge(void)$/;"	f	class:GameState
+setActionSystem	src/GQE/Entity/classes/ActionGroup.cpp	/^  void ActionGroup::setActionSystem(ActionSystem* theActionSystem)$/;"	f	class:GQE::ActionGroup
+setActiveState	src/GQE/Core/classes/StateManager.cpp	/^  void StateManager::setActiveState(typeStateID theStateID)$/;"	f	class:GQE::StateManager
+setActive	src/GQE/Core/interfaces/ILogger.cpp	/^  void ILogger::setActive(bool theActive)$/;"	f	class:GQE::ILogger
+setDropTime	include/GQE/Core/interfaces/TAsset.hpp	/^      void setDropTime(AssetDropTime theDropTime)$/;"	f	class:GQE::TAsset
+setDropTime	include/GQE/Core/interfaces/TAssetHandler.hpp	/^      virtual void setDropTime(const typeAssetID theAssetID,$/;"	f	class:GQE::TAssetHandler
+setFilename	include/GQE/Core/interfaces/TAsset.hpp	/^      void setFilename(std::string theFilename)$/;"	f	class:GQE::TAsset
+setFilename	include/GQE/Core/interfaces/TAssetHandler.hpp	/^      virtual void setFilename(const typeAssetID theAssetID, std::string theFilename)$/;"	f	class:GQE::TAssetHandler
+setGraphicRange	src/GQE/Core/interfaces/IApp.cpp	/^  void IApp::setGraphicRange(const GraphicRange theGraphicRange)$/;"	f	class:GQE::IApp
+setID	include/GQE/Core/interfaces/TAsset.hpp	/^      void setID(const typeAssetID theAssetID,$/;"	f	class:GQE::TAsset
+setLoadStyle	include/GQE/Core/interfaces/TAssetHandler.hpp	/^      void setLoadStyle(const typeAssetID theAssetID, AssetLoadStyle theLoadStyle)$/;"	f	class:GQE::TAssetHandler
+setLoadTime	include/GQE/Core/interfaces/TAsset.hpp	/^      void setLoadTime(AssetLoadStyle theLoadStyle)$/;"	f	class:GQE::TAsset
+setLoadTime	include/GQE/Core/interfaces/TAsset.hpp	/^      void setLoadTime(AssetLoadTime theLoadTime)$/;"	f	class:GQE::TAsset
+setLoadTime	include/GQE/Core/interfaces/TAssetHandler.hpp	/^      virtual void setLoadTime(const typeAssetID theAssetID, AssetLoadTime theLoadTime)$/;"	f	class:GQE::TAssetHandler
+setMaxUpdates	src/GQE/Core/interfaces/IApp.cpp	/^  void IApp::setMaxUpdates(Uint32 theMaxUpdates)$/;"	f	class:GQE::IApp
+setOrder	src/GQE/Entity/interfaces/IEntity.cpp	/^  void IEntity::setOrder(const Uint32 theOrder)$/;"	f	class:GQE::IEntity
+setShow	src/GQE/Core/classes/StatManager.cpp	/^  void StatManager::setShow(bool theShow)$/;"	f	class:GQE::StatManager
+setType	src/GQE/Core/interfaces/IEvent.cpp	/^  void IEvent::setType(std::string theType)$/;"	f	class:GQE::IEvent
+setType	src/GQE/Core/interfaces/IProperty.cpp	/^  void IProperty::setType(std::string theType)$/;"	f	class:GQE::IProperty
+setUpdateRate	src/GQE/Core/interfaces/IApp.cpp	/^  void IApp::setUpdateRate(float theRate)$/;"	f	class:GQE::IApp
+setValue	include/GQE/Core/interfaces/TProperty.hpp	/^      void setValue(TYPE& theValue)$/;"	f	class:GQE::TProperty
+set	include/GQE/Core/classes/PropertyManager.hpp	/^      void set(const typePropertyID thePropertyID, TYPE theValue)$/;"	f	class:GQE::PropertyManager
+sf	include/GQE/Core/utils/StringUtil.hpp	/^namespace sf$/;"	n
+storeNameValue	src/GQE/Core/classes/ConfigReader.cpp	/^  void ConfigReader::storeNameValue(const std::string theSection,$/;"	f	class:GQE::ConfigReader
+swap	include/GQE/Core/interfaces/TAsset.hpp	/^      friend void swap(TAsset& first, TAsset& second)$/;"	f	class:GQE::TAsset
+typeActionID	include/GQE/Entity/Entity_types.hpp	/^  typedef std::string typeActionID;$/;"	t	namespace:GQE
+typeAssetData	include/GQE/Core/interfaces/TAssetHandler.hpp	/^      struct typeAssetData {$/;"	s	class:GQE::TAssetHandler
+typeAssetHandlerID	include/GQE/Core/Core_types.hpp	/^  typedef std::string typeAssetHandlerID;$/;"	t	namespace:GQE
+typeAssetID	include/GQE/Core/Core_types.hpp	/^  typedef std::string typeAssetID;$/;"	t	namespace:GQE
+typeEntityID	include/GQE/Entity/Entity_types.hpp	/^  typedef Uint32 typeEntityID;$/;"	t	namespace:GQE
+typeEventFunc	include/GQE/Core/interfaces/TEvent.hpp	/^      typedef void (TCLASS::*typeEventFunc)(TCONTEXT* theContext);$/;"	t	class:GQE::TEvent
+typeEventID	include/GQE/Core/Core_types.hpp	/^  typedef std::string typeEventID;$/;"	t	namespace:GQE
+typeNameValueIter	include/GQE/Core/Core_types.hpp	/^  typedef std::map<const std::string, const std::string>::iterator typeNameValueIter;$/;"	t	namespace:GQE
+typeNameValue	include/GQE/Core/Core_types.hpp	/^  typedef std::map<const std::string, const std::string> typeNameValue;$/;"	t	namespace:GQE
+typePropertyID	include/GQE/Core/Core_types.hpp	/^  typedef std::string typePropertyID;$/;"	t	namespace:GQE
+typePrototypeID	include/GQE/Entity/Entity_types.hpp	/^  typedef std::string typePrototypeID;$/;"	t	namespace:GQE
+typeStateID	include/GQE/Core/Core_types.hpp	/^  typedef std::string typeStateID;$/;"	t	namespace:GQE
+typeSystemID	include/GQE/Entity/Entity_types.hpp	/^  typedef std::string typeSystemID;$/;"	t	namespace:GQE
+uint16_t	extlibs/msvc/stdint.h	/^   typedef unsigned __int16  uint16_t;$/;"	t
+uint16_t	extlibs/msvc/stdint.h	/^   typedef unsigned short    uint16_t;$/;"	t
+uint32_t	extlibs/msvc/stdint.h	/^   typedef unsigned __int32  uint32_t;$/;"	t
+uint32_t	extlibs/msvc/stdint.h	/^   typedef unsigned int      uint32_t;$/;"	t
+uint64_t	extlibs/msvc/stdint.h	/^typedef unsigned __int64     uint64_t;$/;"	t
+uint8_t	extlibs/msvc/stdint.h	/^   typedef unsigned __int8   uint8_t;$/;"	t
+uint8_t	extlibs/msvc/stdint.h	/^   typedef unsigned char     uint8_t;$/;"	t
+uint_fast16_t	extlibs/msvc/stdint.h	/^typedef uint16_t  uint_fast16_t;$/;"	t
+uint_fast32_t	extlibs/msvc/stdint.h	/^typedef uint32_t  uint_fast32_t;$/;"	t
+uint_fast64_t	extlibs/msvc/stdint.h	/^typedef uint64_t  uint_fast64_t;$/;"	t
+uint_fast8_t	extlibs/msvc/stdint.h	/^typedef uint8_t   uint_fast8_t;$/;"	t
+uint_least16_t	extlibs/msvc/stdint.h	/^typedef uint16_t  uint_least16_t;$/;"	t
+uint_least32_t	extlibs/msvc/stdint.h	/^typedef uint32_t  uint_least32_t;$/;"	t
+uint_least64_t	extlibs/msvc/stdint.h	/^typedef uint64_t  uint_least64_t;$/;"	t
+uint_least8_t	extlibs/msvc/stdint.h	/^typedef uint8_t   uint_least8_t;$/;"	t
+uintmax_t	extlibs/msvc/stdint.h	/^typedef uint64_t  uintmax_t;$/;"	t
+uintptr_t	extlibs/msvc/stdint.h	/^   typedef _W64 unsigned int uintptr_t;$/;"	t
+uintptr_t	extlibs/msvc/stdint.h	/^   typedef unsigned __int64  uintptr_t;$/;"	t
+updateFixed	examples/spacedots/src/GameState.cpp	/^void GameState::updateFixed(void)$/;"	f	class:GameState
+updateFixed	examples/tictactoe/src/GameState.cpp	/^void GameState::updateFixed(void)$/;"	f	class:GameState
+updateFixed	src/GQE/Core/classes/StatManager.cpp	/^  void StatManager::updateFixed(void)$/;"	f	class:GQE::StatManager
+updateFixed	src/GQE/Core/states/SplashState.cpp	/^  void SplashState::updateFixed(void)$/;"	f	class:GQE::SplashState
+updateFixed	src/GQE/Entity/systems/ActionSystem.cpp	/^  void ActionSystem::updateFixed()$/;"	f	class:GQE::ActionSystem
+updateFixed	src/GQE/Entity/systems/AnimationSystem.cpp	/^  void AnimationSystem::updateFixed()$/;"	f	class:GQE::AnimationSystem
+updateFixed	src/GQE/Entity/systems/MovementSystem.cpp	/^  void MovementSystem::updateFixed()$/;"	f	class:GQE::MovementSystem
+updateFixed	src/GQE/Entity/systems/RenderSystem.cpp	/^  void RenderSystem::updateFixed()$/;"	f	class:GQE::RenderSystem
+updateSelected	examples/spacedots/src/GameState.cpp	/^void GameState::updateSelected(sf::Event theEvent)$/;"	f	class:GameState
+updateVariable	examples/spacedots/src/GameState.cpp	/^void GameState::updateVariable(float theElapsedTime)$/;"	f	class:GameState
+updateVariable	examples/tictactoe/src/GameState.cpp	/^void GameState::updateVariable(float theElapsedTime)$/;"	f	class:GameState
+updateVariable	src/GQE/Core/states/SplashState.cpp	/^  void SplashState::updateVariable(float theElapsedTime)$/;"	f	class:GQE::SplashState
+updateVariable	src/GQE/Entity/systems/ActionSystem.cpp	/^  void ActionSystem::updateVariable(float theElaspedTime)$/;"	f	class:GQE::ActionSystem
+updateVariable	src/GQE/Entity/systems/AnimationSystem.cpp	/^  void AnimationSystem::updateVariable(float theElapsedTime)$/;"	f	class:GQE::AnimationSystem
+updateVariable	src/GQE/Entity/systems/MovementSystem.cpp	/^  void MovementSystem::updateVariable(float theElapsedTime)$/;"	f	class:GQE::MovementSystem
+updateVariable	src/GQE/Entity/systems/RenderSystem.cpp	/^  void RenderSystem::updateVariable(float theElapsedTime)$/;"	f	class:GQE::RenderSystem
+update	include/GQE/Core/interfaces/TProperty.hpp	/^      void update()$/;"	f	class:GQE::TProperty
+useNextID	src/GQE/Entity/interfaces/IEntity.cpp	/^  typeEntityID IEntity::useNextID()$/;"	f	class:GQE::IEntity
+writeTag	src/GQE/Core/interfaces/ILogger.cpp	/^  void ILogger::writeTag(std::ostream& theOstream, SeverityType theSeverity,$/;"	f	class:GQE::ILogger
+~ActionGroup	src/GQE/Entity/classes/ActionGroup.cpp	/^  ActionGroup::~ActionGroup()$/;"	f	class:GQE::ActionGroup
+~ActionSystem	src/GQE/Entity/systems/ActionSystem.cpp	/^  ActionSystem::~ActionSystem()$/;"	f	class:GQE::ActionSystem
+~AnimationSystem	src/GQE/Entity/systems/AnimationSystem.cpp	/^  AnimationSystem::~AnimationSystem()$/;"	f	class:GQE::AnimationSystem
+~AssetManager	src/GQE/Core/classes/AssetManager.cpp	/^  AssetManager::~AssetManager()$/;"	f	class:GQE::AssetManager
+~ConfigAsset	src/GQE/Core/assets/ConfigAsset.cpp	/^  ConfigAsset::~ConfigAsset()$/;"	f	class:GQE::ConfigAsset
+~ConfigHandler	src/GQE/Core/assets/ConfigHandler.cpp	/^  ConfigHandler::~ConfigHandler()$/;"	f	class:GQE::ConfigHandler
+~ConfigReader	src/GQE/Core/classes/ConfigReader.cpp	/^  ConfigReader::~ConfigReader()$/;"	f	class:GQE::ConfigReader
+~EventManager	src/GQE/Core/classes/EventManager.cpp	/^  EventManager::~EventManager()$/;"	f	class:GQE::EventManager
+~FatalLogger	src/GQE/Core/loggers/FatalLogger.cpp	/^  FatalLogger::~FatalLogger()$/;"	f	class:GQE::FatalLogger
+~FileLogger	src/GQE/Core/loggers/FileLogger.cpp	/^  FileLogger::~FileLogger()$/;"	f	class:GQE::FileLogger
+~FontAsset	src/GQE/Core/assets/FontAsset.cpp	/^  FontAsset::~FontAsset()$/;"	f	class:GQE::FontAsset
+~FontHandler	src/GQE/Core/assets/FontHandler.cpp	/^  FontHandler::~FontHandler()$/;"	f	class:GQE::FontHandler
+~GameState	examples/spacedots/src/GameState.cpp	/^GameState::~GameState(void)$/;"	f	class:GameState
+~GameState	examples/tictactoe/src/GameState.cpp	/^GameState::~GameState(void)$/;"	f	class:GameState
+~IAction	src/GQE/Entity/interfaces/IAction.cpp	/^  IAction::~IAction()$/;"	f	class:GQE::IAction
+~IApp	src/GQE/Core/interfaces/IApp.cpp	/^  IApp::~IApp()$/;"	f	class:GQE::IApp
+~IAssetHandler	src/GQE/Core/interfaces/IAssetHandler.cpp	/^  IAssetHandler::~IAssetHandler()$/;"	f	class:GQE::IAssetHandler
+~IEntity	src/GQE/Entity/interfaces/IEntity.cpp	/^  IEntity::~IEntity()$/;"	f	class:GQE::IEntity
+~IEvent	src/GQE/Core/interfaces/IEvent.cpp	/^  IEvent::~IEvent()$/;"	f	class:GQE::IEvent
+~ILogger	src/GQE/Core/interfaces/ILogger.cpp	/^  ILogger::~ILogger()$/;"	f	class:GQE::ILogger
+~IProperty	src/GQE/Core/interfaces/IProperty.cpp	/^  IProperty::~IProperty()$/;"	f	class:GQE::IProperty
+~IState	src/GQE/Core/interfaces/IState.cpp	/^  IState::~IState()$/;"	f	class:GQE::IState
+~ISystem	src/GQE/Entity/interfaces/ISystem.cpp	/^  ISystem::~ISystem()$/;"	f	class:GQE::ISystem
+~ImageAsset	src/GQE/Core/assets/ImageAsset.cpp	/^  ImageAsset::~ImageAsset()$/;"	f	class:GQE::ImageAsset
+~ImageHandler	src/GQE/Core/assets/ImageHandler.cpp	/^  ImageHandler::~ImageHandler()$/;"	f	class:GQE::ImageHandler
+~Instance	src/GQE/Entity/classes/Instance.cpp	/^  Instance::~Instance()$/;"	f	class:GQE::Instance
+~MovementSystem	src/GQE/Entity/systems/MovementSystem.cpp	/^  MovementSystem::~MovementSystem()$/;"	f	class:GQE::MovementSystem
+~MusicAsset	src/GQE/Core/assets/MusicAsset.cpp	/^  MusicAsset::~MusicAsset()$/;"	f	class:GQE::MusicAsset
+~MusicHandler	src/GQE/Core/assets/MusicHandler.cpp	/^  MusicHandler::~MusicHandler()$/;"	f	class:GQE::MusicHandler
+~PropertyManager	src/GQE/Core/classes/PropertyManager.cpp	/^  PropertyManager::~PropertyManager()$/;"	f	class:GQE::PropertyManager
+~PrototypeManager	src/GQE/Entity/classes/PrototypeManager.cpp	/^  PrototypeManager::~PrototypeManager()$/;"	f	class:GQE::PrototypeManager
+~Prototype	src/GQE/Entity/classes/Prototype.cpp	/^  Prototype::~Prototype()$/;"	f	class:GQE::Prototype
+~RenderSystem	src/GQE/Entity/systems/RenderSystem.cpp	/^  RenderSystem::~RenderSystem()$/;"	f	class:GQE::RenderSystem
+~ScopeLogger	src/GQE/Core/loggers/ScopeLogger.cpp	/^  ScopeLogger::~ScopeLogger()$/;"	f	class:GQE::ScopeLogger
+~SoundAsset	src/GQE/Core/assets/SoundAsset.cpp	/^  SoundAsset::~SoundAsset()$/;"	f	class:GQE::SoundAsset
+~SoundHandler	src/GQE/Core/assets/SoundHandler.cpp	/^  SoundHandler::~SoundHandler()$/;"	f	class:GQE::SoundHandler
+~SpaceDotsApp	examples/spacedots/src/SpaceDotsApp.cpp	/^SpaceDotsApp::~SpaceDotsApp()$/;"	f	class:SpaceDotsApp
+~SplashState	src/GQE/Core/states/SplashState.cpp	/^  SplashState::~SplashState(void)$/;"	f	class:GQE::SplashState
+~StatManager	src/GQE/Core/classes/StatManager.cpp	/^  StatManager::~StatManager()$/;"	f	class:GQE::StatManager
+~StateManager	src/GQE/Core/classes/StateManager.cpp	/^  StateManager::~StateManager()$/;"	f	class:GQE::StateManager
+~StringLogger	src/GQE/Core/loggers/StringLogger.cpp	/^  StringLogger::~StringLogger()$/;"	f	class:GQE::StringLogger
+~TAssetHandler	include/GQE/Core/interfaces/TAssetHandler.hpp	/^      virtual ~TAssetHandler()$/;"	f	class:GQE::TAssetHandler
+~TAsset	include/GQE/Core/interfaces/TAsset.hpp	/^      virtual ~TAsset()$/;"	f	class:GQE::TAsset
+~TicTacToeApp	examples/tictactoe/src/TicTacToeApp.cpp	/^TicTacToeApp::~TicTacToeApp()$/;"	f	class:TicTacToeApp
