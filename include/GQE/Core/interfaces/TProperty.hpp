@@ -36,7 +36,12 @@ namespace GQE
       {
         return mValue;
       }
-
+      ////////////////////////////////
+      TYPE& getReference()
+      {
+        return mValue;
+      }
+      ///////////////////////////=
       /**
        * SetValue will set the property value to the value
        * provided.
