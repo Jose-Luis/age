@@ -36,12 +36,14 @@ namespace GQE
       {
         return mValue;
       }
-      ////////////////////////////////
-      TYPE& getReference()
+      /**
+       * @brief getPointer 
+       * @return 
+       */
+      TYPE* getPointer()
       {
-        return mValue;
+        return &mValue;
       }
-      ///////////////////////////=
       /**
        * SetValue will set the property value to the value
        * provided.

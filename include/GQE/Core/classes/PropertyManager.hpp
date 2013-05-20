@@ -65,21 +65,23 @@ namespace GQE
         TYPE anReturn=TYPE();
         return anReturn;
       }
-///////// My oportation
+      /**
+       * @brief getPointer
+       * @tparam TYPE
+       * @param thePropertyID
+       * @return a pointer to the property value 
+       */
       template<class TYPE>
-      TYPE& getReference(const typePropertyID thePropertyID)
+      TYPE* getPointer(const typePropertyID thePropertyID)
       {
-        if(mList.find(thePropertyID) != mList.end())
-        {
-          if(mList.at(thePropertyID)->getType()->name() == typeid(TYPE).name())
-            return static_cast<TProperty<TYPE>*>(mList[thePropertyID])->getReference();
-        }
-        else
-        {
-          WLOG() << "PropertyManager:get() returning blank property("
-            << thePropertyID << ") type" << std::endl;
-        }
-        TYPE anReturn=TYPE();
+         TYPE* anReturn = NULL;
+         if(mList.at(thePropertyID)->getType()->name() == typeid(TYPE).name())
+            anReturn = static_cast<TProperty<TYPE>*>(mList[thePropertyID])->getPointer();
+         else
+         {
+            WLOG() << "PropertyManager:getPointer() returning a NULL pointer("
+               << thePropertyID << ") type" << std::endl;
+         }
         return anReturn;
       }
        /**

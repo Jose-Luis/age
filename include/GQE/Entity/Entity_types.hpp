@@ -45,6 +45,9 @@ namespace GQE
   typedef std::string typePrototypeID;
 
   /// Declare System ID typedef which is used for identifying ISystem objects
+  typedef std::string typeChildID;
+
+  /// Declare System ID typedef which is used for identifying ISystem objects
   typedef std::string typeSystemID;
 }
 #endif // ENTITY_TYPES_HPP_INCLUDED

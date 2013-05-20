@@ -220,7 +220,7 @@ IAssetHandler	src/GQE/Core/interfaces/IAssetHandler.cpp	/^  IAssetHandler::IAsse
 IENTITY_HPP_INCLUDED	include/GQE/Entity/interfaces/IEntity.hpp	17;"	d
 IEVENT_HPP_INCLUDED	include/GQE/Core/interfaces/IEvent.hpp	9;"	d
 IEntity	include/GQE/Entity/interfaces/IEntity.hpp	/^  class GQE_API IEntity$/;"	c	namespace:GQE
-IEntity	src/GQE/Entity/interfaces/IEntity.cpp	/^  IEntity::IEntity(const Uint32 theOrder) :$/;"	f	class:GQE::IEntity
+IEntity	src/GQE/Entity/interfaces/IEntity.cpp	/^  IEntity::IEntity(const Uint32 theOrder,IEntity* theFather) :$/;"	f	class:GQE::IEntity
 IEvent	include/GQE/Core/interfaces/IEvent.hpp	/^  class GQE_API IEvent$/;"	c	namespace:GQE
 IEvent	src/GQE/Core/interfaces/IEvent.cpp	/^  IEvent::IEvent(std::string theType, const typeEventID theEventID) :$/;"	f	class:GQE::IEvent
 ILOGM_IF	include/GQE/Core/loggers/Log_macros.hpp	101;"	d
@@ -547,6 +547,8 @@ getLoadTime	include/GQE/Core/interfaces/TAsset.hpp	/^      AssetLoadTime getLoad
 getLoadTime	include/GQE/Core/interfaces/TAssetHandler.hpp	/^      virtual AssetLoadTime getLoadTime(const typeAssetID theAssetID) const$/;"	f	class:GQE::TAssetHandler
 getLogger	src/GQE/Core/interfaces/ILogger.cpp	/^  ILogger* ILogger::getLogger(void)$/;"	f	class:GQE::ILogger
 getOrder	src/GQE/Entity/interfaces/IEntity.cpp	/^  const Uint32 IEntity::getOrder(void) const$/;"	f	class:GQE::IEntity
+getPointer	include/GQE/Core/classes/PropertyManager.hpp	/^      TYPE* getPointer(const typePropertyID thePropertyID)$/;"	f	class:GQE::PropertyManager
+getPointer	include/GQE/Core/interfaces/TProperty.hpp	/^      TYPE* getPointer()$/;"	f	class:GQE::TProperty
 getProperty	include/GQE/Core/classes/PropertyManager.hpp	/^      TProperty<TYPE>& getProperty(const typePropertyID thePropertyID)$/;"	f	class:GQE::PropertyManager
 getPrototype	src/GQE/Entity/classes/Instance.cpp	/^  Prototype& Instance::getPrototype()$/;"	f	class:GQE::Instance
 getPrototype	src/GQE/Entity/classes/PrototypeManager.cpp	/^  Prototype* PrototypeManager::getPrototype(const typePrototypeID thePrototypeID)$/;"	f	class:GQE::PrototypeManager
@@ -691,6 +693,7 @@ mBoardPlayer	examples/spacedots/src/GameState.hpp	/^    GQE::Uint8      mBoardPl
 mBoardPlayer	examples/tictactoe/src/GameState.hpp	/^    GQE::Uint8      mBoardPlayer[3][3];$/;"	m	class:GameState
 mBoardSprite	examples/tictactoe/src/GameState.hpp	/^    sf::Sprite      mBoardSprite[3][3];$/;"	m	class:GameState
 mBoardSprites	examples/spacedots/src/GameState.hpp	/^    sf::Sprite      mBoardSprites[20][20];$/;"	m	class:GameState
+mChildren	include/GQE/Entity/interfaces/IEntity.hpp	/^      std::map<const typeChildID, IEntity*> mChildren;$/;"	m	class:GQE::IEntity
 mCleanupEvents	include/GQE/Core/classes/StateManager.hpp	/^      EventManager          mCleanupEvents;$/;"	m	class:GQE::StateManager
 mCleanup	include/GQE/Core/interfaces/IState.hpp	/^      bool                  mCleanup;$/;"	m	class:GQE::IState
 mCleanup	include/GQE/Entity/classes/Prototype.hpp	/^      std::vector<Instance*> mCleanup;$/;"	m	class:GQE::Prototype
@@ -718,6 +721,7 @@ mExitCode	include/GQE/Core/interfaces/IApp.hpp	/^      int          mExitCode;$/
 mExitCode	include/GQE/Core/interfaces/ILogger.hpp	/^      int mExitCode;$/;"	m	class:GQE::ILogger
 mFPS	include/GQE/Core/classes/StatManager.hpp	/^      sf::String* mFPS;$/;"	m	class:GQE::StatManager
 mFPS	include/GQE/Core/classes/StatManager.hpp	/^      sf::Text*   mFPS;$/;"	m	class:GQE::StatManager
+mFather	include/GQE/Entity/interfaces/IEntity.hpp	/^      IEntity* mFather;$/;"	m	class:GQE::IEntity
 mFileStream	include/GQE/Core/loggers/FileLogger.hpp	/^      std::ofstream     mFileStream;$/;"	m	class:GQE::FileLogger
 mFrameClock	include/GQE/Core/classes/StatManager.hpp	/^      sf::Clock   mFrameClock;$/;"	m	class:GQE::StatManager
 mFrames	include/GQE/Core/classes/StatManager.hpp	/^      Uint32      mFrames;$/;"	m	class:GQE::StatManager
@@ -791,7 +795,7 @@ mVideoMode	include/GQE/Core/interfaces/IApp.hpp	/^      sf::VideoMode           
 mWinFont	examples/spacedots/src/GameState.hpp	/^    GQE::FontAsset  mWinFont;$/;"	m	class:GameState
 mWinFont	examples/tictactoe/src/GameState.hpp	/^    GQE::FontAsset  mWinFont;$/;"	m	class:GameState
 mWindowSettings	include/GQE/Core/interfaces/IApp.hpp	/^      sf::WindowSettings        mWindowSettings;$/;"	m	class:GQE::IApp
-mWindowStyle	include/GQE/Core/interfaces/IApp.hpp	/^      sf::UInt32             mWindowStyle;$/;"	m	class:GQE::IApp
+mWindowStyle	include/GQE/Core/interfaces/IApp.hpp	/^      sf::Uint32             mWindowStyle;$/;"	m	class:GQE::IApp
 mWindow	include/GQE/Core/interfaces/IApp.hpp	/^      sf::RenderWindow          mWindow;$/;"	m	class:GQE::IApp
 mWinnerSprite	examples/spacedots/src/GameState.hpp	/^    sf::Sprite      mWinnerSprite;$/;"	m	class:GameState
 mWinnerText	examples/spacedots/src/GameState.hpp	/^    sf::String*     mWinnerText;$/;"	m	class:GameState
@@ -869,6 +873,7 @@ typeActionID	include/GQE/Entity/Entity_types.hpp	/^  typedef std::string typeAct
 typeAssetData	include/GQE/Core/interfaces/TAssetHandler.hpp	/^      struct typeAssetData {$/;"	s	class:GQE::TAssetHandler
 typeAssetHandlerID	include/GQE/Core/Core_types.hpp	/^  typedef std::string typeAssetHandlerID;$/;"	t	namespace:GQE
 typeAssetID	include/GQE/Core/Core_types.hpp	/^  typedef std::string typeAssetID;$/;"	t	namespace:GQE
+typeChildID	include/GQE/Entity/Entity_types.hpp	/^  typedef std::string typeChildID;$/;"	t	namespace:GQE
 typeEntityID	include/GQE/Entity/Entity_types.hpp	/^  typedef Uint32 typeEntityID;$/;"	t	namespace:GQE
 typeEventFunc	include/GQE/Core/interfaces/TEvent.hpp	/^      typedef void (TCLASS::*typeEventFunc)(TCONTEXT* theContext);$/;"	t	class:GQE::TEvent
 typeEventID	include/GQE/Core/Core_types.hpp	/^  typedef std::string typeEventID;$/;"	t	namespace:GQE
