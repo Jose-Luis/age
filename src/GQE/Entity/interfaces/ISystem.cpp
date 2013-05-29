@@ -44,7 +44,8 @@ namespace GQE
     if(theEntity != NULL)
     {
       // This will be true if the IEntity was added
-      bool anAdded = false;
+      //
+      // UNUSED VARIABLE ->  bool anAdded = false;
 
       // See if this IEntity is already in this z-order class
       std::deque<IEntity*>::iterator anFind;

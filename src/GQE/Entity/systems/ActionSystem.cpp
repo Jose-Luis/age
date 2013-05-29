@@ -134,7 +134,7 @@ namespace GQE
   void ActionSystem::eraseAction(std::map<const typeActionID, IAction*>::iterator theActionIter)
   {
     // Get our IEntity reference first
-    IAction* anEntity = theActionIter->second;
+    // UNUSED VARIABLE ->  IAction* anEntity = theActionIter->second;
 
     // First remove the IAction from our list
     mActions.erase(theActionIter);

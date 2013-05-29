@@ -13,26 +13,26 @@
 
 namespace GQE
 {
-  PropertyManager::PropertyManager()
-  {
-  }
+PropertyManager::PropertyManager()
+{
+}
 
-  PropertyManager::~PropertyManager()
-  {
+PropertyManager::~PropertyManager()
+{
     // Make sure to remove all registered properties on desstruction
     std::map<const typePropertyID, IProperty*>::iterator anPropertyIter;
     for(anPropertyIter = mList.begin();
-        anPropertyIter != mList.end();
-        ++anPropertyIter)
+            anPropertyIter != mList.end();
+            ++anPropertyIter)
     {
-      IProperty* anProperty = (anPropertyIter->second);
-      delete anProperty;
-      anProperty = NULL;
+        IProperty* anProperty = (anPropertyIter->second);
+        delete anProperty;
+        anProperty = NULL;
     }
-  }
+}
 
-  bool PropertyManager::hasID(const typePropertyID thePropertyID) const
-  {
+bool PropertyManager::hasID(const typePropertyID thePropertyID) const
+{
     bool anResult = false;
 
     // See if thePropertyID was found in our list of properties
@@ -40,29 +40,34 @@ namespace GQE
 
     // Return true if thePropertyID was found above, false otherwise
     return anResult;
-  }
+}
 
 
-  void PropertyManager::add(IProperty* theProperty)
-  {
+void PropertyManager::add(IProperty* theProperty)
+{
     if(mList.find(theProperty->getID()) == mList.end())
     {
-      mList[theProperty->getID()] = theProperty;
+        mList[theProperty->getID()] = theProperty;
     }
-  }
+}
 
-  void PropertyManager::clone(const PropertyManager& thePropertyManager)
-  {
+void PropertyManager::remove(typePropertyID thePropertyID)
+{
+   mList.erase(thePropertyID);
+}
+
+void PropertyManager::clone(const PropertyManager& thePropertyManager)
+{
     // Make sure to remove all registered properties on desstruction
     std::map<const typePropertyID, IProperty*>::const_iterator anPropertyIter;
     for(anPropertyIter = thePropertyManager.mList.begin();
-        anPropertyIter != thePropertyManager.mList.end();
-        ++anPropertyIter)
+            anPropertyIter != thePropertyManager.mList.end();
+            ++anPropertyIter)
     {
-      IProperty* anProperty = (anPropertyIter->second);
-      add(anProperty->makeClone());
+        IProperty* anProperty = (anPropertyIter->second);
+        add(anProperty->makeClone());
     }
-  }
+}
 } // namespace GQE
 
 /**

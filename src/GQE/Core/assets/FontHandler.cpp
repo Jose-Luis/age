@@ -59,7 +59,8 @@ namespace GQE
     // TODO: Retrieve the size in bytes of the font to load from memory
     size_t anDataSize = 0;
     // TODO: Retrieve the character size for this font
-    unsigned int anCharSize = 30;
+
+    // UNUSED VARIABLE ->  unsigned int anCharSize = 30;
 
     // Try to obtain the font from the memory location specified
     if(NULL != anData && anDataSize > 0)
