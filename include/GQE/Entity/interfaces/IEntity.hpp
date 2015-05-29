@@ -34,7 +34,7 @@ namespace GQE
       /**
        * IEntity default constructor
        */
-      IEntity(Uint32 theOrder = 0);
+      IEntity(IEntity* theFather = nullptr);
 
       /**
        * IEntity destructor
@@ -94,6 +94,16 @@ namespace GQE
        */
       void dropSystem(const typeSystemID theSystemID);
 
+
+      void addChild(std::string, IEntity*);
+      void dropChild(std::string);
+      void dropAllChildren();
+      void setFather(IEntity* theFather);
+      IEntity* getFather();
+      bool isRoot();
+      IEntity* getRoot();
+
+
     protected:
       // Variables
       ///////////////////////////////////////////////////////////////////////////
@@ -114,6 +124,9 @@ namespace GQE
       Uint32              mOrder;
       /// The next ID to assign to a new Instance class
       static typeEntityID mNextID;
+
+      std::map<std::string,IEntity*> mChildren;
+      IEntity* mFather;
 
       /**
        * EraseSystem will erase the ISystem iterator provided.

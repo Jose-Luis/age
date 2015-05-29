@@ -19,6 +19,7 @@ project(GQE)
 
 # Include the macros file for this project
 include(${PROJECT_SOURCE_DIR}/cmake/Macros.cmake)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
 # project options
 set_option(BUILD_STATIC_STD_LIBS FALSE BOOL "Set to TRUE to statically link to the standard libraries, FALSE to use them as DLLs")

@@ -8,13 +8,37 @@ ACTION_GROUP_HPP_INCLUDED	include/GQE/Entity/classes/ActionGroup.hpp	12;"	d
 ANIMATION_SYSTEM_HPP_INCLUDED	include/GQE/Entity/systems/AnimationSystem.hpp	9;"	d
 APP_SETTINGS	include/GQE/Core/interfaces/IApp.hpp	/^      static const char* APP_SETTINGS;$/;"	m	class:GQE::IApp
 APP_SETTINGS	src/GQE/Core/interfaces/IApp.cpp	/^  const char* IApp::APP_SETTINGS = "resources\/settings.cfg";$/;"	m	class:GQE::IApp	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	326;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	329;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	332;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	335;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	338;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	341;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	344;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	348;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	319;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	322;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	325;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	328;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	331;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	334;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	337;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	341;"	d	file:
+Accelerometer	extlibs/headers/SFML/Window/Sensor.hpp	/^        Accelerometer,    \/\/\/< Measures the raw acceleration (m\/s^2)$/;"	e	enum:sf::Sensor::Type
+Accepted	extlibs/headers/SFML/Network/Http.hpp	/^            Accepted       = 202, \/\/\/< The request has been accepted, but will be processed later by the server$/;"	e	enum:sf::Http::Response::Status
 ActionGroup	include/GQE/Entity/classes/ActionGroup.hpp	/^  class GQE_API ActionGroup$/;"	c	namespace:GQE
 ActionGroup	src/GQE/Entity/classes/ActionGroup.cpp	/^  ActionGroup::ActionGroup() :$/;"	f	class:GQE::ActionGroup
 ActionGroup	src/GQE/Entity/classes/ActionGroup.cpp	/^  ActionGroup::ActionGroup(ActionSystem* theActionSystem) :$/;"	f	class:GQE::ActionGroup
 ActionSystem	include/GQE/Entity/systems/ActionSystem.hpp	/^  class GQE_API ActionSystem : public ISystem$/;"	c	namespace:GQE
 ActionSystem	src/GQE/Entity/systems/ActionSystem.cpp	/^  ActionSystem::ActionSystem(IApp& theApp):$/;"	f	class:GQE::ActionSystem
+Add	extlibs/headers/SFML/Graphics/BlendMode.hpp	/^        Add,     \/\/\/< Pixel = Src * SrcFactor + Dst * DstFactor$/;"	e	enum:sf::BlendMode::Equation
+Add	extlibs/headers/SFML/Window/Keyboard.hpp	/^        Add,          \/\/\/< The + key$/;"	e	enum:sf::Keyboard::Key
+A	extlibs/headers/SFML/Window/Keyboard.hpp	/^        A = 0,        \/\/\/< The A key$/;"	e	enum:sf::Keyboard::Key
+AlResource	extlibs/headers/SFML/Audio/AlResource.hpp	/^class SFML_AUDIO_API AlResource$/;"	c	namespace:sf
 AnimationSystem	include/GQE/Entity/systems/AnimationSystem.hpp	/^  class GQE_API AnimationSystem : public ISystem$/;"	c	namespace:GQE
 AnimationSystem	src/GQE/Entity/systems/AnimationSystem.cpp	/^  AnimationSystem::AnimationSystem(GQE::IApp& theApp) :$/;"	f	class:GQE::AnimationSystem
+AnyPort	extlibs/headers/SFML/Network/Socket.hpp	/^        AnyPort = 0 \/\/\/< Special value that tells the system to pick any available port$/;"	e	enum:sf::Socket::__anon2
+Ascii	extlibs/headers/SFML/Network/Ftp.hpp	/^        Ascii,  \/\/\/< Text mode using ASCII encoding$/;"	e	enum:sf::Ftp::TransferMode
 AssetDropAtExit	include/GQE/Core/Core_types.hpp	/^    AssetDropAtExit      = 2  \/\/\/< Drop\/unload when program exits (deconstructor)$/;"	e	enum:GQE::AssetDropTime
 AssetDropAtZero	include/GQE/Core/Core_types.hpp	/^    AssetDropAtZero      = 1, \/\/\/< Drop\/unload when count reaches 0$/;"	e	enum:GQE::AssetDropTime
 AssetDropTime	include/GQE/Core/Core_types.hpp	/^  enum AssetDropTime$/;"	g	namespace:GQE
@@ -29,6 +53,204 @@ AssetLoadStyle	include/GQE/Core/Core_types.hpp	/^  enum AssetLoadStyle$/;"	g	nam
 AssetLoadTime	include/GQE/Core/Core_types.hpp	/^  enum AssetLoadTime$/;"	g	namespace:GQE
 AssetManager	include/GQE/Core/classes/AssetManager.hpp	/^  class GQE_API AssetManager$/;"	c	namespace:GQE
 AssetManager	src/GQE/Core/classes/AssetManager.cpp	/^  AssetManager::AssetManager()$/;"	f	class:GQE::AssetManager
+Attribute	extlibs/headers/SFML/Window/ContextSettings.hpp	/^    enum Attribute$/;"	g	struct:sf::ContextSettings
+AxisCount	extlibs/headers/SFML/Window/Joystick.hpp	/^        AxisCount   = 8   \/\/\/< Maximum number of supported axes$/;"	e	enum:sf::Joystick::__anon4
+Axis	extlibs/headers/SFML/Window/Joystick.hpp	/^    enum Axis$/;"	g	class:sf::Joystick
+BackSlash	extlibs/headers/SFML/Window/Keyboard.hpp	/^        BackSlash,    \/\/\/< The \\ key$/;"	e	enum:sf::Keyboard::Key
+BackSpace	extlibs/headers/SFML/Window/Keyboard.hpp	/^        BackSpace,    \/\/\/< The Backspace key$/;"	e	enum:sf::Keyboard::Key
+BadCommandSequence	extlibs/headers/SFML/Network/Ftp.hpp	/^            BadCommandSequence      = 503, \/\/\/< Bad sequence of commands$/;"	e	enum:sf::Ftp::Response::Status
+BadGateway	extlibs/headers/SFML/Network/Http.hpp	/^            BadGateway          = 502, \/\/\/< The gateway server has received an error from the source server$/;"	e	enum:sf::Http::Response::Status
+BadRequest	extlibs/headers/SFML/Network/Http.hpp	/^            BadRequest          = 400, \/\/\/< The server couldn't understand the request (syntax error)$/;"	e	enum:sf::Http::Response::Status
+B	extlibs/headers/SFML/Window/Keyboard.hpp	/^        B,            \/\/\/< The B key$/;"	e	enum:sf::Keyboard::Key
+Binary	extlibs/headers/SFML/Network/Ftp.hpp	/^        Binary, \/\/\/< Binary mode (file is transfered as a sequence of bytes)$/;"	e	enum:sf::Ftp::TransferMode
+Black	extlibs/headers/SFML/Graphics/Color.hpp	/^    static const Color Black;       \/\/\/< Black predefined color$/;"	m	class:sf::Color
+BlendMode	extlibs/headers/SFML/Graphics/BlendMode.hpp	/^struct SFML_GRAPHICS_API BlendMode$/;"	s	namespace:sf
+Blue	extlibs/headers/SFML/Graphics/Color.hpp	/^    static const Color Blue;        \/\/\/< Blue predefined color$/;"	m	class:sf::Color
+Bold	extlibs/headers/SFML/Graphics/Text.hpp	/^        Bold          = 1 << 0, \/\/\/< Bold characters$/;"	e	enum:sf::Text::Style
+BoolType	extlibs/headers/SFML/Network/Packet.hpp	/^    typedef bool (Packet::*BoolType)(std::size_t);$/;"	t	class:sf::Packet
+Broadcast	extlibs/headers/SFML/Network/IpAddress.hpp	/^    static const IpAddress Broadcast; \/\/\/< The "broadcast" address (for sending UDP messages to everyone on a local network)$/;"	m	class:sf::IpAddress
+BufferCount	extlibs/headers/SFML/Audio/SoundStream.hpp	/^        BufferCount = 3 \/\/\/< Number of audio buffers used by the streaming loop$/;"	e	enum:sf::SoundStream::__anon7
+ButtonCount	extlibs/headers/SFML/Window/Joystick.hpp	/^        ButtonCount = 32, \/\/\/< Maximum number of supported buttons$/;"	e	enum:sf::Joystick::__anon4
+ButtonCount	extlibs/headers/SFML/Window/Mouse.hpp	/^        ButtonCount \/\/\/< Keep last -- the total number of mouse buttons$/;"	e	enum:sf::Mouse::Button
+Button	extlibs/headers/SFML/Window/Mouse.hpp	/^    enum Button$/;"	g	class:sf::Mouse
+COMPILER_ID	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	106;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	109;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	111;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	120;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	128;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	133;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	13;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	140;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	143;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	146;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	154;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	173;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	181;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	186;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	191;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	198;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	215;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	218;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	221;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	34;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	43;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	46;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	59;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	65;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	71;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	77;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	91;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	98;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	103;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	111;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	114;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	116;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	125;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	12;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	133;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	138;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	145;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	148;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	156;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	175;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	183;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	188;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	18;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	191;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	208;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	211;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	214;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	39;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	48;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	51;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	64;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	70;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	76;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	82;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	96;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	100;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	114;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	121;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	129;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	135;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	147;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	156;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	15;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	175;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	193;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	201;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	206;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	35;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	48;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	60;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	67;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	73;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	80;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	85;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	93;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	105;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	119;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	126;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	134;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	140;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	149;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	14;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	158;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	177;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	194;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	199;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	20;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	40;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	53;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	65;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	72;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	78;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	85;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	90;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	98;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	101;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	115;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	122;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	130;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	136;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	148;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	157;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	16;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	176;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	194;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	202;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	207;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	36;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	49;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	61;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	68;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	74;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	81;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	86;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	94;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	106;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	120;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	127;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	135;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	141;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	150;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	159;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	15;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	178;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	195;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	200;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	21;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	41;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	54;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	66;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	73;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	79;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	86;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	91;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	99;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	102;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	116;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	124;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	137;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	150;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	161;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	164;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	177;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	18;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	195;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	203;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	208;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	20;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	38;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	50;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	62;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	82;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	87;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	95;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	100;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	107;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	121;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	129;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	142;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	152;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	163;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	166;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	179;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	196;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	201;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	23;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	25;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	43;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	55;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	67;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	87;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	92;"	d	file:
+COMPILER_VERSION_TWEAK	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	168;"	d	file:
+COMPILER_VERSION_TWEAK	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	24;"	d	file:
+COMPILER_VERSION_TWEAK	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	44;"	d	file:
+COMPILER_VERSION_TWEAK	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	170;"	d	file:
+COMPILER_VERSION_TWEAK	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	29;"	d	file:
+COMPILER_VERSION_TWEAK	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	49;"	d	file:
 CORE_APP_HPP_INCLUDED	include/GQE/Core/interfaces/IApp.hpp	24;"	d
 CORE_ASSET_MANAGER_HPP_INCLUDED	include/GQE/Core/classes/AssetManager.hpp	18;"	d
 CORE_CONFIG_ASSET_HPP_INCLUDED	include/GQE/Core/assets/ConfigAsset.hpp	17;"	d
@@ -55,6 +277,18 @@ CORE_STRING_LOGGER_HPP_INCLUDED	include/GQE/Core/loggers/StringLogger.hpp	11;"	d
 CORE_STRING_UTIL_HPP_INCLUDED	include/GQE/Core/utils/StringUtil.hpp	13;"	d
 CORE_TASSET_HANDLER_HPP_INCLUDED	include/GQE/Core/interfaces/TAssetHandler.hpp	11;"	d
 CORE_TASSET_HPP_INCLUDED	include/GQE/Core/interfaces/TAsset.hpp	23;"	d
+C	extlibs/headers/SFML/Window/Keyboard.hpp	/^        C,            \/\/\/< The C key$/;"	e	enum:sf::Keyboard::Key
+Chunk	extlibs/headers/SFML/Audio/SoundStream.hpp	/^    struct Chunk$/;"	s	class:sf::SoundStream
+CircleShape	extlibs/headers/SFML/Graphics/CircleShape.hpp	/^class SFML_GRAPHICS_API CircleShape : public Shape$/;"	c	namespace:sf
+Clock	extlibs/headers/SFML/System/Clock.hpp	/^class SFML_SYSTEM_API Clock$/;"	c	namespace:sf
+Closed	extlibs/headers/SFML/Window/Event.hpp	/^        Closed,                 \/\/\/< The window requested to be closed (no data)$/;"	e	enum:sf::Event::EventType
+Close	extlibs/headers/SFML/Window/WindowStyle.hpp	/^        Close      = 1 << 2, \/\/\/< Title bar + close button$/;"	e	enum:sf::Style::__anon5
+ClosingConnection	extlibs/headers/SFML/Network/Ftp.hpp	/^            ClosingConnection     = 221, \/\/\/< Service closing control connection$/;"	e	enum:sf::Ftp::Response::Status
+ClosingDataConnection	extlibs/headers/SFML/Network/Ftp.hpp	/^            ClosingDataConnection = 226, \/\/\/< Closing data connection, requested file action successful$/;"	e	enum:sf::Ftp::Response::Status
+Color	extlibs/headers/SFML/Graphics/Color.hpp	/^class SFML_GRAPHICS_API Color$/;"	c	namespace:sf
+Comma	extlibs/headers/SFML/Window/Keyboard.hpp	/^        Comma,        \/\/\/< The , key$/;"	e	enum:sf::Keyboard::Key
+CommandNotImplemented	extlibs/headers/SFML/Network/Ftp.hpp	/^            CommandNotImplemented   = 502, \/\/\/< Command not implemented$/;"	e	enum:sf::Ftp::Response::Status
+CommandUnknown	extlibs/headers/SFML/Network/Ftp.hpp	/^            CommandUnknown          = 500, \/\/\/< Syntax error, command unrecognized$/;"	e	enum:sf::Ftp::Response::Status
 ConfigAsset	include/GQE/Core/assets/ConfigAsset.hpp	/^  class GQE_API ConfigAsset : public TAsset<ConfigReader>$/;"	c	namespace:GQE
 ConfigAsset	src/GQE/Core/assets/ConfigAsset.cpp	/^  ConfigAsset::ConfigAsset() :$/;"	f	class:GQE::ConfigAsset
 ConfigAsset	src/GQE/Core/assets/ConfigAsset.cpp	/^  ConfigAsset::ConfigAsset(const typeAssetID theAssetID,$/;"	f	class:GQE::ConfigAsset
@@ -63,9 +297,50 @@ ConfigHandler	src/GQE/Core/assets/ConfigHandler.cpp	/^  ConfigHandler::ConfigHan
 ConfigReader	include/GQE/Core/classes/ConfigReader.hpp	/^  class GQE_API ConfigReader$/;"	c	namespace:GQE
 ConfigReader	src/GQE/Core/classes/ConfigReader.cpp	/^  ConfigReader::ConfigReader()$/;"	f	class:GQE::ConfigReader
 ConfigReader	src/GQE/Core/classes/ConfigReader.cpp	/^  ConfigReader::ConfigReader(const ConfigReader& theCopy) :$/;"	f	class:GQE::ConfigReader
+ConnectionClosed	extlibs/headers/SFML/Network/Ftp.hpp	/^            ConnectionClosed = 1002, \/\/\/< Not part of the FTP standard, generated by SFML when the low-level socket connection is unexpectedly closed$/;"	e	enum:sf::Ftp::Response::Status
+ConnectionFailed	extlibs/headers/SFML/Network/Ftp.hpp	/^            ConnectionFailed = 1001, \/\/\/< Not part of the FTP standard, generated by SFML when the low-level socket connection with the server fails$/;"	e	enum:sf::Ftp::Response::Status
+ConnectionFailed	extlibs/headers/SFML/Network/Http.hpp	/^            ConnectionFailed = 1001  \/\/\/< Connection with server failed$/;"	e	enum:sf::Http::Response::Status
+ConstIterator	extlibs/headers/SFML/System/String.hpp	/^    typedef std::basic_string<Uint32>::const_iterator ConstIterator; \/\/\/< Read-only iterator type$/;"	t	class:sf::String
+ContextSettings	extlibs/headers/SFML/Window/ContextSettings.hpp	/^    explicit ContextSettings(unsigned int depth = 0, unsigned int stencil = 0, unsigned int antialiasing = 0, unsigned int major = 1, unsigned int minor = 1, unsigned int attributes = Default) :$/;"	f	struct:sf::ContextSettings
+ContextSettings	extlibs/headers/SFML/Window/ContextSettings.hpp	/^struct ContextSettings$/;"	s	namespace:sf
+Context	extlibs/headers/SFML/Window/Context.hpp	/^class SFML_WINDOW_API Context : GlResource, NonCopyable$/;"	c	namespace:sf
+ConvexShape	extlibs/headers/SFML/Graphics/ConvexShape.hpp	/^class SFML_GRAPHICS_API ConvexShape : public Shape$/;"	c	namespace:sf
+CoordinateType	extlibs/headers/SFML/Graphics/Texture.hpp	/^    enum CoordinateType$/;"	g	class:sf::Texture
+Core	extlibs/headers/SFML/Window/ContextSettings.hpp	/^        Core    = 1 << 0, \/\/\/< Core attribute$/;"	e	enum:sf::ContextSettings::Attribute
+Count	extlibs/headers/SFML/Window/Event.hpp	/^        Count                   \/\/\/< Keep last -- the total number of event types$/;"	e	enum:sf::Event::EventType
+Count	extlibs/headers/SFML/Window/Joystick.hpp	/^        Count       = 8,  \/\/\/< Maximum number of supported joysticks$/;"	e	enum:sf::Joystick::__anon4
+Count	extlibs/headers/SFML/Window/Sensor.hpp	/^        Count             \/\/\/< Keep last -- the total number of sensor types$/;"	e	enum:sf::Sensor::Type
+Created	extlibs/headers/SFML/Network/Http.hpp	/^            Created        = 201, \/\/\/< The resource has successfully been created$/;"	e	enum:sf::Http::Response::Status
+CurrentTextureType	extlibs/headers/SFML/Graphics/Shader.hpp	/^    struct CurrentTextureType {};$/;"	s	class:sf::Shader
+CurrentTexture	extlibs/headers/SFML/Graphics/Shader.hpp	/^    static CurrentTextureType CurrentTexture;$/;"	m	class:sf::Shader
+Cyan	extlibs/headers/SFML/Graphics/Color.hpp	/^    static const Color Cyan;        \/\/\/< Cyan predefined color$/;"	m	class:sf::Color
+DEC	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	352;"	d	file:
+DEC	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	345;"	d	file:
 DEFAULT_VIDEO_BPP	include/GQE/Core/interfaces/IApp.hpp	/^      static const unsigned int DEFAULT_VIDEO_BPP = 32;$/;"	m	class:GQE::IApp
 DEFAULT_VIDEO_HEIGHT	include/GQE/Core/interfaces/IApp.hpp	/^      static const unsigned int DEFAULT_VIDEO_HEIGHT = 600;$/;"	m	class:GQE::IApp
 DEFAULT_VIDEO_WIDTH	include/GQE/Core/interfaces/IApp.hpp	/^      static const unsigned int DEFAULT_VIDEO_WIDTH = 800;$/;"	m	class:GQE::IApp
+Dash	extlibs/headers/SFML/Window/Keyboard.hpp	/^        Dash,         \/\/\/< The - key$/;"	e	enum:sf::Keyboard::Key
+DataConnectionAlreadyOpened	extlibs/headers/SFML/Network/Ftp.hpp	/^            DataConnectionAlreadyOpened = 125, \/\/\/< Data connection already opened, transfer starting$/;"	e	enum:sf::Ftp::Response::Status
+DataConnectionOpened	extlibs/headers/SFML/Network/Ftp.hpp	/^            DataConnectionOpened  = 225, \/\/\/< Data connection open, no transfer in progress$/;"	e	enum:sf::Ftp::Response::Status
+DataConnectionUnavailable	extlibs/headers/SFML/Network/Ftp.hpp	/^            DataConnectionUnavailable = 425, \/\/\/< Can't open data connection$/;"	e	enum:sf::Ftp::Response::Status
+Data	extlibs/headers/SFML/Network/TcpSocket.hpp	/^        std::vector<char> Data;         \/\/\/< Data of the packet$/;"	m	struct:sf::TcpSocket::PendingPacket
+Debug	extlibs/headers/SFML/Window/ContextSettings.hpp	/^        Debug   = 1 << 2  \/\/\/< Debug attribute$/;"	e	enum:sf::ContextSettings::Attribute
+D	extlibs/headers/SFML/Window/Keyboard.hpp	/^        D,            \/\/\/< The D key$/;"	e	enum:sf::Keyboard::Key
+Default	extlibs/headers/SFML/Window/ContextSettings.hpp	/^        Default = 0,      \/\/\/< Non-debug, compatibility context (this and the core attribute are mutually exclusive)$/;"	e	enum:sf::ContextSettings::Attribute
+Default	extlibs/headers/SFML/Window/WindowStyle.hpp	/^        Default = Titlebar | Resize | Close \/\/\/< Default window style$/;"	e	enum:sf::Style::__anon5
+Default	extlibs/headers/SFML/Graphics/RenderStates.hpp	/^    static const RenderStates Default; \/\/\/< Special instance holding the default render states$/;"	m	class:sf::RenderStates
+Delete	extlibs/headers/SFML/Network/Http.hpp	/^            Delete \/\/\/< Request in delete mode, useful for a REST API$/;"	e	enum:sf::Http::Request::Method
+Delete	extlibs/headers/SFML/Window/Keyboard.hpp	/^        Delete,       \/\/\/< The Delete key$/;"	e	enum:sf::Keyboard::Key
+DirectoryOk	extlibs/headers/SFML/Network/Ftp.hpp	/^            DirectoryOk           = 257, \/\/\/< PATHNAME created$/;"	e	enum:sf::Ftp::Response::Status
+DirectoryResponse	extlibs/headers/SFML/Network/Ftp.hpp	/^    class SFML_NETWORK_API DirectoryResponse : public Response$/;"	c	class:sf::Ftp
+DirectoryStatus	extlibs/headers/SFML/Network/Ftp.hpp	/^            DirectoryStatus       = 212, \/\/\/< Directory status$/;"	e	enum:sf::Ftp::Response::Status
+Disconnected	extlibs/headers/SFML/Network/Socket.hpp	/^        Disconnected, \/\/\/< The TCP socket has been disconnected$/;"	e	enum:sf::Socket::Status
+Divide	extlibs/headers/SFML/Window/Keyboard.hpp	/^        Divide,       \/\/\/< The \/ key$/;"	e	enum:sf::Keyboard::Key
+Done	extlibs/headers/SFML/Network/Socket.hpp	/^        Done,         \/\/\/< The socket has sent \/ received the data$/;"	e	enum:sf::Socket::Status
+Down	extlibs/headers/SFML/Window/Keyboard.hpp	/^        Down,         \/\/\/< Down arrow$/;"	e	enum:sf::Keyboard::Key
+Drawable	extlibs/headers/SFML/Graphics/Drawable.hpp	/^class SFML_GRAPHICS_API Drawable$/;"	c	namespace:sf
+DstAlpha	extlibs/headers/SFML/Graphics/BlendMode.hpp	/^        DstAlpha,         \/\/\/< (dst.a, dst.a, dst.a, dst.a)$/;"	e	enum:sf::BlendMode::Factor
+DstColor	extlibs/headers/SFML/Graphics/BlendMode.hpp	/^        DstColor,         \/\/\/< (dst.r, dst.g, dst.b, dst.a)$/;"	e	enum:sf::BlendMode::Factor
 ELOGM_IF	include/GQE/Core/loggers/Log_macros.hpp	190;"	d
 ELOGM_IF	include/GQE/Core/loggers/Log_macros.hpp	205;"	d
 ELOGM	include/GQE/Core/loggers/Log_macros.hpp	165;"	d
@@ -78,8 +353,33 @@ ENTITY_HPP_INCLUDED	include/GQE/Entity.hpp	14;"	d
 ENTITY_TYPES_HPP_INCLUDED	include/GQE/Entity/Entity_types.hpp	14;"	d
 ERROR_LEVEL	include/GQE/Core/Core_types.hpp	30;"	d
 EVENT_MANAGER_HPP_INCLUDED	include/GQE/Core/classes/EventManager.hpp	11;"	d
+Ebcdic	extlibs/headers/SFML/Network/Ftp.hpp	/^        Ebcdic  \/\/\/< Text mode using EBCDIC encoding$/;"	e	enum:sf::Ftp::TransferMode
+E	extlibs/headers/SFML/Window/Keyboard.hpp	/^        E,            \/\/\/< The E key$/;"	e	enum:sf::Keyboard::Key
+End	extlibs/headers/SFML/Window/Keyboard.hpp	/^        End,          \/\/\/< The End key$/;"	e	enum:sf::Keyboard::Key
+EnteringPassiveMode	extlibs/headers/SFML/Network/Ftp.hpp	/^            EnteringPassiveMode   = 227, \/\/\/< Entering passive mode$/;"	e	enum:sf::Ftp::Response::Status
+Equal	extlibs/headers/SFML/Window/Keyboard.hpp	/^        Equal,        \/\/\/< The = key$/;"	e	enum:sf::Keyboard::Key
+Equation	extlibs/headers/SFML/Graphics/BlendMode.hpp	/^    enum Equation$/;"	g	struct:sf::BlendMode
+Error	extlibs/headers/SFML/Network/Socket.hpp	/^        Error         \/\/\/< An unexpected error happened$/;"	e	enum:sf::Socket::Status
+Escape	extlibs/headers/SFML/Window/Keyboard.hpp	/^        Escape,       \/\/\/< The Escape key$/;"	e	enum:sf::Keyboard::Key
 EventManager	include/GQE/Core/classes/EventManager.hpp	/^  class GQE_API EventManager$/;"	c	namespace:GQE
 EventManager	src/GQE/Core/classes/EventManager.cpp	/^  EventManager::EventManager()$/;"	f	class:GQE::EventManager
+EventType	extlibs/headers/SFML/Window/Event.hpp	/^    enum EventType$/;"	g	class:sf::Event
+Event	extlibs/headers/SFML/Window/Event.hpp	/^class Event$/;"	c	namespace:sf
+F10	extlibs/headers/SFML/Window/Keyboard.hpp	/^        F10,          \/\/\/< The F10 key$/;"	e	enum:sf::Keyboard::Key
+F11	extlibs/headers/SFML/Window/Keyboard.hpp	/^        F11,          \/\/\/< The F11 key$/;"	e	enum:sf::Keyboard::Key
+F12	extlibs/headers/SFML/Window/Keyboard.hpp	/^        F12,          \/\/\/< The F12 key$/;"	e	enum:sf::Keyboard::Key
+F13	extlibs/headers/SFML/Window/Keyboard.hpp	/^        F13,          \/\/\/< The F13 key$/;"	e	enum:sf::Keyboard::Key
+F14	extlibs/headers/SFML/Window/Keyboard.hpp	/^        F14,          \/\/\/< The F14 key$/;"	e	enum:sf::Keyboard::Key
+F15	extlibs/headers/SFML/Window/Keyboard.hpp	/^        F15,          \/\/\/< The F15 key$/;"	e	enum:sf::Keyboard::Key
+F1	extlibs/headers/SFML/Window/Keyboard.hpp	/^        F1,           \/\/\/< The F1 key$/;"	e	enum:sf::Keyboard::Key
+F2	extlibs/headers/SFML/Window/Keyboard.hpp	/^        F2,           \/\/\/< The F2 key$/;"	e	enum:sf::Keyboard::Key
+F3	extlibs/headers/SFML/Window/Keyboard.hpp	/^        F3,           \/\/\/< The F3 key$/;"	e	enum:sf::Keyboard::Key
+F4	extlibs/headers/SFML/Window/Keyboard.hpp	/^        F4,           \/\/\/< The F4 key$/;"	e	enum:sf::Keyboard::Key
+F5	extlibs/headers/SFML/Window/Keyboard.hpp	/^        F5,           \/\/\/< The F5 key$/;"	e	enum:sf::Keyboard::Key
+F6	extlibs/headers/SFML/Window/Keyboard.hpp	/^        F6,           \/\/\/< The F6 key$/;"	e	enum:sf::Keyboard::Key
+F7	extlibs/headers/SFML/Window/Keyboard.hpp	/^        F7,           \/\/\/< The F7 key$/;"	e	enum:sf::Keyboard::Key
+F8	extlibs/headers/SFML/Window/Keyboard.hpp	/^        F8,           \/\/\/< The F8 key$/;"	e	enum:sf::Keyboard::Key
+F9	extlibs/headers/SFML/Window/Keyboard.hpp	/^        F9,           \/\/\/< The F9 key$/;"	e	enum:sf::Keyboard::Key
 FATAL_LEVEL	include/GQE/Core/Core_types.hpp	31;"	d
 FLOGM_IF	include/GQE/Core/loggers/Log_macros.hpp	252;"	d
 FLOGM_IF	include/GQE/Core/loggers/Log_macros.hpp	270;"	d
@@ -89,15 +389,31 @@ FLOG_IF	include/GQE/Core/loggers/Log_macros.hpp	264;"	d
 FLOG_IF	include/GQE/Core/loggers/Log_macros.hpp	272;"	d
 FLOG	include/GQE/Core/loggers/Log_macros.hpp	235;"	d
 FLOG	include/GQE/Core/loggers/Log_macros.hpp	269;"	d
+Factor	extlibs/headers/SFML/Graphics/BlendMode.hpp	/^    enum Factor$/;"	g	struct:sf::BlendMode
 FatalLogger	include/GQE/Core/loggers/FatalLogger.hpp	/^  class GQE_API FatalLogger : public StringLogger$/;"	c	namespace:GQE
 FatalLogger	src/GQE/Core/loggers/FatalLogger.cpp	/^  FatalLogger::FatalLogger(SeverityType theSeverity,$/;"	f	class:GQE::FatalLogger
+F	extlibs/headers/SFML/Window/Keyboard.hpp	/^        F,            \/\/\/< The F key$/;"	e	enum:sf::Keyboard::Key
+FieldTable	extlibs/headers/SFML/Network/Http.hpp	/^        typedef std::map<std::string, std::string> FieldTable;$/;"	t	class:sf::Http::Request
+FieldTable	extlibs/headers/SFML/Network/Http.hpp	/^        typedef std::map<std::string, std::string> FieldTable;$/;"	t	class:sf::Http::Response
+FileActionAborted	extlibs/headers/SFML/Network/Ftp.hpp	/^            FileActionAborted         = 450, \/\/\/< Requested file action not taken$/;"	e	enum:sf::Ftp::Response::Status
+FileActionOk	extlibs/headers/SFML/Network/Ftp.hpp	/^            FileActionOk          = 250, \/\/\/< Requested file action ok$/;"	e	enum:sf::Ftp::Response::Status
+FileInputStream	extlibs/headers/SFML/System/FileInputStream.hpp	/^class SFML_SYSTEM_API FileInputStream : public InputStream, NonCopyable$/;"	c	namespace:sf
 FileLogger	include/GQE/Core/loggers/FileLogger.hpp	/^  class GQE_API FileLogger : public ILogger$/;"	c	namespace:GQE
 FileLogger	src/GQE/Core/loggers/FileLogger.cpp	/^  FileLogger::FileLogger(const char* theFilename, bool theDefault) :$/;"	f	class:GQE::FileLogger
+FileStatus	extlibs/headers/SFML/Network/Ftp.hpp	/^            FileStatus            = 213, \/\/\/< File status$/;"	e	enum:sf::Ftp::Response::Status
+FileUnavailable	extlibs/headers/SFML/Network/Ftp.hpp	/^            FileUnavailable         = 550, \/\/\/< Requested action not taken, file unavailable$/;"	e	enum:sf::Ftp::Response::Status
+FilenameNotAllowed	extlibs/headers/SFML/Network/Ftp.hpp	/^            FilenameNotAllowed      = 553, \/\/\/< Requested action not taken, file name not allowed$/;"	e	enum:sf::Ftp::Response::Status
+FloatRect	extlibs/headers/SFML/Graphics/Rect.hpp	/^typedef Rect<float> FloatRect;$/;"	t	namespace:sf
 FontAsset	include/GQE/Core/assets/FontAsset.hpp	/^  class GQE_API FontAsset : public TAsset<sf::Font>$/;"	c	namespace:GQE
 FontAsset	src/GQE/Core/assets/FontAsset.cpp	/^  FontAsset::FontAsset() :$/;"	f	class:GQE::FontAsset
 FontAsset	src/GQE/Core/assets/FontAsset.cpp	/^  FontAsset::FontAsset(const typeAssetID theAssetID,$/;"	f	class:GQE::FontAsset
 FontHandler	include/GQE/Core/assets/FontHandler.hpp	/^  class GQE_API FontHandler : public TAssetHandler<sf::Font>$/;"	c	namespace:GQE
 FontHandler	src/GQE/Core/assets/FontHandler.cpp	/^  FontHandler::FontHandler() :$/;"	f	class:GQE::FontHandler
+Font	extlibs/headers/SFML/Graphics/Font.hpp	/^class SFML_GRAPHICS_API Font$/;"	c	namespace:sf
+Forbidden	extlibs/headers/SFML/Network/Http.hpp	/^            Forbidden           = 403, \/\/\/< The requested page cannot be accessed at all, even with authentication$/;"	e	enum:sf::Http::Response::Status
+Fragment	extlibs/headers/SFML/Graphics/Shader.hpp	/^        Fragment \/\/\/< Fragment (pixel) shader$/;"	e	enum:sf::Shader::Type
+Ftp	extlibs/headers/SFML/Network/Ftp.hpp	/^class SFML_NETWORK_API Ftp : NonCopyable$/;"	c	namespace:sf
+Fullscreen	extlibs/headers/SFML/Window/WindowStyle.hpp	/^        Fullscreen = 1 << 3, \/\/\/< Fullscreen mode (this flag and all others are mutually exclusive)$/;"	e	enum:sf::Style::__anon5
 GAME_STATE_HPP_INCLUDED	examples/spacedots/src/GameState.hpp	12;"	d
 GAME_STATE_HPP_INCLUDED	examples/tictactoe/src/GameState.hpp	12;"	d
 GQE_API	include/GQE/Config.hpp	107;"	d
@@ -204,12 +520,32 @@ GQE	src/GQE/Entity/systems/ActionSystem.cpp	/^namespace GQE$/;"	n	file:
 GQE	src/GQE/Entity/systems/AnimationSystem.cpp	/^namespace GQE$/;"	n	file:
 GQE	src/GQE/Entity/systems/MovementSystem.cpp	/^namespace GQE$/;"	n	file:
 GQE	src/GQE/Entity/systems/RenderSystem.cpp	/^namespace GQE$/;"	n	file:
+GainedFocus	extlibs/headers/SFML/Window/Event.hpp	/^        GainedFocus,            \/\/\/< The window gained the focus (no data)$/;"	e	enum:sf::Event::EventType
 GameState	examples/spacedots/src/GameState.hpp	/^class GameState : public GQE::IState$/;"	c
 GameState	examples/tictactoe/src/GameState.hpp	/^class GameState : public GQE::IState$/;"	c
 GameState	examples/spacedots/src/GameState.cpp	/^GameState::GameState(GQE::IApp& theApp) :$/;"	f	class:GameState
 GameState	examples/tictactoe/src/GameState.cpp	/^GameState::GameState(GQE::IApp& theApp) :$/;"	f	class:GameState
+GatewayTimeout	extlibs/headers/SFML/Network/Http.hpp	/^            GatewayTimeout      = 504, \/\/\/< The gateway server couldn't receive a response from the source server$/;"	e	enum:sf::Http::Response::Status
+G	extlibs/headers/SFML/Window/Keyboard.hpp	/^        G,            \/\/\/< The G key$/;"	e	enum:sf::Keyboard::Key
+Get	extlibs/headers/SFML/Network/Http.hpp	/^            Get,   \/\/\/< Request in get mode, standard method to retrieve a page$/;"	e	enum:sf::Http::Request::Method
+GlFunctionPointer	extlibs/headers/SFML/Window/Context.hpp	/^typedef void (*GlFunctionPointer)();$/;"	t	namespace:sf
+GlResource	extlibs/headers/SFML/Window/GlResource.hpp	/^class SFML_WINDOW_API GlResource$/;"	c	namespace:sf
+GlyphTable	extlibs/headers/SFML/Graphics/Font.hpp	/^    typedef std::map<Uint32, Glyph> GlyphTable; \/\/\/< Table mapping a codepoint to its glyph$/;"	t	class:sf::Font
+Glyph	extlibs/headers/SFML/Graphics/Glyph.hpp	/^class SFML_GRAPHICS_API Glyph$/;"	c	namespace:sf
+Glyph	extlibs/headers/SFML/Graphics/Glyph.hpp	/^    Glyph() : advance(0) {}$/;"	f	class:sf::Glyph
 GraphicRange	include/GQE/Core/Core_types.hpp	/^  enum GraphicRange$/;"	g	namespace:GQE
+Gravity	extlibs/headers/SFML/Window/Sensor.hpp	/^        Gravity,          \/\/\/< Measures the direction and intensity of gravity, independent of device acceleration (m\/s^2)$/;"	e	enum:sf::Sensor::Type
+Green	extlibs/headers/SFML/Graphics/Color.hpp	/^    static const Color Green;       \/\/\/< Green predefined color$/;"	m	class:sf::Color
+Gyroscope	extlibs/headers/SFML/Window/Sensor.hpp	/^        Gyroscope,        \/\/\/< Measures the raw rotation rates (degrees\/s)$/;"	e	enum:sf::Sensor::Type
+HEX	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	363;"	d	file:
+HEX	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	356;"	d	file:
+Head	extlibs/headers/SFML/Network/Http.hpp	/^            Head,  \/\/\/< Request a page's header only$/;"	e	enum:sf::Http::Request::Method
+H	extlibs/headers/SFML/Window/Keyboard.hpp	/^        H,            \/\/\/< The H key$/;"	e	enum:sf::Keyboard::Key
+HelpMessage	extlibs/headers/SFML/Network/Ftp.hpp	/^            HelpMessage           = 214, \/\/\/< Help message$/;"	e	enum:sf::Ftp::Response::Status
 HighRange	include/GQE/Core/Core_types.hpp	/^    HighRange = 2  \/\/\/< Recommend using HighRange graphics (128x128 pixels)$/;"	e	enum:GQE::GraphicRange
+Home	extlibs/headers/SFML/Window/Keyboard.hpp	/^        Home,         \/\/\/< The Home key$/;"	e	enum:sf::Keyboard::Key
+HorizontalWheel	extlibs/headers/SFML/Window/Mouse.hpp	/^        HorizontalWheel \/\/\/< The horizontal mouse wheel$/;"	e	enum:sf::Mouse::Wheel
+Http	extlibs/headers/SFML/Network/Http.hpp	/^class SFML_NETWORK_API Http : NonCopyable$/;"	c	namespace:sf
 IACTION_HPP_INCLUDED	include/GQE/Entity/interfaces/IAction.hpp	9;"	d
 IAction	include/GQE/Entity/interfaces/IAction.hpp	/^  class GQE_API IAction$/;"	c	namespace:GQE
 IAction	src/GQE/Entity/interfaces/IAction.cpp	/^  IAction::IAction(const typeActionID theActionID) :$/;"	f	class:GQE::IAction
@@ -217,10 +553,11 @@ IApp	include/GQE/Core/interfaces/IApp.hpp	/^  class GQE_API IApp$/;"	c	namespace
 IApp	src/GQE/Core/interfaces/IApp.cpp	/^  IApp::IApp(const std::string theTitle) :$/;"	f	class:GQE::IApp
 IAssetHandler	include/GQE/Core/interfaces/IAssetHandler.hpp	/^  class GQE_API IAssetHandler$/;"	c	namespace:GQE
 IAssetHandler	src/GQE/Core/interfaces/IAssetHandler.cpp	/^  IAssetHandler::IAssetHandler(const typeAssetHandlerID theAssetHandlerID) :$/;"	f	class:GQE::IAssetHandler
+ID_VOID_MAIN	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	9;"	d	file:
 IENTITY_HPP_INCLUDED	include/GQE/Entity/interfaces/IEntity.hpp	17;"	d
 IEVENT_HPP_INCLUDED	include/GQE/Core/interfaces/IEvent.hpp	9;"	d
 IEntity	include/GQE/Entity/interfaces/IEntity.hpp	/^  class GQE_API IEntity$/;"	c	namespace:GQE
-IEntity	src/GQE/Entity/interfaces/IEntity.cpp	/^  IEntity::IEntity(const Uint32 theOrder,IEntity* theFather) :$/;"	f	class:GQE::IEntity
+IEntity	src/GQE/Entity/interfaces/IEntity.cpp	/^  IEntity::IEntity(IEntity* theFather) :$/;"	f	class:GQE::IEntity
 IEvent	include/GQE/Core/interfaces/IEvent.hpp	/^  class GQE_API IEvent$/;"	c	namespace:GQE
 IEvent	src/GQE/Core/interfaces/IEvent.cpp	/^  IEvent::IEvent(std::string theType, const typeEventID theEventID) :$/;"	f	class:GQE::IEvent
 ILOGM_IF	include/GQE/Core/loggers/Log_macros.hpp	101;"	d
@@ -279,35 +616,225 @@ IState	include/GQE/Core/interfaces/IState.hpp	/^  class GQE_API IState$/;"	c	nam
 IState	src/GQE/Core/interfaces/IState.cpp	/^  IState::IState(const typeStateID theStateID, IApp& theApp) :$/;"	f	class:GQE::IState
 ISystem	include/GQE/Entity/interfaces/ISystem.hpp	/^  class GQE_API ISystem$/;"	c	namespace:GQE
 ISystem	src/GQE/Entity/interfaces/ISystem.cpp	/^  ISystem::ISystem(const typeSystemID theSystemID, IApp& theApp) :$/;"	f	class:GQE::ISystem
+Identification	extlibs/headers/SFML/Window/Joystick.hpp	/^    struct SFML_WINDOW_API Identification$/;"	s	class:sf::Joystick
+Identity	extlibs/headers/SFML/Graphics/Transform.hpp	/^    static const Transform Identity; \/\/\/< The identity transform (does nothing)$/;"	m	class:sf::Transform
+I	extlibs/headers/SFML/Window/Keyboard.hpp	/^        I,            \/\/\/< The I key$/;"	e	enum:sf::Keyboard::Key
 ImageAsset	include/GQE/Core/assets/ImageAsset.hpp	/^  class GQE_API ImageAsset : public TAsset<sf::Image>$/;"	c	namespace:GQE
 ImageAsset	src/GQE/Core/assets/ImageAsset.cpp	/^	ImageAsset::ImageAsset() :$/;"	f	class:GQE::ImageAsset
 ImageAsset	src/GQE/Core/assets/ImageAsset.cpp	/^  ImageAsset::ImageAsset(const typeAssetID theAssetID,$/;"	f	class:GQE::ImageAsset
 ImageHandler	include/GQE/Core/assets/ImageHandler.hpp	/^  class GQE_API ImageHandler :$/;"	c	namespace:GQE
 ImageHandler	src/GQE/Core/assets/ImageHandler.cpp	/^  ImageHandler::ImageHandler() :$/;"	f	class:GQE::ImageHandler
+Image	extlibs/headers/SFML/Graphics/Image.hpp	/^class SFML_GRAPHICS_API Image$/;"	c	namespace:sf
+Info	extlibs/headers/SFML/Audio/SoundFileReader.hpp	/^    struct Info$/;"	s	class:sf::SoundFileReader
+Info	extlibs/headers/SFML/Graphics/Font.hpp	/^    struct Info$/;"	s	class:sf::Font
+InputSoundFile	extlibs/headers/SFML/Audio/InputSoundFile.hpp	/^class SFML_AUDIO_API InputSoundFile : NonCopyable$/;"	c	namespace:sf
+InputStream	extlibs/headers/SFML/System/InputStream.hpp	/^class SFML_SYSTEM_API InputStream$/;"	c	namespace:sf
+Insert	extlibs/headers/SFML/Window/Keyboard.hpp	/^        Insert,       \/\/\/< The Insert key$/;"	e	enum:sf::Keyboard::Key
 Instance	include/GQE/Entity/classes/Instance.hpp	/^  class GQE_API Instance : public IEntity$/;"	c	namespace:GQE
-Instance	src/GQE/Entity/classes/Instance.cpp	/^  Instance::Instance(Prototype& thePrototype, Uint32 theOrder) :$/;"	f	class:GQE::Instance
+Instance	src/GQE/Entity/classes/Instance.cpp	/^  Instance::Instance(Prototype& thePrototype,IEntity* theFather) :$/;"	f	class:GQE::Instance
+InsufficientStorageSpace	extlibs/headers/SFML/Network/Ftp.hpp	/^            InsufficientStorageSpace  = 452, \/\/\/< Requested action not taken; insufficient storage space in system, file unavailable$/;"	e	enum:sf::Ftp::Response::Status
+Int16	extlibs/headers/SFML/Config.hpp	/^    typedef signed   short Int16;$/;"	t	namespace:sf
 Int16	include/GQE/Config.hpp	/^  typedef signed   short Int16;   \/\/\/< Standard 16 bit signed integer$/;"	t	namespace:GQE
+Int32	extlibs/headers/SFML/Config.hpp	/^    typedef signed   int Int32;$/;"	t	namespace:sf
 Int32	include/GQE/Config.hpp	/^  typedef signed   int Int32;     \/\/\/< Standard 32 bit signed integer$/;"	t	namespace:GQE
+Int64	extlibs/headers/SFML/Config.hpp	/^        typedef signed   __int64 Int64;$/;"	t	namespace:sf
+Int64	extlibs/headers/SFML/Config.hpp	/^        typedef signed   long long Int64;$/;"	t	namespace:sf
 Int64	include/GQE/Config.hpp	/^  typedef int64_t          Int64;  \/\/\/< Standard 64 bit signed integer$/;"	t	namespace:GQE
 Int64	include/GQE/Config.hpp	/^  typedef signed   __int64 Int64;  \/\/\/< Standard 64 bit signed integer$/;"	t	namespace:GQE
+Int8	extlibs/headers/SFML/Config.hpp	/^    typedef signed   char Int8;$/;"	t	namespace:sf
 Int8	include/GQE/Config.hpp	/^  typedef signed   char Int8;     \/\/\/< Standard 8 bit signed integer$/;"	t	namespace:GQE
+IntRect	extlibs/headers/SFML/Graphics/Rect.hpp	/^typedef Rect<int>   IntRect;$/;"	t	namespace:sf
+InternalServerError	extlibs/headers/SFML/Network/Http.hpp	/^            InternalServerError = 500, \/\/\/< The server encountered an unexpected error$/;"	e	enum:sf::Http::Response::Status
+InvalidFile	extlibs/headers/SFML/Network/Ftp.hpp	/^            InvalidFile      = 1003  \/\/\/< Not part of the FTP standard, generated by SFML when a local file cannot be read or written$/;"	e	enum:sf::Ftp::Response::Status
+InvalidPos	extlibs/headers/SFML/System/String.hpp	/^    static const std::size_t InvalidPos; \/\/\/< Represents an invalid position in the string$/;"	m	class:sf::String
+InvalidResponse	extlibs/headers/SFML/Network/Ftp.hpp	/^            InvalidResponse  = 1000, \/\/\/< Not part of the FTP standard, generated by SFML when a received response cannot be parsed$/;"	e	enum:sf::Ftp::Response::Status
+InvalidResponse	extlibs/headers/SFML/Network/Http.hpp	/^            InvalidResponse  = 1000, \/\/\/< Response is not a valid HTTP one$/;"	e	enum:sf::Http::Response::Status
+IpAddress	extlibs/headers/SFML/Network/IpAddress.hpp	/^class SFML_NETWORK_API IpAddress$/;"	c	namespace:sf
+Italic	extlibs/headers/SFML/Graphics/Text.hpp	/^        Italic        = 1 << 1, \/\/\/< Italic characters$/;"	e	enum:sf::Text::Style
+Iterator	extlibs/headers/SFML/System/String.hpp	/^    typedef std::basic_string<Uint32>::iterator       Iterator;      \/\/\/< Iterator type$/;"	t	class:sf::String
+J	extlibs/headers/SFML/Window/Keyboard.hpp	/^        J,            \/\/\/< The J key$/;"	e	enum:sf::Keyboard::Key
+JoystickButtonEvent	extlibs/headers/SFML/Window/Event.hpp	/^    struct JoystickButtonEvent$/;"	s	class:sf::Event
+JoystickButtonPressed	extlibs/headers/SFML/Window/Event.hpp	/^        JoystickButtonPressed,  \/\/\/< A joystick button was pressed (data in event.joystickButton)$/;"	e	enum:sf::Event::EventType
+JoystickButtonReleased	extlibs/headers/SFML/Window/Event.hpp	/^        JoystickButtonReleased, \/\/\/< A joystick button was released (data in event.joystickButton)$/;"	e	enum:sf::Event::EventType
+JoystickConnectEvent	extlibs/headers/SFML/Window/Event.hpp	/^    struct JoystickConnectEvent$/;"	s	class:sf::Event
+JoystickConnected	extlibs/headers/SFML/Window/Event.hpp	/^        JoystickConnected,      \/\/\/< A joystick was connected (data in event.joystickConnect)$/;"	e	enum:sf::Event::EventType
+JoystickDisconnected	extlibs/headers/SFML/Window/Event.hpp	/^        JoystickDisconnected,   \/\/\/< A joystick was disconnected (data in event.joystickConnect)$/;"	e	enum:sf::Event::EventType
+JoystickMoveEvent	extlibs/headers/SFML/Window/Event.hpp	/^    struct JoystickMoveEvent$/;"	s	class:sf::Event
+JoystickMoved	extlibs/headers/SFML/Window/Event.hpp	/^        JoystickMoved,          \/\/\/< The joystick moved along an axis (data in event.joystickMove)$/;"	e	enum:sf::Event::EventType
+Joystick	extlibs/headers/SFML/Window/Joystick.hpp	/^class SFML_WINDOW_API Joystick$/;"	c	namespace:sf
+KEY	build/CMakeFiles/CheckTypeSize/SIZEOF_VOID_PTR.c	10;"	d	file:
+KEY	build/CMakeFiles/CheckTypeSize/SIZEOF_VOID_PTR.c	12;"	d	file:
+KEY	build/CMakeFiles/CheckTypeSize/SIZEOF_VOID_PTR.c	14;"	d	file:
+KEY	build/CMakeFiles/CheckTypeSize/SIZEOF_VOID_PTR.c	6;"	d	file:
+KEY	build/CMakeFiles/CheckTypeSize/SIZEOF_VOID_PTR.c	8;"	d	file:
+K	extlibs/headers/SFML/Window/Keyboard.hpp	/^        K,            \/\/\/< The K key$/;"	e	enum:sf::Keyboard::Key
+KeyCount	extlibs/headers/SFML/Window/Keyboard.hpp	/^        KeyCount      \/\/\/< Keep last -- the total number of keyboard keys$/;"	e	enum:sf::Keyboard::Key
+KeyEvent	extlibs/headers/SFML/Window/Event.hpp	/^    struct KeyEvent$/;"	s	class:sf::Event
+KeyPressed	extlibs/headers/SFML/Window/Event.hpp	/^        KeyPressed,             \/\/\/< A key was pressed (data in event.key)$/;"	e	enum:sf::Event::EventType
+KeyReleased	extlibs/headers/SFML/Window/Event.hpp	/^        KeyReleased,            \/\/\/< A key was released (data in event.key)$/;"	e	enum:sf::Event::EventType
+Keyboard	extlibs/headers/SFML/Window/Keyboard.hpp	/^class SFML_WINDOW_API Keyboard$/;"	c	namespace:sf
+Key	extlibs/headers/SFML/Window/Keyboard.hpp	/^    enum Key$/;"	g	class:sf::Keyboard
+LAlt	extlibs/headers/SFML/Window/Keyboard.hpp	/^        LAlt,         \/\/\/< The left Alt key$/;"	e	enum:sf::Keyboard::Key
+LBracket	extlibs/headers/SFML/Window/Keyboard.hpp	/^        LBracket,     \/\/\/< The [ key$/;"	e	enum:sf::Keyboard::Key
+LControl	extlibs/headers/SFML/Window/Keyboard.hpp	/^        LControl,     \/\/\/< The left Control key$/;"	e	enum:sf::Keyboard::Key
 LOG_OFF	include/GQE/Core/loggers/Log_macros.hpp	49;"	d
 LOG_OFF	include/GQE/Core/loggers/Log_macros.hpp	56;"	d
 LOG_ON	include/GQE/Core/loggers/Log_macros.hpp	34;"	d
 LOG_ON	include/GQE/Core/loggers/Log_macros.hpp	41;"	d
+LShift	extlibs/headers/SFML/Window/Keyboard.hpp	/^        LShift,       \/\/\/< The left Shift key$/;"	e	enum:sf::Keyboard::Key
+LSystem	extlibs/headers/SFML/Window/Keyboard.hpp	/^        LSystem,      \/\/\/< The left OS specific key: window (Windows and Linux), apple (MacOS X), ...$/;"	e	enum:sf::Keyboard::Key
+L	extlibs/headers/SFML/Window/Keyboard.hpp	/^        L,            \/\/\/< The L key$/;"	e	enum:sf::Keyboard::Key
+Left	extlibs/headers/SFML/Window/Keyboard.hpp	/^        Left,         \/\/\/< Left arrow$/;"	e	enum:sf::Keyboard::Key
+Left	extlibs/headers/SFML/Window/Mouse.hpp	/^        Left,       \/\/\/< The left mouse button$/;"	e	enum:sf::Mouse::Button
+LinesStrip	extlibs/headers/SFML/Graphics/PrimitiveType.hpp	/^    LinesStrip,     \/\/\/< List of connected lines, a point uses the previous point to form a line$/;"	e	enum:sf::PrimitiveType
+Lines	extlibs/headers/SFML/Graphics/PrimitiveType.hpp	/^    Lines,          \/\/\/< List of individual lines$/;"	e	enum:sf::PrimitiveType
+Listener	extlibs/headers/SFML/Audio/Listener.hpp	/^class SFML_AUDIO_API Listener$/;"	c	namespace:sf
+ListingResponse	extlibs/headers/SFML/Network/Ftp.hpp	/^    class SFML_NETWORK_API ListingResponse : public Response$/;"	c	class:sf::Ftp
+LocalError	extlibs/headers/SFML/Network/Ftp.hpp	/^            LocalError                = 451, \/\/\/< Requested action aborted, local error in processing$/;"	e	enum:sf::Ftp::Response::Status
+LocalHost	extlibs/headers/SFML/Network/IpAddress.hpp	/^    static const IpAddress LocalHost; \/\/\/< The "localhost" address (for connecting a computer to itself locally)$/;"	m	class:sf::IpAddress
+Lock	extlibs/headers/SFML/System/Lock.hpp	/^class SFML_SYSTEM_API Lock : NonCopyable$/;"	c	namespace:sf
+LoggedIn	extlibs/headers/SFML/Network/Ftp.hpp	/^            LoggedIn              = 230, \/\/\/< User logged in, proceed. Logged out if appropriate$/;"	e	enum:sf::Ftp::Response::Status
+LostFocus	extlibs/headers/SFML/Window/Event.hpp	/^        LostFocus,              \/\/\/< The window lost the focus (no data)$/;"	e	enum:sf::Event::EventType
 LowRange	include/GQE/Core/Core_types.hpp	/^    LowRange  = 0, \/\/\/< Recommend using LowRange graphics (32x32 pixels)$/;"	e	enum:GQE::GraphicRange
 MAX_CHARS	include/GQE/Core/classes/ConfigReader.hpp	/^      static const unsigned short MAX_CHARS = 100;$/;"	m	class:GQE::ConfigReader
 MOVEMENT_SYSTEM_HPP_INCLUDED	include/GQE/Entity/systems/MovementSystem.hpp	15;"	d
+Magenta	extlibs/headers/SFML/Graphics/Color.hpp	/^    static const Color Magenta;     \/\/\/< Magenta predefined color$/;"	m	class:sf::Color
+Magnetometer	extlibs/headers/SFML/Window/Sensor.hpp	/^        Magnetometer,     \/\/\/< Measures the ambient magnetic field (micro-teslas)$/;"	e	enum:sf::Sensor::Type
+MaxDatagramSize	extlibs/headers/SFML/Network/UdpSocket.hpp	/^        MaxDatagramSize = 65507 \/\/\/< The maximum number of bytes that can be sent in a single UDP datagram$/;"	e	enum:sf::UdpSocket::__anon1
+M	extlibs/headers/SFML/Window/Keyboard.hpp	/^        M,            \/\/\/< The M key$/;"	e	enum:sf::Keyboard::Key
+MemoryInputStream	extlibs/headers/SFML/System/MemoryInputStream.hpp	/^class SFML_SYSTEM_API MemoryInputStream : public InputStream$/;"	c	namespace:sf
+Menu	extlibs/headers/SFML/Window/Keyboard.hpp	/^        Menu,         \/\/\/< The Menu key$/;"	e	enum:sf::Keyboard::Key
+Method	extlibs/headers/SFML/Network/Http.hpp	/^        enum Method$/;"	g	class:sf::Http::Request
 MidRange	include/GQE/Core/Core_types.hpp	/^    MidRange  = 1, \/\/\/< Recommend using MidRange graphics (64x64 pixels)$/;"	e	enum:GQE::GraphicRange
+Middle	extlibs/headers/SFML/Window/Mouse.hpp	/^        Middle,     \/\/\/< The middle (wheel) mouse button$/;"	e	enum:sf::Mouse::Button
+MouseButtonEvent	extlibs/headers/SFML/Window/Event.hpp	/^    struct MouseButtonEvent$/;"	s	class:sf::Event
+MouseButtonPressed	extlibs/headers/SFML/Window/Event.hpp	/^        MouseButtonPressed,     \/\/\/< A mouse button was pressed (data in event.mouseButton)$/;"	e	enum:sf::Event::EventType
+MouseButtonReleased	extlibs/headers/SFML/Window/Event.hpp	/^        MouseButtonReleased,    \/\/\/< A mouse button was released (data in event.mouseButton)$/;"	e	enum:sf::Event::EventType
+MouseEntered	extlibs/headers/SFML/Window/Event.hpp	/^        MouseEntered,           \/\/\/< The mouse cursor entered the area of the window (no data)$/;"	e	enum:sf::Event::EventType
+MouseLeft	extlibs/headers/SFML/Window/Event.hpp	/^        MouseLeft,              \/\/\/< The mouse cursor left the area of the window (no data)$/;"	e	enum:sf::Event::EventType
+MouseMoveEvent	extlibs/headers/SFML/Window/Event.hpp	/^    struct MouseMoveEvent$/;"	s	class:sf::Event
+MouseMoved	extlibs/headers/SFML/Window/Event.hpp	/^        MouseMoved,             \/\/\/< The mouse cursor moved (data in event.mouseMove)$/;"	e	enum:sf::Event::EventType
+MouseWheelEvent	extlibs/headers/SFML/Window/Event.hpp	/^    struct MouseWheelEvent$/;"	s	class:sf::Event
+MouseWheelMoved	extlibs/headers/SFML/Window/Event.hpp	/^        MouseWheelMoved,        \/\/\/< The mouse wheel was scrolled (data in event.mouseWheel) (deprecated)$/;"	e	enum:sf::Event::EventType
+MouseWheelScrollEvent	extlibs/headers/SFML/Window/Event.hpp	/^    struct MouseWheelScrollEvent$/;"	s	class:sf::Event
+MouseWheelScrolled	extlibs/headers/SFML/Window/Event.hpp	/^        MouseWheelScrolled,     \/\/\/< The mouse wheel was scrolled (data in event.mouseWheelScroll)$/;"	e	enum:sf::Event::EventType
+Mouse	extlibs/headers/SFML/Window/Mouse.hpp	/^class SFML_WINDOW_API Mouse$/;"	c	namespace:sf
+MovedPermanently	extlibs/headers/SFML/Network/Http.hpp	/^            MovedPermanently = 301, \/\/\/< The requested page has permanently moved to a new location$/;"	e	enum:sf::Http::Response::Status
+MovedTemporarily	extlibs/headers/SFML/Network/Http.hpp	/^            MovedTemporarily = 302, \/\/\/< The requested page has temporarily moved to a new location$/;"	e	enum:sf::Http::Response::Status
 MovementSystem	include/GQE/Entity/systems/MovementSystem.hpp	/^  class GQE_API MovementSystem : public ISystem$/;"	c	namespace:GQE
 MovementSystem	src/GQE/Entity/systems/MovementSystem.cpp	/^  MovementSystem::MovementSystem(IApp& theApp):$/;"	f	class:GQE::MovementSystem
+MultipleChoices	extlibs/headers/SFML/Network/Http.hpp	/^            MultipleChoices  = 300, \/\/\/< The requested page can be accessed from several locations$/;"	e	enum:sf::Http::Response::Status
+Multiply	extlibs/headers/SFML/Window/Keyboard.hpp	/^        Multiply,     \/\/\/< The * key$/;"	e	enum:sf::Keyboard::Key
 MusicAsset	include/GQE/Core/assets/MusicAsset.hpp	/^  class GQE_API MusicAsset : public TAsset<sf::Music>$/;"	c	namespace:GQE
 MusicAsset	src/GQE/Core/assets/MusicAsset.cpp	/^  MusicAsset::MusicAsset() :$/;"	f	class:GQE::MusicAsset
 MusicAsset	src/GQE/Core/assets/MusicAsset.cpp	/^  MusicAsset::MusicAsset(const typeAssetID theAssetID,$/;"	f	class:GQE::MusicAsset
 MusicHandler	include/GQE/Core/assets/MusicHandler.hpp	/^  class GQE_API MusicHandler : public TAssetHandler<sf::Music>$/;"	c	namespace:GQE
 MusicHandler	src/GQE/Core/assets/MusicHandler.cpp	/^  MusicHandler::MusicHandler() :$/;"	f	class:GQE::MusicHandler
+Music	extlibs/headers/SFML/Audio/Music.hpp	/^class SFML_AUDIO_API Music : public SoundStream$/;"	c	namespace:sf
+Mutex	extlibs/headers/SFML/System/Mutex.hpp	/^class SFML_SYSTEM_API Mutex : NonCopyable$/;"	c	namespace:sf
+NOMINMAX	extlibs/headers/SFML/Config.hpp	46;"	d
 NOMINMAX	include/GQE/Config.hpp	44;"	d
 NO_LOG_LEVEL	include/GQE/Core/Core_types.hpp	32;"	d
+NeedAccountToLogIn	extlibs/headers/SFML/Network/Ftp.hpp	/^            NeedAccountToLogIn = 332, \/\/\/< Need account for login$/;"	e	enum:sf::Ftp::Response::Status
+NeedAccountToStore	extlibs/headers/SFML/Network/Ftp.hpp	/^            NeedAccountToStore      = 532, \/\/\/< Need account for storing files$/;"	e	enum:sf::Ftp::Response::Status
+NeedInformation	extlibs/headers/SFML/Network/Ftp.hpp	/^            NeedInformation    = 350, \/\/\/< Requested file action pending further information$/;"	e	enum:sf::Ftp::Response::Status
+NeedPassword	extlibs/headers/SFML/Network/Ftp.hpp	/^            NeedPassword       = 331, \/\/\/< User name ok, need password$/;"	e	enum:sf::Ftp::Response::Status
+N	extlibs/headers/SFML/Window/Keyboard.hpp	/^        N,            \/\/\/< The N key$/;"	e	enum:sf::Keyboard::Key
+NoContent	extlibs/headers/SFML/Network/Http.hpp	/^            NoContent      = 204, \/\/\/< The server didn't send any data in return$/;"	e	enum:sf::Http::Response::Status
+NonCopyable	extlibs/headers/SFML/System/NonCopyable.hpp	/^class SFML_SYSTEM_API NonCopyable$/;"	c	namespace:sf
+NonCopyable	extlibs/headers/SFML/System/NonCopyable.hpp	/^    NonCopyable() {}$/;"	f	class:sf::NonCopyable
+None	extlibs/headers/SFML/Window/WindowStyle.hpp	/^        None       = 0,      \/\/\/< No border \/ title bar (this flag and all others are mutually exclusive)$/;"	e	enum:sf::Style::__anon5
+None	extlibs/headers/SFML/Network/IpAddress.hpp	/^    static const IpAddress None;      \/\/\/< Value representing an empty\/invalid address$/;"	m	class:sf::IpAddress
+Normalized	extlibs/headers/SFML/Graphics/Texture.hpp	/^        Normalized, \/\/\/< Texture coordinates in range [0 .. 1]$/;"	e	enum:sf::Texture::CoordinateType
+NotEnoughMemory	extlibs/headers/SFML/Network/Ftp.hpp	/^            NotEnoughMemory         = 552, \/\/\/< Requested file action aborted, exceeded storage allocation$/;"	e	enum:sf::Ftp::Response::Status
+NotFound	extlibs/headers/SFML/Network/Http.hpp	/^            NotFound            = 404, \/\/\/< The requested page doesn't exist$/;"	e	enum:sf::Http::Response::Status
+NotImplemented	extlibs/headers/SFML/Network/Http.hpp	/^            NotImplemented      = 501, \/\/\/< The server doesn't implement a requested feature$/;"	e	enum:sf::Http::Response::Status
+NotLoggedIn	extlibs/headers/SFML/Network/Ftp.hpp	/^            NotLoggedIn             = 530, \/\/\/< Not logged in$/;"	e	enum:sf::Ftp::Response::Status
+NotModified	extlibs/headers/SFML/Network/Http.hpp	/^            NotModified      = 304, \/\/\/< For conditional requests, means the requested page hasn't changed and doesn't need to be refreshed$/;"	e	enum:sf::Http::Response::Status
+NotReady	extlibs/headers/SFML/Network/Socket.hpp	/^        NotReady,     \/\/\/< The socket is not ready to send \/ receive data yet$/;"	e	enum:sf::Socket::Status
+Num0	extlibs/headers/SFML/Window/Keyboard.hpp	/^        Num0,         \/\/\/< The 0 key$/;"	e	enum:sf::Keyboard::Key
+Num1	extlibs/headers/SFML/Window/Keyboard.hpp	/^        Num1,         \/\/\/< The 1 key$/;"	e	enum:sf::Keyboard::Key
+Num2	extlibs/headers/SFML/Window/Keyboard.hpp	/^        Num2,         \/\/\/< The 2 key$/;"	e	enum:sf::Keyboard::Key
+Num3	extlibs/headers/SFML/Window/Keyboard.hpp	/^        Num3,         \/\/\/< The 3 key$/;"	e	enum:sf::Keyboard::Key
+Num4	extlibs/headers/SFML/Window/Keyboard.hpp	/^        Num4,         \/\/\/< The 4 key$/;"	e	enum:sf::Keyboard::Key
+Num5	extlibs/headers/SFML/Window/Keyboard.hpp	/^        Num5,         \/\/\/< The 5 key$/;"	e	enum:sf::Keyboard::Key
+Num6	extlibs/headers/SFML/Window/Keyboard.hpp	/^        Num6,         \/\/\/< The 6 key$/;"	e	enum:sf::Keyboard::Key
+Num7	extlibs/headers/SFML/Window/Keyboard.hpp	/^        Num7,         \/\/\/< The 7 key$/;"	e	enum:sf::Keyboard::Key
+Num8	extlibs/headers/SFML/Window/Keyboard.hpp	/^        Num8,         \/\/\/< The 8 key$/;"	e	enum:sf::Keyboard::Key
+Num9	extlibs/headers/SFML/Window/Keyboard.hpp	/^        Num9,         \/\/\/< The 9 key$/;"	e	enum:sf::Keyboard::Key
+Numpad0	extlibs/headers/SFML/Window/Keyboard.hpp	/^        Numpad0,      \/\/\/< The numpad 0 key$/;"	e	enum:sf::Keyboard::Key
+Numpad1	extlibs/headers/SFML/Window/Keyboard.hpp	/^        Numpad1,      \/\/\/< The numpad 1 key$/;"	e	enum:sf::Keyboard::Key
+Numpad2	extlibs/headers/SFML/Window/Keyboard.hpp	/^        Numpad2,      \/\/\/< The numpad 2 key$/;"	e	enum:sf::Keyboard::Key
+Numpad3	extlibs/headers/SFML/Window/Keyboard.hpp	/^        Numpad3,      \/\/\/< The numpad 3 key$/;"	e	enum:sf::Keyboard::Key
+Numpad4	extlibs/headers/SFML/Window/Keyboard.hpp	/^        Numpad4,      \/\/\/< The numpad 4 key$/;"	e	enum:sf::Keyboard::Key
+Numpad5	extlibs/headers/SFML/Window/Keyboard.hpp	/^        Numpad5,      \/\/\/< The numpad 5 key$/;"	e	enum:sf::Keyboard::Key
+Numpad6	extlibs/headers/SFML/Window/Keyboard.hpp	/^        Numpad6,      \/\/\/< The numpad 6 key$/;"	e	enum:sf::Keyboard::Key
+Numpad7	extlibs/headers/SFML/Window/Keyboard.hpp	/^        Numpad7,      \/\/\/< The numpad 7 key$/;"	e	enum:sf::Keyboard::Key
+Numpad8	extlibs/headers/SFML/Window/Keyboard.hpp	/^        Numpad8,      \/\/\/< The numpad 8 key$/;"	e	enum:sf::Keyboard::Key
+Numpad9	extlibs/headers/SFML/Window/Keyboard.hpp	/^        Numpad9,      \/\/\/< The numpad 9 key$/;"	e	enum:sf::Keyboard::Key
+O	extlibs/headers/SFML/Window/Keyboard.hpp	/^        O,            \/\/\/< The O key$/;"	e	enum:sf::Keyboard::Key
+Ok	extlibs/headers/SFML/Network/Ftp.hpp	/^            Ok                    = 200, \/\/\/< Command ok$/;"	e	enum:sf::Ftp::Response::Status
+Ok	extlibs/headers/SFML/Network/Http.hpp	/^            Ok             = 200, \/\/\/< Most common code returned when operation was successful$/;"	e	enum:sf::Http::Response::Status
+OneMinusDstAlpha	extlibs/headers/SFML/Graphics/BlendMode.hpp	/^        OneMinusDstAlpha  \/\/\/< (1, 1, 1, 1) - (dst.a, dst.a, dst.a, dst.a)$/;"	e	enum:sf::BlendMode::Factor
+OneMinusDstColor	extlibs/headers/SFML/Graphics/BlendMode.hpp	/^        OneMinusDstColor, \/\/\/< (1, 1, 1, 1) - (dst.r, dst.g, dst.b, dst.a)$/;"	e	enum:sf::BlendMode::Factor
+OneMinusSrcAlpha	extlibs/headers/SFML/Graphics/BlendMode.hpp	/^        OneMinusSrcAlpha, \/\/\/< (1, 1, 1, 1) - (src.a, src.a, src.a, src.a)$/;"	e	enum:sf::BlendMode::Factor
+OneMinusSrcColor	extlibs/headers/SFML/Graphics/BlendMode.hpp	/^        OneMinusSrcColor, \/\/\/< (1, 1, 1, 1) - (src.r, src.g, src.b, src.a)$/;"	e	enum:sf::BlendMode::Factor
+One	extlibs/headers/SFML/Graphics/BlendMode.hpp	/^        One,              \/\/\/< (1, 1, 1, 1)$/;"	e	enum:sf::BlendMode::Factor
+OpeningDataConnection	extlibs/headers/SFML/Network/Ftp.hpp	/^            OpeningDataConnection       = 150, \/\/\/< File status ok, about to open data connection$/;"	e	enum:sf::Ftp::Response::Status
+Orientation	extlibs/headers/SFML/Window/Sensor.hpp	/^        Orientation,      \/\/\/< Measures the absolute 3D orientation (degrees)$/;"	e	enum:sf::Sensor::Type
+OutputSoundFile	extlibs/headers/SFML/Audio/OutputSoundFile.hpp	/^class SFML_AUDIO_API OutputSoundFile : NonCopyable$/;"	c	namespace:sf
+PLATFORM_ID	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	240;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	243;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	246;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	249;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	252;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	255;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	258;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	261;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	264;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	267;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	270;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	273;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	276;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	279;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	282;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	285;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	288;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	291;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	294;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	297;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	300;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	303;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	306;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	309;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	312;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	315;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	233;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	236;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	239;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	242;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	245;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	248;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	251;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	254;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	257;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	260;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	263;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	266;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	269;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	272;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	275;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	278;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	281;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	284;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	287;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	290;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	293;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	296;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	299;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	302;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	305;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	308;"	d	file:
 PROPERTY_MANAGER_HPP_INCLUDED	include/GQE/Core/classes/PropertyManager.hpp	13;"	d
 PROTOTYPE_HPP_INCLUDED	include/GQE/Entity/classes/Prototype.hpp	15;"	d
 PROTOTYPE_MANAGER_HPP_INCLUDED	include/GQE/Entity/classes/PrototypeManager.hpp	11;"	d
@@ -315,19 +842,211 @@ PTRDIFF_MAX	extlibs/msvc/stdint.h	193;"	d
 PTRDIFF_MAX	extlibs/msvc/stdint.h	196;"	d
 PTRDIFF_MIN	extlibs/msvc/stdint.h	192;"	d
 PTRDIFF_MIN	extlibs/msvc/stdint.h	195;"	d
-PropertyManager	include/GQE/Core/classes/PropertyManager.hpp	/^  class GQE_API PropertyManager$/;"	c	namespace:GQE
-PropertyManager	src/GQE/Core/classes/PropertyManager.cpp	/^  PropertyManager::PropertyManager()$/;"	f	class:GQE::PropertyManager
+Packet	extlibs/headers/SFML/Network/Packet.hpp	/^class SFML_NETWORK_API Packet$/;"	c	namespace:sf
+PageDown	extlibs/headers/SFML/Window/Keyboard.hpp	/^        PageDown,     \/\/\/< The Page down key$/;"	e	enum:sf::Keyboard::Key
+PageTable	extlibs/headers/SFML/Graphics/Font.hpp	/^    typedef std::map<unsigned int, Page> PageTable; \/\/\/< Table mapping a character size to its page (texture)$/;"	t	class:sf::Font
+PageTypeUnknown	extlibs/headers/SFML/Network/Ftp.hpp	/^            PageTypeUnknown         = 551, \/\/\/< Requested action aborted, page type unknown$/;"	e	enum:sf::Ftp::Response::Status
+PageUp	extlibs/headers/SFML/Window/Keyboard.hpp	/^        PageUp,       \/\/\/< The Page up key$/;"	e	enum:sf::Keyboard::Key
+Page	extlibs/headers/SFML/Graphics/Font.hpp	/^    struct Page$/;"	s	class:sf::Font
+ParamTable	extlibs/headers/SFML/Graphics/Shader.hpp	/^    typedef std::map<std::string, int> ParamTable;$/;"	t	class:sf::Shader
+ParameterNotImplemented	extlibs/headers/SFML/Network/Ftp.hpp	/^            ParameterNotImplemented = 504, \/\/\/< Command not implemented for that parameter$/;"	e	enum:sf::Ftp::Response::Status
+ParametersUnknown	extlibs/headers/SFML/Network/Ftp.hpp	/^            ParametersUnknown       = 501, \/\/\/< Syntax error in parameters or arguments$/;"	e	enum:sf::Ftp::Response::Status
+PartialContent	extlibs/headers/SFML/Network/Http.hpp	/^            PartialContent = 206, \/\/\/< The server has sent a part of the resource, as a response to a partial GET request$/;"	e	enum:sf::Http::Response::Status
+Partial	extlibs/headers/SFML/Network/Socket.hpp	/^        Partial,      \/\/\/< The socket sent a part of the data$/;"	e	enum:sf::Socket::Status
+Paused	extlibs/headers/SFML/Audio/SoundSource.hpp	/^        Paused,  \/\/\/< Sound is paused$/;"	e	enum:sf::SoundSource::Status
+Pause	extlibs/headers/SFML/Window/Keyboard.hpp	/^        Pause,        \/\/\/< The Pause key$/;"	e	enum:sf::Keyboard::Key
+P	extlibs/headers/SFML/Window/Keyboard.hpp	/^        P,            \/\/\/< The P key$/;"	e	enum:sf::Keyboard::Key
+PendingPacket	extlibs/headers/SFML/Network/TcpSocket.hpp	/^    struct PendingPacket$/;"	s	class:sf::TcpSocket
+Period	extlibs/headers/SFML/Window/Keyboard.hpp	/^        Period,       \/\/\/< The . key$/;"	e	enum:sf::Keyboard::Key
+Pixels	extlibs/headers/SFML/Graphics/Texture.hpp	/^        Pixels      \/\/\/< Texture coordinates in range [0 .. size]$/;"	e	enum:sf::Texture::CoordinateType
+Playing	extlibs/headers/SFML/Audio/SoundSource.hpp	/^        Playing  \/\/\/< Sound is playing$/;"	e	enum:sf::SoundSource::Status
+PointlessCommand	extlibs/headers/SFML/Network/Ftp.hpp	/^            PointlessCommand      = 202, \/\/\/< Command not implemented$/;"	e	enum:sf::Ftp::Response::Status
+Points	extlibs/headers/SFML/Graphics/PrimitiveType.hpp	/^    Points,         \/\/\/< List of individual points$/;"	e	enum:sf::PrimitiveType
+Post	extlibs/headers/SFML/Network/Http.hpp	/^            Post,  \/\/\/< Request in post mode, usually to send data to a page$/;"	e	enum:sf::Http::Request::Method
+PovX	extlibs/headers/SFML/Window/Joystick.hpp	/^        PovX, \/\/\/< The X axis of the point-of-view hat$/;"	e	enum:sf::Joystick::Axis
+PovY	extlibs/headers/SFML/Window/Joystick.hpp	/^        PovY  \/\/\/< The Y axis of the point-of-view hat$/;"	e	enum:sf::Joystick::Axis
+PrimitiveType	extlibs/headers/SFML/Graphics/PrimitiveType.hpp	/^enum PrimitiveType$/;"	g	namespace:sf
+PropertyManager	include/GQE/Core/classes/PropertyManager.hpp	/^class GQE_API PropertyManager$/;"	c	namespace:GQE
+PropertyManager	src/GQE/Core/classes/PropertyManager.cpp	/^PropertyManager::PropertyManager()$/;"	f	class:GQE::PropertyManager
 PrototypeManager	include/GQE/Entity/classes/PrototypeManager.hpp	/^  class GQE_API PrototypeManager$/;"	c	namespace:GQE
 PrototypeManager	src/GQE/Entity/classes/PrototypeManager.cpp	/^  PrototypeManager::PrototypeManager()$/;"	f	class:GQE::PrototypeManager
 Prototype	include/GQE/Entity/classes/Prototype.hpp	/^  class GQE_API Prototype : public IEntity$/;"	c	namespace:GQE
-Prototype	src/GQE/Entity/classes/Prototype.cpp	/^  Prototype::Prototype(const typePrototypeID thePrototypeID, Uint32 theOrder) :$/;"	f	class:GQE::Prototype
+Prototype	src/GQE/Entity/classes/Prototype.cpp	/^  Prototype::Prototype(const typePrototypeID thePrototypeID, IEntity* theFather) :$/;"	f	class:GQE::Prototype
+Put	extlibs/headers/SFML/Network/Http.hpp	/^            Put,   \/\/\/< Request in put mode, useful for a REST API$/;"	e	enum:sf::Http::Request::Method
+Q	extlibs/headers/SFML/Window/Keyboard.hpp	/^        Q,            \/\/\/< The Q key$/;"	e	enum:sf::Keyboard::Key
+Quads	extlibs/headers/SFML/Graphics/PrimitiveType.hpp	/^    Quads           \/\/\/< List of individual quads (deprecated, don't work with OpenGL ES)$/;"	e	enum:sf::PrimitiveType
+Quote	extlibs/headers/SFML/Window/Keyboard.hpp	/^        Quote,        \/\/\/< The ' key$/;"	e	enum:sf::Keyboard::Key
+RAlt	extlibs/headers/SFML/Window/Keyboard.hpp	/^        RAlt,         \/\/\/< The right Alt key$/;"	e	enum:sf::Keyboard::Key
+RBracket	extlibs/headers/SFML/Window/Keyboard.hpp	/^        RBracket,     \/\/\/< The ] key$/;"	e	enum:sf::Keyboard::Key
+RControl	extlibs/headers/SFML/Window/Keyboard.hpp	/^        RControl,     \/\/\/< The right Control key$/;"	e	enum:sf::Keyboard::Key
 RENDER_SYSTEM_HPP_INCLUDED	include/GQE/Entity/systems/RenderSystem.hpp	13;"	d
+RShift	extlibs/headers/SFML/Window/Keyboard.hpp	/^        RShift,       \/\/\/< The right Shift key$/;"	e	enum:sf::Keyboard::Key
+RSystem	extlibs/headers/SFML/Window/Keyboard.hpp	/^        RSystem,      \/\/\/< The right OS specific key: window (Windows and Linux), apple (MacOS X), ...$/;"	e	enum:sf::Keyboard::Key
+RangeNotSatisfiable	extlibs/headers/SFML/Network/Http.hpp	/^            RangeNotSatisfiable = 407, \/\/\/< The server can't satisfy the partial GET request (with a "Range" header field)$/;"	e	enum:sf::Http::Response::Status
+ReaderFactoryArray	extlibs/headers/SFML/Audio/SoundFileFactory.hpp	/^    typedef std::vector<ReaderFactory> ReaderFactoryArray;$/;"	t	class:sf::SoundFileFactory
+ReaderFactory	extlibs/headers/SFML/Audio/SoundFileFactory.hpp	/^    struct ReaderFactory$/;"	s	class:sf::SoundFileFactory
+RectangleShape	extlibs/headers/SFML/Graphics/RectangleShape.hpp	/^class SFML_GRAPHICS_API RectangleShape : public Shape$/;"	c	namespace:sf
+Rect	extlibs/headers/SFML/Graphics/Rect.hpp	/^class Rect$/;"	c	namespace:sf
+Red	extlibs/headers/SFML/Graphics/Color.hpp	/^    static const Color Red;         \/\/\/< Red predefined color$/;"	m	class:sf::Color
+R	extlibs/headers/SFML/Window/Joystick.hpp	/^        R,    \/\/\/< The R axis$/;"	e	enum:sf::Joystick::Axis
+R	extlibs/headers/SFML/Window/Keyboard.hpp	/^        R,            \/\/\/< The R key$/;"	e	enum:sf::Keyboard::Key
+Regular	extlibs/headers/SFML/Graphics/Text.hpp	/^        Regular       = 0,      \/\/\/< Regular characters, no style$/;"	e	enum:sf::Text::Style
+RenderStates	extlibs/headers/SFML/Graphics/RenderStates.hpp	/^class SFML_GRAPHICS_API RenderStates$/;"	c	namespace:sf
 RenderSystem	include/GQE/Entity/systems/RenderSystem.hpp	/^  class GQE_API RenderSystem : public ISystem$/;"	c	namespace:GQE
 RenderSystem	src/GQE/Entity/systems/RenderSystem.cpp	/^  RenderSystem::RenderSystem(IApp& theApp):$/;"	f	class:GQE::RenderSystem
+RenderTarget	extlibs/headers/SFML/Graphics/RenderTarget.hpp	/^class SFML_GRAPHICS_API RenderTarget : NonCopyable$/;"	c	namespace:sf
+RenderTexture	extlibs/headers/SFML/Graphics/RenderTexture.hpp	/^class SFML_GRAPHICS_API RenderTexture : public RenderTarget$/;"	c	namespace:sf
+RenderWindow	extlibs/headers/SFML/Graphics/RenderWindow.hpp	/^class SFML_GRAPHICS_API RenderWindow : public Window, public RenderTarget$/;"	c	namespace:sf
+Request	extlibs/headers/SFML/Network/Http.hpp	/^    class SFML_NETWORK_API Request$/;"	c	class:sf::Http
+ResetContent	extlibs/headers/SFML/Network/Http.hpp	/^            ResetContent   = 205, \/\/\/< The server informs the client that it should clear the view (form) that caused the request to be sent$/;"	e	enum:sf::Http::Response::Status
+Resized	extlibs/headers/SFML/Window/Event.hpp	/^        Resized,                \/\/\/< The window was resized (data in event.size)$/;"	e	enum:sf::Event::EventType
+Resize	extlibs/headers/SFML/Window/WindowStyle.hpp	/^        Resize     = 1 << 1, \/\/\/< Title bar + resizable border + maximize button$/;"	e	enum:sf::Style::__anon5
+ResourceStream	extlibs/headers/SFML/System/FileInputStream.hpp	/^class SFML_SYSTEM_API ResourceStream;$/;"	m	namespace:sf::priv	typeref:class:sf::priv::SFML_SYSTEM_API
+Response	extlibs/headers/SFML/Network/Ftp.hpp	/^    class SFML_NETWORK_API Response$/;"	c	class:sf::Ftp
+Response	extlibs/headers/SFML/Network/Http.hpp	/^    class SFML_NETWORK_API Response$/;"	c	class:sf::Http
+RestartMarkerReply	extlibs/headers/SFML/Network/Ftp.hpp	/^            RestartMarkerReply          = 110, \/\/\/< Restart marker reply$/;"	e	enum:sf::Ftp::Response::Status
+Return	extlibs/headers/SFML/Window/Keyboard.hpp	/^        Return,       \/\/\/< The Return key$/;"	e	enum:sf::Keyboard::Key
+Right	extlibs/headers/SFML/Window/Keyboard.hpp	/^        Right,        \/\/\/< Right arrow$/;"	e	enum:sf::Keyboard::Key
+Right	extlibs/headers/SFML/Window/Mouse.hpp	/^        Right,      \/\/\/< The right mouse button$/;"	e	enum:sf::Mouse::Button
+Row	extlibs/headers/SFML/Graphics/Font.hpp	/^        Row(unsigned int rowTop, unsigned int rowHeight) : width(0), top(rowTop), height(rowHeight) {}$/;"	f	struct:sf::Font::Row
+Row	extlibs/headers/SFML/Graphics/Font.hpp	/^    struct Row$/;"	s	class:sf::Font
+SFML_ALRESOURCE_HPP	extlibs/headers/SFML/Audio/AlResource.hpp	26;"	d
+SFML_API_EXPORT	extlibs/headers/SFML/Config.hpp	122;"	d
+SFML_API_EXPORT	extlibs/headers/SFML/Config.hpp	138;"	d
+SFML_API_EXPORT	extlibs/headers/SFML/Config.hpp	144;"	d
+SFML_API_EXPORT	extlibs/headers/SFML/Config.hpp	154;"	d
+SFML_API_IMPORT	extlibs/headers/SFML/Config.hpp	123;"	d
+SFML_API_IMPORT	extlibs/headers/SFML/Config.hpp	139;"	d
+SFML_API_IMPORT	extlibs/headers/SFML/Config.hpp	145;"	d
+SFML_API_IMPORT	extlibs/headers/SFML/Config.hpp	155;"	d
+SFML_AUDIO_API	extlibs/headers/SFML/Audio/Export.hpp	39;"	d
+SFML_AUDIO_API	extlibs/headers/SFML/Audio/Export.hpp	43;"	d
+SFML_AUDIO_EXPORT_HPP	extlibs/headers/SFML/Audio/Export.hpp	26;"	d
+SFML_AUDIO_HPP	extlibs/headers/SFML/Audio.hpp	26;"	d
+SFML_BLENDMODE_HPP	extlibs/headers/SFML/Graphics/BlendMode.hpp	26;"	d
+SFML_CIRCLESHAPE_HPP	extlibs/headers/SFML/Graphics/CircleShape.hpp	26;"	d
+SFML_CLOCK_HPP	extlibs/headers/SFML/System/Clock.hpp	26;"	d
+SFML_COLOR_HPP	extlibs/headers/SFML/Graphics/Color.hpp	26;"	d
+SFML_CONFIG_HPP	extlibs/headers/SFML/Config.hpp	26;"	d
+SFML_CONTEXTSETTINGS_HPP	extlibs/headers/SFML/Window/ContextSettings.hpp	26;"	d
+SFML_CONTEXT_HPP	extlibs/headers/SFML/Window/Context.hpp	26;"	d
+SFML_CONVEXSHAPE_HPP	extlibs/headers/SFML/Graphics/ConvexShape.hpp	26;"	d
+SFML_DEBUG	extlibs/headers/SFML/Config.hpp	109;"	d
+SFML_DRAWABLE_HPP	extlibs/headers/SFML/Graphics/Drawable.hpp	26;"	d
+SFML_ERR_HPP	extlibs/headers/SFML/System/Err.hpp	26;"	d
+SFML_EVENT_HPP	extlibs/headers/SFML/Window/Event.hpp	26;"	d
+SFML_FILEINPUTSTREAM_HPP	extlibs/headers/SFML/System/FileInputStream.hpp	26;"	d
+SFML_FONT_HPP	extlibs/headers/SFML/Graphics/Font.hpp	26;"	d
+SFML_FTP_HPP	extlibs/headers/SFML/Network/Ftp.hpp	26;"	d
+SFML_GLRESOURCE_HPP	extlibs/headers/SFML/Window/GlResource.hpp	26;"	d
+SFML_GLYPH_HPP	extlibs/headers/SFML/Graphics/Glyph.hpp	26;"	d
+SFML_GRAPHICS_API	extlibs/headers/SFML/Graphics/Export.hpp	39;"	d
+SFML_GRAPHICS_API	extlibs/headers/SFML/Graphics/Export.hpp	43;"	d
+SFML_GRAPHICS_EXPORT_HPP	extlibs/headers/SFML/Graphics/Export.hpp	26;"	d
+SFML_GRAPHICS_HPP	extlibs/headers/SFML/Graphics.hpp	26;"	d
+SFML_HTTP_HPP	extlibs/headers/SFML/Network/Http.hpp	26;"	d
+SFML_IMAGE_HPP	extlibs/headers/SFML/Graphics/Image.hpp	26;"	d
+SFML_INPUTSOUNDFILE_HPP	extlibs/headers/SFML/Audio/InputSoundFile.hpp	26;"	d
+SFML_INPUTSTREAM_HPP	extlibs/headers/SFML/System/InputStream.hpp	26;"	d
+SFML_IPADDRESS_HPP	extlibs/headers/SFML/Network/IpAddress.hpp	26;"	d
+SFML_JOYSTICK_HPP	extlibs/headers/SFML/Window/Joystick.hpp	26;"	d
+SFML_KEYBOARD_HPP	extlibs/headers/SFML/Window/Keyboard.hpp	26;"	d
+SFML_LISTENER_HPP	extlibs/headers/SFML/Audio/Listener.hpp	26;"	d
+SFML_LOCK_HPP	extlibs/headers/SFML/System/Lock.hpp	26;"	d
+SFML_MAIN_HPP	extlibs/headers/SFML/Main.hpp	26;"	d
+SFML_MEMORYINPUTSTREAM_HPP	extlibs/headers/SFML/System/MemoryInputStream.hpp	26;"	d
+SFML_MOUSE_HPP	extlibs/headers/SFML/Window/Mouse.hpp	26;"	d
+SFML_MUSIC_HPP	extlibs/headers/SFML/Audio/Music.hpp	26;"	d
+SFML_MUTEX_HPP	extlibs/headers/SFML/System/Mutex.hpp	26;"	d
+SFML_NETWORK_API	extlibs/headers/SFML/Network/Export.hpp	39;"	d
+SFML_NETWORK_API	extlibs/headers/SFML/Network/Export.hpp	43;"	d
+SFML_NETWORK_EXPORT_HPP	extlibs/headers/SFML/Network/Export.hpp	26;"	d
+SFML_NETWORK_HPP	extlibs/headers/SFML/Network.hpp	26;"	d
+SFML_NONCOPYABLE_HPP	extlibs/headers/SFML/System/NonCopyable.hpp	26;"	d
+SFML_OPENGL_HPP	extlibs/headers/SFML/OpenGL.hpp	26;"	d
+SFML_OUTPUTSOUNDFILE_HPP	extlibs/headers/SFML/Audio/OutputSoundFile.hpp	26;"	d
+SFML_PACKET_HPP	extlibs/headers/SFML/Network/Packet.hpp	26;"	d
+SFML_PRIMITIVETYPE_HPP	extlibs/headers/SFML/Graphics/PrimitiveType.hpp	26;"	d
+SFML_RECTANGLESHAPE_HPP	extlibs/headers/SFML/Graphics/RectangleShape.hpp	26;"	d
+SFML_RECT_HPP	extlibs/headers/SFML/Graphics/Rect.hpp	26;"	d
+SFML_RENDERSTATES_HPP	extlibs/headers/SFML/Graphics/RenderStates.hpp	26;"	d
+SFML_RENDERTARGET_HPP	extlibs/headers/SFML/Graphics/RenderTarget.hpp	26;"	d
+SFML_RENDERTEXTURE_HPP	extlibs/headers/SFML/Graphics/RenderTexture.hpp	26;"	d
+SFML_RENDERWINDOW_HPP	extlibs/headers/SFML/Graphics/RenderWindow.hpp	26;"	d
+SFML_SENSOR_HPP	extlibs/headers/SFML/Window/Sensor.hpp	26;"	d
+SFML_SFML_WINDOW_HPP	extlibs/headers/SFML/Window.hpp	26;"	d
+SFML_SHADER_HPP	extlibs/headers/SFML/Graphics/Shader.hpp	26;"	d
+SFML_SHAPE_HPP	extlibs/headers/SFML/Graphics/Shape.hpp	26;"	d
+SFML_SLEEP_HPP	extlibs/headers/SFML/System/Sleep.hpp	26;"	d
+SFML_SOCKETHANDLE_HPP	extlibs/headers/SFML/Network/SocketHandle.hpp	26;"	d
+SFML_SOCKETSELECTOR_HPP	extlibs/headers/SFML/Network/SocketSelector.hpp	26;"	d
+SFML_SOCKET_HPP	extlibs/headers/SFML/Network/Socket.hpp	26;"	d
+SFML_SOUNDBUFFERRECORDER_HPP	extlibs/headers/SFML/Audio/SoundBufferRecorder.hpp	26;"	d
+SFML_SOUNDBUFFER_HPP	extlibs/headers/SFML/Audio/SoundBuffer.hpp	26;"	d
+SFML_SOUNDFILEFACTORY_HPP	extlibs/headers/SFML/Audio/SoundFileFactory.hpp	26;"	d
+SFML_SOUNDFILEREADER_HPP	extlibs/headers/SFML/Audio/SoundFileReader.hpp	26;"	d
+SFML_SOUNDFILEWRITER_HPP	extlibs/headers/SFML/Audio/SoundFileWriter.hpp	26;"	d
+SFML_SOUNDRECORDER_HPP	extlibs/headers/SFML/Audio/SoundRecorder.hpp	26;"	d
+SFML_SOUNDSOURCE_HPP	extlibs/headers/SFML/Audio/SoundSource.hpp	26;"	d
+SFML_SOUNDSTREAM_HPP	extlibs/headers/SFML/Audio/SoundStream.hpp	26;"	d
+SFML_SOUND_HPP	extlibs/headers/SFML/Audio/Sound.hpp	26;"	d
+SFML_SPRITE_HPP	extlibs/headers/SFML/Graphics/Sprite.hpp	26;"	d
+SFML_STRING_HPP	extlibs/headers/SFML/System/String.hpp	26;"	d
+SFML_SYSTEM_ANDROID	extlibs/headers/SFML/Config.hpp	77;"	d
+SFML_SYSTEM_API	extlibs/headers/SFML/System/Export.hpp	39;"	d
+SFML_SYSTEM_API	extlibs/headers/SFML/System/Export.hpp	43;"	d
+SFML_SYSTEM_EXPORT_HPP	extlibs/headers/SFML/System/Export.hpp	26;"	d
+SFML_SYSTEM_FREEBSD	extlibs/headers/SFML/Config.hpp	87;"	d
+SFML_SYSTEM_HPP	extlibs/headers/SFML/System.hpp	26;"	d
+SFML_SYSTEM_IOS	extlibs/headers/SFML/Config.hpp	57;"	d
+SFML_SYSTEM_LINUX	extlibs/headers/SFML/Config.hpp	82;"	d
+SFML_SYSTEM_MACOS	extlibs/headers/SFML/Config.hpp	62;"	d
+SFML_SYSTEM_WINDOWS	extlibs/headers/SFML/Config.hpp	44;"	d
+SFML_TCPLISTENER_HPP	extlibs/headers/SFML/Network/TcpListener.hpp	26;"	d
+SFML_TCPSOCKET_HPP	extlibs/headers/SFML/Network/TcpSocket.hpp	26;"	d
+SFML_TEXTURE_HPP	extlibs/headers/SFML/Graphics/Texture.hpp	26;"	d
+SFML_TEXT_HPP	extlibs/headers/SFML/Graphics/Text.hpp	26;"	d
+SFML_THREADLOCALPTR_HPP	extlibs/headers/SFML/System/ThreadLocalPtr.hpp	26;"	d
+SFML_THREADLOCAL_HPP	extlibs/headers/SFML/System/ThreadLocal.hpp	26;"	d
+SFML_THREAD_HPP	extlibs/headers/SFML/System/Thread.hpp	26;"	d
+SFML_TIME_HPP	extlibs/headers/SFML/System/Time.hpp	26;"	d
+SFML_TOUCH_HPP	extlibs/headers/SFML/Window/Touch.hpp	26;"	d
+SFML_TRANSFORMABLE_HPP	extlibs/headers/SFML/Graphics/Transformable.hpp	26;"	d
+SFML_TRANSFORM_HPP	extlibs/headers/SFML/Graphics/Transform.hpp	26;"	d
+SFML_UDPSOCKET_HPP	extlibs/headers/SFML/Network/UdpSocket.hpp	26;"	d
+SFML_UTF_HPP	extlibs/headers/SFML/System/Utf.hpp	26;"	d
+SFML_VECTOR2_HPP	extlibs/headers/SFML/System/Vector2.hpp	26;"	d
+SFML_VECTOR3_HPP	extlibs/headers/SFML/System/Vector3.hpp	26;"	d
+SFML_VERSION_MAJOR	extlibs/headers/SFML/Config.hpp	32;"	d
+SFML_VERSION_MINOR	extlibs/headers/SFML/Config.hpp	33;"	d
+SFML_VERSION_PATCH	extlibs/headers/SFML/Config.hpp	34;"	d
+SFML_VERTEXARRAY_HPP	extlibs/headers/SFML/Graphics/VertexArray.hpp	26;"	d
+SFML_VERTEX_HPP	extlibs/headers/SFML/Graphics/Vertex.hpp	26;"	d
+SFML_VIDEOMODE_HPP	extlibs/headers/SFML/Window/VideoMode.hpp	26;"	d
+SFML_VIEW_HPP	extlibs/headers/SFML/Graphics/View.hpp	26;"	d
+SFML_WINDOWHANDLE_HPP	extlibs/headers/SFML/Window/WindowHandle.hpp	26;"	d
+SFML_WINDOWSTYLE_HPP	extlibs/headers/SFML/Window/WindowStyle.hpp	26;"	d
+SFML_WINDOW_API	extlibs/headers/SFML/Window/Export.hpp	39;"	d
+SFML_WINDOW_API	extlibs/headers/SFML/Window/Export.hpp	43;"	d
+SFML_WINDOW_EXPORT_HPP	extlibs/headers/SFML/Window/Export.hpp	26;"	d
+SFML_WINDOW_HPP	extlibs/headers/SFML/Window/Window.hpp	26;"	d
 SIG_ATOMIC_MAX	extlibs/msvc/stdint.h	200;"	d
 SIG_ATOMIC_MIN	extlibs/msvc/stdint.h	199;"	d
+SIMULATE_ID	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	27;"	d	file:
+SIMULATE_ID	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	52;"	d	file:
+SIMULATE_ID	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	32;"	d	file:
+SIMULATE_ID	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	57;"	d	file:
+SIMULATE_VERSION_MAJOR	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	29;"	d	file:
+SIMULATE_VERSION_MAJOR	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	54;"	d	file:
+SIMULATE_VERSION_MAJOR	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	34;"	d	file:
+SIMULATE_VERSION_MAJOR	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	59;"	d	file:
+SIMULATE_VERSION_MINOR	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	30;"	d	file:
+SIMULATE_VERSION_MINOR	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	55;"	d	file:
+SIMULATE_VERSION_MINOR	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	35;"	d	file:
+SIMULATE_VERSION_MINOR	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	60;"	d	file:
 SIZE_MAX	extlibs/msvc/stdint.h	204;"	d
 SIZE_MAX	extlibs/msvc/stdint.h	206;"	d
+SIZE	build/CMakeFiles/CheckTypeSize/SIZEOF_VOID_PTR.c	17;"	d	file:
 SLOGE	include/GQE/Core/loggers/Log_macros.hpp	307;"	d
 SLOGE	include/GQE/Core/loggers/Log_macros.hpp	358;"	d
 SLOGRE	include/GQE/Core/loggers/Log_macros.hpp	349;"	d
@@ -339,24 +1058,57 @@ SLOG	include/GQE/Core/loggers/Log_macros.hpp	356;"	d
 SPACE_DOTS_APP_HPP_INCLUDED	examples/spacedots/src/SpaceDotsApp.hpp	11;"	d
 ScopeLogger	include/GQE/Core/loggers/ScopeLogger.hpp	/^  class GQE_API ScopeLogger : public ILogger$/;"	c	namespace:GQE
 ScopeLogger	src/GQE/Core/loggers/ScopeLogger.cpp	/^  ScopeLogger::ScopeLogger(SeverityType theSeverity,$/;"	f	class:GQE::ScopeLogger
+S	extlibs/headers/SFML/Window/Keyboard.hpp	/^        S,            \/\/\/< The S key$/;"	e	enum:sf::Keyboard::Key
+SemiColon	extlibs/headers/SFML/Window/Keyboard.hpp	/^        SemiColon,    \/\/\/< The ; key$/;"	e	enum:sf::Keyboard::Key
+SensorChanged	extlibs/headers/SFML/Window/Event.hpp	/^        SensorChanged,          \/\/\/< A sensor value changed (data in event.sensor)$/;"	e	enum:sf::Event::EventType
+SensorEvent	extlibs/headers/SFML/Window/Event.hpp	/^    struct SensorEvent$/;"	s	class:sf::Event
+Sensor	extlibs/headers/SFML/Window/Sensor.hpp	/^class SFML_WINDOW_API Sensor$/;"	c	namespace:sf
+ServiceNotAvailable	extlibs/headers/SFML/Network/Http.hpp	/^            ServiceNotAvailable = 503, \/\/\/< The server is temporarily unavailable (overloaded, in maintenance, ...)$/;"	e	enum:sf::Http::Response::Status
+ServiceReadySoon	extlibs/headers/SFML/Network/Ftp.hpp	/^            ServiceReadySoon            = 120, \/\/\/< Service ready in N minutes$/;"	e	enum:sf::Ftp::Response::Status
+ServiceReady	extlibs/headers/SFML/Network/Ftp.hpp	/^            ServiceReady          = 220, \/\/\/< Service ready for new user$/;"	e	enum:sf::Ftp::Response::Status
+ServiceUnavailable	extlibs/headers/SFML/Network/Ftp.hpp	/^            ServiceUnavailable        = 421, \/\/\/< Service not available, closing control connection$/;"	e	enum:sf::Ftp::Response::Status
 SeverityError	include/GQE/Core/Core_types.hpp	/^    SeverityError         = ERROR_LEVEL,  \/\/\/< Error severity type$/;"	e	enum:GQE::SeverityType
 SeverityFatal	include/GQE/Core/Core_types.hpp	/^    SeverityFatal         = FATAL_LEVEL   \/\/\/< Fatal severity type$/;"	e	enum:GQE::SeverityType
 SeverityInfo	include/GQE/Core/Core_types.hpp	/^    SeverityInfo          = INFO_LEVEL,   \/\/\/< Informational severity type$/;"	e	enum:GQE::SeverityType
 SeverityType	include/GQE/Core/Core_types.hpp	/^  enum SeverityType$/;"	g	namespace:GQE
 SeverityWarning	include/GQE/Core/Core_types.hpp	/^    SeverityWarning       = WARN_LEVEL,   \/\/\/< Warning severity type$/;"	e	enum:GQE::SeverityType
+Shader	extlibs/headers/SFML/Graphics/Shader.hpp	/^class SFML_GRAPHICS_API Shader : GlResource, NonCopyable$/;"	c	namespace:sf
+Shape	extlibs/headers/SFML/Graphics/Shape.hpp	/^class SFML_GRAPHICS_API Shape : public Drawable, public Transformable$/;"	c	namespace:sf
+SizeEvent	extlibs/headers/SFML/Window/Event.hpp	/^    struct SizeEvent$/;"	s	class:sf::Event
+SizeReceived	extlibs/headers/SFML/Network/TcpSocket.hpp	/^        std::size_t       SizeReceived; \/\/\/< Number of size bytes received so far$/;"	m	struct:sf::TcpSocket::PendingPacket
+Size	extlibs/headers/SFML/Network/TcpSocket.hpp	/^        Uint32            Size;         \/\/\/< Data of packet size$/;"	m	struct:sf::TcpSocket::PendingPacket
+Slash	extlibs/headers/SFML/Window/Keyboard.hpp	/^        Slash,        \/\/\/< The \/ key$/;"	e	enum:sf::Keyboard::Key
+SocketHandle	extlibs/headers/SFML/Network/SocketHandle.hpp	/^    typedef UINT_PTR SocketHandle;$/;"	t	namespace:sf
+SocketSelector	extlibs/headers/SFML/Network/SocketSelector.hpp	/^class SFML_NETWORK_API SocketSelector$/;"	c	namespace:sf
+Socket	extlibs/headers/SFML/Network/Socket.hpp	/^class SFML_NETWORK_API Socket : NonCopyable$/;"	c	namespace:sf
 SoundAsset	include/GQE/Core/assets/SoundAsset.hpp	/^  class GQE_API SoundAsset : public TAsset<sf::SoundBuffer>$/;"	c	namespace:GQE
 SoundAsset	src/GQE/Core/assets/SoundAsset.cpp	/^  SoundAsset::SoundAsset() :$/;"	f	class:GQE::SoundAsset
 SoundAsset	src/GQE/Core/assets/SoundAsset.cpp	/^  SoundAsset::SoundAsset(const typeAssetID theAssetID,$/;"	f	class:GQE::SoundAsset
+SoundBufferRecorder	extlibs/headers/SFML/Audio/SoundBufferRecorder.hpp	/^class SFML_AUDIO_API SoundBufferRecorder : public SoundRecorder$/;"	c	namespace:sf
+SoundBuffer	extlibs/headers/SFML/Audio/SoundBuffer.hpp	/^class SFML_AUDIO_API SoundBuffer : AlResource$/;"	c	namespace:sf
+SoundFileFactory	extlibs/headers/SFML/Audio/SoundFileFactory.hpp	/^class SFML_AUDIO_API SoundFileFactory$/;"	c	namespace:sf
+SoundFileReader	extlibs/headers/SFML/Audio/SoundFileReader.hpp	/^class SFML_AUDIO_API SoundFileReader$/;"	c	namespace:sf
+SoundFileWriter	extlibs/headers/SFML/Audio/SoundFileWriter.hpp	/^class SFML_AUDIO_API SoundFileWriter$/;"	c	namespace:sf
 SoundHandler	include/GQE/Core/assets/SoundHandler.hpp	/^  class GQE_API SoundHandler : public TAssetHandler<sf::SoundBuffer>$/;"	c	namespace:GQE
 SoundHandler	src/GQE/Core/assets/SoundHandler.cpp	/^  SoundHandler::SoundHandler() :$/;"	f	class:GQE::SoundHandler
+SoundList	extlibs/headers/SFML/Audio/SoundBuffer.hpp	/^    typedef std::set<Sound*> SoundList; \/\/\/< Set of unique sound instances$/;"	t	class:sf::SoundBuffer
+SoundRecorder	extlibs/headers/SFML/Audio/SoundRecorder.hpp	/^class SFML_AUDIO_API SoundRecorder : AlResource$/;"	c	namespace:sf
+SoundSource	extlibs/headers/SFML/Audio/SoundSource.hpp	/^class SFML_AUDIO_API SoundSource : AlResource$/;"	c	namespace:sf
+SoundStream	extlibs/headers/SFML/Audio/SoundStream.hpp	/^class SFML_AUDIO_API SoundStream : public SoundSource$/;"	c	namespace:sf
+Sound	extlibs/headers/SFML/Audio/Sound.hpp	/^class SFML_AUDIO_API Sound : public SoundSource$/;"	c	namespace:sf
 SpaceDotsApp	examples/spacedots/src/SpaceDotsApp.hpp	/^class SpaceDotsApp : public GQE::IApp$/;"	c
 SpaceDotsApp	examples/spacedots/src/SpaceDotsApp.cpp	/^SpaceDotsApp::SpaceDotsApp(const std::string theTitle) :$/;"	f	class:SpaceDotsApp
+Space	extlibs/headers/SFML/Window/Keyboard.hpp	/^        Space,        \/\/\/< The Space key$/;"	e	enum:sf::Keyboard::Key
 SplashState	include/GQE/Core/states/SplashState.hpp	/^  class GQE_API SplashState : public IState$/;"	c	namespace:GQE
 SplashState	src/GQE/Core/states/SplashState.cpp	/^  SplashState::SplashState(IApp& theApp, typeAssetID theSplashID,$/;"	f	class:GQE::SplashState
+Sprite	extlibs/headers/SFML/Graphics/Sprite.hpp	/^class SFML_GRAPHICS_API Sprite : public Drawable, public Transformable$/;"	c	namespace:sf
+SrcAlpha	extlibs/headers/SFML/Graphics/BlendMode.hpp	/^        SrcAlpha,         \/\/\/< (src.a, src.a, src.a, src.a)$/;"	e	enum:sf::BlendMode::Factor
+SrcColor	extlibs/headers/SFML/Graphics/BlendMode.hpp	/^        SrcColor,         \/\/\/< (src.r, src.g, src.b, src.a)$/;"	e	enum:sf::BlendMode::Factor
 StatManager	include/GQE/Core/classes/StatManager.hpp	/^  class GQE_API StatManager$/;"	c	namespace:GQE
 StatManager	src/GQE/Core/classes/StatManager.cpp	/^  StatManager::StatManager() :$/;"	f	class:GQE::StatManager
 StateManager	include/GQE/Core/classes/StateManager.hpp	/^  class GQE_API StateManager$/;"	c	namespace:GQE
 StateManager	src/GQE/Core/classes/StateManager.cpp	/^  StateManager::StateManager() :$/;"	f	class:GQE::StateManager
+StatesCache	extlibs/headers/SFML/Graphics/RenderTarget.hpp	/^    struct StatesCache$/;"	s	class:sf::RenderTarget
 StatusAppInitFailed	include/GQE/Core/Core_types.hpp	/^    StatusAppInitFailed   = -2,  \/\/\/< Application initialization failed$/;"	e	enum:GQE::StatusType
 StatusAppMissingAsset	include/GQE/Core/Core_types.hpp	/^    StatusAppMissingAsset = -4,  \/\/\/< Application failed due to missing asset file$/;"	e	enum:GQE::StatusType
 StatusAppOK	include/GQE/Core/Core_types.hpp	/^    StatusAppOK           =  0,  \/\/\/< Application quit without error$/;"	e	enum:GQE::StatusType
@@ -367,8 +1119,21 @@ StatusNoError	include/GQE/Core/Core_types.hpp	/^    StatusNoError         =  0, 
 StatusOK	include/GQE/Core/Core_types.hpp	/^    StatusOK              =  1   \/\/\/< OK status response$/;"	e	enum:GQE::StatusType
 StatusTrue	include/GQE/Core/Core_types.hpp	/^    StatusTrue            =  1,  \/\/\/< True status response$/;"	e	enum:GQE::StatusType
 StatusType	include/GQE/Core/Core_types.hpp	/^  enum StatusType$/;"	g	namespace:GQE
+Status	extlibs/headers/SFML/Audio/SoundSource.hpp	/^    enum Status$/;"	g	class:sf::SoundSource
+Status	extlibs/headers/SFML/Network/Ftp.hpp	/^        enum Status$/;"	g	class:sf::Ftp::Response
+Status	extlibs/headers/SFML/Network/Http.hpp	/^        enum Status$/;"	g	class:sf::Http::Response
+Status	extlibs/headers/SFML/Network/Socket.hpp	/^    enum Status$/;"	g	class:sf::Socket
+Stopped	extlibs/headers/SFML/Audio/SoundSource.hpp	/^        Stopped, \/\/\/< Sound is not playing$/;"	e	enum:sf::SoundSource::Status
+StrikeThrough	extlibs/headers/SFML/Graphics/Text.hpp	/^        StrikeThrough = 1 << 3  \/\/\/< Strike through characters$/;"	e	enum:sf::Text::Style
 StringLogger	include/GQE/Core/loggers/StringLogger.hpp	/^  class GQE_API StringLogger : public ILogger$/;"	c	namespace:GQE
 StringLogger	src/GQE/Core/loggers/StringLogger.cpp	/^  StringLogger::StringLogger(bool theDefault, int theExitCode) :$/;"	f	class:GQE::StringLogger
+String	extlibs/headers/SFML/System/String.hpp	/^class SFML_SYSTEM_API String$/;"	c	namespace:sf
+Style	extlibs/headers/SFML/Graphics/Text.hpp	/^    enum Style$/;"	g	class:sf::Text
+Style	extlibs/headers/SFML/Window/WindowStyle.hpp	/^namespace Style$/;"	n	namespace:sf
+Subtract	extlibs/headers/SFML/Graphics/BlendMode.hpp	/^        Subtract \/\/\/< Pixel = Src * SrcFactor - Dst * DstFactor$/;"	e	enum:sf::BlendMode::Equation
+Subtract	extlibs/headers/SFML/Window/Keyboard.hpp	/^        Subtract,     \/\/\/< The - key$/;"	e	enum:sf::Keyboard::Key
+SystemStatus	extlibs/headers/SFML/Network/Ftp.hpp	/^            SystemStatus          = 211, \/\/\/< System status, or system help reply$/;"	e	enum:sf::Ftp::Response::Status
+SystemType	extlibs/headers/SFML/Network/Ftp.hpp	/^            SystemType            = 215, \/\/\/< NAME system type, where NAME is an official system name from the list in the Assigned Numbers document$/;"	e	enum:sf::Ftp::Response::Status
 TAssetHandler	include/GQE/Core/interfaces/TAssetHandler.hpp	/^  class TAssetHandler : public IAssetHandler$/;"	c	namespace:GQE
 TAssetHandler	include/GQE/Core/interfaces/TAssetHandler.hpp	/^      TAssetHandler() :$/;"	f	class:GQE::TAssetHandler
 TAsset	include/GQE/Core/interfaces/TAsset.hpp	/^  class TAsset$/;"	c	namespace:GQE
@@ -382,12 +1147,44 @@ TIC_TAC_TOE_APP_HPP_INCLUDED	examples/tictactoe/src/TicTacToeApp.hpp	11;"	d
 TPROPERTY_HPP_INCLUDED	include/GQE/Core/interfaces/TProperty.hpp	9;"	d
 TProperty	include/GQE/Core/interfaces/TProperty.hpp	/^    class TProperty : public IProperty$/;"	c	namespace:GQE
 TProperty	include/GQE/Core/interfaces/TProperty.hpp	/^      TProperty(const typePropertyID thePropertyID) :$/;"	f	class:GQE::TProperty
+Tab	extlibs/headers/SFML/Window/Keyboard.hpp	/^        Tab,          \/\/\/< The Tabulation key$/;"	e	enum:sf::Keyboard::Key
+TcpListener	extlibs/headers/SFML/Network/TcpListener.hpp	/^class SFML_NETWORK_API TcpListener : public Socket$/;"	c	namespace:sf
+TcpSocket	extlibs/headers/SFML/Network/TcpSocket.hpp	/^class SFML_NETWORK_API TcpSocket : public Socket$/;"	c	namespace:sf
+Tcp	extlibs/headers/SFML/Network/Socket.hpp	/^        Tcp, \/\/\/< TCP protocol$/;"	e	enum:sf::Socket::Type
+T	extlibs/headers/SFML/Window/Keyboard.hpp	/^        T,            \/\/\/< The T key$/;"	e	enum:sf::Keyboard::Key
+TextEntered	extlibs/headers/SFML/Window/Event.hpp	/^        TextEntered,            \/\/\/< A character was entered (data in event.text)$/;"	e	enum:sf::Event::EventType
+TextEvent	extlibs/headers/SFML/Window/Event.hpp	/^    struct TextEvent$/;"	s	class:sf::Event
+Text	extlibs/headers/SFML/Graphics/Text.hpp	/^class SFML_GRAPHICS_API Text : public Drawable, public Transformable$/;"	c	namespace:sf
+TextureTable	extlibs/headers/SFML/Graphics/Shader.hpp	/^    typedef std::map<int, const Texture*> TextureTable;$/;"	t	class:sf::Shader
+Texture	extlibs/headers/SFML/Graphics/Texture.hpp	/^class SFML_GRAPHICS_API Texture : GlResource$/;"	c	namespace:sf
+ThreadLocalPtr	extlibs/headers/SFML/System/ThreadLocalPtr.hpp	/^class ThreadLocalPtr : private ThreadLocal$/;"	c	namespace:sf
+ThreadLocal	extlibs/headers/SFML/System/ThreadLocal.hpp	/^class SFML_SYSTEM_API ThreadLocal : NonCopyable$/;"	c	namespace:sf
+Thread	extlibs/headers/SFML/System/Thread.hpp	/^class SFML_SYSTEM_API Thread : NonCopyable$/;"	c	namespace:sf
 TicTacToeApp	examples/tictactoe/src/TicTacToeApp.hpp	/^class TicTacToeApp : public GQE::IApp$/;"	c
 TicTacToeApp	examples/tictactoe/src/TicTacToeApp.cpp	/^TicTacToeApp::TicTacToeApp(const std::string theTitle) :$/;"	f	class:TicTacToeApp
+Tilde	extlibs/headers/SFML/Window/Keyboard.hpp	/^        Tilde,        \/\/\/< The ~ key$/;"	e	enum:sf::Keyboard::Key
+Time	extlibs/headers/SFML/System/Time.hpp	/^class SFML_SYSTEM_API Time$/;"	c	namespace:sf
+Titlebar	extlibs/headers/SFML/Window/WindowStyle.hpp	/^        Titlebar   = 1 << 0, \/\/\/< Title bar + fixed border$/;"	e	enum:sf::Style::__anon5
+TouchBegan	extlibs/headers/SFML/Window/Event.hpp	/^        TouchBegan,             \/\/\/< A touch event began (data in event.touch)$/;"	e	enum:sf::Event::EventType
+TouchEnded	extlibs/headers/SFML/Window/Event.hpp	/^        TouchEnded,             \/\/\/< A touch event ended (data in event.touch)$/;"	e	enum:sf::Event::EventType
+TouchEvent	extlibs/headers/SFML/Window/Event.hpp	/^    struct TouchEvent$/;"	s	class:sf::Event
+TouchMoved	extlibs/headers/SFML/Window/Event.hpp	/^        TouchMoved,             \/\/\/< A touch moved (data in event.touch)$/;"	e	enum:sf::Event::EventType
+Touch	extlibs/headers/SFML/Window/Touch.hpp	/^class SFML_WINDOW_API Touch$/;"	c	namespace:sf
+TransferAborted	extlibs/headers/SFML/Network/Ftp.hpp	/^            TransferAborted           = 426, \/\/\/< Connection closed, transfer aborted$/;"	e	enum:sf::Ftp::Response::Status
+TransferMode	extlibs/headers/SFML/Network/Ftp.hpp	/^    enum TransferMode$/;"	g	class:sf::Ftp
+Transformable	extlibs/headers/SFML/Graphics/Transformable.hpp	/^class SFML_GRAPHICS_API Transformable$/;"	c	namespace:sf
+Transform	extlibs/headers/SFML/Graphics/Transform.hpp	/^class SFML_GRAPHICS_API Transform$/;"	c	namespace:sf
+Transparent	extlibs/headers/SFML/Graphics/Color.hpp	/^    static const Color Transparent; \/\/\/< Transparent (black) predefined color$/;"	m	class:sf::Color
+TrianglesFan	extlibs/headers/SFML/Graphics/PrimitiveType.hpp	/^    TrianglesFan,   \/\/\/< List of connected triangles, a point uses the common center and the previous point to form a triangle$/;"	e	enum:sf::PrimitiveType
+TrianglesStrip	extlibs/headers/SFML/Graphics/PrimitiveType.hpp	/^    TrianglesStrip, \/\/\/< List of connected triangles, a point uses the two previous points to form a triangle$/;"	e	enum:sf::PrimitiveType
+Triangles	extlibs/headers/SFML/Graphics/PrimitiveType.hpp	/^    Triangles,      \/\/\/< List of individual triangles$/;"	e	enum:sf::PrimitiveType
 Type_t	include/GQE/Core/interfaces/IEvent.hpp	/^      class Type_t$/;"	c	class:GQE::IEvent
 Type_t	include/GQE/Core/interfaces/IProperty.hpp	/^      class Type_t$/;"	c	class:GQE::IProperty
 Type_t	include/GQE/Core/interfaces/IEvent.hpp	/^          explicit Type_t(std::string theName) : mName(theName) {}$/;"	f	class:GQE::IEvent::Type_t
 Type_t	include/GQE/Core/interfaces/IProperty.hpp	/^          explicit Type_t(std::string theName) : mName(theName) {}$/;"	f	class:GQE::IProperty::Type_t
+Type	extlibs/headers/SFML/Graphics/Shader.hpp	/^    enum Type$/;"	g	class:sf::Shader
+Type	extlibs/headers/SFML/Network/Socket.hpp	/^    enum Type$/;"	g	class:sf::Socket
+Type	extlibs/headers/SFML/Window/Sensor.hpp	/^    enum Type$/;"	g	class:sf::Sensor
 UINT16_C	extlibs/msvc/stdint.h	236;"	d
 UINT16_MAX	extlibs/msvc/stdint.h	141;"	d
 UINT32_C	extlibs/msvc/stdint.h	237;"	d
@@ -408,12 +1205,49 @@ UINT_LEAST16_MAX	extlibs/msvc/stdint.h	155;"	d
 UINT_LEAST32_MAX	extlibs/msvc/stdint.h	156;"	d
 UINT_LEAST64_MAX	extlibs/msvc/stdint.h	157;"	d
 UINT_LEAST8_MAX	extlibs/msvc/stdint.h	154;"	d
+UdpSocket	extlibs/headers/SFML/Network/UdpSocket.hpp	/^class SFML_NETWORK_API UdpSocket : public Socket$/;"	c	namespace:sf
+Udp	extlibs/headers/SFML/Network/Socket.hpp	/^        Udp  \/\/\/< UDP protocol$/;"	e	enum:sf::Socket::Type
+U	extlibs/headers/SFML/Window/Joystick.hpp	/^        U,    \/\/\/< The U axis$/;"	e	enum:sf::Joystick::Axis
+U	extlibs/headers/SFML/Window/Keyboard.hpp	/^        U,            \/\/\/< The U key$/;"	e	enum:sf::Keyboard::Key
+Uint16	extlibs/headers/SFML/Config.hpp	/^    typedef unsigned short Uint16;$/;"	t	namespace:sf
 Uint16	include/GQE/Config.hpp	/^  typedef unsigned short Uint16;  \/\/\/< Standard 16 bit unsigned integer$/;"	t	namespace:GQE
+Uint32	extlibs/headers/SFML/Config.hpp	/^    typedef unsigned int Uint32;$/;"	t	namespace:sf
 Uint32	include/GQE/Config.hpp	/^  typedef unsigned int Uint32;    \/\/\/< Standard 32 bit unsigned integer$/;"	t	namespace:GQE
+Uint64	extlibs/headers/SFML/Config.hpp	/^        typedef unsigned __int64 Uint64;$/;"	t	namespace:sf
+Uint64	extlibs/headers/SFML/Config.hpp	/^        typedef unsigned long long Uint64;$/;"	t	namespace:sf
 Uint64	include/GQE/Config.hpp	/^  typedef uint64_t         Uint64; \/\/\/< Standard 64 bit unsigned integer$/;"	t	namespace:GQE
 Uint64	include/GQE/Config.hpp	/^  typedef unsigned __int64 Uint64; \/\/\/< Standard 64 bit unsigned integer$/;"	t	namespace:GQE
+Uint8	extlibs/headers/SFML/Config.hpp	/^    typedef unsigned char Uint8;$/;"	t	namespace:sf
 Uint8	include/GQE/Config.hpp	/^  typedef unsigned char Uint8;    \/\/\/< Standard 8 bit unsigned integer$/;"	t	namespace:GQE
+Unauthorized	extlibs/headers/SFML/Network/Http.hpp	/^            Unauthorized        = 401, \/\/\/< The requested page needs an authentication to be accessed$/;"	e	enum:sf::Http::Response::Status
+Underlined	extlibs/headers/SFML/Graphics/Text.hpp	/^        Underlined    = 1 << 2, \/\/\/< Underlined characters$/;"	e	enum:sf::Text::Style
+Unknown	extlibs/headers/SFML/Window/Keyboard.hpp	/^        Unknown = -1, \/\/\/< Unhandled key$/;"	e	enum:sf::Keyboard::Key
+Up	extlibs/headers/SFML/Window/Keyboard.hpp	/^        Up,           \/\/\/< Up arrow$/;"	e	enum:sf::Keyboard::Key
+UserAcceleration	extlibs/headers/SFML/Window/Sensor.hpp	/^        UserAcceleration, \/\/\/< Measures the direction and intensity of device acceleration, independent of the gravity (m\/s^2)$/;"	e	enum:sf::Sensor::Type
+Utf16	extlibs/headers/SFML/System/Utf.hpp	/^typedef Utf<16> Utf16;$/;"	t	namespace:sf
+Utf32	extlibs/headers/SFML/System/Utf.hpp	/^typedef Utf<32> Utf32;$/;"	t	namespace:sf
+Utf8	extlibs/headers/SFML/System/Utf.hpp	/^typedef Utf<8>  Utf8;$/;"	t	namespace:sf
+Utf	extlibs/headers/SFML/System/Utf.hpp	/^class Utf<16>$/;"	c	namespace:sf
+Utf	extlibs/headers/SFML/System/Utf.hpp	/^class Utf<32>$/;"	c	namespace:sf
+Utf	extlibs/headers/SFML/System/Utf.hpp	/^class Utf<8>$/;"	c	namespace:sf
+Vector2	extlibs/headers/SFML/System/Vector2.hpp	/^class Vector2$/;"	c	namespace:sf
+Vector2f	extlibs/headers/SFML/System/Vector2.hpp	/^typedef Vector2<float>        Vector2f;$/;"	t	namespace:sf
+Vector2i	extlibs/headers/SFML/System/Vector2.hpp	/^typedef Vector2<int>          Vector2i;$/;"	t	namespace:sf
+Vector2u	extlibs/headers/SFML/System/Vector2.hpp	/^typedef Vector2<unsigned int> Vector2u;$/;"	t	namespace:sf
 Vector2u	include/GQE/Core/utils/StringUtil.hpp	/^  typedef Vector2<unsigned int> Vector2u;$/;"	t	namespace:sf
+Vector3	extlibs/headers/SFML/System/Vector3.hpp	/^class Vector3$/;"	c	namespace:sf
+Vector3f	extlibs/headers/SFML/System/Vector3.hpp	/^typedef Vector3<float> Vector3f;$/;"	t	namespace:sf
+Vector3i	extlibs/headers/SFML/System/Vector3.hpp	/^typedef Vector3<int>   Vector3i;$/;"	t	namespace:sf
+V	extlibs/headers/SFML/Window/Joystick.hpp	/^        V,    \/\/\/< The V axis$/;"	e	enum:sf::Joystick::Axis
+V	extlibs/headers/SFML/Window/Keyboard.hpp	/^        V,            \/\/\/< The V key$/;"	e	enum:sf::Keyboard::Key
+VersionNotSupported	extlibs/headers/SFML/Network/Http.hpp	/^            VersionNotSupported = 505, \/\/\/< The server doesn't support the requested HTTP version$/;"	e	enum:sf::Http::Response::Status
+VertexArray	extlibs/headers/SFML/Graphics/VertexArray.hpp	/^class SFML_GRAPHICS_API VertexArray : public Drawable$/;"	c	namespace:sf
+VertexCacheSize	extlibs/headers/SFML/Graphics/RenderTarget.hpp	/^        enum {VertexCacheSize = 4};$/;"	e	enum:sf::RenderTarget::StatesCache::__anon3
+Vertex	extlibs/headers/SFML/Graphics/Vertex.hpp	/^class SFML_GRAPHICS_API Vertex$/;"	c	namespace:sf
+Vertex	extlibs/headers/SFML/Graphics/Shader.hpp	/^        Vertex,  \/\/\/< Vertex shader$/;"	e	enum:sf::Shader::Type
+VerticalWheel	extlibs/headers/SFML/Window/Mouse.hpp	/^        VerticalWheel,  \/\/\/< The vertical mouse wheel$/;"	e	enum:sf::Mouse::Wheel
+VideoMode	extlibs/headers/SFML/Window/VideoMode.hpp	/^class SFML_WINDOW_API VideoMode$/;"	c	namespace:sf
+View	extlibs/headers/SFML/Graphics/View.hpp	/^class SFML_GRAPHICS_API View$/;"	c	namespace:sf
 WARN_LEVEL	include/GQE/Core/Core_types.hpp	29;"	d
 WCHAR_MAX	extlibs/msvc/stdint.h	215;"	d
 WCHAR_MIN	extlibs/msvc/stdint.h	212;"	d
@@ -428,6 +1262,24 @@ WLOG_IF	include/GQE/Core/loggers/Log_macros.hpp	147;"	d
 WLOG_IF	include/GQE/Core/loggers/Log_macros.hpp	155;"	d
 WLOG	include/GQE/Core/loggers/Log_macros.hpp	125;"	d
 WLOG	include/GQE/Core/loggers/Log_macros.hpp	152;"	d
+W	extlibs/headers/SFML/Window/Keyboard.hpp	/^        W,            \/\/\/< The W key$/;"	e	enum:sf::Keyboard::Key
+Wheel	extlibs/headers/SFML/Window/Mouse.hpp	/^    enum Wheel$/;"	g	class:sf::Mouse
+White	extlibs/headers/SFML/Graphics/Color.hpp	/^    static const Color White;       \/\/\/< White predefined color$/;"	m	class:sf::Color
+WindowHandle	extlibs/headers/SFML/Window/WindowHandle.hpp	/^    typedef HWND__* WindowHandle;$/;"	t	namespace:sf
+Window	extlibs/headers/SFML/Window/Window.hpp	/^class SFML_WINDOW_API Window : GlResource, NonCopyable$/;"	c	namespace:sf
+WriterFactoryArray	extlibs/headers/SFML/Audio/SoundFileFactory.hpp	/^    typedef std::vector<WriterFactory> WriterFactoryArray;$/;"	t	class:sf::SoundFileFactory
+WriterFactory	extlibs/headers/SFML/Audio/SoundFileFactory.hpp	/^    struct WriterFactory$/;"	s	class:sf::SoundFileFactory
+XButton1	extlibs/headers/SFML/Window/Mouse.hpp	/^        XButton1,   \/\/\/< The first extra mouse button$/;"	e	enum:sf::Mouse::Button
+XButton2	extlibs/headers/SFML/Window/Mouse.hpp	/^        XButton2,   \/\/\/< The second extra mouse button$/;"	e	enum:sf::Mouse::Button
+X	extlibs/headers/SFML/Window/Joystick.hpp	/^        X,    \/\/\/< The X axis$/;"	e	enum:sf::Joystick::Axis
+X	extlibs/headers/SFML/Window/Keyboard.hpp	/^        X,            \/\/\/< The X key$/;"	e	enum:sf::Keyboard::Key
+Y	extlibs/headers/SFML/Window/Joystick.hpp	/^        Y,    \/\/\/< The Y axis$/;"	e	enum:sf::Joystick::Axis
+Y	extlibs/headers/SFML/Window/Keyboard.hpp	/^        Y,            \/\/\/< The Y key$/;"	e	enum:sf::Keyboard::Key
+Yellow	extlibs/headers/SFML/Graphics/Color.hpp	/^    static const Color Yellow;      \/\/\/< Yellow predefined color$/;"	m	class:sf::Color
+Z	extlibs/headers/SFML/Window/Joystick.hpp	/^        Z,    \/\/\/< The Z axis$/;"	e	enum:sf::Joystick::Axis
+Z	extlibs/headers/SFML/Window/Keyboard.hpp	/^        Z,            \/\/\/< The Z key$/;"	e	enum:sf::Keyboard::Key
+Zero	extlibs/headers/SFML/Graphics/BlendMode.hpp	/^        Zero,             \/\/\/< (0, 0, 0, 0)$/;"	e	enum:sf::BlendMode::Factor
+Zero	extlibs/headers/SFML/System/Time.hpp	/^    static const Time Zero; \/\/\/< Predefined "zero" time value$/;"	m	class:sf::Time
 _MSC_STDINT_H_	extlibs/msvc/stdint.h	37;"	d
 _W64	extlibs/msvc/stdint.h	60;"	d
 _W64	extlibs/msvc/stdint.h	62;"	d
@@ -435,6 +1287,7 @@ acquireAsset	include/GQE/Core/interfaces/TAssetHandler.hpp	/^      virtual TYPE*
 activate	src/GQE/Entity/classes/ActionGroup.cpp	/^  void ActionGroup::activate(const typeActionID theActionID)$/;"	f	class:GQE::ActionGroup
 addAction	src/GQE/Entity/systems/ActionSystem.cpp	/^  void ActionSystem::addAction(IAction* theAction)$/;"	f	class:GQE::ActionSystem
 addActiveState	src/GQE/Core/classes/StateManager.cpp	/^  void StateManager::addActiveState(IState* theState)$/;"	f	class:GQE::StateManager
+addChild	src/GQE/Entity/interfaces/IEntity.cpp	/^  void IEntity::addChild(std::string theChildName, IEntity* theChild)$/;"	f	class:GQE::IEntity
 addCleanup	include/GQE/Core/classes/StateManager.hpp	/^      void addCleanup(const typeEventID theEventID, TCLASS& theEventClass,$/;"	f	class:GQE::StateManager
 addEntity	src/GQE/Entity/interfaces/ISystem.cpp	/^  const typeEntityID ISystem::addEntity(IEntity* theEntity)$/;"	f	class:GQE::ISystem
 addInactiveState	src/GQE/Core/classes/StateManager.cpp	/^  void StateManager::addInactiveState(IState* theState)$/;"	f	class:GQE::StateManager
@@ -445,16 +1298,41 @@ addProperties	src/GQE/Entity/systems/RenderSystem.cpp	/^  void RenderSystem::add
 addPrototype	src/GQE/Entity/classes/PrototypeManager.cpp	/^  void PrototypeManager::addPrototype(Prototype* thePrototype)$/;"	f	class:GQE::PrototypeManager
 addSystem	src/GQE/Entity/interfaces/IEntity.cpp	/^  void IEntity::addSystem(ISystem* theSystem)$/;"	f	class:GQE::IEntity
 add	include/GQE/Core/classes/EventManager.hpp	/^      void add(const typeEventID theEventID, TCLASS& theEventClass,$/;"	f	class:GQE::EventManager
-add	include/GQE/Core/classes/PropertyManager.hpp	/^      void add(const typePropertyID thePropertyID, TYPE theValue)$/;"	f	class:GQE::PropertyManager
+add	include/GQE/Core/classes/PropertyManager.hpp	/^    void add(const typePropertyID thePropertyID, TYPE theValue)$/;"	f	class:GQE::PropertyManager
 add	src/GQE/Core/classes/EventManager.cpp	/^  void EventManager::add(IEvent* theEvent)$/;"	f	class:GQE::EventManager
-add	src/GQE/Core/classes/PropertyManager.cpp	/^  void PropertyManager::add(IProperty* theProperty)$/;"	f	class:GQE::PropertyManager
+add	src/GQE/Core/classes/PropertyManager.cpp	/^void PropertyManager::add(IProperty* theProperty)$/;"	f	class:GQE::PropertyManager
 add	src/GQE/Entity/classes/ActionGroup.cpp	/^  void ActionGroup::add(const typeActionID theActionID)$/;"	f	class:GQE::ActionGroup
+advance	extlibs/headers/SFML/Graphics/Glyph.hpp	/^    float     advance;     \/\/\/< Offset to move horizontally to the next character$/;"	m	class:sf::Glyph
+alphaDstFactor	extlibs/headers/SFML/Graphics/BlendMode.hpp	/^    Factor   alphaDstFactor; \/\/\/< Destination blending factor for the alpha channel$/;"	m	struct:sf::BlendMode
+alphaEquation	extlibs/headers/SFML/Graphics/BlendMode.hpp	/^    Equation alphaEquation;  \/\/\/< Blending equation for the alpha channel$/;"	m	struct:sf::BlendMode
+alphaSrcFactor	extlibs/headers/SFML/Graphics/BlendMode.hpp	/^    Factor   alphaSrcFactor; \/\/\/< Source blending factor for the alpha channel$/;"	m	struct:sf::BlendMode
+alt	extlibs/headers/SFML/Window/Event.hpp	/^        bool          alt;     \/\/\/< Is the Alt key pressed?$/;"	m	struct:sf::Event::KeyEvent
+a	extlibs/headers/SFML/Graphics/Color.hpp	/^    Uint8 a; \/\/\/< Alpha (opacity) component$/;"	m	class:sf::Color
+antialiasingLevel	extlibs/headers/SFML/Window/ContextSettings.hpp	/^    unsigned int antialiasingLevel; \/\/\/< Level of antialiasing$/;"	m	struct:sf::ContextSettings
 asset	include/GQE/Core/interfaces/TAssetHandler.hpp	/^        TYPE*          asset;     \/\/\/< The asset being shared$/;"	m	struct:GQE::TAssetHandler::typeAssetData
+attributeFlags	extlibs/headers/SFML/Window/ContextSettings.hpp	/^    Uint32       attributeFlags;    \/\/\/< The attribute flags to create the context with$/;"	m	struct:sf::ContextSettings
+axis	extlibs/headers/SFML/Window/Event.hpp	/^        Joystick::Axis axis;       \/\/\/< Axis on which the joystick moved$/;"	m	struct:sf::Event::JoystickMoveEvent
+bitsPerPixel	extlibs/headers/SFML/Window/VideoMode.hpp	/^    unsigned int bitsPerPixel; \/\/\/< Video mode pixel depth, in bits per pixels$/;"	m	class:sf::VideoMode
+blendMode	extlibs/headers/SFML/Graphics/RenderStates.hpp	/^    BlendMode      blendMode; \/\/\/< Blending mode$/;"	m	class:sf::RenderStates
+b	extlibs/headers/SFML/Graphics/Color.hpp	/^    Uint8 b; \/\/\/< Blue component$/;"	m	class:sf::Color
+bounds	extlibs/headers/SFML/Graphics/Glyph.hpp	/^    FloatRect bounds;      \/\/\/< Bounding rectangle of the glyph, in coordinates relative to the baseline$/;"	m	class:sf::Glyph
+button	extlibs/headers/SFML/Window/Event.hpp	/^        Mouse::Button button; \/\/\/< Code of the button that has been pressed$/;"	m	struct:sf::Event::MouseButtonEvent
+button	extlibs/headers/SFML/Window/Event.hpp	/^        unsigned int button;     \/\/\/< Index of the button that has been pressed (in range [0 .. Joystick::ButtonCount - 1])$/;"	m	struct:sf::Event::JoystickButtonEvent
 calculateRange	src/GQE/Core/interfaces/IApp.cpp	/^  const GraphicRange IApp::calculateRange(Uint32 theHeight) const$/;"	f	class:GQE::IApp
+channelCount	extlibs/headers/SFML/Audio/SoundFileReader.hpp	/^        unsigned int channelCount; \/\/\/< Number of channels of the sound$/;"	m	struct:sf::SoundFileReader::Info
+check	extlibs/headers/SFML/Audio/SoundFileFactory.hpp	/^        bool (*check)(InputStream&);$/;"	m	struct:sf::SoundFileFactory::ReaderFactory
+check	extlibs/headers/SFML/Audio/SoundFileFactory.hpp	/^        bool (*check)(const std::string&);$/;"	m	struct:sf::SoundFileFactory::WriterFactory
 cleanup	src/GQE/Core/classes/StateManager.cpp	/^  void StateManager::cleanup(void)$/;"	f	class:GQE::StateManager
 cleanup	src/GQE/Core/interfaces/IApp.cpp	/^  void IApp::cleanup(void)$/;"	f	class:GQE::IApp
 cleanup	src/GQE/Core/interfaces/IState.cpp	/^  void IState::cleanup(void)$/;"	f	class:GQE::IState
-clone	src/GQE/Core/classes/PropertyManager.cpp	/^  void PropertyManager::clone(const PropertyManager& thePropertyManager)$/;"	f	class:GQE::PropertyManager
+clone	src/GQE/Core/classes/PropertyManager.cpp	/^void PropertyManager::clone(const PropertyManager& thePropertyManager)$/;"	f	class:GQE::PropertyManager
+clone	src/GQE/Entity/interfaces/IEntity.cpp	/^  IEntity* IEntity::clone()$/;"	f	class:GQE::IEntity
+code	extlibs/headers/SFML/Window/Event.hpp	/^        Keyboard::Key code;    \/\/\/< Code of the key that has been pressed$/;"	m	struct:sf::Event::KeyEvent
+colorDstFactor	extlibs/headers/SFML/Graphics/BlendMode.hpp	/^    Factor   colorDstFactor; \/\/\/< Destination blending factor for the color channels$/;"	m	struct:sf::BlendMode
+colorEquation	extlibs/headers/SFML/Graphics/BlendMode.hpp	/^    Equation colorEquation;  \/\/\/< Blending equation for the color channels$/;"	m	struct:sf::BlendMode
+colorSrcFactor	extlibs/headers/SFML/Graphics/BlendMode.hpp	/^    Factor   colorSrcFactor; \/\/\/< Source blending factor for the color channels$/;"	m	struct:sf::BlendMode
+color	extlibs/headers/SFML/Graphics/Vertex.hpp	/^    Color     color;     \/\/\/< Color of the vertex$/;"	m	class:sf::Vertex
+control	extlibs/headers/SFML/Window/Event.hpp	/^        bool          control; \/\/\/< Is the Control key pressed?$/;"	m	struct:sf::Event::KeyEvent
 convertBool	src/GQE/Core/utils/StringUtil.cpp	/^  std::string convertBool(const bool theBoolean)$/;"	f	namespace:GQE
 convertColor	src/GQE/Core/utils/StringUtil.cpp	/^  std::string convertColor(const sf::Color theColor)$/;"	f	namespace:GQE
 convertDouble	src/GQE/Core/utils/StringUtil.cpp	/^  std::string convertDouble(const double theDouble)$/;"	f	namespace:GQE
@@ -474,8 +1352,13 @@ convertVector2u	src/GQE/Core/utils/StringUtil.cpp	/^  std::string convertVector2
 convertVector3f	src/GQE/Core/utils/StringUtil.cpp	/^  std::string convertVector3f(const sf::Vector3f theVector)$/;"	f	namespace:GQE
 convertVector3i	src/GQE/Core/utils/StringUtil.cpp	/^  std::string convertVector3i(const sf::Vector3i theVector)$/;"	f	namespace:GQE
 count	include/GQE/Core/interfaces/TAssetHandler.hpp	/^        Uint32         count;     \/\/\/< Number of people referencing this Asset$/;"	m	struct:GQE::TAssetHandler::typeAssetData
+create	extlibs/headers/SFML/Audio/SoundFileFactory.hpp	/^        SoundFileReader* (*create)();$/;"	m	struct:sf::SoundFileFactory::ReaderFactory
+create	extlibs/headers/SFML/Audio/SoundFileFactory.hpp	/^        SoundFileWriter* (*create)();$/;"	m	struct:sf::SoundFileFactory::WriterFactory
 deInit	src/GQE/Core/classes/StatManager.cpp	/^  void StatManager::deInit(void)$/;"	f	class:GQE::StatManager
 deInit	src/GQE/Core/interfaces/IState.cpp	/^  void IState::deInit(void)$/;"	f	class:GQE::IState
+delta	extlibs/headers/SFML/Window/Event.hpp	/^        float        delta; \/\/\/< Wheel offset (positive is up\/left, negative is down\/right). High-precision mice may use non-integral offsets.$/;"	m	struct:sf::Event::MouseWheelScrollEvent
+delta	extlibs/headers/SFML/Window/Event.hpp	/^        int delta; \/\/\/< Number of ticks the wheel has moved (positive is up, negative is down)$/;"	m	struct:sf::Event::MouseWheelEvent
+depthBits	extlibs/headers/SFML/Window/ContextSettings.hpp	/^    unsigned int depthBits;         \/\/\/< Bits of the depth buffer$/;"	m	struct:sf::ContextSettings
 destroyInstance	src/GQE/Entity/classes/Prototype.cpp	/^  void Prototype::destroyInstance(const typeEntityID theEntityID)$/;"	f	class:GQE::Prototype
 destroy	src/GQE/Entity/classes/Instance.cpp	/^  void Instance::destroy(void)$/;"	f	class:GQE::Instance
 destroy	src/GQE/Entity/classes/Prototype.cpp	/^  void Prototype::destroy(void)$/;"	f	class:GQE::Prototype
@@ -497,9 +1380,11 @@ draw	src/GQE/Entity/systems/AnimationSystem.cpp	/^  void AnimationSystem::draw()
 draw	src/GQE/Entity/systems/MovementSystem.cpp	/^  void MovementSystem::draw()$/;"	f	class:GQE::MovementSystem
 draw	src/GQE/Entity/systems/RenderSystem.cpp	/^  void RenderSystem::draw()$/;"	f	class:GQE::RenderSystem
 dropActiveState	src/GQE/Core/classes/StateManager.cpp	/^  void StateManager::dropActiveState(void)$/;"	f	class:GQE::StateManager
+dropAllChildren	src/GQE/Entity/interfaces/IEntity.cpp	/^  void IEntity::dropAllChildren()$/;"	f	class:GQE::IEntity
 dropAllEntities	src/GQE/Entity/interfaces/ISystem.cpp	/^  void ISystem::dropAllEntities(void)$/;"	f	class:GQE::ISystem
 dropAllInstances	src/GQE/Entity/classes/Prototype.cpp	/^  void Prototype::dropAllInstances(void)$/;"	f	class:GQE::Prototype
 dropAllSystems	src/GQE/Entity/interfaces/IEntity.cpp	/^  void IEntity::dropAllSystems(void)$/;"	f	class:GQE::IEntity
+dropChild	src/GQE/Entity/interfaces/IEntity.cpp	/^  void IEntity::dropChild(std::string theChildName)$/;"	f	class:GQE::IEntity
 dropEntity	src/GQE/Entity/interfaces/ISystem.cpp	/^  void ISystem::dropEntity(const typeEntityID theEntityID)$/;"	f	class:GQE::ISystem
 dropReference	include/GQE/Core/interfaces/TAssetHandler.hpp	/^      virtual void dropReference(const typeAssetID theAssetID,$/;"	f	class:GQE::TAssetHandler
 dropSystem	src/GQE/Entity/interfaces/IEntity.cpp	/^  void IEntity::dropSystem(const typeSystemID theSystemID)$/;"	f	class:GQE::IEntity
@@ -508,8 +1393,10 @@ drop	src/GQE/Entity/classes/ActionGroup.cpp	/^  void ActionGroup::drop(const typ
 eraseAction	src/GQE/Entity/systems/ActionSystem.cpp	/^  void ActionSystem::eraseAction(std::map<const typeActionID, IAction*>::iterator theActionIter)$/;"	f	class:GQE::ActionSystem
 eraseEntity	src/GQE/Entity/interfaces/ISystem.cpp	/^  std::deque<IEntity*>::iterator ISystem::eraseEntity(std::deque<IEntity*>::iterator theEntityIter)$/;"	f	class:GQE::ISystem
 eraseSystem	src/GQE/Entity/interfaces/IEntity.cpp	/^  void IEntity::eraseSystem(std::map<const typeSystemID, ISystem*>::iterator theSystemIter)$/;"	f	class:GQE::IEntity
+family	extlibs/headers/SFML/Graphics/Font.hpp	/^        std::string family; \/\/\/< The font family$/;"	m	struct:sf::Font::Info
 fatalShutdown	src/GQE/Core/interfaces/ILogger.cpp	/^  void ILogger::fatalShutdown(void)$/;"	f	class:GQE::ILogger
 filename	include/GQE/Core/interfaces/TAssetHandler.hpp	/^        std::string    filename;  \/\/\/< Filename to use when loading this asset$/;"	m	struct:GQE::TAssetHandler::typeAssetData
+finger	extlibs/headers/SFML/Window/Event.hpp	/^        unsigned int finger; \/\/\/< Index of the finger in case of multi-touch events$/;"	m	struct:sf::Event::TouchEvent
 gApp	include/GQE/Core/interfaces/IApp.hpp	/^      static IApp* gApp;$/;"	m	class:GQE::IApp
 gApp	src/GQE/Core/interfaces/IApp.cpp	/^  IApp* IApp::gApp = NULL;$/;"	m	class:GQE::IApp	file:
 gInstance	include/GQE/Core/interfaces/ILogger.hpp	/^      static ILogger* gInstance;$/;"	m	class:GQE::ILogger
@@ -525,6 +1412,7 @@ getBool	src/GQE/Core/classes/ConfigReader.cpp	/^  bool ConfigReader::getBool(con
 getDropTime	include/GQE/Core/interfaces/TAsset.hpp	/^      AssetDropTime getDropTime(void) const$/;"	f	class:GQE::TAsset
 getDropTime	include/GQE/Core/interfaces/TAssetHandler.hpp	/^      virtual AssetDropTime getDropTime(const typeAssetID theAssetID) const$/;"	f	class:GQE::TAssetHandler
 getElapsedTime	src/GQE/Core/interfaces/IState.cpp	/^  float IState::getElapsedTime(void) const$/;"	f	class:GQE::IState
+getFather	src/GQE/Entity/interfaces/IEntity.cpp	/^  IEntity* IEntity::getFather()$/;"	f	class:GQE::IEntity
 getFilename	include/GQE/Core/interfaces/TAsset.hpp	/^      const std::string getFilename(void)$/;"	f	class:GQE::TAsset
 getFilename	include/GQE/Core/interfaces/TAssetHandler.hpp	/^      virtual const std::string getFilename(const typeAssetID theAssetID) const$/;"	f	class:GQE::TAssetHandler
 getFloat	src/GQE/Core/classes/ConfigReader.cpp	/^  float ConfigReader::getFloat(const std::string theSection,$/;"	f	class:GQE::ConfigReader
@@ -547,13 +1435,14 @@ getLoadTime	include/GQE/Core/interfaces/TAsset.hpp	/^      AssetLoadTime getLoad
 getLoadTime	include/GQE/Core/interfaces/TAssetHandler.hpp	/^      virtual AssetLoadTime getLoadTime(const typeAssetID theAssetID) const$/;"	f	class:GQE::TAssetHandler
 getLogger	src/GQE/Core/interfaces/ILogger.cpp	/^  ILogger* ILogger::getLogger(void)$/;"	f	class:GQE::ILogger
 getOrder	src/GQE/Entity/interfaces/IEntity.cpp	/^  const Uint32 IEntity::getOrder(void) const$/;"	f	class:GQE::IEntity
-getPointer	include/GQE/Core/classes/PropertyManager.hpp	/^      TYPE* getPointer(const typePropertyID thePropertyID)$/;"	f	class:GQE::PropertyManager
+getPointer	include/GQE/Core/classes/PropertyManager.hpp	/^    TYPE* getPointer(const typePropertyID thePropertyID)$/;"	f	class:GQE::PropertyManager
 getPointer	include/GQE/Core/interfaces/TProperty.hpp	/^      TYPE* getPointer()$/;"	f	class:GQE::TProperty
-getProperty	include/GQE/Core/classes/PropertyManager.hpp	/^      TProperty<TYPE>& getProperty(const typePropertyID thePropertyID)$/;"	f	class:GQE::PropertyManager
+getProperty	include/GQE/Core/classes/PropertyManager.hpp	/^    TProperty<TYPE>& getProperty(const typePropertyID thePropertyID)$/;"	f	class:GQE::PropertyManager
 getPrototype	src/GQE/Entity/classes/Instance.cpp	/^  Prototype& Instance::getPrototype()$/;"	f	class:GQE::Instance
 getPrototype	src/GQE/Entity/classes/PrototypeManager.cpp	/^  Prototype* PrototypeManager::getPrototype(const typePrototypeID thePrototypeID)$/;"	f	class:GQE::PrototypeManager
 getReference	include/GQE/Core/interfaces/TAssetHandler.hpp	/^      TYPE* getReference(const typeAssetID theAssetID,$/;"	f	class:GQE::TAssetHandler
 getReference	include/GQE/Core/interfaces/TAssetHandler.hpp	/^      TYPE* getReference(void)$/;"	f	class:GQE::TAssetHandler
+getRoot	src/GQE/Entity/interfaces/IEntity.cpp	/^  IEntity* IEntity::getRoot()$/;"	f	class:GQE::IEntity
 getStream	src/GQE/Core/loggers/FileLogger.cpp	/^  std::ostream& FileLogger::getStream(SeverityType theSeverity,$/;"	f	class:GQE::FileLogger
 getStream	src/GQE/Core/loggers/FileLogger.cpp	/^  std::ostream& FileLogger::getStream(void)$/;"	f	class:GQE::FileLogger
 getStream	src/GQE/Core/loggers/ScopeLogger.cpp	/^  std::ostream& ScopeLogger::getStream(SeverityType theSeverity,$/;"	f	class:GQE::ScopeLogger
@@ -568,8 +1457,11 @@ getUint32	src/GQE/Core/classes/ConfigReader.cpp	/^  Uint32 ConfigReader::getUint
 getUpdateRate	src/GQE/Core/interfaces/IApp.cpp	/^  float IApp::getUpdateRate(void) const$/;"	f	class:GQE::IApp
 getUpdates	src/GQE/Core/classes/StatManager.cpp	/^  Uint32 StatManager::getUpdates(void) const$/;"	f	class:GQE::StatManager
 getValue	include/GQE/Core/interfaces/TProperty.hpp	/^      TYPE getValue()$/;"	f	class:GQE::TProperty
-get	include/GQE/Core/classes/PropertyManager.hpp	/^      TYPE get(const typePropertyID thePropertyID)$/;"	f	class:GQE::PropertyManager
+get	include/GQE/Core/classes/PropertyManager.hpp	/^    TYPE get(const typePropertyID thePropertyID)$/;"	f	class:GQE::PropertyManager
 get	src/GQE/Core/classes/EventManager.cpp	/^  IEvent* EventManager::get(const typeEventID theEventID)$/;"	f	class:GQE::EventManager
+glStatesSet	extlibs/headers/SFML/Graphics/RenderTarget.hpp	/^        bool      glStatesSet;    \/\/\/< Are our internal GL states set yet?$/;"	m	struct:sf::RenderTarget::StatesCache
+glyphs	extlibs/headers/SFML/Graphics/Font.hpp	/^        GlyphTable       glyphs;  \/\/\/< Table mapping code points to their corresponding glyph$/;"	m	struct:sf::Font::Page
+g	extlibs/headers/SFML/Graphics/Color.hpp	/^    Uint8 g; \/\/\/< Green component$/;"	m	class:sf::Color
 handleCleanup	examples/spacedots/src/GameState.cpp	/^void GameState::handleCleanup(void)$/;"	f	class:GameState
 handleCleanup	examples/spacedots/src/SpaceDotsApp.cpp	/^void SpaceDotsApp::handleCleanup(void)$/;"	f	class:SpaceDotsApp
 handleCleanup	examples/tictactoe/src/GameState.cpp	/^void GameState::handleCleanup(void)$/;"	f	class:GameState
@@ -596,9 +1488,26 @@ handleInit	src/GQE/Entity/systems/RenderSystem.cpp	/^  void RenderSystem::handle
 handleScreenWrap	src/GQE/Entity/systems/MovementSystem.cpp	/^  void MovementSystem::handleScreenWrap(IEntity* theEntity, sf::Vector2f* thePosition)$/;"	f	class:GQE::MovementSystem
 hasEntity	src/GQE/Entity/interfaces/ISystem.cpp	/^  bool ISystem::hasEntity(const typeEntityID theEntityID) const$/;"	f	class:GQE::ISystem
 hasID	src/GQE/Core/classes/EventManager.cpp	/^  bool EventManager::hasID(const typeEventID theEventID) const$/;"	f	class:GQE::EventManager
-hasID	src/GQE/Core/classes/PropertyManager.cpp	/^  bool PropertyManager::hasID(const typePropertyID thePropertyID) const$/;"	f	class:GQE::PropertyManager
+hasID	src/GQE/Core/classes/PropertyManager.cpp	/^bool PropertyManager::hasID(const typePropertyID thePropertyID) const$/;"	f	class:GQE::PropertyManager
 hasSystem	src/GQE/Entity/interfaces/IEntity.cpp	/^  bool IEntity::hasSystem(const typeSystemID theSystemID) const$/;"	f	class:GQE::IEntity
+height	extlibs/headers/SFML/Graphics/Font.hpp	/^        unsigned int height; \/\/\/< Height of the row$/;"	m	struct:sf::Font::Row
+height	extlibs/headers/SFML/Graphics/Rect.hpp	/^    T height; \/\/\/< Height of the rectangle$/;"	m	class:sf::Rect
+height	extlibs/headers/SFML/Window/Event.hpp	/^        unsigned int height; \/\/\/< New height, in pixels$/;"	m	struct:sf::Event::SizeEvent
+height	extlibs/headers/SFML/Window/VideoMode.hpp	/^    unsigned int height;       \/\/\/< Video mode height, in pixels$/;"	m	class:sf::VideoMode
 inactivateActivateState	src/GQE/Core/classes/StateManager.cpp	/^  void StateManager::inactivateActivateState(void)$/;"	f	class:GQE::StateManager
+info_arch	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	/^char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";$/;"	v
+info_arch	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";$/;"	v
+info_compiler	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	/^char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";$/;"	v
+info_compiler	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";$/;"	v
+info_platform	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	/^char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";$/;"	v
+info_platform	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";$/;"	v
+info_simulate_version	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	/^char const info_simulate_version[] = {$/;"	v
+info_simulate_version	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const info_simulate_version[] = {$/;"	v
+info_simulate	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	/^char const* info_simulate = "INFO" ":" "simulate[" SIMULATE_ID "]";$/;"	v
+info_simulate	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_simulate = "INFO" ":" "simulate[" SIMULATE_ID "]";$/;"	v
+info_size	build/CMakeFiles/CheckTypeSize/SIZEOF_VOID_PTR.c	/^char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',$/;"	v
+info_version	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	/^char const info_version[] = {$/;"	v
+info_version	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const info_version[] = {$/;"	v
 initAssetHandlers	examples/spacedots/src/SpaceDotsApp.cpp	/^void SpaceDotsApp::initAssetHandlers(void)$/;"	f	class:SpaceDotsApp
 initAssetHandlers	examples/tictactoe/src/TicTacToeApp.cpp	/^void TicTacToeApp::initAssetHandlers(void)$/;"	f	class:TicTacToeApp
 initRenderer	src/GQE/Core/interfaces/IApp.cpp	/^  void IApp::initRenderer(void)$/;"	f	class:GQE::IApp
@@ -631,9 +1540,20 @@ isInitComplete	src/GQE/Core/interfaces/IState.cpp	/^  bool IState::isInitComplet
 isLoaded	include/GQE/Core/interfaces/TAsset.hpp	/^      bool isLoaded(void) const$/;"	f	class:GQE::TAsset
 isLoaded	include/GQE/Core/interfaces/TAssetHandler.hpp	/^      virtual bool isLoaded(const typeAssetID theAssetID) const$/;"	f	class:GQE::TAssetHandler
 isPaused	src/GQE/Core/interfaces/IState.cpp	/^  bool IState::isPaused(void)$/;"	f	class:GQE::IState
+isRoot	src/GQE/Entity/interfaces/IEntity.cpp	/^  bool IEntity::isRoot()$/;"	f	class:GQE::IEntity
 isRunning	src/GQE/Core/interfaces/IApp.cpp	/^  bool IApp::isRunning(void) const$/;"	f	class:GQE::IApp
 isSectionEmpty	src/GQE/Core/classes/ConfigReader.cpp	/^  bool ConfigReader::isSectionEmpty(const std::string theSection) const$/;"	f	class:GQE::ConfigReader
 isShowing	src/GQE/Core/classes/StatManager.cpp	/^  bool StatManager::isShowing(void) const$/;"	f	class:GQE::StatManager
+joystickButton	extlibs/headers/SFML/Window/Event.hpp	/^        JoystickButtonEvent   joystickButton;    \/\/\/< Joystick button event parameters (Event::JoystickButtonPressed, Event::JoystickButtonReleased)$/;"	m	union:sf::Event::__anon6
+joystickConnect	extlibs/headers/SFML/Window/Event.hpp	/^        JoystickConnectEvent  joystickConnect;   \/\/\/< Joystick (dis)connect event parameters (Event::JoystickConnected, Event::JoystickDisconnected)$/;"	m	union:sf::Event::__anon6
+joystickId	extlibs/headers/SFML/Window/Event.hpp	/^        unsigned int   joystickId; \/\/\/< Index of the joystick (in range [0 .. Joystick::Count - 1])$/;"	m	struct:sf::Event::JoystickMoveEvent
+joystickId	extlibs/headers/SFML/Window/Event.hpp	/^        unsigned int joystickId; \/\/\/< Index of the joystick (in range [0 .. Joystick::Count - 1])$/;"	m	struct:sf::Event::JoystickButtonEvent
+joystickId	extlibs/headers/SFML/Window/Event.hpp	/^        unsigned int joystickId; \/\/\/< Index of the joystick (in range [0 .. Joystick::Count - 1])$/;"	m	struct:sf::Event::JoystickConnectEvent
+joystickMove	extlibs/headers/SFML/Window/Event.hpp	/^        JoystickMoveEvent     joystickMove;      \/\/\/< Joystick move event parameters (Event::JoystickMoved)$/;"	m	union:sf::Event::__anon6
+key	extlibs/headers/SFML/Window/Event.hpp	/^        KeyEvent              key;               \/\/\/< Key event parameters (Event::KeyPressed, Event::KeyReleased)$/;"	m	union:sf::Event::__anon6
+lastBlendMode	extlibs/headers/SFML/Graphics/RenderTarget.hpp	/^        BlendMode lastBlendMode;  \/\/\/< Cached blending mode$/;"	m	struct:sf::RenderTarget::StatesCache
+lastTextureId	extlibs/headers/SFML/Graphics/RenderTarget.hpp	/^        Uint64    lastTextureId;  \/\/\/< Cached texture$/;"	m	struct:sf::RenderTarget::StatesCache
+left	extlibs/headers/SFML/Graphics/Rect.hpp	/^    T left;   \/\/\/< Left coordinate of the rectangle$/;"	m	class:sf::Rect
 loadAllAssets	include/GQE/Core/interfaces/TAssetHandler.hpp	/^      virtual bool loadAllAssets(void)$/;"	f	class:GQE::TAssetHandler
 loadAllAssets	src/GQE/Core/classes/AssetManager.cpp	/^  bool AssetManager::loadAllAssets(void)$/;"	f	class:GQE::AssetManager
 loadAsset	include/GQE/Core/interfaces/TAssetHandler.hpp	/^      virtual bool loadAsset(const typeAssetID theAssetID)$/;"	f	class:GQE::TAssetHandler
@@ -693,7 +1613,7 @@ mBoardPlayer	examples/spacedots/src/GameState.hpp	/^    GQE::Uint8      mBoardPl
 mBoardPlayer	examples/tictactoe/src/GameState.hpp	/^    GQE::Uint8      mBoardPlayer[3][3];$/;"	m	class:GameState
 mBoardSprite	examples/tictactoe/src/GameState.hpp	/^    sf::Sprite      mBoardSprite[3][3];$/;"	m	class:GameState
 mBoardSprites	examples/spacedots/src/GameState.hpp	/^    sf::Sprite      mBoardSprites[20][20];$/;"	m	class:GameState
-mChildren	include/GQE/Entity/interfaces/IEntity.hpp	/^      std::map<const typeChildID, IEntity*> mChildren;$/;"	m	class:GQE::IEntity
+mChildren	include/GQE/Entity/interfaces/IEntity.hpp	/^      std::map<std::string,IEntity*> mChildren;$/;"	m	class:GQE::IEntity
 mCleanupEvents	include/GQE/Core/classes/StateManager.hpp	/^      EventManager          mCleanupEvents;$/;"	m	class:GQE::StateManager
 mCleanup	include/GQE/Core/interfaces/IState.hpp	/^      bool                  mCleanup;$/;"	m	class:GQE::IState
 mCleanup	include/GQE/Entity/classes/Prototype.hpp	/^      std::vector<Instance*> mCleanup;$/;"	m	class:GQE::Prototype
@@ -733,7 +1653,7 @@ mInstances	include/GQE/Entity/classes/Prototype.hpp	/^      std::map<const typeE
 mLightsaberSound	examples/spacedots/src/GameState.hpp	/^    sf::Sound       mLightsaberSound;$/;"	m	class:GameState
 mLightsaber	examples/spacedots/src/GameState.hpp	/^    GQE::SoundAsset mLightsaber;$/;"	m	class:GameState
 mList	include/GQE/Core/classes/EventManager.hpp	/^      std::map<const typeEventID, IEvent*> mList;$/;"	m	class:GQE::EventManager
-mList	include/GQE/Core/classes/PropertyManager.hpp	/^      std::map<const typePropertyID, IProperty*> mList;$/;"	m	class:GQE::PropertyManager
+mList	include/GQE/Core/classes/PropertyManager.hpp	/^    std::map<const typePropertyID, IProperty*> mList;$/;"	m	class:GQE::PropertyManager
 mMaxUpdates	include/GQE/Core/interfaces/IApp.hpp	/^      Uint32       mMaxUpdates;$/;"	m	class:GQE::IApp
 mName	include/GQE/Core/interfaces/IEvent.hpp	/^          std::string mName;$/;"	m	class:GQE::IEvent::Type_t
 mName	include/GQE/Core/interfaces/IProperty.hpp	/^          std::string mName;$/;"	m	class:GQE::IProperty::Type_t
@@ -802,12 +1722,181 @@ mWinnerText	examples/spacedots/src/GameState.hpp	/^    sf::String*     mWinnerTe
 mWinnerText	examples/spacedots/src/GameState.hpp	/^    sf::Text*       mWinnerText;$/;"	m	class:GameState
 mWinnerText	examples/tictactoe/src/GameState.hpp	/^    sf::String*     mWinnerText;$/;"	m	class:GameState
 mWinnerText	examples/tictactoe/src/GameState.hpp	/^    sf::Text*       mWinnerText;$/;"	m	class:GameState
+m_actualSize	extlibs/headers/SFML/Graphics/Texture.hpp	/^    Vector2u     m_actualSize;    \/\/\/< Actual texture size (can be greater than public size because of padding)$/;"	m	class:sf::Texture
+m_address	extlibs/headers/SFML/Network/IpAddress.hpp	/^    Uint32 m_address; \/\/\/< Address stored as an unsigned 32 bits integer$/;"	m	class:sf::IpAddress
+m_body	extlibs/headers/SFML/Network/Http.hpp	/^        std::string  m_body;         \/\/\/< Body of the request$/;"	m	class:sf::Http::Request
+m_body	extlibs/headers/SFML/Network/Http.hpp	/^        std::string  m_body;         \/\/\/< Body of the response$/;"	m	class:sf::Http::Response
+m_bounds	extlibs/headers/SFML/Graphics/Shape.hpp	/^    FloatRect      m_bounds;           \/\/\/< Bounding rectangle of the whole shape (outline + fill)$/;"	m	class:sf::Shape
+m_bounds	extlibs/headers/SFML/Graphics/Text.hpp	/^    mutable FloatRect   m_bounds;             \/\/\/< Bounding rectangle of the text (in local coordinates)$/;"	m	class:sf::Text
+m_buffer	extlibs/headers/SFML/Audio/Sound.hpp	/^    const SoundBuffer* m_buffer; \/\/\/< Sound buffer bound to the source$/;"	m	class:sf::Sound
+m_buffer	extlibs/headers/SFML/Audio/SoundBuffer.hpp	/^    unsigned int       m_buffer;   \/\/\/< OpenAL buffer identifier$/;"	m	class:sf::SoundBuffer
+m_buffer	extlibs/headers/SFML/Audio/SoundBufferRecorder.hpp	/^    SoundBuffer        m_buffer;  \/\/\/< Sound buffer that will contain the recorded data$/;"	m	class:sf::SoundBufferRecorder
+m_buffer	extlibs/headers/SFML/Network/UdpSocket.hpp	/^    std::vector<char> m_buffer; \/\/\/< Temporary buffer holding the received data in Receive(Packet)$/;"	m	class:sf::UdpSocket
+m_buffers	extlibs/headers/SFML/Audio/SoundStream.hpp	/^    unsigned int  m_buffers[BufferCount];    \/\/\/< Sound buffers used to store temporary audio data$/;"	m	class:sf::SoundStream
+m_cacheId	extlibs/headers/SFML/Graphics/Texture.hpp	/^    Uint64       m_cacheId;       \/\/\/< Unique number that identifies the texture to the render target's cache$/;"	m	class:sf::Texture
+m_cache	extlibs/headers/SFML/Graphics/RenderTarget.hpp	/^    StatesCache m_cache;       \/\/\/< Render states cache$/;"	m	class:sf::RenderTarget
+m_center	extlibs/headers/SFML/Graphics/View.hpp	/^    Vector2f          m_center;              \/\/\/< Center of the view, in scene coordinates$/;"	m	class:sf::View
+m_channelCount	extlibs/headers/SFML/Audio/InputSoundFile.hpp	/^    unsigned int     m_channelCount; \/\/\/< Number of channels of the sound$/;"	m	class:sf::InputSoundFile
+m_channelCount	extlibs/headers/SFML/Audio/SoundStream.hpp	/^    unsigned int  m_channelCount;            \/\/\/< Number of channels (1 = mono, 2 = stereo, ...)$/;"	m	class:sf::SoundStream
+m_characterSize	extlibs/headers/SFML/Graphics/Text.hpp	/^    unsigned int        m_characterSize;      \/\/\/< Base size of characters, in pixels$/;"	m	class:sf::Text
+m_clock	extlibs/headers/SFML/Window/Window.hpp	/^    Clock             m_clock;          \/\/\/< Clock for measuring the elapsed time between frames$/;"	m	class:sf::Window
+m_color	extlibs/headers/SFML/Graphics/Text.hpp	/^    Color               m_color;              \/\/\/< Text color$/;"	m	class:sf::Text
+m_commandSocket	extlibs/headers/SFML/Network/Ftp.hpp	/^    TcpSocket m_commandSocket; \/\/\/< Socket holding the control connection with the server$/;"	m	class:sf::Ftp
+m_connection	extlibs/headers/SFML/Network/Http.hpp	/^    TcpSocket      m_connection; \/\/\/< Connection to the host$/;"	m	class:sf::Http
+m_context	extlibs/headers/SFML/Window/Context.hpp	/^    priv::GlContext* m_context; \/\/\/< Internal OpenGL context$/;"	m	class:sf::Context
+m_context	extlibs/headers/SFML/Window/Window.hpp	/^    priv::GlContext*  m_context;        \/\/\/< Platform-specific implementation of the OpenGL context$/;"	m	class:sf::Window
+m_currentTexture	extlibs/headers/SFML/Graphics/Shader.hpp	/^    int          m_currentTexture; \/\/\/< Location of the current texture in the shader$/;"	m	class:sf::Shader
+m_data	extlibs/headers/SFML/Network/Packet.hpp	/^    std::vector<char> m_data;    \/\/\/< Data stored in the packet$/;"	m	class:sf::Packet
+m_data	extlibs/headers/SFML/System/MemoryInputStream.hpp	/^    const char* m_data;   \/\/\/< Pointer to the data in memory$/;"	m	class:sf::MemoryInputStream
+m_defaultView	extlibs/headers/SFML/Graphics/RenderTarget.hpp	/^    View        m_defaultView; \/\/\/< Default view$/;"	m	class:sf::RenderTarget
+m_deviceName	extlibs/headers/SFML/Audio/SoundRecorder.hpp	/^    std::string        m_deviceName;         \/\/\/< Name of the audio capture device$/;"	m	class:sf::SoundRecorder
+m_directory	extlibs/headers/SFML/Network/Ftp.hpp	/^        std::string m_directory; \/\/\/< Directory extracted from the response message$/;"	m	class:sf::Ftp::DirectoryResponse
+m_duration	extlibs/headers/SFML/Audio/Music.hpp	/^    Time               m_duration; \/\/\/< Music duration$/;"	m	class:sf::Music
+m_duration	extlibs/headers/SFML/Audio/SoundBuffer.hpp	/^    Time               m_duration; \/\/\/< Sound duration$/;"	m	class:sf::SoundBuffer
+m_endBuffers	extlibs/headers/SFML/Audio/SoundStream.hpp	/^    bool          m_endBuffers[BufferCount]; \/\/\/< Each buffer is marked as "end buffer" or not, for proper duration calculation$/;"	m	class:sf::SoundStream
+m_entryPoint	extlibs/headers/SFML/System/Thread.hpp	/^    priv::ThreadFunc* m_entryPoint; \/\/\/< Abstraction of the function to run$/;"	m	class:sf::Thread
+m_face	extlibs/headers/SFML/Graphics/Font.hpp	/^    void*                      m_face;        \/\/\/< Pointer to the internal font face (it is typeless to avoid exposing implementation details)$/;"	m	class:sf::Font
+m_fields	extlibs/headers/SFML/Network/Http.hpp	/^        FieldTable   m_fields;       \/\/\/< Fields of the header associated to their value$/;"	m	class:sf::Http::Request
+m_fields	extlibs/headers/SFML/Network/Http.hpp	/^        FieldTable   m_fields;       \/\/\/< Fields of the header$/;"	m	class:sf::Http::Response
+m_file	extlibs/headers/SFML/Audio/Music.hpp	/^    InputSoundFile     m_file;     \/\/\/< The streamed music file$/;"	m	class:sf::Music
+m_file	extlibs/headers/SFML/System/FileInputStream.hpp	/^    sf::priv::ResourceStream *m_file;$/;"	m	class:sf::FileInputStream
+m_file	extlibs/headers/SFML/System/FileInputStream.hpp	/^    std::FILE* m_file; \/\/\/< stdio file stream$/;"	m	class:sf::FileInputStream
+m_fillColor	extlibs/headers/SFML/Graphics/Shape.hpp	/^    Color          m_fillColor;        \/\/\/< Fill color$/;"	m	class:sf::Shape
+m_font	extlibs/headers/SFML/Graphics/Text.hpp	/^    const Font*         m_font;               \/\/\/< Font used to display the string$/;"	m	class:sf::Text
+m_format	extlibs/headers/SFML/Audio/SoundStream.hpp	/^    Uint32        m_format;                  \/\/\/< Format of the internal sound buffers$/;"	m	class:sf::SoundStream
+m_frameTimeLimit	extlibs/headers/SFML/Window/Window.hpp	/^    Time              m_frameTimeLimit; \/\/\/< Current framerate limit$/;"	m	class:sf::Window
+m_geometryNeedUpdate	extlibs/headers/SFML/Graphics/Text.hpp	/^    mutable bool        m_geometryNeedUpdate; \/\/\/< Does the geometry need to be recomputed?$/;"	m	class:sf::Text
+m_hostName	extlibs/headers/SFML/Network/Http.hpp	/^    std::string    m_hostName;   \/\/\/< Web host name$/;"	m	class:sf::Http
+m_host	extlibs/headers/SFML/Network/Http.hpp	/^    IpAddress      m_host;       \/\/\/< Web host address$/;"	m	class:sf::Http
+m_impl	extlibs/headers/SFML/Graphics/RenderTexture.hpp	/^    priv::RenderTextureImpl* m_impl;    \/\/\/< Platform\/hardware specific implementation$/;"	m	class:sf::RenderTexture
+m_impl	extlibs/headers/SFML/Network/SocketSelector.hpp	/^    SocketSelectorImpl* m_impl; \/\/\/< Opaque pointer to the implementation (which requires OS-specific types)$/;"	m	class:sf::SocketSelector
+m_impl	extlibs/headers/SFML/System/Thread.hpp	/^    priv::ThreadImpl* m_impl;       \/\/\/< OS-specific implementation of the thread$/;"	m	class:sf::Thread
+m_impl	extlibs/headers/SFML/System/ThreadLocal.hpp	/^    priv::ThreadLocalImpl* m_impl; \/\/\/< Pointer to the OS specific implementation$/;"	m	class:sf::ThreadLocal
+m_impl	extlibs/headers/SFML/Window/Window.hpp	/^    priv::WindowImpl* m_impl;           \/\/\/< Platform-specific implementation of the window$/;"	m	class:sf::Window
+m_info	extlibs/headers/SFML/Graphics/Font.hpp	/^    Info                       m_info;        \/\/\/< Information about the font$/;"	m	class:sf::Font
+m_insideBounds	extlibs/headers/SFML/Graphics/Shape.hpp	/^    FloatRect      m_insideBounds;     \/\/\/< Bounding rectangle of the inside (fill)$/;"	m	class:sf::Shape
+m_invTransformUpdated	extlibs/headers/SFML/Graphics/View.hpp	/^    mutable bool      m_invTransformUpdated; \/\/\/< Internal state telling if the inverse transform needs to be updated$/;"	m	class:sf::View
+m_inverseTransformNeedUpdate	extlibs/headers/SFML/Graphics/Transformable.hpp	/^    mutable bool      m_inverseTransformNeedUpdate; \/\/\/< Does the transform need to be recomputed?$/;"	m	class:sf::Transformable
+m_inverseTransform	extlibs/headers/SFML/Graphics/Transformable.hpp	/^    mutable Transform m_inverseTransform;           \/\/\/< Combined transformation of the object$/;"	m	class:sf::Transformable
+m_inverseTransform	extlibs/headers/SFML/Graphics/View.hpp	/^    mutable Transform m_inverseTransform;    \/\/\/< Precomputed inverse projection transform corresponding to the view$/;"	m	class:sf::View
+m_isBlocking	extlibs/headers/SFML/Network/Socket.hpp	/^    bool         m_isBlocking; \/\/\/< Current blocking mode of the socket$/;"	m	class:sf::Socket
+m_isCapturing	extlibs/headers/SFML/Audio/SoundRecorder.hpp	/^    bool               m_isCapturing;        \/\/\/< Capturing state$/;"	m	class:sf::SoundRecorder
+m_isRepeated	extlibs/headers/SFML/Graphics/Texture.hpp	/^    bool         m_isRepeated;    \/\/\/< Is the texture in repeat mode?$/;"	m	class:sf::Texture
+m_isSmooth	extlibs/headers/SFML/Graphics/Texture.hpp	/^    bool         m_isSmooth;      \/\/\/< Status of the smooth filter$/;"	m	class:sf::Texture
+m_isStreaming	extlibs/headers/SFML/Audio/SoundStream.hpp	/^    bool          m_isStreaming;             \/\/\/< Streaming state (true = playing, false = stopped)$/;"	m	class:sf::SoundStream
+m_isValid	extlibs/headers/SFML/Network/Packet.hpp	/^    bool              m_isValid; \/\/\/< Reading state of the packet$/;"	m	class:sf::Packet
+m_library	extlibs/headers/SFML/Graphics/Font.hpp	/^    void*                      m_library;     \/\/\/< Pointer to the internal library interface (it is typeless to avoid exposing implementation details)$/;"	m	class:sf::Font
+m_listing	extlibs/headers/SFML/Network/Ftp.hpp	/^        std::vector<std::string> m_listing; \/\/\/< Directory\/file names extracted from the data$/;"	m	class:sf::Ftp::ListingResponse
+m_loop	extlibs/headers/SFML/Audio/SoundStream.hpp	/^    bool          m_loop;                    \/\/\/< Loop flag (true to loop, false to play once)$/;"	m	class:sf::SoundStream
+m_majorVersion	extlibs/headers/SFML/Network/Http.hpp	/^        unsigned int m_majorVersion; \/\/\/< Major HTTP version$/;"	m	class:sf::Http::Request
+m_majorVersion	extlibs/headers/SFML/Network/Http.hpp	/^        unsigned int m_majorVersion; \/\/\/< Major HTTP version$/;"	m	class:sf::Http::Response
+m_matrix	extlibs/headers/SFML/Graphics/Transform.hpp	/^    float m_matrix[16]; \/\/\/< 4x4 matrix defining the transformation$/;"	m	class:sf::Transform
+m_message	extlibs/headers/SFML/Network/Ftp.hpp	/^        std::string m_message; \/\/\/< Last message received from the server$/;"	m	class:sf::Ftp::Response
+m_method	extlibs/headers/SFML/Network/Http.hpp	/^        Method       m_method;       \/\/\/< Method to use for the request$/;"	m	class:sf::Http::Request
+m_microseconds	extlibs/headers/SFML/System/Time.hpp	/^    Int64 m_microseconds; \/\/\/< Time value stored as microseconds$/;"	m	class:sf::Time
+m_minorVersion	extlibs/headers/SFML/Network/Http.hpp	/^        unsigned int m_minorVersion; \/\/\/< Minor HTTP version$/;"	m	class:sf::Http::Request
+m_minorVersion	extlibs/headers/SFML/Network/Http.hpp	/^        unsigned int m_minorVersion; \/\/\/< Minor HTTP version$/;"	m	class:sf::Http::Response
+m_mutexImpl	extlibs/headers/SFML/System/Mutex.hpp	/^    priv::MutexImpl* m_mutexImpl; \/\/\/< OS-specific implementation$/;"	m	class:sf::Mutex
+m_mutex	extlibs/headers/SFML/Audio/Music.hpp	/^    Mutex              m_mutex;    \/\/\/< Mutex protecting the data$/;"	m	class:sf::Music
+m_mutex	extlibs/headers/SFML/System/Lock.hpp	/^    Mutex& m_mutex; \/\/\/< Mutex to lock \/ unlock$/;"	m	class:sf::Lock
+m_offset	extlibs/headers/SFML/System/MemoryInputStream.hpp	/^    Int64       m_offset; \/\/\/< Current reading position$/;"	m	class:sf::MemoryInputStream
+m_origin	extlibs/headers/SFML/Graphics/Transformable.hpp	/^    Vector2f          m_origin;                     \/\/\/< Origin of translation\/rotation\/scaling of the object$/;"	m	class:sf::Transformable
+m_outlineColor	extlibs/headers/SFML/Graphics/Shape.hpp	/^    Color          m_outlineColor;     \/\/\/< Outline color$/;"	m	class:sf::Shape
+m_outlineThickness	extlibs/headers/SFML/Graphics/Shape.hpp	/^    float          m_outlineThickness; \/\/\/< Thickness of the shape's outline$/;"	m	class:sf::Shape
+m_outlineVertices	extlibs/headers/SFML/Graphics/Shape.hpp	/^    VertexArray    m_outlineVertices;  \/\/\/< Vertex array containing the outline geometry$/;"	m	class:sf::Shape
+m_pages	extlibs/headers/SFML/Graphics/Font.hpp	/^    mutable PageTable          m_pages;       \/\/\/< Table containing the glyphs pages by character size$/;"	m	class:sf::Font
+m_params	extlibs/headers/SFML/Graphics/Shader.hpp	/^    ParamTable   m_params;         \/\/\/< Parameters location cache$/;"	m	class:sf::Shader
+m_pendingPacket	extlibs/headers/SFML/Network/TcpSocket.hpp	/^    PendingPacket m_pendingPacket; \/\/\/< Temporary data of the packet currently being received$/;"	m	class:sf::TcpSocket
+m_pixelBuffer	extlibs/headers/SFML/Graphics/Font.hpp	/^    mutable std::vector<Uint8> m_pixelBuffer; \/\/\/< Pixel buffer holding a glyph's pixels before being written to the texture$/;"	m	class:sf::Font
+m_pixelsFlipped	extlibs/headers/SFML/Graphics/Texture.hpp	/^    mutable bool m_pixelsFlipped; \/\/\/< To work around the inconsistency in Y orientation$/;"	m	class:sf::Texture
+m_pixels	extlibs/headers/SFML/Graphics/Image.hpp	/^    std::vector<Uint8> m_pixels; \/\/\/< Pixels of the image$/;"	m	class:sf::Image
+m_pointCount	extlibs/headers/SFML/Graphics/CircleShape.hpp	/^    std::size_t m_pointCount; \/\/\/< Number of points composing the circle$/;"	m	class:sf::CircleShape
+m_points	extlibs/headers/SFML/Graphics/ConvexShape.hpp	/^    std::vector<Vector2f> m_points; \/\/\/< Points composing the convex polygon$/;"	m	class:sf::ConvexShape
+m_port	extlibs/headers/SFML/Network/Http.hpp	/^    unsigned short m_port;       \/\/\/< Port used for connection with host$/;"	m	class:sf::Http
+m_position	extlibs/headers/SFML/Graphics/Transformable.hpp	/^    Vector2f          m_position;                   \/\/\/< Position of the object in the 2D world$/;"	m	class:sf::Transformable
+m_primitiveType	extlibs/headers/SFML/Graphics/VertexArray.hpp	/^    PrimitiveType       m_primitiveType; \/\/\/< Type of primitives to draw$/;"	m	class:sf::VertexArray
+m_processingInterval	extlibs/headers/SFML/Audio/SoundRecorder.hpp	/^    sf::Time           m_processingInterval; \/\/\/< Time period between calls to onProcessSamples$/;"	m	class:sf::SoundRecorder
+m_radius	extlibs/headers/SFML/Graphics/CircleShape.hpp	/^    float       m_radius;     \/\/\/< Radius of the circle$/;"	m	class:sf::CircleShape
+m_readPos	extlibs/headers/SFML/Network/Packet.hpp	/^    std::size_t       m_readPos; \/\/\/< Current reading position in the packet$/;"	m	class:sf::Packet
+m_reader	extlibs/headers/SFML/Audio/InputSoundFile.hpp	/^    SoundFileReader* m_reader;       \/\/\/< Reader that handles I\/O on the file's format$/;"	m	class:sf::InputSoundFile
+m_refCount	extlibs/headers/SFML/Graphics/Font.hpp	/^    int*                       m_refCount;    \/\/\/< Reference counter used by implicit sharing$/;"	m	class:sf::Font
+m_rotation	extlibs/headers/SFML/Graphics/Transformable.hpp	/^    float             m_rotation;                   \/\/\/< Orientation of the object, in degrees$/;"	m	class:sf::Transformable
+m_rotation	extlibs/headers/SFML/Graphics/View.hpp	/^    float             m_rotation;            \/\/\/< Angle of rotation of the view rectangle, in degrees$/;"	m	class:sf::View
+m_sampleCount	extlibs/headers/SFML/Audio/InputSoundFile.hpp	/^    Uint64           m_sampleCount;  \/\/\/< Total number of samples in the file$/;"	m	class:sf::InputSoundFile
+m_sampleRate	extlibs/headers/SFML/Audio/InputSoundFile.hpp	/^    unsigned int     m_sampleRate;   \/\/\/< Number of samples per second$/;"	m	class:sf::InputSoundFile
+m_sampleRate	extlibs/headers/SFML/Audio/SoundRecorder.hpp	/^    unsigned int       m_sampleRate;         \/\/\/< Sample rate$/;"	m	class:sf::SoundRecorder
+m_sampleRate	extlibs/headers/SFML/Audio/SoundStream.hpp	/^    unsigned int  m_sampleRate;              \/\/\/< Frequency (samples \/ second)$/;"	m	class:sf::SoundStream
+m_samplesProcessed	extlibs/headers/SFML/Audio/SoundStream.hpp	/^    Uint64        m_samplesProcessed;        \/\/\/< Number of buffers processed since beginning of the stream$/;"	m	class:sf::SoundStream
+m_samples	extlibs/headers/SFML/Audio/Music.hpp	/^    std::vector<Int16> m_samples;  \/\/\/< Temporary buffer of samples$/;"	m	class:sf::Music
+m_samples	extlibs/headers/SFML/Audio/SoundBuffer.hpp	/^    std::vector<Int16> m_samples;  \/\/\/< Samples buffer$/;"	m	class:sf::SoundBuffer
+m_samples	extlibs/headers/SFML/Audio/SoundBufferRecorder.hpp	/^    std::vector<Int16> m_samples; \/\/\/< Temporary sample buffer to hold the recorded data$/;"	m	class:sf::SoundBufferRecorder
+m_samples	extlibs/headers/SFML/Audio/SoundRecorder.hpp	/^    std::vector<Int16> m_samples;            \/\/\/< Buffer to store captured samples$/;"	m	class:sf::SoundRecorder
+m_scale	extlibs/headers/SFML/Graphics/Transformable.hpp	/^    Vector2f          m_scale;                      \/\/\/< Scale of the object$/;"	m	class:sf::Transformable
+m_sendPos	extlibs/headers/SFML/Network/Packet.hpp	/^    std::size_t       m_sendPos; \/\/\/< Current send position in the packet (for handling partial sends)$/;"	m	class:sf::Packet
+m_shaderProgram	extlibs/headers/SFML/Graphics/Shader.hpp	/^    unsigned int m_shaderProgram;  \/\/\/< OpenGL identifier for the program$/;"	m	class:sf::Shader
+m_size	extlibs/headers/SFML/Graphics/Image.hpp	/^    Vector2u           m_size;   \/\/\/< Image size$/;"	m	class:sf::Image
+m_size	extlibs/headers/SFML/Graphics/RectangleShape.hpp	/^    Vector2f m_size; \/\/\/< Size of the rectangle$/;"	m	class:sf::RectangleShape
+m_size	extlibs/headers/SFML/Graphics/Texture.hpp	/^    Vector2u     m_size;          \/\/\/< Public texture size$/;"	m	class:sf::Texture
+m_size	extlibs/headers/SFML/Graphics/View.hpp	/^    Vector2f          m_size;                \/\/\/< Size of the view, in scene coordinates$/;"	m	class:sf::View
+m_size	extlibs/headers/SFML/System/MemoryInputStream.hpp	/^    Int64       m_size;   \/\/\/< Total size of the data$/;"	m	class:sf::MemoryInputStream
+m_size	extlibs/headers/SFML/Window/Window.hpp	/^    Vector2u          m_size;           \/\/\/< Current size of the window$/;"	m	class:sf::Window
+m_socket	extlibs/headers/SFML/Network/Socket.hpp	/^    SocketHandle m_socket;     \/\/\/< Socket descriptor$/;"	m	class:sf::Socket
+m_sounds	extlibs/headers/SFML/Audio/SoundBuffer.hpp	/^    mutable SoundList  m_sounds;   \/\/\/< List of sounds that are using this buffer$/;"	m	class:sf::SoundBuffer
+m_source	extlibs/headers/SFML/Audio/SoundSource.hpp	/^    unsigned int m_source; \/\/\/< OpenAL source identifier$/;"	m	class:sf::SoundSource
+m_startTime	extlibs/headers/SFML/System/Clock.hpp	/^    Time m_startTime; \/\/\/< Time of last reset, in microseconds$/;"	m	class:sf::Clock
+m_status	extlibs/headers/SFML/Network/Ftp.hpp	/^        Status      m_status;  \/\/\/< Status code returned from the server$/;"	m	class:sf::Ftp::Response
+m_status	extlibs/headers/SFML/Network/Http.hpp	/^        Status       m_status;       \/\/\/< Status code$/;"	m	class:sf::Http::Response
+m_streamOwned	extlibs/headers/SFML/Audio/InputSoundFile.hpp	/^    bool             m_streamOwned;  \/\/\/< Is the stream internal or external?$/;"	m	class:sf::InputSoundFile
+m_streamRec	extlibs/headers/SFML/Graphics/Font.hpp	/^    void*                      m_streamRec;   \/\/\/< Pointer to the stream rec instance (it is typeless to avoid exposing implementation details)$/;"	m	class:sf::Font
+m_stream	extlibs/headers/SFML/Audio/InputSoundFile.hpp	/^    InputStream*     m_stream;       \/\/\/< Input stream used to access the file's data$/;"	m	class:sf::InputSoundFile
+m_stream	extlibs/headers/SFML/Graphics/Font.hpp	/^    void*                      m_stream; \/\/\/< Asset file streamer (if loaded from file)$/;"	m	class:sf::Font
+m_stream	extlibs/headers/SFML/Graphics/Image.hpp	/^    void*              m_stream; \/\/\/< Asset file streamer (if loaded from file)$/;"	m	class:sf::Image
+m_string	extlibs/headers/SFML/Graphics/Text.hpp	/^    String              m_string;             \/\/\/< String to display$/;"	m	class:sf::Text
+m_string	extlibs/headers/SFML/System/String.hpp	/^    std::basic_string<Uint32> m_string; \/\/\/< Internal string of UTF-32 characters$/;"	m	class:sf::String
+m_style	extlibs/headers/SFML/Graphics/Text.hpp	/^    Uint32              m_style;              \/\/\/< Text style (see Style enum)$/;"	m	class:sf::Text
+m_textureRect	extlibs/headers/SFML/Graphics/Shape.hpp	/^    IntRect        m_textureRect;      \/\/\/< Rectangle defining the area of the source texture to display$/;"	m	class:sf::Shape
+m_textureRect	extlibs/headers/SFML/Graphics/Sprite.hpp	/^    IntRect        m_textureRect; \/\/\/< Rectangle defining the area of the source texture to display$/;"	m	class:sf::Sprite
+m_texture	extlibs/headers/SFML/Graphics/RenderTexture.hpp	/^    Texture                  m_texture; \/\/\/< Target texture to draw on$/;"	m	class:sf::RenderTexture
+m_texture	extlibs/headers/SFML/Graphics/Shape.hpp	/^    const Texture* m_texture;          \/\/\/< Texture of the shape$/;"	m	class:sf::Shape
+m_texture	extlibs/headers/SFML/Graphics/Sprite.hpp	/^    const Texture* m_texture;     \/\/\/< Texture of the sprite$/;"	m	class:sf::Sprite
+m_texture	extlibs/headers/SFML/Graphics/Texture.hpp	/^    unsigned int m_texture;       \/\/\/< Internal texture identifier$/;"	m	class:sf::Texture
+m_textures	extlibs/headers/SFML/Graphics/Shader.hpp	/^    TextureTable m_textures;       \/\/\/< Texture variables in the shader, mapped to their location$/;"	m	class:sf::Shader
+m_threadMutex	extlibs/headers/SFML/Audio/SoundStream.hpp	/^    mutable Mutex m_threadMutex;             \/\/\/< Thread mutex$/;"	m	class:sf::SoundStream
+m_threadStartState	extlibs/headers/SFML/Audio/SoundStream.hpp	/^    Status        m_threadStartState;        \/\/\/< State the thread starts in (Playing, Paused, Stopped)$/;"	m	class:sf::SoundStream
+m_thread	extlibs/headers/SFML/Audio/SoundRecorder.hpp	/^    Thread             m_thread;             \/\/\/< Thread running the background recording task$/;"	m	class:sf::SoundRecorder
+m_thread	extlibs/headers/SFML/Audio/SoundStream.hpp	/^    Thread        m_thread;                  \/\/\/< Thread running the background tasks$/;"	m	class:sf::SoundStream
+m_transformNeedUpdate	extlibs/headers/SFML/Graphics/Transformable.hpp	/^    mutable bool      m_transformNeedUpdate;        \/\/\/< Does the transform need to be recomputed?$/;"	m	class:sf::Transformable
+m_transformUpdated	extlibs/headers/SFML/Graphics/View.hpp	/^    mutable bool      m_transformUpdated;    \/\/\/< Internal state telling if the transform needs to be updated$/;"	m	class:sf::View
+m_transform	extlibs/headers/SFML/Graphics/Transformable.hpp	/^    mutable Transform m_transform;                  \/\/\/< Combined transformation of the object$/;"	m	class:sf::Transformable
+m_transform	extlibs/headers/SFML/Graphics/View.hpp	/^    mutable Transform m_transform;           \/\/\/< Precomputed projection transform corresponding to the view$/;"	m	class:sf::View
+m_type	extlibs/headers/SFML/Network/Socket.hpp	/^    Type         m_type;       \/\/\/< Type of the socket (TCP or UDP)$/;"	m	class:sf::Socket
+m_uri	extlibs/headers/SFML/Network/Http.hpp	/^        std::string  m_uri;          \/\/\/< Target URI of the request$/;"	m	class:sf::Http::Request
+m_vertices	extlibs/headers/SFML/Graphics/Shape.hpp	/^    VertexArray    m_vertices;         \/\/\/< Vertex array containing the fill geometry$/;"	m	class:sf::Shape
+m_vertices	extlibs/headers/SFML/Graphics/Sprite.hpp	/^    Vertex         m_vertices[4]; \/\/\/< Vertices defining the sprite's geometry$/;"	m	class:sf::Sprite
+m_vertices	extlibs/headers/SFML/Graphics/Text.hpp	/^    mutable VertexArray m_vertices;           \/\/\/< Vertex array containing the text's geometry$/;"	m	class:sf::Text
+m_vertices	extlibs/headers/SFML/Graphics/VertexArray.hpp	/^    std::vector<Vertex> m_vertices;      \/\/\/< Vertices contained in the array$/;"	m	class:sf::VertexArray
+m_view	extlibs/headers/SFML/Graphics/RenderTarget.hpp	/^    View        m_view;        \/\/\/< Current view$/;"	m	class:sf::RenderTarget
+m_viewport	extlibs/headers/SFML/Graphics/View.hpp	/^    FloatRect         m_viewport;            \/\/\/< Viewport rectangle, expressed as a factor of the render-target's size$/;"	m	class:sf::View
+m_writer	extlibs/headers/SFML/Audio/OutputSoundFile.hpp	/^    SoundFileWriter* m_writer; \/\/\/< Writer that handles I\/O on the file's format$/;"	m	class:sf::OutputSoundFile
+main	extlibs/headers/SFML/Main.hpp	38;"	d
+main	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	/^int main(int argc, char* argv[])$/;"	f
+main	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	/^void main() {}$/;"	f
+main	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^int main(int argc, char* argv[])$/;"	f
+main	build/CMakeFiles/CheckTypeSize/SIZEOF_VOID_PTR.c	/^int main(argc, argv) int argc; char *argv[];$/;"	f
 main	examples/spacedots/src/main.cpp	/^int main(int argc, char* argv[])$/;"	f
 main	examples/tictactoe/src/main.cpp	/^int main(int argc, char* argv[])$/;"	f
+majorVersion	extlibs/headers/SFML/Window/ContextSettings.hpp	/^    unsigned int majorVersion;      \/\/\/< Major number of the context version to create$/;"	m	struct:sf::ContextSettings
 makeClone	include/GQE/Core/interfaces/TProperty.hpp	/^      IProperty* makeClone()$/;"	f	class:GQE::TProperty
-makeInstance	src/GQE/Entity/classes/Prototype.cpp	/^  Instance* Prototype::makeInstance()$/;"	f	class:GQE::Prototype
+makeInstance	src/GQE/Entity/classes/Prototype.cpp	/^  Instance* Prototype::makeInstance(IEntity* theFather)$/;"	f	class:GQE::Prototype
+minorVersion	extlibs/headers/SFML/Window/ContextSettings.hpp	/^    unsigned int minorVersion;      \/\/\/< Minor number of the context version to create$/;"	m	struct:sf::ContextSettings
+mouseButton	extlibs/headers/SFML/Window/Event.hpp	/^        MouseButtonEvent      mouseButton;       \/\/\/< Mouse button event parameters (Event::MouseButtonPressed, Event::MouseButtonReleased)$/;"	m	union:sf::Event::__anon6
+mouseMove	extlibs/headers/SFML/Window/Event.hpp	/^        MouseMoveEvent        mouseMove;         \/\/\/< Mouse move event parameters (Event::MouseMoved)$/;"	m	union:sf::Event::__anon6
+mouseWheelScroll	extlibs/headers/SFML/Window/Event.hpp	/^        MouseWheelScrollEvent mouseWheelScroll;  \/\/\/< Mouse wheel event parameters (Event::MouseWheelScrolled)$/;"	m	union:sf::Event::__anon6
+mouseWheel	extlibs/headers/SFML/Window/Event.hpp	/^        MouseWheelEvent       mouseWheel;        \/\/\/< Mouse wheel event parameters (Event::MouseWheelMoved) (deprecated)$/;"	m	union:sf::Event::__anon6
 name	include/GQE/Core/interfaces/IEvent.hpp	/^          std::string name() const$/;"	f	class:GQE::IEvent::Type_t
 name	include/GQE/Core/interfaces/IProperty.hpp	/^          std::string name() const$/;"	f	class:GQE::IProperty::Type_t
+name	extlibs/headers/SFML/Window/Joystick.hpp	/^        sf::String   name;      \/\/\/< Name of the joystick$/;"	m	struct:sf::Joystick::Identification
+nextRow	extlibs/headers/SFML/Graphics/Font.hpp	/^        unsigned int     nextRow; \/\/\/< Y position of the next new row in the texture$/;"	m	struct:sf::Font::Page
 operator =	include/GQE/Core/interfaces/TAsset.hpp	/^      TAsset<TYPE>& operator=(TAsset<TYPE> theRight)$/;"	f	class:GQE::TAsset
 operator =	src/GQE/Core/classes/ConfigReader.cpp	/^  ConfigReader& ConfigReader::operator=(const ConfigReader& theRight)$/;"	f	class:GQE::ConfigReader
 parseBool	src/GQE/Core/utils/StringUtil.cpp	/^  bool parseBool(std::string theValue, const bool theDefault)$/;"	f	namespace:GQE
@@ -830,8 +1919,20 @@ parseVector2u	src/GQE/Core/utils/StringUtil.cpp	/^  sf::Vector2u parseVector2u(c
 parseVector3f	src/GQE/Core/utils/StringUtil.cpp	/^  sf::Vector3f parseVector3f(const std::string theValue, const sf::Vector3f theDefault)$/;"	f	namespace:GQE
 parseVector3i	src/GQE/Core/utils/StringUtil.cpp	/^  sf::Vector3i parseVector3i(const std::string theValue, const sf::Vector3i theDefault)$/;"	f	namespace:GQE
 pause	src/GQE/Core/interfaces/IState.cpp	/^  void IState::pause(void)$/;"	f	class:GQE::IState
+position	extlibs/headers/SFML/Graphics/Vertex.hpp	/^    Vector2f  position;  \/\/\/< 2D position of the vertex$/;"	m	class:sf::Vertex
+position	extlibs/headers/SFML/Window/Event.hpp	/^        float          position;   \/\/\/< New position on the axis (in range [-100 .. 100])$/;"	m	struct:sf::Event::JoystickMoveEvent
+priv	extlibs/headers/SFML/Graphics/RenderTexture.hpp	/^namespace priv$/;"	n	namespace:sf
+priv	extlibs/headers/SFML/System/FileInputStream.hpp	/^namespace priv$/;"	n	namespace:sf
+priv	extlibs/headers/SFML/System/Mutex.hpp	/^namespace priv$/;"	n	namespace:sf
+priv	extlibs/headers/SFML/System/Thread.hpp	/^namespace priv$/;"	n	namespace:sf
+priv	extlibs/headers/SFML/System/ThreadLocal.hpp	/^namespace priv$/;"	n	namespace:sf
+priv	extlibs/headers/SFML/Window/Context.hpp	/^namespace priv$/;"	n	namespace:sf
+priv	extlibs/headers/SFML/Window/Window.hpp	/^namespace priv$/;"	n	namespace:sf
 processArguments	src/GQE/Core/interfaces/IApp.cpp	/^  void IApp::processArguments(int argc, char* argv[])$/;"	f	class:GQE::IApp
 processInput	src/GQE/Core/interfaces/IApp.cpp	/^  void IApp::processInput(IState& theState)$/;"	f	class:GQE::IApp
+productId	extlibs/headers/SFML/Window/Joystick.hpp	/^        unsigned int productId; \/\/\/< Product identifier$/;"	m	struct:sf::Joystick::Identification
+qnxnto	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	/^char const* qnxnto = "INFO" ":" "qnxnto";$/;"	v
+qnxnto	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* qnxnto = "INFO" ":" "qnxnto";$/;"	v
 quit	src/GQE/Core/interfaces/IApp.cpp	/^  void IApp::quit(int theExitCode)$/;"	f	class:GQE::IApp
 reInit	examples/spacedots/src/GameState.cpp	/^void GameState::reInit(void)$/;"	f	class:GameState
 reInit	examples/tictactoe/src/GameState.cpp	/^void GameState::reInit(void)$/;"	f	class:GameState
@@ -841,15 +1942,26 @@ registerApp	src/GQE/Core/classes/StateManager.cpp	/^  void StateManager::registe
 registerHandler	src/GQE/Core/classes/AssetManager.cpp	/^  void AssetManager::registerHandler(IAssetHandler* theAssetHandler)$/;"	f	class:GQE::AssetManager
 releaseAsset	include/GQE/Core/interfaces/TAssetHandler.hpp	/^      virtual void releaseAsset(const typeAssetID theAssetID, TYPE* theAsset)$/;"	f	class:GQE::TAssetHandler
 removeActiveState	src/GQE/Core/classes/StateManager.cpp	/^  void StateManager::removeActiveState(void)$/;"	f	class:GQE::StateManager
+remove	src/GQE/Core/classes/PropertyManager.cpp	/^void PropertyManager::remove(typePropertyID thePropertyID)$/;"	f	class:GQE::PropertyManager
 resetActiveState	src/GQE/Core/classes/StateManager.cpp	/^  void StateManager::resetActiveState(void)$/;"	f	class:GQE::StateManager
 resume	src/GQE/Core/interfaces/IState.cpp	/^  void IState::resume(void)$/;"	f	class:GQE::IState
+r	extlibs/headers/SFML/Graphics/Color.hpp	/^    Uint8 r; \/\/\/< Red component$/;"	m	class:sf::Color
+rows	extlibs/headers/SFML/Graphics/Font.hpp	/^        std::vector<Row> rows;    \/\/\/< List containing the position of all the existing rows$/;"	m	struct:sf::Font::Page
 run	src/GQE/Core/interfaces/IApp.cpp	/^  int IApp::run(void)$/;"	f	class:GQE::IApp
+s_readers	extlibs/headers/SFML/Audio/SoundFileFactory.hpp	/^    static ReaderFactoryArray s_readers; \/\/\/< List of all registered readers$/;"	m	class:sf::SoundFileFactory
+s_writers	extlibs/headers/SFML/Audio/SoundFileFactory.hpp	/^    static WriterFactoryArray s_writers; \/\/\/< List of all registered writers$/;"	m	class:sf::SoundFileFactory
+sampleCount	extlibs/headers/SFML/Audio/SoundFileReader.hpp	/^        Uint64       sampleCount;  \/\/\/< Total number of samples in the file$/;"	m	struct:sf::SoundFileReader::Info
+sampleCount	extlibs/headers/SFML/Audio/SoundStream.hpp	/^        std::size_t  sampleCount; \/\/\/< Number of samples pointed by Samples$/;"	m	struct:sf::SoundStream::Chunk
+sampleRate	extlibs/headers/SFML/Audio/SoundFileReader.hpp	/^        unsigned int sampleRate;   \/\/\/< Samples rate of the sound, in samples per second$/;"	m	struct:sf::SoundFileReader::Info
+samples	extlibs/headers/SFML/Audio/SoundStream.hpp	/^        const Int16* samples;     \/\/\/< Pointer to the audio samples$/;"	m	struct:sf::SoundStream::Chunk
 selectEdge	examples/spacedots/src/GameState.cpp	/^void GameState::selectEdge(void)$/;"	f	class:GameState
+sensor	extlibs/headers/SFML/Window/Event.hpp	/^        SensorEvent           sensor;            \/\/\/< Sensor event parameters (Event::SensorChanged)$/;"	m	union:sf::Event::__anon6
 setActionSystem	src/GQE/Entity/classes/ActionGroup.cpp	/^  void ActionGroup::setActionSystem(ActionSystem* theActionSystem)$/;"	f	class:GQE::ActionGroup
 setActiveState	src/GQE/Core/classes/StateManager.cpp	/^  void StateManager::setActiveState(typeStateID theStateID)$/;"	f	class:GQE::StateManager
 setActive	src/GQE/Core/interfaces/ILogger.cpp	/^  void ILogger::setActive(bool theActive)$/;"	f	class:GQE::ILogger
 setDropTime	include/GQE/Core/interfaces/TAsset.hpp	/^      void setDropTime(AssetDropTime theDropTime)$/;"	f	class:GQE::TAsset
 setDropTime	include/GQE/Core/interfaces/TAssetHandler.hpp	/^      virtual void setDropTime(const typeAssetID theAssetID,$/;"	f	class:GQE::TAssetHandler
+setFather	src/GQE/Entity/interfaces/IEntity.cpp	/^  void IEntity::setFather(IEntity* theFather)$/;"	f	class:GQE::IEntity
 setFilename	include/GQE/Core/interfaces/TAsset.hpp	/^      void setFilename(std::string theFilename)$/;"	f	class:GQE::TAsset
 setFilename	include/GQE/Core/interfaces/TAssetHandler.hpp	/^      virtual void setFilename(const typeAssetID theAssetID, std::string theFilename)$/;"	f	class:GQE::TAssetHandler
 setGraphicRange	src/GQE/Core/interfaces/IApp.cpp	/^  void IApp::setGraphicRange(const GraphicRange theGraphicRange)$/;"	f	class:GQE::IApp
@@ -865,10 +1977,104 @@ setType	src/GQE/Core/interfaces/IEvent.cpp	/^  void IEvent::setType(std::string 
 setType	src/GQE/Core/interfaces/IProperty.cpp	/^  void IProperty::setType(std::string theType)$/;"	f	class:GQE::IProperty
 setUpdateRate	src/GQE/Core/interfaces/IApp.cpp	/^  void IApp::setUpdateRate(float theRate)$/;"	f	class:GQE::IApp
 setValue	include/GQE/Core/interfaces/TProperty.hpp	/^      void setValue(TYPE& theValue)$/;"	f	class:GQE::TProperty
-set	include/GQE/Core/classes/PropertyManager.hpp	/^      void set(const typePropertyID thePropertyID, TYPE theValue)$/;"	f	class:GQE::PropertyManager
+set	include/GQE/Core/classes/PropertyManager.hpp	/^    void set(const typePropertyID thePropertyID, TYPE theValue)$/;"	f	class:GQE::PropertyManager
+sf	extlibs/headers/SFML/Audio/AlResource.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/Audio/InputSoundFile.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/Audio/Listener.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/Audio/Music.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/Audio/OutputSoundFile.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/Audio/Sound.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/Audio/SoundBuffer.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/Audio/SoundBufferRecorder.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/Audio/SoundFileFactory.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/Audio/SoundFileReader.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/Audio/SoundFileWriter.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/Audio/SoundRecorder.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/Audio/SoundSource.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/Audio/SoundStream.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/Config.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/Graphics/BlendMode.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/Graphics/CircleShape.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/Graphics/Color.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/Graphics/ConvexShape.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/Graphics/Drawable.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/Graphics/Font.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/Graphics/Glyph.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/Graphics/Image.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/Graphics/PrimitiveType.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/Graphics/Rect.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/Graphics/RectangleShape.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/Graphics/RenderStates.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/Graphics/RenderTarget.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/Graphics/RenderTexture.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/Graphics/RenderWindow.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/Graphics/Shader.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/Graphics/Shape.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/Graphics/Sprite.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/Graphics/Text.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/Graphics/Texture.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/Graphics/Transform.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/Graphics/Transformable.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/Graphics/Vertex.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/Graphics/VertexArray.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/Graphics/View.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/Network/Ftp.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/Network/Http.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/Network/IpAddress.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/Network/Packet.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/Network/Socket.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/Network/SocketHandle.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/Network/SocketSelector.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/Network/TcpListener.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/Network/TcpSocket.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/Network/UdpSocket.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/System/Clock.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/System/Err.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/System/FileInputStream.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/System/InputStream.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/System/Lock.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/System/MemoryInputStream.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/System/Mutex.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/System/NonCopyable.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/System/Sleep.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/System/String.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/System/Thread.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/System/ThreadLocal.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/System/ThreadLocalPtr.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/System/Time.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/System/Utf.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/System/Vector2.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/System/Vector3.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/Window/Context.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/Window/ContextSettings.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/Window/Event.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/Window/GlResource.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/Window/Joystick.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/Window/Keyboard.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/Window/Mouse.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/Window/Sensor.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/Window/Touch.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/Window/VideoMode.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/Window/Window.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/Window/WindowHandle.hpp	/^namespace sf$/;"	n
+sf	extlibs/headers/SFML/Window/WindowStyle.hpp	/^namespace sf$/;"	n
 sf	include/GQE/Core/utils/StringUtil.hpp	/^namespace sf$/;"	n
+shader	extlibs/headers/SFML/Graphics/RenderStates.hpp	/^    const Shader*  shader;    \/\/\/< Shader$/;"	m	class:sf::RenderStates
+shift	extlibs/headers/SFML/Window/Event.hpp	/^        bool          shift;   \/\/\/< Is the Shift key pressed?$/;"	m	struct:sf::Event::KeyEvent
+size	extlibs/headers/SFML/Window/Event.hpp	/^        SizeEvent             size;              \/\/\/< Size event parameters (Event::Resized)$/;"	m	union:sf::Event::__anon6
+stencilBits	extlibs/headers/SFML/Window/ContextSettings.hpp	/^    unsigned int stencilBits;       \/\/\/< Bits of the stencil buffer$/;"	m	struct:sf::ContextSettings
 storeNameValue	src/GQE/Core/classes/ConfigReader.cpp	/^  void ConfigReader::storeNameValue(const std::string theSection,$/;"	f	class:GQE::ConfigReader
 swap	include/GQE/Core/interfaces/TAsset.hpp	/^      friend void swap(TAsset& first, TAsset& second)$/;"	f	class:GQE::TAsset
+system	extlibs/headers/SFML/Window/Event.hpp	/^        bool          system;  \/\/\/< Is the System key pressed?$/;"	m	struct:sf::Event::KeyEvent
+texCoords	extlibs/headers/SFML/Graphics/Vertex.hpp	/^    Vector2f  texCoords; \/\/\/< Coordinates of the texture's pixel to map to the vertex$/;"	m	class:sf::Vertex
+text	extlibs/headers/SFML/Window/Event.hpp	/^        TextEvent             text;              \/\/\/< Text event parameters (Event::TextEntered)$/;"	m	union:sf::Event::__anon6
+textureRect	extlibs/headers/SFML/Graphics/Glyph.hpp	/^    IntRect   textureRect; \/\/\/< Texture coordinates of the glyph inside the font's texture$/;"	m	class:sf::Glyph
+texture	extlibs/headers/SFML/Graphics/Font.hpp	/^        sf::Texture      texture; \/\/\/< Texture containing the pixels of the glyphs$/;"	m	struct:sf::Font::Page
+texture	extlibs/headers/SFML/Graphics/RenderStates.hpp	/^    const Texture* texture;   \/\/\/< Texture$/;"	m	class:sf::RenderStates
+top	extlibs/headers/SFML/Graphics/Font.hpp	/^        unsigned int top;    \/\/\/< Y position of the row into the texture$/;"	m	struct:sf::Font::Row
+top	extlibs/headers/SFML/Graphics/Rect.hpp	/^    T top;    \/\/\/< Top coordinate of the rectangle$/;"	m	class:sf::Rect
+touch	extlibs/headers/SFML/Window/Event.hpp	/^        TouchEvent            touch;             \/\/\/< Touch events parameters (Event::TouchBegan, Event::TouchMoved, Event::TouchEnded)$/;"	m	union:sf::Event::__anon6
+transform	extlibs/headers/SFML/Graphics/RenderStates.hpp	/^    Transform      transform; \/\/\/< Transform$/;"	m	class:sf::RenderStates
 typeActionID	include/GQE/Entity/Entity_types.hpp	/^  typedef std::string typeActionID;$/;"	t	namespace:GQE
 typeAssetData	include/GQE/Core/interfaces/TAssetHandler.hpp	/^      struct typeAssetData {$/;"	s	class:GQE::TAssetHandler
 typeAssetHandlerID	include/GQE/Core/Core_types.hpp	/^  typedef std::string typeAssetHandlerID;$/;"	t	namespace:GQE
@@ -883,6 +2089,8 @@ typePropertyID	include/GQE/Core/Core_types.hpp	/^  typedef std::string typePrope
 typePrototypeID	include/GQE/Entity/Entity_types.hpp	/^  typedef std::string typePrototypeID;$/;"	t	namespace:GQE
 typeStateID	include/GQE/Core/Core_types.hpp	/^  typedef std::string typeStateID;$/;"	t	namespace:GQE
 typeSystemID	include/GQE/Entity/Entity_types.hpp	/^  typedef std::string typeSystemID;$/;"	t	namespace:GQE
+type	extlibs/headers/SFML/Window/Event.hpp	/^        Sensor::Type type; \/\/\/< Type of the sensor$/;"	m	struct:sf::Event::SensorEvent
+type	extlibs/headers/SFML/Window/Event.hpp	/^    EventType type; \/\/\/< Type of the event$/;"	m	class:sf::Event
 uint16_t	extlibs/msvc/stdint.h	/^   typedef unsigned __int16  uint16_t;$/;"	t
 uint16_t	extlibs/msvc/stdint.h	/^   typedef unsigned short    uint16_t;$/;"	t
 uint32_t	extlibs/msvc/stdint.h	/^   typedef unsigned __int32  uint32_t;$/;"	t
@@ -901,6 +2109,7 @@ uint_least8_t	extlibs/msvc/stdint.h	/^typedef uint8_t   uint_least8_t;$/;"	t
 uintmax_t	extlibs/msvc/stdint.h	/^typedef uint64_t  uintmax_t;$/;"	t
 uintptr_t	extlibs/msvc/stdint.h	/^   typedef _W64 unsigned int uintptr_t;$/;"	t
 uintptr_t	extlibs/msvc/stdint.h	/^   typedef unsigned __int64  uintptr_t;$/;"	t
+unicode	extlibs/headers/SFML/Window/Event.hpp	/^        Uint32 unicode; \/\/\/< UTF-32 Unicode value of the character$/;"	m	struct:sf::Event::TextEvent
 updateFixed	examples/spacedots/src/GameState.cpp	/^void GameState::updateFixed(void)$/;"	f	class:GameState
 updateFixed	examples/tictactoe/src/GameState.cpp	/^void GameState::updateFixed(void)$/;"	f	class:GameState
 updateFixed	src/GQE/Core/classes/StatManager.cpp	/^  void StatManager::updateFixed(void)$/;"	f	class:GQE::StatManager
@@ -919,7 +2128,34 @@ updateVariable	src/GQE/Entity/systems/MovementSystem.cpp	/^  void MovementSystem
 updateVariable	src/GQE/Entity/systems/RenderSystem.cpp	/^  void RenderSystem::updateVariable(float theElapsedTime)$/;"	f	class:GQE::RenderSystem
 update	include/GQE/Core/interfaces/TProperty.hpp	/^      void update()$/;"	f	class:GQE::TProperty
 useNextID	src/GQE/Entity/interfaces/IEntity.cpp	/^  typeEntityID IEntity::useNextID()$/;"	f	class:GQE::IEntity
+useVertexCache	extlibs/headers/SFML/Graphics/RenderTarget.hpp	/^        bool      useVertexCache; \/\/\/< Did we previously use the vertex cache?$/;"	m	struct:sf::RenderTarget::StatesCache
+vendorId	extlibs/headers/SFML/Window/Joystick.hpp	/^        unsigned int vendorId;  \/\/\/< Manufacturer identifier$/;"	m	struct:sf::Joystick::Identification
+vertexCache	extlibs/headers/SFML/Graphics/RenderTarget.hpp	/^        Vertex    vertexCache[VertexCacheSize]; \/\/\/< Pre-transformed vertices cache$/;"	m	struct:sf::RenderTarget::StatesCache
+viewChanged	extlibs/headers/SFML/Graphics/RenderTarget.hpp	/^        bool      viewChanged;    \/\/\/< Has the current view changed since last draw?$/;"	m	struct:sf::RenderTarget::StatesCache
+wheel	extlibs/headers/SFML/Window/Event.hpp	/^        Mouse::Wheel wheel; \/\/\/< Which wheel (for mice with multiple ones)$/;"	m	struct:sf::Event::MouseWheelScrollEvent
+width	extlibs/headers/SFML/Graphics/Font.hpp	/^        unsigned int width;  \/\/\/< Current width of the row$/;"	m	struct:sf::Font::Row
+width	extlibs/headers/SFML/Graphics/Rect.hpp	/^    T width;  \/\/\/< Width of the rectangle$/;"	m	class:sf::Rect
+width	extlibs/headers/SFML/Window/Event.hpp	/^        unsigned int width;  \/\/\/< New width, in pixels$/;"	m	struct:sf::Event::SizeEvent
+width	extlibs/headers/SFML/Window/VideoMode.hpp	/^    unsigned int width;        \/\/\/< Video mode width, in pixels$/;"	m	class:sf::VideoMode
 writeTag	src/GQE/Core/interfaces/ILogger.cpp	/^  void ILogger::writeTag(std::ostream& theOstream, SeverityType theSeverity,$/;"	f	class:GQE::ILogger
+x	extlibs/headers/SFML/System/Vector2.hpp	/^    T x; \/\/\/< X coordinate of the vector$/;"	m	class:sf::Vector2
+x	extlibs/headers/SFML/System/Vector3.hpp	/^    T x; \/\/\/< X coordinate of the vector$/;"	m	class:sf::Vector3
+x	extlibs/headers/SFML/Window/Event.hpp	/^        float x;           \/\/\/< Current value of the sensor on X axis$/;"	m	struct:sf::Event::SensorEvent
+x	extlibs/headers/SFML/Window/Event.hpp	/^        int           x;      \/\/\/< X position of the mouse pointer, relative to the left of the owner window$/;"	m	struct:sf::Event::MouseButtonEvent
+x	extlibs/headers/SFML/Window/Event.hpp	/^        int          x;     \/\/\/< X position of the mouse pointer, relative to the left of the owner window$/;"	m	struct:sf::Event::MouseWheelScrollEvent
+x	extlibs/headers/SFML/Window/Event.hpp	/^        int x;               \/\/\/< X position of the touch, relative to the left of the owner window$/;"	m	struct:sf::Event::TouchEvent
+x	extlibs/headers/SFML/Window/Event.hpp	/^        int x;     \/\/\/< X position of the mouse pointer, relative to the left of the owner window$/;"	m	struct:sf::Event::MouseWheelEvent
+x	extlibs/headers/SFML/Window/Event.hpp	/^        int x; \/\/\/< X position of the mouse pointer, relative to the left of the owner window$/;"	m	struct:sf::Event::MouseMoveEvent
+y	extlibs/headers/SFML/System/Vector2.hpp	/^    T y; \/\/\/< Y coordinate of the vector$/;"	m	class:sf::Vector2
+y	extlibs/headers/SFML/System/Vector3.hpp	/^    T y; \/\/\/< Y coordinate of the vector$/;"	m	class:sf::Vector3
+y	extlibs/headers/SFML/Window/Event.hpp	/^        float y;           \/\/\/< Current value of the sensor on Y axis$/;"	m	struct:sf::Event::SensorEvent
+y	extlibs/headers/SFML/Window/Event.hpp	/^        int           y;      \/\/\/< Y position of the mouse pointer, relative to the top of the owner window$/;"	m	struct:sf::Event::MouseButtonEvent
+y	extlibs/headers/SFML/Window/Event.hpp	/^        int          y;     \/\/\/< Y position of the mouse pointer, relative to the top of the owner window$/;"	m	struct:sf::Event::MouseWheelScrollEvent
+y	extlibs/headers/SFML/Window/Event.hpp	/^        int y;               \/\/\/< Y position of the touch, relative to the top of the owner window$/;"	m	struct:sf::Event::TouchEvent
+y	extlibs/headers/SFML/Window/Event.hpp	/^        int y;     \/\/\/< Y position of the mouse pointer, relative to the top of the owner window$/;"	m	struct:sf::Event::MouseWheelEvent
+y	extlibs/headers/SFML/Window/Event.hpp	/^        int y; \/\/\/< Y position of the mouse pointer, relative to the top of the owner window$/;"	m	struct:sf::Event::MouseMoveEvent
+z	extlibs/headers/SFML/System/Vector3.hpp	/^    T z; \/\/\/< Z coordinate of the vector$/;"	m	class:sf::Vector3
+z	extlibs/headers/SFML/Window/Event.hpp	/^        float z;           \/\/\/< Current value of the sensor on Z axis$/;"	m	struct:sf::Event::SensorEvent
 ~ActionGroup	src/GQE/Entity/classes/ActionGroup.cpp	/^  ActionGroup::~ActionGroup()$/;"	f	class:GQE::ActionGroup
 ~ActionSystem	src/GQE/Entity/systems/ActionSystem.cpp	/^  ActionSystem::~ActionSystem()$/;"	f	class:GQE::ActionSystem
 ~AnimationSystem	src/GQE/Entity/systems/AnimationSystem.cpp	/^  AnimationSystem::~AnimationSystem()$/;"	f	class:GQE::AnimationSystem
@@ -927,6 +2163,7 @@ writeTag	src/GQE/Core/interfaces/ILogger.cpp	/^  void ILogger::writeTag(std::ost
 ~ConfigAsset	src/GQE/Core/assets/ConfigAsset.cpp	/^  ConfigAsset::~ConfigAsset()$/;"	f	class:GQE::ConfigAsset
 ~ConfigHandler	src/GQE/Core/assets/ConfigHandler.cpp	/^  ConfigHandler::~ConfigHandler()$/;"	f	class:GQE::ConfigHandler
 ~ConfigReader	src/GQE/Core/classes/ConfigReader.cpp	/^  ConfigReader::~ConfigReader()$/;"	f	class:GQE::ConfigReader
+~Drawable	extlibs/headers/SFML/Graphics/Drawable.hpp	/^    virtual ~Drawable() {}$/;"	f	class:sf::Drawable
 ~EventManager	src/GQE/Core/classes/EventManager.cpp	/^  EventManager::~EventManager()$/;"	f	class:GQE::EventManager
 ~FatalLogger	src/GQE/Core/loggers/FatalLogger.cpp	/^  FatalLogger::~FatalLogger()$/;"	f	class:GQE::FatalLogger
 ~FileLogger	src/GQE/Core/loggers/FileLogger.cpp	/^  FileLogger::~FileLogger()$/;"	f	class:GQE::FileLogger
@@ -945,16 +2182,19 @@ writeTag	src/GQE/Core/interfaces/ILogger.cpp	/^  void ILogger::writeTag(std::ost
 ~ISystem	src/GQE/Entity/interfaces/ISystem.cpp	/^  ISystem::~ISystem()$/;"	f	class:GQE::ISystem
 ~ImageAsset	src/GQE/Core/assets/ImageAsset.cpp	/^  ImageAsset::~ImageAsset()$/;"	f	class:GQE::ImageAsset
 ~ImageHandler	src/GQE/Core/assets/ImageHandler.cpp	/^  ImageHandler::~ImageHandler()$/;"	f	class:GQE::ImageHandler
+~InputStream	extlibs/headers/SFML/System/InputStream.hpp	/^    virtual ~InputStream() {}$/;"	f	class:sf::InputStream
 ~Instance	src/GQE/Entity/classes/Instance.cpp	/^  Instance::~Instance()$/;"	f	class:GQE::Instance
 ~MovementSystem	src/GQE/Entity/systems/MovementSystem.cpp	/^  MovementSystem::~MovementSystem()$/;"	f	class:GQE::MovementSystem
 ~MusicAsset	src/GQE/Core/assets/MusicAsset.cpp	/^  MusicAsset::~MusicAsset()$/;"	f	class:GQE::MusicAsset
 ~MusicHandler	src/GQE/Core/assets/MusicHandler.cpp	/^  MusicHandler::~MusicHandler()$/;"	f	class:GQE::MusicHandler
-~PropertyManager	src/GQE/Core/classes/PropertyManager.cpp	/^  PropertyManager::~PropertyManager()$/;"	f	class:GQE::PropertyManager
+~PropertyManager	src/GQE/Core/classes/PropertyManager.cpp	/^PropertyManager::~PropertyManager()$/;"	f	class:GQE::PropertyManager
 ~PrototypeManager	src/GQE/Entity/classes/PrototypeManager.cpp	/^  PrototypeManager::~PrototypeManager()$/;"	f	class:GQE::PrototypeManager
 ~Prototype	src/GQE/Entity/classes/Prototype.cpp	/^  Prototype::~Prototype()$/;"	f	class:GQE::Prototype
 ~RenderSystem	src/GQE/Entity/systems/RenderSystem.cpp	/^  RenderSystem::~RenderSystem()$/;"	f	class:GQE::RenderSystem
 ~ScopeLogger	src/GQE/Core/loggers/ScopeLogger.cpp	/^  ScopeLogger::~ScopeLogger()$/;"	f	class:GQE::ScopeLogger
 ~SoundAsset	src/GQE/Core/assets/SoundAsset.cpp	/^  SoundAsset::~SoundAsset()$/;"	f	class:GQE::SoundAsset
+~SoundFileReader	extlibs/headers/SFML/Audio/SoundFileReader.hpp	/^    virtual ~SoundFileReader() {}$/;"	f	class:sf::SoundFileReader
+~SoundFileWriter	extlibs/headers/SFML/Audio/SoundFileWriter.hpp	/^    virtual ~SoundFileWriter() {}$/;"	f	class:sf::SoundFileWriter
 ~SoundHandler	src/GQE/Core/assets/SoundHandler.cpp	/^  SoundHandler::~SoundHandler()$/;"	f	class:GQE::SoundHandler
 ~SpaceDotsApp	examples/spacedots/src/SpaceDotsApp.cpp	/^SpaceDotsApp::~SpaceDotsApp()$/;"	f	class:SpaceDotsApp
 ~SplashState	src/GQE/Core/states/SplashState.cpp	/^  SplashState::~SplashState(void)$/;"	f	class:GQE::SplashState

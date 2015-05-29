@@ -31,7 +31,7 @@ namespace GQE
        * @param[in] thePrototypeID to use for this prototype
        * @param[in] theOrder to assign to this prototype and each Instance
        */
-      Prototype(const typePrototypeID thePrototypeID, Uint32 theOrder = 0);
+      Prototype(const typePrototypeID thePrototypeID, IEntity* theFather = nullptr);
 
       /**
        * Prototype destructor
@@ -71,7 +71,7 @@ namespace GQE
        * IProperty derived classes.
        * @return a pointer to the Instance class created.
        */
-      Instance* makeInstance(void);
+      Instance* makeInstance(IEntity* theFather = nullptr);
     private:
       // Variables
       ///////////////////////////////////////////////////////////////////////////

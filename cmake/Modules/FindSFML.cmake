@@ -85,6 +85,7 @@ set(FIND_SFML_LIB_PATHS ~/Library/Frameworks
                         /opt/local
                         /opt/csw
                         /opt
+                        ${PROJECT_SOURCE_DIR}/extlibs/libs-gcc/x64/
                         ${SFMLDIR}
                         $ENV{SFMLDIR})
 foreach(FIND_SFML_COMPONENT ${SFML_FIND_COMPONENTS})
@@ -189,4 +190,5 @@ endif()
 # handle success
 if(SFML_FOUND)
     message("Found SFML: ${SFML_INCLUDE_DIR}")
+    message("Found SFML Libraries: ${SFML_LIBRARIES}")
 endif()
