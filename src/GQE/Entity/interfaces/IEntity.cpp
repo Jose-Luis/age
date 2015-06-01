@@ -15,11 +15,10 @@ namespace GQE
 {
   typeEntityID IEntity::mNextID = 0; // Start with 0
 
-  IEntity::IEntity(IEntity* theFather) :
+  IEntity::IEntity(const Uint32 theOrder) :
     mEntityID(useNextID()),
-    mFather(theFather)
+    mOrder(theOrder)
   {
-    isRoot()?mOrder=0:mOrder=mFather->getOrder()+1;
     ILOG() << "IEntity::ctor(" << mEntityID << "," << mOrder << ")" << std::endl;
   }
 
@@ -28,7 +27,6 @@ namespace GQE
     ILOG() << "IEntity::dtor(" << mEntityID << ")" << std::endl;
 
     // Make sure to drop all our systems
-    dropAllChildren();
     dropAllSystems();
   }
 
@@ -120,52 +118,6 @@ namespace GQE
       // Cause ISystem to drop our reference
       anSystem->dropEntity(getID());
     }
-  }
-
-
-  void IEntity::addChild(std::string theChildName, IEntity* theChild)
-  {
-      dropChild(theChildName);
-      Uint32 aFatherOrder = getOrder();
-      theChild->setOrder(aFatherOrder++);
-      theChild->setFather(this);
-      mChildren.insert(std::pair<std::string,IEntity*>(theChildName,theChild));
-  }
-
-  void IEntity::dropChild(std::string theChildName)
-  {
-      std::map<std::string,IEntity*>::iterator thePossibleChild = mChildren.find(theChildName);
-
-      if(thePossibleChild != mChildren.end())
-      {
-          thePossibleChild->second->dropAllSystems();
-      }
-  }
-
-  void IEntity::dropAllChildren()
-  {
-    for(auto aChild: mChildren)
-    {
-        aChild.second->dropAllSystems();
-    }
-  }
-
-  void IEntity::setFather(IEntity* theFather)
-  {
-      mFather = theFather;
-  }
-
-  IEntity* IEntity::getFather()
-    {return mFather;}
-
-  bool IEntity::isRoot()
-  { return mFather == nullptr;}
-
-  IEntity* IEntity::getRoot()
-  {
-      IEntity* aRoot = this;
-      while (!aRoot->isRoot()) aRoot->getFather();
-      return aRoot;
   }
 } // namespace GQE
 
