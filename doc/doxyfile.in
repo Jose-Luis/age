@@ -25,13 +25,13 @@ DOXYFILE_ENCODING      = UTF-8
 # The PROJECT_NAME tag is a single word (or a sequence of words surrounded
 # by quotes) that should identify the project.
 
-PROJECT_NAME           = GQE
+PROJECT_NAME           = AGE
 
 # The PROJECT_NUMBER tag can be used to enter a project or revision number.
 # This could be handy for archiving the generated documentation or
 # if some version control system is used.
 
-PROJECT_NUMBER         = @GQE_VERSION_MAJOR@.@GQE_VERSION_MINOR@.@GQE_VERSION_PATCH@
+PROJECT_NUMBER         = @AGE_VERSION_MAJOR@.@AGE_VERSION_MINOR@.@AGE_VERSION_PATCH@
 
 # Using the PROJECT_BRIEF tag one can provide an optional one line description for a project that appears at the top of each page and should give viewer a quick idea about the purpose of the project. Keep the description short.
 
@@ -598,7 +598,7 @@ WARN_LOGFILE           =
 # directories like "/usr/src/myproject". Separate the files or directories
 # with spaces.
 
-INPUT                  = "@DOXYGEN_INPUT_DIR@/include/GQE" \
+INPUT                  = "@DOXYGEN_INPUT_DIR@/include/AGE" \
                          "@DOXYGEN_INPUT_DIR@/doc/mainpage.hpp"
 
 # This tag can be used to specify the character encoding of the source files
@@ -937,7 +937,7 @@ GENERATE_HTMLHELP      = @DOXYGEN_GENERATE_HTMLHELP@
 # can add a path in front of the file if the result should not be
 # written to the html output directory.
 
-CHM_FILE               = ../GQE.chm
+CHM_FILE               = ../AGE.chm
 
 # If the GENERATE_HTMLHELP tag is set to YES, the HHC_LOCATION tag can
 # be used to specify the location (absolute path including file name) of
@@ -986,7 +986,7 @@ QCH_FILE               =
 # Qt Help Project output. For more information please see
 # http://doc.trolltech.com/qthelpproject.html#namespace
 
-QHP_NAMESPACE          = org.doxygen.GQE
+QHP_NAMESPACE          = org.doxygen.AGE
 
 # The QHP_VIRTUAL_FOLDER tag specifies the namespace to use when generating
 # Qt Help Project output. For more information please see
@@ -1037,7 +1037,7 @@ GENERATE_ECLIPSEHELP   = YES
 # the directory name containing the HTML and XML files should also have
 # this name.
 
-ECLIPSE_DOC_ID         = org.doxygen.GQE
+ECLIPSE_DOC_ID         = org.doxygen.AGE
 
 # The DISABLE_INDEX tag can be used to turn on/off the condensed index at
 # top of each HTML page. The value NO (the default) enables the index and

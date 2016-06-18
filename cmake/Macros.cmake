@@ -20,7 +20,7 @@ endmacro(set_option)
 #   we can simply merge the external dependencies to our generated target as a post-build step
 # - we don't do anything for other compilers and OSes; static build is not encouraged on Unix (Linux, Mac OS X)
 #   where shared libraries are properly managed and have many advantages over static libraries
-macro(gqe_static_add_libraries target)
+macro(age_static_add_libraries target)
   if(WINDOWS AND COMPILER_GCC)
     # Windows - gcc
     foreach(lib ${ARGN})
@@ -58,7 +58,7 @@ endmacro()
 
 # check if a value is contained in a list
 # sets ${var} to TRUE if the value is found
-macro(gqe_list_contains var value)
+macro(age_list_contains var value)
   set(${var})
   foreach(value2 ${ARGN})
     if(${value} STREQUAL ${value2})
@@ -68,12 +68,12 @@ macro(gqe_list_contains var value)
 endmacro()
 
 # parse a list of arguments and options
-# ex: gqe_parse_arguments(THIS "SOURCES;DEPENDS" "FLAG" FLAG SOURCES s1 s2 s3 DEPENDS d1 d2)
+# ex: age_parse_arguments(THIS "SOURCES;DEPENDS" "FLAG" FLAG SOURCES s1 s2 s3 DEPENDS d1 d2)
 # will define the following variables:
 # - THIS_SOURCES (s1 s2 s3)
 # - THIS_DEPENDS (d1 d2)
 # - THIS_FLAG TRUE
-macro(gqe_parse_arguments prefix arg_names option_names)
+macro(age_parse_arguments prefix arg_names option_names)
   foreach(arg_name ${arg_names})
     set(${prefix}_${arg_name})
   endforeach()
@@ -83,13 +83,13 @@ macro(gqe_parse_arguments prefix arg_names option_names)
   set(current_arg_name)
   set(current_arg_list)
   foreach(arg ${ARGN})
-    gqe_list_contains(is_arg_name ${arg} ${arg_names})
+    age_list_contains(is_arg_name ${arg} ${arg_names})
     if(is_arg_name)
       set(${prefix}_${current_arg_name} ${current_arg_list})
       set(current_arg_name ${arg})
       set(current_arg_list)
     else()
-      gqe_list_contains(is_option ${arg} ${option_names})
+      age_list_contains(is_option ${arg} ${option_names})
       if(is_option)
         set(${prefix}_${arg} TRUE)
       else()
@@ -100,16 +100,16 @@ macro(gqe_parse_arguments prefix arg_names option_names)
   set(${prefix}_${current_arg_name} ${current_arg_list})
 endmacro()
 
-# add a new target which is a GQE library
-# ex: gqe_add_library(gqe-core
-#                     HEADER        include/GQE/Core.hpp
-#                     HEADER_DIR    include/GQE/Core
-#                     SOURCES       include/GQE/Core/classes/App.hpp src/GQE/Core/classes/App.cpp ...
+# add a new target which is a AGE library
+# ex: age_add_library(age-core
+#                     HEADER        include/AGE/Core.hpp
+#                     HEADER_DIR    include/AGE/Core
+#                     SOURCES       include/AGE/Core/classes/App.hpp src/AGE/Core/classes/App.cpp ...
 #                     DEPENDS       ...
 #                     EXTERNAL_LIBS sfml-audio sfml-graphics sfml-window sfml-system ...)
-macro(gqe_add_library target)
+macro(age_add_library target)
   # parse the arguments
-  gqe_parse_arguments(THIS "HEADER;HEADER_DIR;INCLUDES;SOURCES;DEPENDS;EXTERNAL_LIBS" "" ${ARGN})
+  age_parse_arguments(THIS "HEADER;HEADER_DIR;INCLUDES;SOURCES;DEPENDS;EXTERNAL_LIBS" "" ${ARGN})
 
   # create the target
   add_library(${target} ${THIS_HEADER} ${THIS_INCLUDES} ${THIS_SOURCES})
@@ -119,7 +119,7 @@ macro(gqe_add_library target)
     if(WINDOWS)
       # include the major version number in Windows shared library names (but not import library names)
       set_target_properties(${target} PROPERTIES DEBUG_POSTFIX -d)
-      set_target_properties(${target} PROPERTIES SUFFIX "-${GQE_VERSION_MAJOR}_${GQE_VERSION_MINOR}${CMAKE_SHARED_LIBRARY_SUFFIX}")
+      set_target_properties(${target} PROPERTIES SUFFIX "-${AGE_VERSION_MAJOR}_${AGE_VERSION_MINOR}${CMAKE_SHARED_LIBRARY_SUFFIX}")
     else()
       set_target_properties(${target} PROPERTIES DEBUG_POSTFIX -d)
     endif()
@@ -140,8 +140,8 @@ macro(gqe_add_library target)
   endif(THIS_HEADER)
 
   # set the version and soversion of the target (for compatible systems -- mostly Linuxes)
-  set_target_properties(${target} PROPERTIES SOVERSION ${GQE_VERSION_MAJOR}.${GQE_VERSION_MINOR})
-  set_target_properties(${target} PROPERTIES VERSION ${GQE_VERSION_MAJOR}.${GQE_VERSION_MINOR}.${GQE_VERSION_PATCH})
+  set_target_properties(${target} PROPERTIES SOVERSION ${AGE_VERSION_MAJOR}.${AGE_VERSION_MINOR})
+  set_target_properties(${target} PROPERTIES VERSION ${AGE_VERSION_MAJOR}.${AGE_VERSION_MINOR}.${AGE_VERSION_PATCH})
 
   # for gcc 4.x on Windows, apply the BUILD_STATIC_STD_LIBS option if it is enabled
   if(WINDOWS AND COMPILER_GCC AND BUILD_STATIC_STD_LIBS)
@@ -150,7 +150,7 @@ macro(gqe_add_library target)
     endif()
   endif()
 
-  # link the target to its GQE dependencies
+  # link the target to its AGE dependencies
   if(THIS_DEPENDS)
     target_link_libraries(${target} ${THIS_DEPENDS})
   endif()
@@ -163,15 +163,15 @@ macro(gqe_add_library target)
     else()
       # in static build there's no link stage, but with some compilers it is possible to force
       # the generated static library to directly contain the symbols from its dependencies
-      gqe_static_add_libraries(${target} ${THIS_EXTERNAL_LIBS})
+      age_static_add_libraries(${target} ${THIS_EXTERNAL_LIBS})
     endif(BUILD_SHARED_LIBS)
   endif(THIS_EXTERNAL_LIBS)
 
   # add the install rule
   install(TARGETS ${target}
           # IMPORTANT: Add the target library to the "export-set"
-          EXPORT GQE_LibraryDepends
-          PUBLIC_HEADER DESTINATION include/GQE COMPONENT devel
+          EXPORT AGE_LibraryDepends
+          PUBLIC_HEADER DESTINATION include/AGE COMPONENT devel
           RUNTIME DESTINATION bin COMPONENT bin
           LIBRARY DESTINATION lib COMPONENT shlib
           ARCHIVE DESTINATION lib COMPONENT devel)
@@ -179,20 +179,20 @@ macro(gqe_add_library target)
   # install Core library include files
   if(THIS_HEADER_DIR)
     install(DIRECTORY ${THIS_HEADER_DIR}
-            DESTINATION include/GQE
+            DESTINATION include/AGE
             COMPONENT devel
             PATTERN ".hg" EXCLUDE)
   endif(THIS_HEADER_DIR)
 endmacro()
 
-# add a new target which is a GQE example
-# ex: gqe_add_example(demo
+# add a new target which is a AGE example
+# ex: age_add_example(demo
 #                     SOURCES main.cpp ...
-#                     DEPENDS gqe-core gqe-standalone)
-macro(gqe_add_example target)
+#                     DEPENDS age-core age-standalone)
+macro(age_add_example target)
 
     # parse the arguments
-    gqe_parse_arguments(THIS "SOURCES;DEPENDS" "GUI_APP" ${ARGN})
+    age_parse_arguments(THIS "SOURCES;DEPENDS" "GUI_APP" ${ARGN})
 
     # create the target
     if(THIS_GUI_APP AND WINDOWS)
@@ -212,7 +212,7 @@ macro(gqe_add_example target)
         endif()
     endif()
 
-    # link the target to its GQE dependencies
+    # link the target to its AGE dependencies
     if(THIS_DEPENDS)
         target_link_libraries(${target} ${THIS_DEPENDS})
     endif()

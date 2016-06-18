@@ -49,9 +49,9 @@ else()
   add_definitions(-DSFML_DYNAMIC)
 endif(SFML_STATIC_LIBRARIES)
 
-# define GQE_STATIC if the build type is not set to 'shared'
+# define AGE_STATIC if the build type is not set to 'shared'
 if(NOT BUILD_SHARED_LIBS)
-  add_definitions(-DGQE_STATIC)
+  add_definitions(-DAGE_STATIC)
 endif()
 
 # let CMake know about our additional libraries paths (on Windows and OS X)
@@ -81,7 +81,7 @@ if(WINDOWS)
 
     # remove SL security warnings with Visual C++
     add_definitions(-D_CRT_SECURE_NO_DEPRECATE)
-    
+
     # for VC++, we can apply it globally by modifying the compiler flags
     if(BUILD_STATIC_STD_LIBS)
       foreach(flag

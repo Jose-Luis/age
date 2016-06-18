@@ -46,14 +46,14 @@ if(DOXYGEN_FOUND)
   #configure_file(${DOXYGEN_INPUT_DIR}/doc/logo-bg.jpg ${DOXYGEN_OUTPUT_DIR}/html/logo-bg.jpg COPYONLY)
 
   # Create documentation build target
-  add_custom_target(doc-gqe ALL
-    DEPENDS ${PROJECT_BINARY_DIR}/doc-gqe.touch)
+  add_custom_target(doc-age ALL
+    DEPENDS ${PROJECT_BINARY_DIR}/doc-age.touch)
 
   # Create command to build documentation
-  add_custom_command(OUTPUT ${PROJECT_BINARY_DIR}/doc-gqe.touch
-    COMMENT "Creating documentation for 'GQE'"
+  add_custom_command(OUTPUT ${PROJECT_BINARY_DIR}/doc-age.touch
+    COMMENT "Creating documentation for 'AGE'"
     COMMAND ${DOXYGEN_EXECUTABLE} ${DOXYGEN_CONFIGURED_INPUT}
-    COMMAND ${CMAKE_COMMAND} -E touch ${PROJECT_BINARY_DIR}/doc-gqe.touch
+    COMMAND ${CMAKE_COMMAND} -E touch ${PROJECT_BINARY_DIR}/doc-age.touch
     WORKING_DIRECTORY ${DOXYGEN_INPUT_DIR}
     VERBATIM)
 
@@ -63,7 +63,7 @@ if(DOXYGEN_FOUND)
           COMPONENT doc)
 
   if(DOXYGEN_HHC_PROGRAM)
-    install(FILES ${DOXYGEN_OUTPUT_DIR}/gqe.chm
+    install(FILES ${DOXYGEN_OUTPUT_DIR}/age.chm
             DESTINATION ${INSTALL_DATA_DIR}/doc
             COMPONENT doc)
   endif()

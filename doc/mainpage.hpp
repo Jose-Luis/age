@@ -2,28 +2,28 @@
 /// \mainpage
 ///
 /// \section welcome Welcome
-/// Welcome to the official GQE documentation. Here you will find a detailed
-/// view of all the GQE <a href="./annotated.htm">classes</a>, as well as source
+/// Welcome to the official AGE documentation. Here you will find a detailed
+/// view of all the AGE <a href="./annotated.htm">classes</a>, as well as source
 /// <a href="./files.htm">files</a>. <br>
 /// If you are looking for tutorials, you can visit the official website
-/// at <a href="http://code.google.com/p/gqe/">code.google.com/p/gqe/</a>.
+/// at <a href="http://code.google.com/p/age/">code.google.com/p/age/</a>.
 ///
 /// \section example Short example
-/// Here is a short example, to show you how simple it is to use GQE :
+/// Here is a short example, to show you how simple it is to use AGE :
 ///
 /// \code
 ///
 ///#include <assert.h>
 ///#include <stddef.h>
-///#include <GQE/Core.hpp>
+///#include <AGE/Core.hpp>
 ///
 ///int main(int argc, char* argv[])
 ///{
 ///  // Default anExitCode to a specific value
-///  int anExitCode = GQE::StatusNoError;
+///  int anExitCode = AGE::StatusNoError;
 ///
 ///  // Create our action application.
-///  GQE::App* anApp = new(std::nothrow) GQE::app();
+///  AGE::App* anApp = new(std::nothrow) AGE::app();
 ///  assert(NULL != anApp && "main() Can't create Application");
 /// 
 ///  // Process command line arguments

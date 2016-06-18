@@ -1,0 +1,17 @@
+# - Config file for the AGE package
+# It defines the following variables
+#  AGE_INCLUDE_DIRS - include directories for AGE
+#  AGE_LIBRARY_DIRS - library directories for AGE (normally not used!)
+#  AGE_LIBRARIES    - libraries to link against
+#  AGE_EXECUTABLE   - the example executable(s)
+
+# Tell the user project where to find our headers and libraries
+set(AGE_INCLUDE_DIRS "@AGE_INCLUDE_DIRS@")
+set(AGE_LIBRARY_DIRS "@AGE_LIB_DIR@")
+
+# Our library dependencies (contains definitions for IMPORTED targets)
+include("@AGE_CMAKE_DIR@/AGE_LibraryDepends.cmake")
+
+# These are IMPORTED targets created by AGE_LibraryDepends.cmake
+set(AGE_LIBRARIES age-core age-entities)
+set(AGE_EXECUTABLE demo)
