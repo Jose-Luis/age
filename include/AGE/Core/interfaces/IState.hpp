@@ -105,12 +105,6 @@ namespace AGE
       virtual void handleEvents(sf::Event theEvent);
 
       /**
-       * UpdateFixed is responsible for handling all State fixed update needs for
-       * this State when it is the active State.
-       */
-      virtual void updateFixed(void) = 0;
-
-      /**
        * UpdateVariable is responsible for handling all State variable update
        * needs for this State when it is the active State.
        * @param[in] theElapsedTime since the last Draw was called

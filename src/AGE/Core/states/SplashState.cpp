@@ -52,15 +52,6 @@ namespace AGE
     // Do nothing yet
   }
 
-  void SplashState::updateFixed(void)
-  {
-    // Drop our state after 10 seconds have elapsed
-    if(false == isPaused() && getElapsedTime() > mSplashDelay)
-    {
-      mApp.mStateManager.removeActiveState();
-    }
-  }
-
   void SplashState::updateVariable(float theElapsedTime)
   {
   }

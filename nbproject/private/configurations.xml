@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="cmake">
+        <df name="Modules">
+        </df>
+      </df>
+      <df name="doc">
+        <in>mainpage.hpp</in>
+      </df>
+      <df name="extlibs">
+        <df name="bin-mingw">
+          <df name="x64">
+          </df>
+          <df name="x86">
+          </df>
+        </df>
+        <df name="bin-msvc">
+          <df name="x64">
+          </df>
+          <df name="x86">
+          </df>
+        </df>
+        <df name="headers">
+          <df name="include">
+            <df name="SFML">
+              <df name="Audio">
+                <in>AlResource.hpp</in>
+                <in>Export.hpp</in>
+                <in>InputSoundFile.hpp</in>
+                <in>Listener.hpp</in>
+                <in>Music.hpp</in>
+                <in>OutputSoundFile.hpp</in>
+                <in>Sound.hpp</in>
+                <in>SoundBuffer.hpp</in>
+                <in>SoundBufferRecorder.hpp</in>
+                <in>SoundFileFactory.hpp</in>
+                <in>SoundFileFactory.inl</in>
+                <in>SoundFileReader.hpp</in>
+                <in>SoundFileWriter.hpp</in>
+                <in>SoundRecorder.hpp</in>
+                <in>SoundSource.hpp</in>
+                <in>SoundStream.hpp</in>
+              </df>
+              <df name="Graphics">
+                <in>BlendMode.hpp</in>
+                <in>CircleShape.hpp</in>
+                <in>Color.hpp</in>
+                <in>ConvexShape.hpp</in>
+                <in>Drawable.hpp</in>
+                <in>Export.hpp</in>
+                <in>Font.hpp</in>
+                <in>Glsl.hpp</in>
+                <in>Glsl.inl</in>
+                <in>Glyph.hpp</in>
+                <in>Image.hpp</in>
+                <in>PrimitiveType.hpp</in>
+                <in>Rect.hpp</in>
+                <in>Rect.inl</in>
+                <in>RectangleShape.hpp</in>
+                <in>RenderStates.hpp</in>
+                <in>RenderTarget.hpp</in>
+                <in>RenderTexture.hpp</in>
+                <in>RenderWindow.hpp</in>
+                <in>Shader.hpp</in>
+                <in>Shape.hpp</in>
+                <in>Sprite.hpp</in>
+                <in>Text.hpp</in>
+                <in>Texture.hpp</in>
+                <in>Transform.hpp</in>
+                <in>Transformable.hpp</in>
+                <in>Vertex.hpp</in>
+                <in>VertexArray.hpp</in>
+                <in>View.hpp</in>
+              </df>
+              <df name="Network">
+                <in>Export.hpp</in>
+                <in>Ftp.hpp</in>
+                <in>Http.hpp</in>
+                <in>IpAddress.hpp</in>
+                <in>Packet.hpp</in>
+                <in>Socket.hpp</in>
+                <in>SocketHandle.hpp</in>
+                <in>SocketSelector.hpp</in>
+                <in>TcpListener.hpp</in>
+                <in>TcpSocket.hpp</in>
+                <in>UdpSocket.hpp</in>
+              </df>
+              <df name="System">
+                <in>Clock.hpp</in>
+                <in>Err.hpp</in>
+                <in>Export.hpp</in>
+                <in>FileInputStream.hpp</in>
+                <in>InputStream.hpp</in>
+                <in>Lock.hpp</in>
+                <in>MemoryInputStream.hpp</in>
+                <in>Mutex.hpp</in>
+                <in>NativeActivity.hpp</in>
+                <in>NonCopyable.hpp</in>
+                <in>Sleep.hpp</in>
+                <in>String.hpp</in>
+                <in>String.inl</in>
+                <in>Thread.hpp</in>
+                <in>Thread.inl</in>
+                <in>ThreadLocal.hpp</in>
+                <in>ThreadLocalPtr.hpp</in>
+                <in>ThreadLocalPtr.inl</in>
+                <in>Time.hpp</in>
+                <in>Utf.hpp</in>
+                <in>Utf.inl</in>
+                <in>Vector2.hpp</in>
+                <in>Vector2.inl</in>
+                <in>Vector3.hpp</in>
+                <in>Vector3.inl</in>
+              </df>
+              <df name="Window">
+                <in>Context.hpp</in>
+                <in>ContextSettings.hpp</in>
+                <in>Event.hpp</in>
+                <in>Export.hpp</in>
+                <in>GlResource.hpp</in>
+                <in>Joystick.hpp</in>
+                <in>Keyboard.hpp</in>
+                <in>Mouse.hpp</in>
+                <in>Sensor.hpp</in>
+                <in>Touch.hpp</in>
+                <in>VideoMode.hpp</in>
+                <in>Window.hpp</in>
+                <in>WindowHandle.hpp</in>
+                <in>WindowStyle.hpp</in>
+              </df>
+              <in>Audio.hpp</in>
+              <in>Config.hpp</in>
+              <in>Graphics.hpp</in>
+              <in>Main.hpp</in>
+              <in>Network.hpp</in>
+              <in>OpenGL.hpp</in>
+              <in>System.hpp</in>
+              <in>Window.hpp</in>
+            </df>
+          </df>
+          <df name="lib">
+          </df>
+        </df>
+        <df name="libs-gcc">
+          <df name="x64">
+          </df>
+          <df name="x86">
+          </df>
+        </df>
+        <df name="libs-mingw">
+          <df name="x64">
+          </df>
+          <df name="x86">
+          </df>
+        </df>
+        <df name="libs-msvc">
+          <df name="x64">
+          </df>
+          <df name="x86">
+          </df>
+        </df>
+        <df name="libs-osx">
+          <df name="Frameworks">
+          </df>
+          <df name="lib">
+          </df>
+        </df>
+        <df name="msvc">
+          <in>stdint.h</in>
+        </df>
+      </df>
+      <df name="include">
+        <df name="AGE">
+          <df name="Core">
+            <df name="assets">
+              <in>ConfigAsset.hpp</in>
+              <in>ConfigHandler.hpp</in>
+              <in>FontAsset.hpp</in>
+              <in>FontHandler.hpp</in>
+              <in>ImageAsset.hpp</in>
+              <in>ImageHandler.hpp</in>
+              <in>MusicAsset.hpp</in>
+              <in>MusicHandler.hpp</in>
+              <in>SoundAsset.hpp</in>
+              <in>SoundHandler.hpp</in>
+            </df>
+            <df name="classes">
+              <in>AssetManager.hpp</in>
+              <in>ConfigReader.hpp</in>
+              <in>EventManager.hpp</in>
+              <in>PropertyManager.hpp</in>
+              <in>StatManager.hpp</in>
+              <in>StateManager.hpp</in>
+            </df>
+            <df name="interfaces">
+              <in>Game.hpp</in>
+              <in>IApp.hpp</in>
+              <in>IAssetHandler.hpp</in>
+              <in>IEvent.hpp</in>
+              <in>ILogger.hpp</in>
+              <in>IProperty.hpp</in>
+              <in>IState.hpp</in>
+              <in>TAsset.hpp</in>
+              <in>TAssetHandler.hpp</in>
+              <in>TEvent.hpp</in>
+              <in>TProperty.hpp</in>
+            </df>
+            <df name="loggers">
+              <in>FatalLogger.hpp</in>
+              <in>FileLogger.hpp</in>
+              <in>Log_macros.hpp</in>
+              <in>ScopeLogger.hpp</in>
+              <in>StringLogger.hpp</in>
+              <in>onullstream</in>
+            </df>
+            <df name="states">
+              <in>SplashState.hpp</in>
+            </df>
+            <df name="utils">
+              <in>CRC32.hpp</in>
+              <in>StringUtil.hpp</in>
+            </df>
+            <in>Core_types.hpp</in>
+          </df>
+          <in>Config.hpp</in>
+          <in>Core.hpp</in>
+        </df>
+      </df>
+      <df name="src">
+        <df name="AGE">
+          <df name="CMakeFiles">
+          </df>
+          <df name="Core">
+            <df name="assets">
+              <in>ConfigAsset.cpp</in>
+              <in>ConfigHandler.cpp</in>
+              <in>FontAsset.cpp</in>
+              <in>FontHandler.cpp</in>
+              <in>ImageAsset.cpp</in>
+              <in>ImageHandler.cpp</in>
+              <in>MusicAsset.cpp</in>
+              <in>MusicHandler.cpp</in>
+              <in>SoundAsset.cpp</in>
+              <in>SoundHandler.cpp</in>
+            </df>
+            <df name="classes">
+              <in>AssetManager.cpp</in>
+              <in>ConfigReader.cpp</in>
+              <in>EventManager.cpp</in>
+              <in>PropertyManager.cpp</in>
+              <in>StatManager.cpp</in>
+              <in>StateManager.cpp</in>
+            </df>
+            <df name="CMakeFiles">
+              <df name="age.dir">
+                <df name="assets">
+                </df>
+                <df name="classes">
+                </df>
+                <df name="interfaces">
+                </df>
+                <df name="loggers">
+                </df>
+                <df name="states">
+                </df>
+                <df name="utils">
+                </df>
+              </df>
+            </df>
+            <df name="interfaces">
+              <in>Game.cpp</in>
+              <in>IAssetHandler.cpp</in>
+              <in>IEvent.cpp</in>
+              <in>ILogger.cpp</in>
+              <in>IProperty.cpp</in>
+              <in>IState.cpp</in>
+            </df>
+            <df name="loggers">
+              <in>FatalLogger.cpp</in>
+              <in>FileLogger.cpp</in>
+              <in>ScopeLogger.cpp</in>
+              <in>StringLogger.cpp</in>
+            </df>
+            <df name="states">
+              <in>SplashState.cpp</in>
+            </df>
+            <df name="utils">
+              <in>StringUtil.cpp</in>
+            </df>
+            <in>Core_types.cpp</in>
+          </df>
+        </df>
+      </df>
+    </df>
+  </logicalFolder>
+  <projectmakefile>../../Builds/age/Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <compile>
+        <compiledirpicklist>
+          <compiledirpicklistitem>.</compiledirpicklistitem>
+          <compiledirpicklistitem>${AUTO_FOLDER}</compiledirpicklistitem>
+        </compiledirpicklist>
+        <compiledir>${AUTO_FOLDER}</compiledir>
+        <compilecommandpicklist>
+          <compilecommandpicklistitem>${MAKE} ${ITEM_NAME}.o</compilecommandpicklistitem>
+          <compilecommandpicklistitem>${AUTO_COMPILE}</compilecommandpicklistitem>
+        </compilecommandpicklist>
+        <compilecommand>${AUTO_COMPILE}</compilecommand>
+      </compile>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir>../../Builds/age</rundir>
+        <buildfirst>false</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+    <conf name="Release_shared" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <compile>
+        <compiledirpicklist>
+          <compiledirpicklistitem>.</compiledirpicklistitem>
+          <compiledirpicklistitem>${AUTO_FOLDER}</compiledirpicklistitem>
+        </compiledirpicklist>
+        <compiledir>${AUTO_FOLDER}</compiledir>
+        <compilecommandpicklist>
+          <compilecommandpicklistitem>${MAKE} ${ITEM_NAME}.o</compilecommandpicklistitem>
+          <compilecommandpicklistitem>${AUTO_COMPILE}</compilecommandpicklistitem>
+        </compilecommandpicklist>
+        <compilecommand>${AUTO_COMPILE}</compilecommand>
+      </compile>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir>../../Builds/age</rundir>
+        <buildfirst>false</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>

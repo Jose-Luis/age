@@ -1,0 +1,40 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/age.dir/Core_types.cpp.o"
+  "CMakeFiles/age.dir/assets/ConfigAsset.cpp.o"
+  "CMakeFiles/age.dir/assets/ConfigHandler.cpp.o"
+  "CMakeFiles/age.dir/assets/FontAsset.cpp.o"
+  "CMakeFiles/age.dir/assets/FontHandler.cpp.o"
+  "CMakeFiles/age.dir/assets/ImageAsset.cpp.o"
+  "CMakeFiles/age.dir/assets/ImageHandler.cpp.o"
+  "CMakeFiles/age.dir/assets/MusicAsset.cpp.o"
+  "CMakeFiles/age.dir/assets/MusicHandler.cpp.o"
+  "CMakeFiles/age.dir/assets/SoundAsset.cpp.o"
+  "CMakeFiles/age.dir/assets/SoundHandler.cpp.o"
+  "CMakeFiles/age.dir/classes/AssetManager.cpp.o"
+  "CMakeFiles/age.dir/classes/ConfigReader.cpp.o"
+  "CMakeFiles/age.dir/classes/EventManager.cpp.o"
+  "CMakeFiles/age.dir/classes/PropertyManager.cpp.o"
+  "CMakeFiles/age.dir/classes/StatManager.cpp.o"
+  "CMakeFiles/age.dir/classes/StateManager.cpp.o"
+  "CMakeFiles/age.dir/interfaces/Game.cpp.o"
+  "CMakeFiles/age.dir/interfaces/IAssetHandler.cpp.o"
+  "CMakeFiles/age.dir/interfaces/IEvent.cpp.o"
+  "CMakeFiles/age.dir/interfaces/ILogger.cpp.o"
+  "CMakeFiles/age.dir/interfaces/IProperty.cpp.o"
+  "CMakeFiles/age.dir/interfaces/IState.cpp.o"
+  "CMakeFiles/age.dir/loggers/FatalLogger.cpp.o"
+  "CMakeFiles/age.dir/loggers/FileLogger.cpp.o"
+  "CMakeFiles/age.dir/loggers/ScopeLogger.cpp.o"
+  "CMakeFiles/age.dir/loggers/StringLogger.cpp.o"
+  "CMakeFiles/age.dir/states/SplashState.cpp.o"
+  "CMakeFiles/age.dir/utils/StringUtil.cpp.o"
+  "../../../lib/libage.pdb"
+  "../../../lib/libage.so"
+  "../../../lib/libage.so.0.1.0"
+  "../../../lib/libage.so.0.1"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/age.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

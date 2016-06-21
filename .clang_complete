@@ -1,4 +1,0 @@
- -DDEBUG
- -I/usr/include/SFML
- -Iinclude
- -Iext_libs/include
