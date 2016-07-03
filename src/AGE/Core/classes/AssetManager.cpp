@@ -34,7 +34,7 @@ namespace AGE
     ILOGM("AssetManager::dtor()");
 
     // Iterator to use while deleting all assets
-    std::map<const typeAssetHandlerID, IAssetHandler*>::iterator iter;
+    std::map<const Id, IAssetHandler*>::iterator iter;
 
     // Loop through each asset handler and remove each one
     iter = mHandlers.begin();
@@ -50,13 +50,13 @@ namespace AGE
     }
   }
 
-  IAssetHandler& AssetManager::getHandler(const typeAssetHandlerID theAssetHandlerID) const
+  IAssetHandler& AssetManager::getHandler(const Id theAssetHandlerID) const
   {
     // The IAssetHandler derived class that will be returned
     IAssetHandler* anResult = NULL;
 
     // Iterator to the asset if found
-    std::map<const typeAssetHandlerID, IAssetHandler*>::const_iterator iter;
+    std::map<const Id, IAssetHandler*>::const_iterator iter;
 
     // Try to find the asset using theAssetID as the key
     iter = mHandlers.find(theAssetHandlerID);
@@ -82,7 +82,7 @@ namespace AGE
   void AssetManager::registerHandler(IAssetHandler* theAssetHandler)
   {
     // Iterator to the asset if found
-    std::map<const typeAssetHandlerID, IAssetHandler*>::iterator iter;
+    std::map<const Id, IAssetHandler*>::iterator iter;
 
     // Make sure the Handler provided is not NULL
     if(NULL != theAssetHandler)
@@ -95,7 +95,7 @@ namespace AGE
       {
         // Store the provided IAssetHandler derived class for futurn reference
         mHandlers.insert(
-          std::pair<const typeAssetHandlerID, IAssetHandler*>(
+          std::pair<const Id, IAssetHandler*>(
           theAssetHandler->getID(), theAssetHandler));
       }
       else
@@ -120,7 +120,7 @@ namespace AGE
     bool anResult = true;
     
     // Iterator for each IAssetHandler registered
-    std::map<const typeAssetHandlerID, IAssetHandler*>::iterator iter;
+    std::map<const Id, IAssetHandler*>::iterator iter;
 
     // Loop through each asset handler and tell it to load its assets
     iter = mHandlers.begin();

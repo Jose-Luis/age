@@ -46,7 +46,7 @@ namespace AGE
        * @param[in] theLoadStyle (File, Mem, Network) to use when loading this asset
        * @param[in] theDropTime at (Zero, Exit) for when to unload this asset
        */
-      ImageAsset(const typeAssetID theAssetID,
+      ImageAsset(const assetID theAssetID,
         AssetLoadTime theLoadTime = AssetLoadLater,
         AssetLoadStyle theLoadStyle = AssetLoadFromFile,
         AssetDropTime theDropTime = AssetDropAtZero);

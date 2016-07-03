@@ -258,7 +258,7 @@ namespace AGE {
          IState& anState = mStateManager.getActiveState();
 
          frameClock.restart();
-         while (frameClock.getElapsedTime().asMilliseconds() >= mUpdateRate) {
+         while (frameClock.getElapsedTime().asMilliseconds() < mUpdateRate) {
 
             processInput(anState);
             anState.updateVariable(frameClock.getElapsedTime().asMilliseconds());

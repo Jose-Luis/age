@@ -34,7 +34,7 @@ namespace AGE
        * @param[in] theType of property this property represents
        * @param[in] thePropertyID to use for this property
        */
-      IProperty(std::string theType, const typePropertyID thePropertyID);
+      IProperty(std::string theType, const Id thePropertyID);
 
       /**
        * IProperty destructor
@@ -51,7 +51,7 @@ namespace AGE
        * GetID will return the Property ID used for this property.
        * @return the property ID for this property
        */
-      const typePropertyID getID(void) const;
+      const Id getID(void) const;
 
       /**
        * Update will be called for each IProperty registered with IEntity and
@@ -83,7 +83,7 @@ namespace AGE
       /// The type that represents this class
       Type_t mType;
       /// The property ID assigned to this IProperty derived class
-      const typePropertyID mPropertyID;
+      const Id mPropertyID;
   }; // class IProperty
 } // namespace AGE
 #endif //IPROPERTY_HPP_INCLUDED

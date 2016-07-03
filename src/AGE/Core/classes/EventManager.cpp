@@ -19,7 +19,7 @@ namespace AGE
   EventManager::~EventManager()
   {
     // Make sure to remove all registered properties on desstruction
-    std::map<const typeEventID, IEvent*>::iterator anEventIter;
+    std::map<const Id, IEvent*>::iterator anEventIter;
     for(anEventIter = mList.begin();
         anEventIter != mList.end();
         ++anEventIter)
@@ -30,7 +30,7 @@ namespace AGE
     }
   }
 
-  bool EventManager::hasID(const typeEventID theEventID) const
+  bool EventManager::hasID(const Id theEventID) const
   {
     bool anResult = false;
 
@@ -43,7 +43,7 @@ namespace AGE
 
   void EventManager::doEvents(void* theContext)
   {
-    std::map<const typeEventID, IEvent*>::const_iterator anIter =
+    std::map<const Id, IEvent*>::const_iterator anIter =
       mList.begin();
     while(anIter != mList.end())
     {
@@ -58,12 +58,12 @@ namespace AGE
     }
   }
 
-  IEvent* EventManager::get(const typeEventID theEventID)
+  IEvent* EventManager::get(const Id theEventID)
   {
     IEvent* anResult = NULL;
 
     // Create an iterator to find the IEvent class
-    std::map<const typeEventID, IEvent*>::const_iterator anIter;
+    std::map<const Id, IEvent*>::const_iterator anIter;
     anIter = mList.find(theEventID);
     if(anIter != mList.end())
     {
@@ -80,7 +80,7 @@ namespace AGE
     {
       if(mList.find(theEvent->getID()) == mList.end())
       {
-        mList.insert(std::pair<const typeEventID, IEvent*>(theEvent->getID(), theEvent));
+        mList.insert(std::pair<const Id, IEvent*>(theEvent->getID(), theEvent));
       }
       else
       {

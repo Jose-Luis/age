@@ -38,7 +38,7 @@ namespace AGE
        * @param[in] theStateID to use for this State object
        * @param[in] theApp is the address to the Game derived class
        */
-      IState(const typeStateID theStateID, Game& theApp);
+      IState(const Id theStateID, Game& theApp);
 
       /**
        * IState deconstructor
@@ -49,7 +49,7 @@ namespace AGE
        * GetID will return the ID used to identify this State object
        * @return AGE::typeStateID is the ID for this State object
        */
-      const AGE::typeStateID getID(void) const;
+      const AGE::Id getID(void) const;
 
       /**
        * DoInit is responsible for initializing this State.  HandleCleanup will
@@ -144,7 +144,7 @@ namespace AGE
 
     private:
       /// The State ID
-      const typeStateID     mStateID;
+      const Id     mStateID;
       /// Boolean that indicates that DoInit has been called
       bool                  mInit;
       /// State is currently paused (not active)

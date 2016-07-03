@@ -23,7 +23,7 @@ namespace AGE
     ILOG() << "MusicHandler::dtor()" << std::endl;
   }
 
-  bool MusicHandler::loadFromFile(const typeAssetID theAssetID, sf::Music& theAsset)
+  bool MusicHandler::loadFromFile(const assetID theAssetID, sf::Music& theAsset)
   {
     // Start with a return result of false
     bool anResult = false;
@@ -49,7 +49,7 @@ namespace AGE
     return anResult;
   }
 
-  bool MusicHandler::loadFromMemory(const typeAssetID theAssetID, sf::Music& theAsset)
+  bool MusicHandler::loadFromMemory(const assetID theAssetID, sf::Music& theAsset)
   {
     // Start with a return result of false
     bool anResult = false;
@@ -77,7 +77,7 @@ namespace AGE
     return anResult;
   }
 
-  bool MusicHandler::loadFromNetwork(const typeAssetID theAssetID, sf::Music& theAsset)
+  bool MusicHandler::loadFromNetwork(const assetID theAssetID, sf::Music& theAsset)
   {
     // Start with a return result of false
     bool anResult = false;

@@ -23,7 +23,7 @@ namespace AGE
     ILOG() << "FontHandler::dtor()" << std::endl;
   }
 
-  bool FontHandler::loadFromFile(const typeAssetID theAssetID, sf::Font& theAsset)
+  bool FontHandler::loadFromFile(const assetID theAssetID, sf::Font& theAsset)
   {
     // Start with a return result of false
     bool anResult = false;
@@ -49,7 +49,7 @@ namespace AGE
     return anResult;
   }
 
-  bool FontHandler::loadFromMemory(const typeAssetID theAssetID, sf::Font& theAsset)
+  bool FontHandler::loadFromMemory(const assetID theAssetID, sf::Font& theAsset)
   {
     // Start with a return result of false
     bool anResult = false;
@@ -80,7 +80,7 @@ namespace AGE
     return anResult;
   }
 
-  bool FontHandler::loadFromNetwork(const typeAssetID theAssetID, sf::Font& theAsset)
+  bool FontHandler::loadFromNetwork(const assetID theAssetID, sf::Font& theAsset)
   {
     // Start with a return result of false
     bool anResult = false;

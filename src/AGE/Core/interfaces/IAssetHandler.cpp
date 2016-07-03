@@ -13,7 +13,7 @@
 
 namespace AGE
 {
-  IAssetHandler::IAssetHandler(const typeAssetHandlerID theAssetHandlerID) :
+  IAssetHandler::IAssetHandler(const Id theAssetHandlerID) :
     mAssetHandlerID(theAssetHandlerID)
   {
     ILOG() << "IAssetHandler::ctor(" << mAssetHandlerID << ")" << std::endl;
@@ -24,7 +24,7 @@ namespace AGE
     ILOG() << "IAssetHandler::dtor(" << mAssetHandlerID << ")" << std::endl;
   }
 
-  const typeAssetHandlerID IAssetHandler::getID(void) const
+  const Id IAssetHandler::getID(void) const
   {
     return mAssetHandlerID;
   }

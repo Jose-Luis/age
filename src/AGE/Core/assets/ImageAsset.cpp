@@ -31,7 +31,7 @@ namespace AGE
   {
   }
 
-  ImageAsset::ImageAsset(const typeAssetID theAssetID,
+  ImageAsset::ImageAsset(const assetID theAssetID,
      AssetLoadTime theLoadTime, AssetLoadStyle theLoadStyle,
      AssetDropTime theDropTime) :
 

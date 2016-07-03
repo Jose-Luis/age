@@ -72,11 +72,11 @@ constexpr uint32_t crc32<-1>(const char * str)
 }
 
 // This don't take into account the nul char
-#define ID32_(x) (crc32<sizeof(x) - 2>(x) ^ 0xFFFFFFFF)
+#define ID(x) (crc32<sizeof(x) - 2>(x) ^ 0xFFFFFFFF)
 
 enum TestEnum
 {
-    Val_0 = ID32_("Val_0"),
+    Val_0 = ID("Val_0"),
 };
 
 #endif

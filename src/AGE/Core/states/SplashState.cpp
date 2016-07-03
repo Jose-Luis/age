@@ -22,9 +22,9 @@
 
 namespace AGE
 {
-  SplashState::SplashState(Game& theApp, typeAssetID theSplashID,
+  SplashState::SplashState(Game& theApp, assetID theSplashID,
       const std::string theFilename, float theDelay) :
-    IState(ID32_("Splash"), theApp),
+    IState(ID("Splash"), theApp),
     mSplashID(theSplashID),
     mSplashFilename(theFilename),
     mSplashDelay(theDelay),

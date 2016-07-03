@@ -23,7 +23,7 @@ namespace AGE
        * TProperty default constructor
        * @param[in] thePropertyID to use for this property
        */
-      TProperty(const typePropertyID thePropertyID) :
+      TProperty(const Id thePropertyID) :
         IProperty(typeid(TYPE).name(), thePropertyID)
       {
       }

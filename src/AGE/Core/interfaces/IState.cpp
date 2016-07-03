@@ -18,7 +18,7 @@
 
 namespace AGE
 {
-  IState::IState(const typeStateID theStateID, Game& theApp) :
+  IState::IState(const Id theStateID, Game& theApp) :
     mApp(theApp),
     mStateID(theStateID),
     mInit(false),
@@ -35,7 +35,7 @@ namespace AGE
     ILOG() << "IState::dtor(" << mStateID << ")" << std::endl;
   }
 
-  const typeStateID IState::getID(void) const
+  const Id IState::getID(void) const
   {
     return mStateID;
   }

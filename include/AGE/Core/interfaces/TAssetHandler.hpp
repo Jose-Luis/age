@@ -28,7 +28,7 @@ namespace AGE
        * TAssetHandler default constructor.
        */
       TAssetHandler() :
-        IAssetHandler(ID32_(typeid(TYPE).name()))
+        IAssetHandler(ID(typeid(TYPE).name()))
       {
         ILOG() << "TAssetHandler::ctor(" << getID() << ")" << std::endl;
       }
@@ -41,7 +41,7 @@ namespace AGE
         ILOG() << "TAssetHandler::dtor(" << getID() << ")" << std::endl;
 
         // Iterator to use while deleting all assets
-        typename std::map<const typeAssetID, typeAssetData>::iterator iter;
+        typename std::map<const assetID, typeAssetData>::iterator iter;
 
         // Loop through each asset and try to remove each one
         iter = mAssets.begin();
@@ -58,7 +58,7 @@ namespace AGE
               << iter->first << ") Non zero asset reference count("
               << iter->second.count << ")!" << std::endl;
           }
-          const typeAssetID anAssetID = iter->first;
+          const assetID anAssetID = iter->first;
           TYPE* anAsset = iter->second.asset;
 
           // Remove this Asset Data structure from our map
@@ -80,11 +80,11 @@ namespace AGE
        * @param[in] theAssetID to drop the reference for
        * @param[in] theDropTime indicates if asset is dropped when count = 0 or later
        */
-      virtual void dropReference(const typeAssetID theAssetID,
+      virtual void dropReference(const assetID theAssetID,
         AssetDropTime theDropTime = AssetDropUnspecified)
       {
         // Iterator to the asset if found
-        typename std::map<const typeAssetID, typeAssetData>::iterator iter;
+        typename std::map<const assetID, typeAssetData>::iterator iter;
 
         // Try to find the asset using theAssetID as the key
         iter = mAssets.find(theAssetID);
@@ -164,7 +164,7 @@ namespace AGE
        * @param[in] theLoadStyle (File, Mem, Network) to use when loading this asset
        * @return the asset found or a newly acquired asset if not found
        */
-      TYPE* getReference(const typeAssetID theAssetID,
+      TYPE* getReference(const assetID theAssetID,
         AssetLoadTime theLoadTime = AssetLoadLater,
         AssetLoadStyle theLoadStyle = AssetLoadFromFile,
         AssetDropTime theDropTime = AssetDropAtZero)
@@ -173,7 +173,7 @@ namespace AGE
         TYPE* anResult = NULL;
 
         // Iterator to the asset if found
-        typename std::map<const typeAssetID, typeAssetData>::iterator iter;
+        typename std::map<const assetID, typeAssetData>::iterator iter;
 
         // Try to find the asset using theAssetID as the key
         iter = mAssets.find(theAssetID);
@@ -222,7 +222,7 @@ namespace AGE
             }
 
             // Store the newly acquired asset pointer in our map for future reference
-            mAssets.insert(std::pair<const typeAssetID, typeAssetData>(theAssetID, anAssetData));
+            mAssets.insert(std::pair<const assetID, typeAssetData>(theAssetID, anAssetData));
 
             // Were we asked to load the asset now?
             if(AssetLoadNow == anAssetData.loadTime)
@@ -250,13 +250,13 @@ namespace AGE
        * @param[in] theAssetID to the Resource to determine loaded state
        * @return true if loaded, false otherwise
        */
-      virtual bool isLoaded(const typeAssetID theAssetID) const
+      virtual bool isLoaded(const assetID theAssetID) const
       {
         // Result if asset was not found
         bool anResult = false;
 
         // Iterator to the asset if found
-        typename std::map<const typeAssetID, typeAssetData>::const_iterator iter;
+        typename std::map<const assetID, typeAssetData>::const_iterator iter;
 
         // Try to find the asset using theAssetID as the key
         iter = mAssets.find(theAssetID);
@@ -285,13 +285,13 @@ namespace AGE
        * @param[in] theAssetID to set filename for
        * @param[in] theFilename to use when loading this asset from a file
        */
-      virtual const std::string getFilename(const typeAssetID theAssetID) const
+      virtual const std::string getFilename(const assetID theAssetID) const
       {
         // Return empty string if no filename was found
         std::string anResult;
 
         // Iterator to the asset if found
-        typename std::map<const typeAssetID, typeAssetData>::const_iterator iter;
+        typename std::map<const assetID, typeAssetData>::const_iterator iter;
 
         // Try to find the asset using theAssetID as the key
         iter = mAssets.find(theAssetID);
@@ -320,10 +320,10 @@ namespace AGE
        * @param[in] theAssetID to set filename for
        * @param[in] theFilename to use when loading this asset from a file
        */
-      virtual void setFilename(const typeAssetID theAssetID, std::string theFilename)
+      virtual void setFilename(const assetID theAssetID, std::string theFilename)
       {
         // Iterator to the asset if found
-        typename std::map<const typeAssetID, typeAssetData>::iterator iter;
+        typename std::map<const assetID, typeAssetData>::iterator iter;
 
         // Try to find the asset using theAssetID as the key
         iter = mAssets.find(theAssetID);
@@ -356,12 +356,12 @@ namespace AGE
        * @param[in] theAssetID of the asset to find loading style for
        * @return the loading style for the asset or LoadFromUnknown otherwise
        */
-      virtual AssetLoadStyle getLoadStyle(const typeAssetID theAssetID) const
+      virtual AssetLoadStyle getLoadStyle(const assetID theAssetID) const
       {
         AssetLoadStyle anResult = AssetLoadFromUnknown;
 
         // Iterator to the asset if found
-        typename std::map<const typeAssetID, typeAssetData>::const_iterator iter;
+        typename std::map<const assetID, typeAssetData>::const_iterator iter;
 
         // Try to find the asset using theAssetID as the key
         iter = mAssets.find(theAssetID);
@@ -390,10 +390,10 @@ namespace AGE
        * @param[in] theAssetID of the asset to change loading style
        * @param[in] theLoadStyle (File,Mem,Network) to use when loading this asset
        */
-      void setLoadStyle(const typeAssetID theAssetID, AssetLoadStyle theLoadStyle)
+      void setLoadStyle(const assetID theAssetID, AssetLoadStyle theLoadStyle)
       {
         // Iterator to the asset if found
-        typename std::map<const typeAssetID, typeAssetData>::iterator iter;
+        typename std::map<const assetID, typeAssetData>::iterator iter;
 
         // Try to find the asset using theAssetID as the key
         iter = mAssets.find(theAssetID);
@@ -453,12 +453,12 @@ namespace AGE
        * @param[in] theAssetID of the asset to find loading time for
        * @return the loading time for the asset or AssetLoadLater otherwise
        */
-      virtual AssetLoadTime getLoadTime(const typeAssetID theAssetID) const
+      virtual AssetLoadTime getLoadTime(const assetID theAssetID) const
       {
         AssetLoadTime anResult = AssetLoadLater;
 
         // Iterator to the asset if found
-        typename std::map<const typeAssetID, typeAssetData>::const_iterator iter;
+        typename std::map<const assetID, typeAssetData>::const_iterator iter;
 
         // Try to find the asset using theAssetID as the key
         iter = mAssets.find(theAssetID);
@@ -487,10 +487,10 @@ namespace AGE
        * @param[in] theAssetID of the asset to change loading time
        * @param[in] theLoadTime (Now,Later) of when to load this asset
        */
-      virtual void setLoadTime(const typeAssetID theAssetID, AssetLoadTime theLoadTime)
+      virtual void setLoadTime(const assetID theAssetID, AssetLoadTime theLoadTime)
       {
         // Iterator to the asset if found
-        typename std::map<const typeAssetID, typeAssetData>::iterator iter;
+        typename std::map<const assetID, typeAssetData>::iterator iter;
 
         // Try to find the asset using theAssetID as the key
         iter = mAssets.find(theAssetID);
@@ -545,12 +545,12 @@ namespace AGE
        * @param[in] theAssetID of the asset to find drop time for
        * @return the drop time for the asset or AssetDropUnspecified otherwise
        */
-      virtual AssetDropTime getDropTime(const typeAssetID theAssetID) const
+      virtual AssetDropTime getDropTime(const assetID theAssetID) const
       {
         AssetDropTime anResult = AssetDropUnspecified;
 
         // Iterator to the asset if found
-        typename std::map<const typeAssetID, typeAssetData>::const_iterator iter;
+        typename std::map<const assetID, typeAssetData>::const_iterator iter;
 
         // Try to find the asset using theAssetID as the key
         iter = mAssets.find(theAssetID);
@@ -578,11 +578,11 @@ namespace AGE
        * @param[in] theAssetID of the asset to change loading time
        * @param[in] theDropTime (Zero, Exit) of when to drop this asset
        */
-      virtual void setDropTime(const typeAssetID theAssetID,
+      virtual void setDropTime(const assetID theAssetID,
         AssetDropTime theDropTime)
       {
         // Iterator to the asset if found
-        typename std::map<const typeAssetID, typeAssetData>::iterator iter;
+        typename std::map<const assetID, typeAssetData>::iterator iter;
 
         // Try to find the asset using theAssetID as the key
         iter = mAssets.find(theAssetID);
@@ -617,13 +617,13 @@ namespace AGE
        * GetReference and SetLoadStyle).
        * @param[in] theAssetID of the asset to load
        */
-      virtual bool loadAsset(const typeAssetID theAssetID)
+      virtual bool loadAsset(const assetID theAssetID)
       {
         // Result if asset was not found
         bool anResult = false;
 
         // Iterator to the asset if found
-        typename std::map<const typeAssetID, typeAssetData>::iterator iter;
+        typename std::map<const assetID, typeAssetData>::iterator iter;
 
         // Try to find the asset using theAssetID as the key
         iter = mAssets.find(theAssetID);
@@ -679,7 +679,7 @@ namespace AGE
         bool anResult = true;
     
         // Iterator for each typeAssetData registered
-        typename std::map<const typeAssetID, typeAssetData>::iterator iter;
+        typename std::map<const assetID, typeAssetData>::iterator iter;
 
         // Loop through each asset handler and tell it to load its assets
         iter = mAssets.begin();
@@ -727,7 +727,7 @@ namespace AGE
        * @param[in] theAssetID of the asset to acquire
        * @return a pointer to the newly created asset
        */
-      virtual TYPE* acquireAsset(const typeAssetID theAssetID)
+      virtual TYPE* acquireAsset(const assetID theAssetID)
       {
         ILOG() << "TAssetHandler(" << getID() << "):acquireAsset("
           << theAssetID << ") Creating asset" << std::endl;
@@ -740,7 +740,7 @@ namespace AGE
        * @param[in] theAssetID of the asset to be released
        * @param[in] theAsset to be released
        */
-      virtual void releaseAsset(const typeAssetID theAssetID, TYPE* theAsset)
+      virtual void releaseAsset(const assetID theAssetID, TYPE* theAsset)
       {
         ILOG() << "TAssetHandler(" << getID() << "):releaseAsset("
           << theAssetID << ") Releasing asset" << std::endl;
@@ -757,7 +757,7 @@ namespace AGE
        * @param[in] theAsset pointer to load
        * @return true if the asset was successfully loaded, false otherwise
        */
-      virtual bool loadFromFile(const typeAssetID theAssetID, TYPE& theAsset) = 0;
+      virtual bool loadFromFile(const assetID theAssetID, TYPE& theAsset) = 0;
 
       /**
        * LoadFromMemory is responsible for loading theAsset from memory and
@@ -767,7 +767,7 @@ namespace AGE
        * @param[in] theAsset pointer to load
        * @return true if the asset was successfully loaded, false otherwise
        */
-      virtual bool loadFromMemory(const typeAssetID theAssetID, TYPE& theAsset) = 0;
+      virtual bool loadFromMemory(const assetID theAssetID, TYPE& theAsset) = 0;
 
       /**
        * LoadFromNetwork is responsible for loading theAsset from network and
@@ -777,7 +777,7 @@ namespace AGE
        * @param[in] theAsset pointer to load
        * @return true if the asset was successfully loaded, false otherwise
        */
-      virtual bool loadFromNetwork(const typeAssetID theAssetID, TYPE& theAsset) = 0;
+      virtual bool loadFromNetwork(const assetID theAssetID, TYPE& theAsset) = 0;
 
     private:
       // Structures
@@ -796,7 +796,7 @@ namespace AGE
       // Variables
       ///////////////////////////////////////////////////////////////////////////
       /// Map that associates asset ID's with their appropriate TAssetData
-      std::map<const typeAssetID, typeAssetData> mAssets;
+      std::map<const assetID, typeAssetData> mAssets;
       /// Dummy asset that will be returned if an asset can't be Acquired
       TYPE mDummyAsset;
   }; // class TAssetHandler

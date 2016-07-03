@@ -9,7 +9,7 @@
 
 namespace AGE
 {
-  IEvent::IEvent(std::string theType, const typeEventID theEventID) :
+  IEvent::IEvent(std::string theType, const Id theEventID) :
     mType(theType),
     mEventID(theEventID)
   {
@@ -24,7 +24,7 @@ namespace AGE
     return &mType;
   }
 
-  const typeEventID IEvent::getID(void) const
+  const Id IEvent::getID(void) const
   {
     return mEventID;
   }

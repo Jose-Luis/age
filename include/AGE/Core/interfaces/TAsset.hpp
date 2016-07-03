@@ -42,7 +42,7 @@ namespace AGE
        * @param[in] theLoadStyle (File, Mem, Network) to use when loading this asset
        * @param[in] theDropTime at (Zero, Exit) for when to unload this asset
        */
-      TAsset(const typeAssetID theAssetID,
+      TAsset(const assetID theAssetID,
         AssetLoadTime theLoadTime = AssetLoadLater,
         AssetLoadStyle theLoadStyle = AssetLoadFromFile,
         AssetDropTime theDropTime = AssetDropAtZero) :
@@ -100,7 +100,7 @@ namespace AGE
        * GetID will return the ID being used for this asset.
        * @return the Asset ID assigned to this asset
        */
-      const typeAssetID getID(void) const
+      const assetID getID(void) const
       {
         return mAssetID;
       }
@@ -113,7 +113,7 @@ namespace AGE
        * @param[in] theLoadStyle (File, Mem, Network) to use when loading this asset
        * @param[in] theDropTime at (Zero, Exit) for when to unload this asset
        */
-      void setID(const typeAssetID theAssetID,
+      void setID(const assetID theAssetID,
         AssetLoadTime theLoadTime = AssetLoadLater,
         AssetLoadStyle theLoadStyle = AssetLoadFromFile,
         AssetDropTime theDropTime = AssetDropAtZero)
@@ -274,7 +274,7 @@ namespace AGE
       /// Pointer to the loaded asset
       TYPE*                mAsset;
       /// Asset ID specified for this asset
-      typeAssetID          mAssetID;
+      assetID          mAssetID;
   }; // class TAsset
 } // namespace AGE
 

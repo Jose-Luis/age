@@ -52,10 +52,10 @@ namespace AGE
         TAssetHandler<TYPE>* anResult = NULL;
 
         // Iterator to the asset if found
-        std::map<const typeAssetHandlerID, IAssetHandler*>::const_iterator iter;
+        std::map<const Id, IAssetHandler*>::const_iterator iter;
 
         // Try to find the asset using theAssetID as the key
-        iter = mHandlers.find(ID32_(typeid(TYPE).name()));
+        iter = mHandlers.find(ID(typeid(TYPE).name()));
 
         // Found asset? increment the count and return the reference
         if(iter != mHandlers.end())
@@ -81,7 +81,7 @@ namespace AGE
        * which can then be used to obtain Asset references by Asset ID.
        * @param[in] theAssetHandlerID to retrieve
        */
-      IAssetHandler& getHandler(const typeAssetHandlerID theAssetHandlerID) const;
+      IAssetHandler& getHandler(const Id theAssetHandlerID) const;
 
       /**
        * RegisterHandler is responsible for registering an IAssetHandler
@@ -106,7 +106,7 @@ namespace AGE
       // Variables
       ///////////////////////////////////////////////////////////////////////////
       /// Map to hold all IAssetHandler derived classes that manage assets
-      std::map<const typeAssetHandlerID, IAssetHandler*> mHandlers;
+      std::map<const Id, IAssetHandler*> mHandlers;
 
       /**
        * AssetManager copy constructor is private because we do not allow copies

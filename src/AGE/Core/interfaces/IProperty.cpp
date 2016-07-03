@@ -9,7 +9,7 @@
 
 namespace AGE
 {
-  IProperty::IProperty(std::string theType, const typePropertyID thePropertyID) :
+  IProperty::IProperty(std::string theType, const Id thePropertyID) :
     mType(theType),
     mPropertyID(thePropertyID)
   {
@@ -24,7 +24,7 @@ namespace AGE
     return &mType;
   }
 
-  const typePropertyID IProperty::getID(void) const
+  const Id IProperty::getID(void) const
   {
     return mPropertyID;
   }

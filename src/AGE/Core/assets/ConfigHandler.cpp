@@ -24,7 +24,7 @@ namespace AGE
     ILOG() << "ConfigHandler::dtor()" << std::endl;
   }
 
-  bool ConfigHandler::loadFromFile(const typeAssetID theAssetID, ConfigReader& theAsset)
+  bool ConfigHandler::loadFromFile(const assetID theAssetID, ConfigReader& theAsset)
   {
     // Start with a return result of false
     bool anResult = false;
@@ -48,7 +48,7 @@ namespace AGE
     return anResult;
   }
 
-  bool ConfigHandler::loadFromMemory(const typeAssetID theAssetID, ConfigReader& theAsset)
+  bool ConfigHandler::loadFromMemory(const assetID theAssetID, ConfigReader& theAsset)
   {
     // Start with a return result of false
     bool anResult = false;
@@ -59,7 +59,7 @@ namespace AGE
     return anResult;
   }
 
-  bool ConfigHandler::loadFromNetwork(const typeAssetID theAssetID, ConfigReader& theAsset)
+  bool ConfigHandler::loadFromNetwork(const assetID theAssetID, ConfigReader& theAsset)
   {
     // Start with a return result of false
     bool anResult = false;

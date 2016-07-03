@@ -28,7 +28,7 @@ namespace AGE
   {
   }
 
-  MusicAsset::MusicAsset(const typeAssetID theAssetID,
+  MusicAsset::MusicAsset(const assetID theAssetID,
     AssetLoadTime theLoadTime, AssetLoadStyle theLoadStyle,
     AssetDropTime theDropTime) :
     TAsset<sf::Music>(theAssetID, theLoadTime, theLoadStyle, theDropTime)

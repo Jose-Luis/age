@@ -20,7 +20,7 @@ PropertyManager::PropertyManager()
 PropertyManager::~PropertyManager()
 {
     // Make sure to remove all registered properties on desstruction
-    std::map<const typePropertyID, IProperty*>::iterator anPropertyIter;
+    std::map<const Id, IProperty*>::iterator anPropertyIter;
     for(anPropertyIter = mList.begin();
             anPropertyIter != mList.end();
             ++anPropertyIter)
@@ -31,7 +31,7 @@ PropertyManager::~PropertyManager()
     }
 }
 
-bool PropertyManager::hasID(const typePropertyID thePropertyID) const
+bool PropertyManager::hasID(const Id thePropertyID) const
 {
     bool anResult = false;
 
@@ -51,7 +51,7 @@ void PropertyManager::add(IProperty* theProperty)
     }
 }
 
-void PropertyManager::remove(typePropertyID thePropertyID)
+void PropertyManager::remove(Id thePropertyID)
 {
    mList.erase(thePropertyID);
 }
@@ -59,7 +59,7 @@ void PropertyManager::remove(typePropertyID thePropertyID)
 void PropertyManager::clone(const PropertyManager& thePropertyManager)
 {
     // Make sure to remove all registered properties on desstruction
-    std::map<const typePropertyID, IProperty*>::const_iterator anPropertyIter;
+    std::map<const Id, IProperty*>::const_iterator anPropertyIter;
     for(anPropertyIter = thePropertyManager.mList.begin();
             anPropertyIter != thePropertyManager.mList.end();
             ++anPropertyIter)

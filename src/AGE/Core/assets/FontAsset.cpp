@@ -28,7 +28,7 @@ namespace AGE
   {
   }
 
-  FontAsset::FontAsset(const typeAssetID theAssetID,
+  FontAsset::FontAsset(const assetID theAssetID,
     AssetLoadTime theLoadTime, AssetLoadStyle theLoadStyle,
     AssetDropTime theDropTime) :
     TAsset<sf::Font>(theAssetID, theLoadTime, theLoadStyle, theDropTime)

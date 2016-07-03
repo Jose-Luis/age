@@ -32,7 +32,7 @@ namespace AGE {
          * SplashState constructor
          * @param[in] theApp is the address to the App class.
          */
-        SplashState(Game& theApp, typeAssetID theSplashID,
+        SplashState(Game& theApp, assetID theSplashID,
                 const std::string theFilename = "resources/Splash.png", float theDelay = 10.0f);
 
         /**
@@ -83,7 +83,7 @@ namespace AGE {
         // Variables
         /////////////////////////////////////////////////////////////////////////
         /// The Asset ID to assign to the splash image
-        typeAssetID mSplashID;
+        assetID mSplashID;
         /// The filename of the splash image to load
         std::string mSplashFilename;
         /// The time in seconds to wait before continuing to next game state

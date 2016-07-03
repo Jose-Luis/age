@@ -366,7 +366,7 @@ namespace AGE
     }
   }
 
-  void StateManager::setActiveState(typeStateID theStateID)
+  void StateManager::setActiveState(Id theStateID)
   {
     std::vector<IState*>::iterator it;
 

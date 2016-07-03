@@ -38,7 +38,7 @@ namespace AGE
      * @param[in] theAsset pointer to load
      * @return true if the asset was successfully loaded, false otherwise
      */
-    virtual bool loadFromFile(const typeAssetID theAssetID, ConfigReader& theAsset);
+    virtual bool loadFromFile(const assetID theAssetID, ConfigReader& theAsset);
 
     /**
      * LoadFromMemory is responsible for loading theAsset from memory and
@@ -48,7 +48,7 @@ namespace AGE
      * @param[in] theAsset pointer to load
      * @return true if the asset was successfully loaded, false otherwise
      */
-    virtual bool loadFromMemory(const typeAssetID theAssetID, ConfigReader& theAsset);
+    virtual bool loadFromMemory(const assetID theAssetID, ConfigReader& theAsset);
 
     /**
      * LoadFromNetwork is responsible for loading theAsset from network and
@@ -58,7 +58,7 @@ namespace AGE
      * @param[in] theAsset pointer to load
      * @return true if the asset was successfully loaded, false otherwise
      */
-    virtual bool loadFromNetwork(const typeAssetID theAssetID, ConfigReader& theAsset);
+    virtual bool loadFromNetwork(const assetID theAssetID, ConfigReader& theAsset);
 
   private:
   }; // class ConfigHandler

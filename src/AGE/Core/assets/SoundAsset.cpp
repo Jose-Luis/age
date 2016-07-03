@@ -28,7 +28,7 @@ namespace AGE
   {
   }
 
-  SoundAsset::SoundAsset(const typeAssetID theAssetID,
+  SoundAsset::SoundAsset(const assetID theAssetID,
     AssetLoadTime theLoadTime, AssetLoadStyle theLoadStyle,
     AssetDropTime theDropTime) :
     TAsset<sf::SoundBuffer>(theAssetID, theLoadTime, theLoadStyle, theDropTime)

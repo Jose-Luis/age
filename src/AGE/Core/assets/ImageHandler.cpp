@@ -26,7 +26,7 @@ namespace AGE
   }
 
 
-  bool ImageHandler::loadFromFile(const typeAssetID theAssetID, sf::Texture& theAsset)
+  bool ImageHandler::loadFromFile(const assetID theAssetID, sf::Texture& theAsset)
 
   {
     // Start with a return result of false
@@ -54,7 +54,7 @@ namespace AGE
   }
 
 
-  bool ImageHandler::loadFromMemory(const typeAssetID theAssetID, sf::Texture& theAsset)
+  bool ImageHandler::loadFromMemory(const assetID theAssetID, sf::Texture& theAsset)
 
   {
     // Start with a return result of false
@@ -84,7 +84,7 @@ namespace AGE
   }
 
 
-  bool ImageHandler::loadFromNetwork(const typeAssetID theAssetID, sf::Texture& theAsset)
+  bool ImageHandler::loadFromNetwork(const assetID theAssetID, sf::Texture& theAsset)
 
   {
     // Start with a return result of false

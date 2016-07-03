@@ -34,7 +34,7 @@ namespace AGE
        * @param[in] theType of event this IEvent represents
        * @param[in] theEventID to use for this IEvent
        */
-      IEvent(std::string theType, const typeEventID theEventID);
+      IEvent(std::string theType, const Id theEventID);
 
       /**
        * IEvent destructor
@@ -51,7 +51,7 @@ namespace AGE
        * GetID will return the Entity ID used for this event.
        * @return the event ID for this event
        */
-      const typeEventID getID(void) const;
+      const Id getID(void) const;
 
       /**
        * DoEvent will be called to perform the IEvent and will be defined by
@@ -74,7 +74,7 @@ namespace AGE
       /// The type that represents this class
       Type_t mType;
       /// The event ID assigned to this IEvent derived class
-      const typeEventID mEventID;
+      const Id mEventID;
   }; // class IEvent
 } // namespace AGE
 #endif //IEVENT_HPP_INCLUDED

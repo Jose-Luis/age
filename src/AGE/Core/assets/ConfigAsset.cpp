@@ -26,7 +26,7 @@ namespace AGE
   {
   }
 
-  ConfigAsset::ConfigAsset(const typeAssetID theAssetID,
+  ConfigAsset::ConfigAsset(const assetID theAssetID,
     AssetLoadTime theLoadTime, AssetLoadStyle theLoadStyle,
     AssetDropTime theDropTime) :
     TAsset<ConfigReader>(theAssetID, theLoadTime, theLoadStyle, theDropTime)
